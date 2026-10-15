@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T09:30:00Z",
+  "title": "Design System: Salud Planetaria · Mar de Cortés",
+  "extensions": {
+    "colorMeta": {
+      "verdigris": { "role": "primary", "displayName": "Verdigris", "canonical": "#3f6f5f" },
+      "verdigris-deep": { "role": "primary", "displayName": "Verdigris profundo", "canonical": "#2f5749" },
+      "copper": { "role": "secondary", "displayName": "Cobre", "canonical": "#a05a3c" },
+      "paper": { "role": "neutral", "displayName": "Papel", "canonical": "#fbf7ee" },
+      "paper-deep": { "role": "neutral", "displayName": "Papel profundo", "canonical": "#f2ecdf" },
+      "bone": { "role": "neutral", "displayName": "Hueso", "canonical": "#efe7d8" },
+      "ink": { "role": "neutral", "displayName": "Tinta", "canonical": "#1f2420" },
+      "ink-muted": { "role": "neutral", "displayName": "Tinta atenuada", "canonical": "#5c564a" },
+      "hairline": { "role": "neutral", "displayName": "Hilo", "canonical": "#ddd3c1" },
+      "status-safe": { "role": "status", "displayName": "Seguro", "canonical": "#2e7d4f" },
+      "status-risk": { "role": "status", "displayName": "Riesgo creciente", "canonical": "#b8721a" },
+      "status-high": { "role": "status", "displayName": "Alto riesgo", "canonical": "#b54333" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Títulos de página y del hero." },
+      "body": { "displayName": "Body", "purpose": "Texto corrido." },
+      "mono": { "displayName": "Mono", "purpose": "Cifras, valores y series." }
+    },
+    "shadows": [
+      { "name": "ambient", "value": "0 1px 2px rgba(47,40,28,0.05), 0 3px 10px rgba(47,40,28,0.06)", "purpose": "Reposo de tarjetas; se intensifica en hover." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1120px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Nav link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Enlace de navegación principal.",
+      "html": "<a class=\"ds-nav-link ds-nav-active\" href=\"#\">Límites planetarios</a>",
+      "css": ".ds-nav-link { color: #1f2420; padding: 7px 12px; border-radius: 7px; font-size: 0.92rem; font-weight: 500; text-decoration: none; } .ds-nav-link:hover { background: #efe7d8; } .ds-nav-active { background: #3f6f5f; color: #fff; }"
+    },
+    {
+      "name": "Badge de estado (perla)",
+      "kind": "chip",
+      "refersTo": "badge-status",
+      "description": "Estado con perla dibujada.",
+      "html": "<span class=\"ds-badge ds-badge-high\"><span class=\"ds-pearl\"></span>Zona de alto riesgo</span>",
+      "css": ".ds-badge { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font-size: 0.78rem; font-weight: 500; background: #f6dfd8; color: #9c3a2e; border: 1px solid #eabfb5; } .ds-pearl { width: 10px; height: 10px; border-radius: 50%; background: #b54333; box-shadow: inset 0 1px 1px rgba(255,255,255,0.5); }"
+    },
+    {
+      "name": "Tarjeta",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Contenedor de superficie plana.",
+      "html": "<div class=\"ds-card\">Contenido</div>",
+      "css": ".ds-card { background: #fbf7ee; border: 1px solid #ddd3c1; border-radius: 10px; padding: 20px; box-shadow: 0 1px 2px rgba(47,40,28,0.05), 0 3px 10px rgba(47,40,28,0.06); }"
+    },
+    {
+      "name": "Chip de estado",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Chip de los 5 estados en el hero.",
+      "html": "<span class=\"ds-chip\">Baja California</span>",
+      "css": ".ds-chip { background: #efe7d8; border: 1px solid #ddd3c1; color: #1f2420; padding: 4px 11px; border-radius: 999px; font-size: 0.8rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El Gabinete del Mar de Cortés",
+    "overview": "El sitio se presenta como una lámina de historia natural: la piel de las expediciones que estudiaron el Golfo — sus perlas, sus especímenes rotulados, su papel envejecido. Cada dato es un espécimen rotulado con exactitud, cada estado una perla dibujada. El logo del Corredor es el sello de la lámina, integrado sobre el papel, nunca pegado sobre un banner.",
+    "keyCharacteristics": [
+      "Papel-hueso como fondo; el color vive en acentos y en el estado.",
+      "Serif grabada para títulos y rótulos; sans para el cuerpo; mono para cifras.",
+      "Reglas finas y marcos de lámina en lugar de sombras duras.",
+      "La perla como marcador de estado."
+    ],
+    "rules": [
+      { "name": "The Paper Ground Rule", "body": "Ningún bloque de color a sangre completa detrás del contenido; el color aparece en acentos, marcos, perlas y barras de estado.", "section": "colors" },
+      { "name": "The Caption Voice Rule", "body": "Títulos y rótulos hablan en serif; el cuerpo nunca.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "Las superficies son planas en reposo; un marco de hilo de 1px las separa. La sombra solo aparece como respuesta al hover.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do mantener el fondo en papel y el color en acentos, marcos y estado.",
+      "Do rotular cada dato con valor + unidad + estado en texto.",
+      "Do usar la serif para títulos y rótulos, la mono para cifras."
+    ],
+    "donts": [
+      "Don't usar bloques de color a sangre (banners azules/gradientes) detrás del contenido.",
+      "Don't pegar el logo del Corredor sobre un fondo de color: vive sobre el papel como sello.",
+      "Don't reutilizar el rojo de 'alto riesgo' para prioridad ni el verde de 'seguro' como decoración.",
+      "Don't usar bordes de color gruesos (más de 1px) en tarjetas, listas o notas."
+    ]
+  }
+}

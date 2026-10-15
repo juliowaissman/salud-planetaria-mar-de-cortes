@@ -1,0 +1,191 @@
+{
+  "boundaryId": "land-system-change",
+  "updated": "2026-10-03",
+  "stateValues": [
+    {
+      "stateId": "bc",
+      "value": 15839,
+      "unit": "ha pérdida de cobertura arbórea",
+      "note": "Global Forest Watch (UMD/GLAD), pérdida acumulada 2001–2025, umbral de 30% de cobertura de copa"
+    },
+    {
+      "stateId": "bcs",
+      "value": 818,
+      "unit": "ha pérdida de cobertura arbórea",
+      "note": "Global Forest Watch (UMD/GLAD), pérdida acumulada 2001–2025, umbral de 30% de cobertura de copa"
+    },
+    {
+      "stateId": "son",
+      "value": 14541,
+      "unit": "ha pérdida de cobertura arbórea",
+      "note": "Global Forest Watch (UMD/GLAD), pérdida acumulada 2001–2025, umbral de 30% de cobertura de copa"
+    },
+    {
+      "stateId": "sin",
+      "value": 56384,
+      "unit": "ha pérdida de cobertura arbórea",
+      "note": "Global Forest Watch (UMD/GLAD), pérdida acumulada 2001–2025, umbral de 30% de cobertura de copa"
+    },
+    {
+      "stateId": "nay",
+      "value": 37995,
+      "unit": "ha pérdida de cobertura arbórea",
+      "note": "Global Forest Watch (UMD/GLAD), pérdida acumulada 2001–2025, umbral de 30% de cobertura de copa"
+    }
+  ],
+  "series": [
+    {
+      "id": "s1",
+      "title": "Pérdida anual de cobertura arbórea en el Mar de Cortés (suma de los 5 estados)",
+      "unit": "ha",
+      "points": [
+        {
+          "label": "2001",
+          "value": 5154
+        },
+        {
+          "label": "2002",
+          "value": 4067
+        },
+        {
+          "label": "2003",
+          "value": 2508
+        },
+        {
+          "label": "2004",
+          "value": 4282
+        },
+        {
+          "label": "2005",
+          "value": 9495
+        },
+        {
+          "label": "2006",
+          "value": 4308
+        },
+        {
+          "label": "2007",
+          "value": 6744
+        },
+        {
+          "label": "2008",
+          "value": 4252
+        },
+        {
+          "label": "2009",
+          "value": 8804
+        },
+        {
+          "label": "2010",
+          "value": 6802
+        },
+        {
+          "label": "2011",
+          "value": 2331
+        },
+        {
+          "label": "2012",
+          "value": 4887
+        },
+        {
+          "label": "2013",
+          "value": 5978
+        },
+        {
+          "label": "2014",
+          "value": 3808
+        },
+        {
+          "label": "2015",
+          "value": 2685
+        },
+        {
+          "label": "2016",
+          "value": 3252
+        },
+        {
+          "label": "2017",
+          "value": 3787
+        },
+        {
+          "label": "2018",
+          "value": 6671
+        },
+        {
+          "label": "2019",
+          "value": 3260
+        },
+        {
+          "label": "2020",
+          "value": 3172
+        },
+        {
+          "label": "2021",
+          "value": 3016
+        },
+        {
+          "label": "2022",
+          "value": 6766
+        },
+        {
+          "label": "2023",
+          "value": 5690
+        },
+        {
+          "label": "2024",
+          "value": 4649
+        },
+        {
+          "label": "2025",
+          "value": 9212
+        }
+      ]
+    }
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "Pérdida acumulada de cobertura arbórea 2001–2025",
+    "unit": "ha",
+    "sourceId": "gfw-tcl-summary",
+    "valuesByState": {
+      "bc": 15839,
+      "bcs": 818,
+      "son": 14541,
+      "sin": 56384,
+      "nay": 37995
+    }
+  },
+  "sources": [
+    {
+      "id": "gfw-tcl-summary",
+      "title": "Tree cover loss por área administrativa (UMD/GLAD, Hansen et al. 2013) — resumen por entidad",
+      "organization": "Global Forest Watch / University of Maryland GLAD",
+      "url": "https://data-api.globalforestwatch.org/dataset/gadm__tcl__adm1_summary",
+      "accessDate": "2026-10-03",
+      "license": "CC BY 4.0",
+      "note": "Pérdida de cobertura arbórea acumulada 2001–2025 (umbral de 30% de cobertura de copa), agregada por entidad federativa (GADM 4.1 adm1). Versión v20260424. Valores redondeados a hectáreas enteras."
+    },
+    {
+      "id": "gfw-tcl-change",
+      "title": "Tree cover loss por área administrativa — serie anual",
+      "organization": "Global Forest Watch / University of Maryland GLAD",
+      "url": "https://data-api.globalforestwatch.org/dataset/gadm__tcl__adm1_change",
+      "accessDate": "2026-10-03",
+      "license": "CC BY 4.0",
+      "note": "Serie anual 2001–2025 (umbral 30%) usada para la serie temporal y para validación cruzada: la suma anual por estado coincide con los totales del resumen."
+    },
+    {
+      "id": "gadm",
+      "title": "GADM Administrative Boundaries (v4.1)",
+      "organization": "GADM / Global Forest Watch",
+      "url": "https://data-api.globalforestwatch.org/dataset/gadm_administrative_boundaries",
+      "accessDate": "2026-10-03",
+      "license": "GADM (uso no comercial)",
+      "note": "Correspondencia adm1→entidad: MEX.3_1=Baja California, MEX.2_1=Baja California Sur, MEX.26_1=Sonora, MEX.25_1=Sinaloa, MEX.18_1=Nayarit."
+    }
+  ],
+  "stateTitle": "Pérdida acumulada de cobertura arbórea 2001–2025 por estado",
+  "stateNote": "Sinaloa y Nayarit concentran la mayor pérdida de cobertura arbórea, ligada a la frontera agrícola y acuícola.",
+  "seriesTitle": "Pérdida anual de cobertura arbórea en la región (2001–2025)",
+  "seriesNote": "La pérdida anual se mantiene elevada; 2025 registró la mayor pérdida reciente de la serie."
+}

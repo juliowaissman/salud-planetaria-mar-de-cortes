@@ -1,0 +1,140 @@
+{
+  "boundaryId": "ocean-acidification",
+  "updated": "2026-10-03",
+  "stateValues": [
+    {
+      "stateId": "bc",
+      "value": null,
+      "unit": "anomalía SST (°C)",
+      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
+    },
+    {
+      "stateId": "bcs",
+      "value": null,
+      "unit": "anomalía SST (°C)",
+      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
+    },
+    {
+      "stateId": "son",
+      "value": null,
+      "unit": "anomalía SST (°C)",
+      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
+    },
+    {
+      "stateId": "sin",
+      "value": null,
+      "unit": "anomalía SST (°C)",
+      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
+    },
+    {
+      "stateId": "nay",
+      "value": null,
+      "unit": "anomalía SST (°C)",
+      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
+    }
+  ],
+  "series": [
+    {
+      "id": "sst-anomalia",
+      "title": "Anomalía positiva de la SST mínima en Mazatlán, entrada oriental del Golfo de California",
+      "unit": "°C",
+      "points": [
+        {
+          "label": "2013–2014 (ola de calor marina)",
+          "value": 4.0
+        },
+        {
+          "label": "2016",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "id": "sst-tendencia",
+      "title": "Tasa de calentamiento de la SST del Golfo de California (1982–2022) por región",
+      "unit": "°C/década",
+      "points": [
+        {
+          "label": "Entrada del Golfo",
+          "value": 0.18
+        },
+        {
+          "label": "Sur y Archipiélago",
+          "value": 0.19
+        },
+        {
+          "label": "Norte y Alto Golfo",
+          "value": 0.25
+        },
+        {
+          "label": "Costa Oriental",
+          "value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "arag-cabo-pulmo",
+      "title": "Rango estacional de saturación de aragonita (ΔΩarag) en el arrecife de Cabo Pulmo, Golfo de California",
+      "unit": "ΔΩarag (adimensional)",
+      "points": [
+        {
+          "label": "Invierno–Verano (rango estacional)",
+          "value": 0.5
+        }
+      ]
+    }
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "Acidificación y calentamiento oceánico del Golfo de California (sin desagregación estatal)",
+    "unit": "sin dato estatal",
+    "sourceId": "sanchez-cabeza-2022",
+    "valuesByState": {
+      "son": null,
+      "bc": null,
+      "bcs": null,
+      "sin": null,
+      "nay": null
+    }
+  },
+  "sources": [
+    {
+      "id": "sanchez-cabeza-2022",
+      "title": "Rapid surface water warming and impact of the recent (2013–2016) temperature anomaly in shallow coastal waters at the eastern entrance of the Gulf of California",
+      "organization": "Universidad Nacional Autónoma de México / Progress in Oceanography",
+      "url": "https://doi.org/10.1016/j.pocean.2022.102746",
+      "accessDate": "2026-10-03",
+      "license": "© Elsevier (Progress in Oceanography); resumen de acceso abierto",
+      "note": "Serie SST 1973–2016 en Mazatlán: tendencia media de calentamiento de 0.57 ± 0.01 °C/década; anomalías positivas de la SST mínima de +4 °C (ola de calor marina 2013–2014) hasta +7 °C (2016)."
+    },
+    {
+      "id": "jamet-ardiles-2025",
+      "title": "Tendencias del calentamiento de las aguas superficiales del Golfo de California entre 1982 y 2022: un análisis basado en imágenes satelitales",
+      "organization": "Universidad de Guadalajara (tesis de maestría, CUCEI)",
+      "url": "https://hdl.handle.net/20.500.12104/110572",
+      "accessDate": "2026-10-03",
+      "license": "Todos los derechos reservados (RIUdeG); resumen de acceso abierto",
+      "note": "SST satelital AVHRR/NOAA 1982–2022 (4 km). Aumento total de SST entre 0.8 y 1.5 °C; tasas regionales de 0.18 a 0.40 °C/década, todas por encima de la media oceánica global (0.11 °C/década)."
+    },
+    {
+      "id": "norzagaray-2017",
+      "title": "Aragonite saturation and pH variation in a fringing reef are strongly influenced by oceanic conditions",
+      "organization": "Limnology & Oceanography (ASLO / Wiley)",
+      "url": "https://doi.org/10.1002/lno.10571",
+      "accessDate": "2026-10-03",
+      "license": "© ASLO/Wiley; resumen de acceso abierto",
+      "note": "Arrecife de Cabo Pulmo, Golfo de California: rango estacional ΔΩarag = 0.5 unidades entre invierno (agua del Golfo de California) y verano (agua superficial tropical), uno de los mayores reportados en arrecifes de coral."
+    },
+    {
+      "id": "oliva-mendez-2025",
+      "title": "Seasonal and interannual variability of the aragonite saturation horizon in the California Current System of Baja California",
+      "organization": "Journal of Geophysical Research: Oceans (AGU)",
+      "url": "https://doi.org/10.1029/2024JC021653",
+      "accessDate": "2026-10-03",
+      "license": "© AGU (JGR Oceans); resumen de acceso abierto",
+      "note": "Contexto regional adyacente (Corriente de California, vertiente Pacífico de Baja California; no es el interior del Golfo). Horizonte de saturación de aragonita entre ~90 m (primavera) y ~133 m (invierno) cerca de la costa; Ωarag < 1 por debajo de ~250 m."
+    }
+  ],
+  "seriesTitle": "Señales de acidificación y calentamiento en el Golfo de California",
+  "seriesNote": "El calentamiento es más rápido en la costa oriental (0.40 °C/década); la saturación de aragonita varía estacionalmente ~0.5 unidades en Cabo Pulmo."
+}

@@ -1,0 +1,290 @@
+{
+  "boundaryId": "biosphere-integrity",
+  "updated": "2026-10-14",
+  "charts": [
+    {
+      "title": "Tendencias ecológicas de la biodiversidad del Golfo de California (2025)",
+      "subtitle": "Resultado de la Evaluación de la Salud Ecológica del Golfo de California: de 41 proyectos de monitoreo de largo plazo (32 investigadores), cuántos grupos taxonómicos se evalúan en mejoría, estables o en deterioro.",
+      "note": "La mayoría de los grupos evaluados está en deterioro (11) o deterioro acelerado (2); solo 3 mejoran y 18 no tienen tendencia determinada. Fuente: Wilder et al. 2025.",
+      "series": [
+        {
+          "id": "ohi-tendencias",
+          "title": "Grupos taxonómicos",
+          "unit": "número de grupos",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mejorando",
+              "value": 3
+            },
+            {
+              "label": "Estable",
+              "value": 7
+            },
+            {
+              "label": "En deterioro",
+              "value": 11
+            },
+            {
+              "label": "Deterioro acelerado",
+              "value": 2
+            },
+            {
+              "label": "No determinado",
+              "value": 18
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stateGroups": [
+    {
+      "id": "anp",
+      "title": "Superficie terrestre de Áreas Naturales Protegidas federales (CONANP, sep 2024)",
+      "unit": "ha",
+      "values": [
+        {
+          "stateId": "bc",
+          "value": 3023400,
+          "note": "CONANP Numeralia 2024"
+        },
+        {
+          "stateId": "bcs",
+          "value": 2591224,
+          "note": "CONANP Numeralia 2024"
+        },
+        {
+          "stateId": "son",
+          "value": 1403066,
+          "note": "CONANP Numeralia 2024"
+        },
+        {
+          "stateId": "sin",
+          "value": 93264,
+          "note": "CONANP Numeralia 2024"
+        },
+        {
+          "stateId": "nay",
+          "value": 990124,
+          "note": "CONANP Numeralia 2024"
+        }
+      ],
+      "note": "Baja California y Baja California Sur concentran la mayor superficie protegida; Sinaloa tiene la menor cobertura de ANP de la región."
+    },
+    {
+      "id": "pesca",
+      "title": "Captura pesquera en peso vivo (2024, CONAPESCA)",
+      "unit": "t",
+      "values": [
+        {
+          "stateId": "bc",
+          "value": 343051,
+          "note": "CONAPESCA Anuario 2024"
+        },
+        {
+          "stateId": "bcs",
+          "value": 199653,
+          "note": "CONAPESCA Anuario 2024"
+        },
+        {
+          "stateId": "son",
+          "value": 679294,
+          "note": "CONAPESCA Anuario 2024"
+        },
+        {
+          "stateId": "sin",
+          "value": 350180,
+          "note": "CONAPESCA Anuario 2024"
+        },
+        {
+          "stateId": "nay",
+          "value": 15255,
+          "note": "CONAPESCA Anuario 2024"
+        }
+      ],
+      "note": "Sonora y Sinaloa lideran la captura; la pesca es la principal presión sobre la biodiversidad marina del Golfo."
+    }
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "Superficie de manglar por estado (2020)",
+    "unit": "ha",
+    "sourceId": "semarnat-compendio-manglares",
+    "valuesByState": {
+      "bc": 42,
+      "bcs": 25511,
+      "son": 12334,
+      "sin": 76300,
+      "nay": 66849
+    },
+    "note": "Al pasar el cursor sobre un estado se muestra el % de cambio de manglar por quinquenio (2005→2010→2015→2020).",
+    "tooltip": {
+      "label": "Cambio de manglar (%) por quinquenio",
+      "barsByState": {
+        "bc": [
+          {
+            "label": "05-10",
+            "value": 0.0
+          },
+          {
+            "label": "10-15",
+            "value": 8.33
+          },
+          {
+            "label": "15-20",
+            "value": 7.69
+          }
+        ],
+        "bcs": [
+          {
+            "label": "05-10",
+            "value": 0.67
+          },
+          {
+            "label": "10-15",
+            "value": -0.44
+          },
+          {
+            "label": "15-20",
+            "value": -4.02
+          }
+        ],
+        "son": [
+          {
+            "label": "05-10",
+            "value": 2.2
+          },
+          {
+            "label": "10-15",
+            "value": 6.78
+          },
+          {
+            "label": "15-20",
+            "value": 1.84
+          }
+        ],
+        "sin": [
+          {
+            "label": "05-10",
+            "value": -2.33
+          },
+          {
+            "label": "10-15",
+            "value": 5.56
+          },
+          {
+            "label": "15-20",
+            "value": -6.45
+          }
+        ],
+        "nay": [
+          {
+            "label": "05-10",
+            "value": -4.09
+          },
+          {
+            "label": "10-15",
+            "value": 0.24
+          },
+          {
+            "label": "15-20",
+            "value": -0.37
+          }
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "conanp-numeralia-2024",
+      "title": "Numeralia sobre las Áreas Naturales Protegidas de México (septiembre 2024)",
+      "organization": "CONANP",
+      "url": "https://simec.conanp.gob.mx/numeralia/Tablas_Numeralia.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Superficie terrestre de ANP federales por estado."
+    },
+    {
+      "id": "semarnat-compendio-manglares",
+      "title": "Compendio de Estadísticas Ambientales — Superficie estimada de manglares por entidad federativa",
+      "organization": "SEMARNAT",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_biodiversidad/d3_biodiv01_16.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Superficie de manglar 2005–2020 por estado; base del mapa y del tooltip de cambio."
+    },
+    {
+      "id": "conabio-manglares",
+      "title": "Extensión y distribución de manglares (Sistema de Monitoreo de los Manglares de México)",
+      "organization": "CONABIO",
+      "url": "https://www.biodiversidad.gob.mx/monitoreo/smmm/extensionDist",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (CONABIO)",
+      "note": "Cartografía de manglar."
+    },
+    {
+      "id": "conapesca-anuario-2024",
+      "title": "Anuario Estadístico de Acuacultura y Pesca 2024 — Base de Datos de Producción",
+      "organization": "CONAPESCA",
+      "url": "https://nube.conapesca.gob.mx/sites/cona/dgppe/anuarios/BASE_DE_DATOS_DE_PRODUCCION_ANUARIO_2024.xlsx",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Captura en peso vivo 2024 por estado."
+    },
+    {
+      "id": "ohi-salud-2025",
+      "title": "Evaluación de la Salud Ecológica del Golfo de California (2025)",
+      "organization": "Nueva Generación de Investigadores del Desierto Sonorense / Prescott College",
+      "url": "https://nextgensd.com/wp-content/uploads/2025/01/Health-of-the-Gulf-of-California_final-assesment_Espanol.pdf",
+      "accessDate": "2026-10-14",
+      "license": "Informe público",
+      "note": "41 proyectos de monitoreo de largo plazo; tendencias por grupo taxonómico: 3 mejorando, 7 estables, 11 en deterioro, 2 en deterioro acelerado, 18 no determinados."
+    },
+    {
+      "id": "aburto-2008-pnas",
+      "title": "Mangroves in the Gulf of California increase fishery yields",
+      "organization": "Proceedings of the National Academy of Sciences (PNAS)",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0804601105",
+      "accessDate": "2026-10-14",
+      "license": "© PNAS",
+      "note": "Cada hectárea de manglar aporta ~$37,500 USD/año en servicios pesqueros."
+    },
+    {
+      "id": "aburto-2011-plosone",
+      "title": "Large Recovery of Fish Biomass in a No-Take Marine Reserve (Cabo Pulmo)",
+      "organization": "PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0023601",
+      "accessDate": "2026-10-14",
+      "license": "CC BY",
+      "note": "Recuperación de +463 % de biomasa de peces y +1070 % de depredadores tope en Cabo Pulmo (1999–2009)."
+    },
+    {
+      "id": "aguirre-2008-ambio",
+      "title": "High-impact Conservation: Invasive Mammal Eradications from the Islands of Western México",
+      "organization": "Ambio / Grupo de Ecología y Conservación de Islas (GECI)",
+      "url": "https://www.islas.org.mx/articulos_files/2008.%20Aguirre%20et%20al_High%20Impact%20Conservation%20Islands-Ambio.pdf",
+      "accessDate": "2026-10-14",
+      "license": "© Ambio",
+      "note": "42 poblaciones de mamíferos invasores erradicadas en 26 islas; protege 88 taxones endémicos."
+    },
+    {
+      "id": "sala-2004-fishingdown",
+      "title": "Fishing Down Coastal Food Webs in the Gulf of California",
+      "organization": "Fisheries (American Fisheries Society)",
+      "url": "https://academic.oup.com/fisheries/article-pdf/29/3/19/61180852/fsh0019.pdf",
+      "accessDate": "2026-10-14",
+      "license": "© AFS",
+      "note": "Degradación trófica por pesca secuencial de niveles altos a bajos."
+    },
+    {
+      "id": "richardson-2023",
+      "title": "Earth beyond six of nine planetary boundaries",
+      "organization": "Science Advances",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499318/",
+      "accessDate": "2026-10-14",
+      "license": "CC BY",
+      "note": "Marco de límites planetarios; variables de integridad de la biosfera (E/MSY y HANPP)."
+    }
+  ]
+}

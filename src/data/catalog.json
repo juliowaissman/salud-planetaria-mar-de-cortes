@@ -1,0 +1,1097 @@
+{
+  "title": "Salud Planetaria · Mar de Cortés",
+  "subtitle": "Diagnóstico regional de los límites planetarios",
+  "updated": "2026-10-15",
+  "basedOn": "Planetary Health Check 2026 (Potsdam Institute for Climate Impact Research / PBScience) y Planetary Boundaries (Rockström et al. 2009; Steffen et al. 2015; Richardson et al. 2023).",
+  "states": [
+    {
+      "id": "bc",
+      "name": "Baja California",
+      "university": "Universidad Autónoma de Baja California (UABC)"
+    },
+    {
+      "id": "bcs",
+      "name": "Baja California Sur",
+      "university": "Universidad Autónoma de Baja California Sur (UABCS)"
+    },
+    {
+      "id": "son",
+      "name": "Sonora",
+      "university": "Universidad de Sonora (Unison)"
+    },
+    {
+      "id": "sin",
+      "name": "Sinaloa",
+      "university": "Universidad Autónoma de Sinaloa (UAS)"
+    },
+    {
+      "id": "nay",
+      "name": "Nayarit",
+      "university": "Universidad Autónoma de Nayarit (UAN)"
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "climate-change",
+      "order": 1,
+      "name": "Cambio climático",
+      "nameEn": "Climate Change",
+      "short": "Alteración del balance radiativo de la Tierra por gases de efecto invernadero y otros forzamientos.",
+      "status": "high-risk",
+      "trend": "worsening",
+      "globalStatus": "Fuertemente transgredido. CO₂ y forzamiento radiativo exceden sus niveles seguros.",
+      "controlVariableIds": [
+        "co2",
+        "radiative-forcing"
+      ],
+      "regional": {
+        "summary": "La región contribuye una fracción pequeña a las emisiones globales de GEI, por lo que su apalancamiento sobre la variable global (CO₂/forzamiento radiativo) es bajo; la lectura regional correcta es de adaptación, no de mitigación. Sin embargo, ya sufre los impactos con severidad: olas de calor en aumento (hasta +205 % en Ciudad Obregón y +138 % en Hermosillo, 1966–2015), un «horno atmosférico» reforzado por islas de calor urbanas (47.5 °C en Hermosillo y 51.1 °C en Mexicali en 2026), un monzón mexicano más tardío y errático que agudiza la sequía, y un Golfo de California que se calienta (1–3 °C de 2002 a 2025) y se estratifica, con proyecciones de −50 % a −80 % de productividad primaria para 2100, blanqueamiento de corales en Cabo Pulmo y el colapso del calamar gigante.",
+        "impact": "Alto",
+        "leverage": "Medio",
+        "priority": "Media",
+        "priorityScore": 2,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Planes de adaptación al calor extremo y a la sequía; sistemas de alerta temprana de olas de calor marinas; ordenamiento costero ante el nivel del mar."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Eficiencia hídrica y energética; diversificación hacia cultivos resilientes; infraestructura turística y portuaria resistente al clima."
+          },
+          {
+            "actor": "academia",
+            "text": "Monitoreo de temperatura y eventos extremos a escala del Golfo para sustentar decisiones locales."
+          }
+        ],
+        "dataGaps": "Series estatales de emisiones con rezago; olas de calor marinas y nivel del mar aún poco regionalizadas a escala de los 5 estados.",
+        "questions": [
+          {
+            "q": "¿Cómo reducir la exposición al calor extremo y a las islas de calor urbanas en ciudades como Hermosillo y Mexicali?",
+            "action": "Inventariar y ampliar infraestructura verde (arbolado, superficies permeables) y activar alertas por calor con umbrales locales.",
+            "ref": "Navarro-Estupiñán et al. 2018; estudios de isla de calor urbana de la Universidad de Sonora."
+          },
+          {
+            "q": "¿Cómo anticipar y adaptar la agricultura de riego al retraso y déficit del monzón de Norteamérica?",
+            "action": "Desarrollar pronóstico estacional del monzón y acoplarlo a calendarios de siembra y cultivos de menor demanda hídrica.",
+            "ref": "Luong et al. 2022 (Journal of Climate)."
+          },
+          {
+            "q": "¿Cómo vigilar y responder al calentamiento y la estratificación del Golfo para proteger pesquerías y acuacultura?",
+            "action": "Monitoreo oceanográfico continuo (TSM, oxígeno, pH) compartido entre academia y sector pesquero para cuotas dinámicas.",
+            "ref": "Gilly et al. 2022; Frawley et al. 2019; EDF."
+          },
+          {
+            "q": "¿Cómo proteger la salud pública y la infraestructura crítica ante olas de calor más frecuentes e intensas?",
+            "action": "Sistemas de alerta temprana calor–salud y evaluación de resiliencia de infraestructura (energía, agua, transporte).",
+            "ref": "Navarro-Estupiñán et al. 2018; EDF."
+          }
+        ],
+        "measurementGaps": [
+          "Monitoreo continuo in situ de temperatura, oxígeno disuelto y pH en el Golfo de California (hoy es por campañas, no una red permanente).",
+          "Series de olas de calor marinas específicas del Golfo y su alerta temprana para pesquerías.",
+          "Monitoreo de islas de calor urbanas y de mortalidad/morbilidad por calor en las principales ciudades.",
+          "Inicio, duración e intensidad del monzón mexicano con resolución regional (presupuesto de humedad).",
+          "Intrusión salina en acuíferos costeros (p. ej. Costa de Hermosillo) ante el abatimiento del nivel freático.",
+          "Estrés térmico y blanqueamiento coralino continuo (no por evento) en Cabo Pulmo y arrecifes del Golfo.",
+          "Desertificación (NDVI) y degradación de tierras a escala de cuenca."
+        ]
+      },
+      "hasMap": false
+    },
+    {
+      "id": "biosphere-integrity",
+      "order": 2,
+      "name": "Integridad de la biosfera",
+      "nameEn": "Change in Biosphere Integrity",
+      "short": "Pérdida de diversidad y funcionamiento de la vida en tierra, agua dulce y océano.",
+      "status": "high-risk",
+      "trend": "worsening",
+      "globalStatus": "Fuertemente transgredido. Extinción de especies y apropiación humana de la productividad primaria en zona de alto riesgo.",
+      "controlVariableIds": [
+        "genetic-diversity",
+        "functional-integrity"
+      ],
+      "regional": {
+        "summary": "El Golfo de California es un punto caliente de biodiversidad marina (alto endemismo: vaquita marina, totoaba, arrecifes y manglares) sometido a sobrepesca, pesca incidental y pérdida de hábitat; su integridad funcional está comprometida (HANPP ~30 % frente al límite seguro <10 %; BII ~84.6 % frente a >90 %). En tierra, la agricultura de riego y la acuacultura han convertido selvas secas y manglares (27,622 ha de manglar perdidas a nivel nacional en 2020–2025; Marismas Nacionales pasó de 35 % a 26 % de cobertura). La 'pesca hacia abajo en la red trófica' degrada el ecosistema pelágico. Aun así, la región muestra resiliencia recuperable: Cabo Pulmo aumentó 463 % su biomasa de peces tras ser reserva de no-extracción. Es el límite con mayor relevancia y apalancamiento regional.",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Ampliar y hacer efectivas las Áreas Naturales Protegidas marinas y costeras; ordenar pesquerías con base en cuotas sostenibles."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Trazabilidad y certificación pesquera; restauración de manglares; turismo de naturaleza de bajo impacto."
+          },
+          {
+            "actor": "sociedad",
+            "text": "Consumo responsable de productos del mar y participación en monitoreo comunitario."
+          }
+        ],
+        "dataGaps": "No existe un índice regional tipo HANPP/BII a escala estatal; se usan proxies (ANP, manglar, pesca) y el índice marino cualitativo de 2025.",
+        "questions": [
+          {
+            "q": "¿Cómo detener la conversión de manglar por acuacultura de camarón y restaurar la conectividad hidrológica de los humedales costeros?",
+            "action": "Ordenamiento de la acuacultura (cero conversión de manglar), restauración de flujos hídricos y pago por servicios ecosistémicos (~$37,500 USD/ha/año).",
+            "ref": "Aburto-Oropeza et al. 2008 (PNAS); Mongabay 2024."
+          },
+          {
+            "q": "¿Cómo frenar la degradación trófica del Mar de Cortés ('fishing down the food web') y reconstruir las poblaciones de depredadores tope?",
+            "action": "Cuotas y reservas de no-extracción cogestionadas con comunidades, como el modelo de Cabo Pulmo.",
+            "ref": "Sala et al. 2004; Aburto-Oropeza et al. 2011."
+          },
+          {
+            "q": "¿Cómo proteger la diversidad genética insular y dulceacuícola (endemismos y extinciones locales) frente a especies invasoras y sobreexplotación de agua?",
+            "action": "Erradicación de mamíferos invasores en islas y restauración de caudales ecológicos en ríos.",
+            "ref": "Aguirre-Muñoz et al. 2008; Extinction rates in North American freshwater fishes."
+          },
+          {
+            "q": "¿Cómo sostener el monitoreo ecológico de largo plazo del Golfo para distinguir tendencias y orientar el manejo adaptativo?",
+            "action": "Red regional de monitoreo (academia–sector pesquero–gobierno) con series continuas de biodiversidad.",
+            "ref": "Wilder et al. 2025 (Evaluación de la Salud Ecológica del Golfo de California)."
+          }
+        ],
+        "measurementGaps": [
+          "Series continuas de productividad primaria marina (clorofila, fitoplancton) y de megafauna amenazada (tiburones, totoaba, vaquita).",
+          "Monitoreo de manglares y pastos marinos integrado a una serie regional (hoy es intermitente).",
+          "Índices de integridad funcional regionales (HANPP/BII) a escala de los 5 estados o del Golfo, no solo valores globales.",
+          "Series de biodiversidad marina por eDNA o inventarios sistemáticos para el Mar de Cortés.",
+          "Estado de las pesquerías artesanales (esfuerzo, biomasa, tallas) con resolución espacial para manejo adaptativo."
+        ]
+      },
+      "hasMap": true
+    },
+    {
+      "id": "land-system-change",
+      "order": 3,
+      "name": "Cambio de uso de suelo",
+      "nameEn": "Land System Change",
+      "short": "Transformación de paisajes naturales (deforestación, urbanización) que reduce funciones ecológicas.",
+      "status": "increasing-risk",
+      "trend": "worsening",
+      "globalStatus": "Transgredido. La cobertura forestal remanente (≈64%) está por debajo del límite (78%).",
+      "controlVariableIds": [
+        "forest-cover"
+      ],
+      "regional": {
+        "summary": "La expansión agrícola (Sonora y Sinaloa son potencias agroexportadoras) y la acuicultura camaronera han convertido selvas secas, matorrales y manglares. La frontera agrícola y el desarrollo turístico costero presionan la vegetación natural. El apalancamiento es alto mediante ordenamiento territorial y buenas prácticas.",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Ordenamiento territorial que frene la conversión de manglares y selvas; control de cambios de uso de suelo."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Cero deforestación en cadenas agrícolas y acuícolas; certificación de predios; agroforestería."
+          }
+        ],
+        "dataGaps": "Series estatales de cambio de cobertura con periodicidad limitada (Series de INEGI/CONAFOR)."
+      },
+      "hasMap": true
+    },
+    {
+      "id": "freshwater-change",
+      "order": 4,
+      "name": "Cambio en agua dulce",
+      "nameEn": "Freshwater Change",
+      "short": "Alteración de flujos de agua azul (ríos, lagos, acuíferos) y agua verde (humedad del suelo).",
+      "status": "increasing-risk",
+      "trend": "worsening",
+      "globalStatus": "Transgredido. Perturbaciones de agua azul (22.6%) y verde (22.0%) por encima del límite seguro.",
+      "controlVariableIds": [
+        "blue-water",
+        "green-water"
+      ],
+      "regional": {
+        "summary": "La cuenca del río Colorado está sobreasignada (afecta a Sonora y Baja California), hay acuíferos sobreexplotados en toda la región y sequías recurrentes. La agricultura de riego concentra el consumo de agua. Es un límite de altísima relevancia y con fuerte capacidad de acción local.",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Regular la extracción de acuíferos sobreexplotados; modernizar distritos de riego; reúso de aguas residuales tratadas."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Tecnificación del riego (goteo) y cultivos de menor demanda hídrica; gestión corporativa del agua."
+          }
+        ],
+        "dataGaps": "Indicador global (WaterGAP) no tiene equivalente estatal directo; se usan disponibilidad, acuíferos y sequía (CONAGUA)."
+      },
+      "hasMap": true
+    },
+    {
+      "id": "biogeochemical-flows",
+      "order": 5,
+      "name": "Flujos biogeoquímicos",
+      "nameEn": "Modification of Biogeochemical Flows",
+      "short": "Disrupción de los ciclos de nitrógeno y fósforo por fertilizantes y aguas residuales.",
+      "status": "high-risk",
+      "trend": "worsening",
+      "globalStatus": "Fuertemente transgredido. Nitrógeno (165 Tg N/año) y fósforo (18.2 Tg P/año) en zona de alto riesgo.",
+      "controlVariableIds": [
+        "nitrogen",
+        "phosphorus"
+      ],
+      "regional": {
+        "summary": "La agricultura intensiva de Sinaloa y Sonora aplica grandes volúmenes de fertilizantes nitrogenados y fosfatados; los excedentes drenan por los ríos Yaqui, Fuerte y Sinaloa hacia el Golfo, favoreciendo eutrofización y zonas con bajo oxígeno. La acuicultura suma nutrientes. Alto impacto y alto apalancamiento (eficiencia en fertilización y saneamiento).",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "iniciativa-privada",
+            "text": "Fertilización de precisión y manejo integrado de nutrientes; tratamiento de efluentes acuícolas."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "Saneamiento de aguas residuales urbanas y vigilancia de calidad de agua en ríos y esteros."
+          }
+        ],
+        "dataGaps": "Carga de N/P hacia el Golfo poco cuantificada a nivel estatal; se usan superficies fertilizadas y calidad del agua."
+      },
+      "hasMap": true
+    },
+    {
+      "id": "ocean-acidification",
+      "order": 6,
+      "name": "Acidificación oceánica",
+      "nameEn": "Ocean Acidification",
+      "short": "Reducción del pH y la saturación de aragonita por absorción de CO₂.",
+      "status": "increasing-risk",
+      "trend": "worsening",
+      "globalStatus": "Transgredido por primera vez en 2026 (saturación de aragonita ≈2.85).",
+      "controlVariableIds": [
+        "aragonite-saturation"
+      ],
+      "regional": {
+        "summary": "El Golfo absorbe CO₂ y se acidifica, afectando organismos calcificadores (corales, moluscos, abulón y ostión) con implicaciones para la acuicultura y las pesquerías. El calentamiento oceánico y las olas de calor marinas agravan el estrés. El apalancamiento sobre la variable global es medio (depende del CO₂ global), pero alto sobre la resiliencia local.",
+        "impact": "Alto",
+        "leverage": "Medio",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "academia",
+            "text": "Establecer monitoreo continuo de carbonatos en el Golfo (en alianza con UABCS/CICIMAR y otras)."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Acuicultura resiliente y selección de especies tolerantes; reducción de estresores locales."
+          }
+        ],
+        "dataGaps": "Pocas estaciones de monitoreo in situ; se usan productos globales recortados al Golfo y calentamiento oceánico como proxy."
+      },
+      "hasMap": true
+    },
+    {
+      "id": "aerosols",
+      "order": 7,
+      "name": "Aerosoles atmosféricos",
+      "nameEn": "Increase in Atmospheric Aerosol Loading",
+      "short": "Partículas en el aire (polvo, humo, contaminación) que afectan clima y salud.",
+      "status": "safe",
+      "trend": "improving",
+      "globalStatus": "Dentro del espacio seguro a nivel global (con transgresiones regionales, p. ej. sur de Asia).",
+      "controlVariableIds": [
+        "aerosol-aod"
+      ],
+      "regional": {
+        "summary": "A escala global el límite está dentro del espacio seguro. En el Mar de Cortés, el polvo de desiertos (Sonora/BC), la quema de biomasa y las emisiones urbanas afectan la calidad del aire local. La lectura regional es de calidad del aire y salud pública, no de variable planetaria.",
+        "impact": "Medio",
+        "leverage": "Medio",
+        "priority": "Media",
+        "priorityScore": 2,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Programas de calidad del aire urbana y control de quema agrícola y de residuos."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Reducción de emisiones industriales y de transporte; mitigación de polvo en actividades extractivas."
+          }
+        ],
+        "dataGaps": "AOD regional por satélite disponible; inventarios locales de emisiones incompletos."
+      },
+      "hasMap": true
+    },
+    {
+      "id": "ozone",
+      "order": 8,
+      "name": "Ozono estratosférico",
+      "nameEn": "Stratospheric Ozone Depletion",
+      "short": "Adelgazamiento de la capa de ozono por químicos de larga vida (CFC).",
+      "status": "safe",
+      "trend": "stable",
+      "globalStatus": "Dentro del espacio seguro (285.7 DU), gracias al Protocolo de Montreal.",
+      "controlVariableIds": [
+        "ozone-column"
+      ],
+      "regional": {
+        "summary": "Límite global dentro del espacio seguro; no es un problema accionable desde el Mar de Cortés. Se recomienda no concentrar recursos en este límite.",
+        "impact": "Bajo",
+        "leverage": "Bajo",
+        "priority": "Baja",
+        "priorityScore": 1,
+        "actions": [
+          {
+            "actor": "sociedad",
+            "text": "Protección solar ante el índice UV elevado propio de la latitud (contexto de salud, no de transgresión)."
+          }
+        ],
+        "dataGaps": "No aplica un diagnóstico regional de transgresión."
+      },
+      "hasMap": false
+    },
+    {
+      "id": "novel-entities",
+      "order": 9,
+      "name": "Entidades nuevas",
+      "nameEn": "Introduction of Novel Entities",
+      "short": "Sustancias sintéticas (plásticos, plaguicidas, PFAS) liberadas más rápido de lo que se evalúan.",
+      "status": "high-risk",
+      "trend": "worsening",
+      "globalStatus": "Fuertemente transgredido. No tiene variable numérica formal; la transgresión es cualitativa.",
+      "controlVariableIds": [
+        "novel-entities"
+      ],
+      "regional": {
+        "summary": "Plásticos y microplásticos llegan a playas y aguas del Golfo (existe monitoreo regional en Sonora); los plaguicidas de la agricultura intensiva y contaminantes como los PFAS son preocupaciones crecientes. La producción y liberación superan la capacidad de evaluación. Alto impacto y alto apalancamiento (reducción en origen, gestión de residuos y sustitución de agroquímicos).",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Gestión de residuos sólidos y saneamiento; restricción de plásticos de un solo uso; vigilancia de plaguicidas."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Reducción de envases, economía circular y sustitución de agroquímicos de alto riesgo."
+          }
+        ],
+        "dataGaps": "Microplásticos y contaminantes emergentes aún sin series estatales sistemáticas."
+      },
+      "hasMap": true
+    }
+  ],
+  "controlVariables": [
+    {
+      "id": "co2",
+      "boundaryId": "climate-change",
+      "name": "Concentración de CO₂",
+      "nameEn": "Atmospheric CO₂ concentration",
+      "globalValue": "426 ppm",
+      "unit": "ppm",
+      "safeBoundary": "350 ppm",
+      "highRisk": "450 ppm",
+      "status": "high-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "radiative-forcing",
+      "boundaryId": "climate-change",
+      "name": "Forzamiento radiativo",
+      "nameEn": "Radiative forcing",
+      "globalValue": "+3.10 W/m²",
+      "unit": "W/m²",
+      "safeBoundary": "+1.0 W/m²",
+      "highRisk": "+1.5 W/m²",
+      "status": "high-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "genetic-diversity",
+      "boundaryId": "biosphere-integrity",
+      "name": "Diversidad genética (extinción)",
+      "nameEn": "Genetic diversity",
+      "globalValue": "Tasa de extinción >100× el fondo natural",
+      "status": "high-risk",
+      "trend": "worsening",
+      "note": "Sin valor numérico único; el estado está en zona de alto riesgo."
+    },
+    {
+      "id": "functional-integrity",
+      "boundaryId": "biosphere-integrity",
+      "name": "Integridad funcional (HANPP)",
+      "nameEn": "Functional integrity (HANPP)",
+      "globalValue": "21–30% de la NPP",
+      "unit": "% NPP",
+      "safeBoundary": "≈10%",
+      "status": "high-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "forest-cover",
+      "boundaryId": "land-system-change",
+      "name": "Cobertura forestal remanente",
+      "nameEn": "Remaining forest cover",
+      "globalValue": "≈64%",
+      "unit": "% del bosque potencial",
+      "safeBoundary": "78%",
+      "status": "increasing-risk",
+      "trend": "worsening",
+      "note": "Umbrales por bioma: templado 50/30%, tropical y boreal 85/60%."
+    },
+    {
+      "id": "blue-water",
+      "boundaryId": "freshwater-change",
+      "name": "Agua azul (caudal)",
+      "nameEn": "Blue water (streamflow)",
+      "globalValue": "22.6%",
+      "unit": "% de desviación",
+      "safeBoundary": "12.9%",
+      "highRisk": "50%",
+      "status": "increasing-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "green-water",
+      "boundaryId": "freshwater-change",
+      "name": "Agua verde (humedad del suelo)",
+      "nameEn": "Green water (soil moisture)",
+      "globalValue": "22.0%",
+      "unit": "% de desviación",
+      "safeBoundary": "12.4%",
+      "highRisk": "50%",
+      "status": "increasing-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "nitrogen",
+      "boundaryId": "biogeochemical-flows",
+      "name": "Fijación de nitrógeno",
+      "nameEn": "Nitrogen fixation",
+      "globalValue": "165 Tg N/año",
+      "unit": "Tg N/año",
+      "safeBoundary": "62 Tg N/año",
+      "status": "high-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "phosphorus",
+      "boundaryId": "biogeochemical-flows",
+      "name": "Fósforo al océano",
+      "nameEn": "Phosphorus to ocean",
+      "globalValue": "18.2 Tg P/año",
+      "unit": "Tg P/año",
+      "safeBoundary": "11 Tg P/año",
+      "status": "high-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "aragonite-saturation",
+      "boundaryId": "ocean-acidification",
+      "name": "Saturación de aragonita",
+      "nameEn": "Aragonite saturation state",
+      "globalValue": "≈2.85",
+      "unit": "Ωarag",
+      "safeBoundary": "80% del nivel preindustrial",
+      "status": "increasing-risk",
+      "trend": "worsening"
+    },
+    {
+      "id": "aerosol-aod",
+      "boundaryId": "aerosols",
+      "name": "Carga de aerosoles (AOD interhemisférico)",
+      "nameEn": "Aerosol optical depth",
+      "globalValue": "Dentro del espacio seguro",
+      "status": "safe",
+      "trend": "improving",
+      "note": "Transgresiones regionales (sur de Asia AOD ≈0.32 vs límite 0.25)."
+    },
+    {
+      "id": "ozone-column",
+      "boundaryId": "ozone",
+      "name": "Ozono total en columna",
+      "nameEn": "Total column ozone",
+      "globalValue": "285.7 DU",
+      "unit": "DU",
+      "status": "safe",
+      "trend": "stable"
+    },
+    {
+      "id": "novel-entities",
+      "boundaryId": "novel-entities",
+      "name": "Entidades nuevas (cualitativo)",
+      "nameEn": "Novel entities",
+      "globalValue": "Transgredido (sin variable numérica)",
+      "status": "high-risk",
+      "trend": "worsening",
+      "note": "La transgresión se define por la liberación de sustancias sin evaluación de seguridad adecuada."
+    }
+  ],
+  "spotlights": [
+    {
+      "id": "earth-resilience",
+      "order": 1,
+      "name": "Resiliencia terrestre: cuando la tierra deja de amortiguar el clima",
+      "nameEn": "Earth Resilience: When Land Stops Buffering Climate Change",
+      "summary": "Los manglares y humedales costeros del Golfo capturan y almacenan carbono (carbono azul) y protegen la costa; su pérdida libera CO₂ y reduce la amortiguación climática. Restaurarlos es una acción de alto beneficio regional y global.",
+      "regional": {
+        "summary": "El sumidero de carbono terrestre global se está debilitando. En el Mar de Cortés, los manglares y humedales costeros son los principales sumideros naturales de carbono (carbono azul); su conservación y restauración rinde beneficios climáticos y de protección costera a la vez.",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Proteger y restaurar manglares y humedales costeros; evitar su conversión para acuicultura o desarrollo."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Proyectos de carbono azul y restauración con especies nativas."
+          }
+        ],
+        "dataGaps": "Inventarios de carbono azul regionales aún parciales."
+      },
+      "relatedBoundaryIds": [
+        "biosphere-integrity",
+        "land-system-change",
+        "climate-change"
+      ]
+    },
+    {
+      "id": "seafloor-integrity",
+      "order": 2,
+      "name": "Integridad del fondo marino",
+      "nameEn": "Seafloor Integrity",
+      "summary": "La pesca de arrastre de camarón daña los fondos del Golfo, afectando biodiversidad y almacenamiento de carbono; la minería submarina es una amenaza emergente.",
+      "regional": {
+        "summary": "Cada año se arrastra 1–2% del lecho marino global, y los fondos más productivos reciben el mayor esfuerzo. En el Golfo de California la pesca de arrastre de camarón es la principal presión sobre el fondo; mejorar artes de pesca y proteger hábitats bentónicos es accionable regionalmente.",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "gobierno-local",
+            "text": "Regular artes de pesca de fondo y crear refugios pesqueros/no-pesca en hábitats bentónicos clave."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Adoptar tecnologías de captura de bajo impacto y trazabilidad del camarón."
+          }
+        ],
+        "dataGaps": "Esfuerzo de arrastre a escala del Golfo disponible por satélite (Global Fishing Watch), pero poco validado localmente."
+      },
+      "relatedBoundaryIds": [
+        "biosphere-integrity",
+        "climate-change"
+      ]
+    },
+    {
+      "id": "novel-entities-spotlight",
+      "order": 3,
+      "name": "Entidades nuevas: impactos conocidos y amenazas desconocidas",
+      "nameEn": "Novel Entities: Known Impacts and Unknown Planetary Threats",
+      "summary": "Producimos sustancias sintéticas más rápido de lo que podemos evaluar sus efectos; microplásticos y PFAS ya contaminan todo el planeta.",
+      "regional": {
+        "summary": "En el Mar de Cortés, los microplásticos se acumulan en playas y aguas (con monitoreo en curso en Sonora), y los plaguicidas de la agricultura intensiva representan una fuente difusa de contaminantes. Se profundiza en el límite 9.",
+        "impact": "Alto",
+        "leverage": "Alto",
+        "priority": "Alta",
+        "priorityScore": 3,
+        "actions": [
+          {
+            "actor": "iniciativa-privada",
+            "text": "Sustitución de agroquímicos y materiales de alto riesgo; diseño de productos para circularidad."
+          },
+          {
+            "actor": "academia",
+            "text": "Ampliar el monitoreo de microplásticos y contaminantes emergentes en el Golfo."
+          }
+        ],
+        "dataGaps": "Series de microplásticos y contaminantes emergentes aún no sistemáticas."
+      },
+      "relatedBoundaryIds": [
+        "novel-entities"
+      ]
+    }
+  ],
+  "keyTakeaways": [
+    {
+      "n": 1,
+      "text": "Los impactos de transgredir los límites planetarios son cada vez más visibles: 7 de los 9 límites ya están transgredidos y las tendencias empeoran."
+    },
+    {
+      "n": 2,
+      "text": "Proteger y restaurar la naturaleza es necesario para un clima seguro: el sumidero de carbono terrestre se está debilitando."
+    },
+    {
+      "n": 3,
+      "text": "Hay que proteger el fondo marino: cada año se arrastra 1–2% del lecho marino, y la minería submarina es una amenaza emergente."
+    },
+    {
+      "n": 4,
+      "text": "Microplásticos, 'químicos eternos' (PFAS) y otros contaminantes presentan peligros conocidos y aún desconocidos."
+    },
+    {
+      "n": 5,
+      "text": "Aún hay una ventana para un futuro seguro si logramos revertir las curvas en esta década."
+    }
+  ],
+  "sources": [
+    {
+      "id": "phc-main",
+      "title": "Planetary Health Check 2026: A Scientific Assessment of the State of the Planet",
+      "organization": "Potsdam Institute for Climate Impact Research (PIK) / PBScience",
+      "url": "https://www.planetaryhealthcheck.org/downloads/",
+      "accessDate": "2026-10-03",
+      "license": "Informe de acceso público",
+      "note": "Reporte principal (124 págs.). Base del estado global de los 9 límites y 13 variables de control.",
+      "group": "global"
+    },
+    {
+      "id": "phc-supp",
+      "title": "Planetary Health Check 2026 — Supplementary Materials",
+      "organization": "Potsdam Institute for Climate Impact Research (PIK) / PBScience",
+      "url": "https://www.planetaryhealthcheck.org/downloads/",
+      "accessDate": "2026-10-03",
+      "license": "Informe de acceso público",
+      "note": "Fuentes de datos de la Gran Aceleración y metodologías de agua dulce, N/P, uso de suelo y acidificación oceánica.",
+      "group": "global"
+    },
+    {
+      "id": "smn-repclima-2024",
+      "title": "Reporte del Clima en México — Anual 2024 (Anexo 3: Temperatura media por entidad federativa)",
+      "organization": "SMN / CONAGUA",
+      "url": "https://smn.conagua.gob.mx/tools/DATA/Climatolog%C3%ADa/Diagn%C3%B3stico%20Atmosf%C3%A9rico/Reporte%20del%20Clima%20en%20M%C3%A9xico/Anual2024.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Dominio público (gob.mx)",
+      "note": "Temperatura media anual 2024 por entidad: BC 19.4, BCS 23.6, Sonora 23.3, Sinaloa 26.2, Nayarit 25.4 °C. Nacional 22.9 °C, año más cálido del registro desde 1953.",
+      "group": "regional"
+    },
+    {
+      "id": "smn-msm-20260915",
+      "title": "Monitor de Sequía de México (MSM), 15 de septiembre de 2026",
+      "organization": "SMN / CONAGUA",
+      "url": "https://smn.conagua.gob.mx/tools/DATA/Climatolog%C3%ADa/Sequ%C3%ADa/Monitor%20de%20sequ%C3%ADa%20en%20M%C3%A9xico/Seguimiento%20de%20Sequ%C3%ADa/MSM20260915.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Dominio público (gob.mx)",
+      "note": "% de territorio estatal en sequía D1–D4 al 15-sep-2026: BC 1.0, BCS 0.0, Sonora 8.9, Sinaloa 0.0, Nayarit 16.8 (nacional 10.3%). Usado en clima y agua dulce.",
+      "group": "regional"
+    },
+    {
+      "id": "inecc-inegycei-2022",
+      "title": "INEGyCEI 1990–2022 (Primer Informe Bienal de Transparencia)",
+      "organization": "INECC / SEMARNAT",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/1018303/INEGYCEI__Dif_250725.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Dominio público (gob.mx)",
+      "note": "Contexto de emisiones: total nacional 2022 = 757.3 Mt CO2e (bruto, sin UTCUTS); 568.5 Mt neto. Inventario nacional por sector, sin desglose estatal.",
+      "group": "regional"
+    },
+    {
+      "id": "dgeia-acuiferos-sobreexplotados",
+      "title": "Volúmenes de extracción y recarga de acuíferos sobreexplotados",
+      "organization": "SEMARNAT — SNIARN (con datos de CONAGUA)",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_mares/d3_agua02_02_mar.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Datos públicos (SEMARNAT/CONAGUA)",
+      "note": "Conteo de acuíferos sobreexplotados por entidad (2019): BC 11, BCS 6, Sonora 11, Sinaloa 0, Nayarit 0.",
+      "group": "regional"
+    },
+    {
+      "id": "conanp-numeralia-2024",
+      "title": "Numeralia sobre las Áreas Naturales Protegidas de México (septiembre 2024)",
+      "organization": "CONANP",
+      "url": "https://simec.conanp.gob.mx/numeralia/Tablas_Numeralia.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Superficie terrestre de ANP federales por estado (ha): BC 3 023 400; BCS 2 591 224; Sonora 1 403 066; Sinaloa 93 264; Nayarit 990 124.",
+      "group": "regional"
+    },
+    {
+      "id": "semarnat-compendio-manglares",
+      "title": "Compendio de Estadísticas Ambientales — Superficie estimada de manglares por entidad federativa",
+      "organization": "SEMARNAT",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_biodiversidad/d3_biodiv01_16.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Manglar 2020 (ha): BC 42; BCS 25 511; Sonora 12 334; Sinaloa 76 300; Nayarit 66 849. Serie 2005–2020.",
+      "group": "regional"
+    },
+    {
+      "id": "conabio-manglares",
+      "title": "Extensión y distribución de manglares (Sistema de Monitoreo de los Manglares de México)",
+      "organization": "CONABIO",
+      "url": "https://www.biodiversidad.gob.mx/monitoreo/smmm/extensionDist",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (CONABIO)",
+      "note": "Fuente original de la cartografía de manglar citada por el compendio de SEMARNAT.",
+      "group": "regional"
+    },
+    {
+      "id": "conapesca-anuario-2024",
+      "title": "Anuario Estadístico de Acuacultura y Pesca 2024 — Base de Datos de Producción",
+      "organization": "CONAPESCA",
+      "url": "https://nube.conapesca.gob.mx/sites/cona/dgppe/anuarios/BASE_DE_DATOS_DE_PRODUCCION_ANUARIO_2024.xlsx",
+      "accessDate": "2026-10-03",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Captura en peso vivo 2024 (t): BC 343 051; BCS 199 653; Sonora 679 294; Sinaloa 350 180; Nayarit 15 255.",
+      "group": "regional"
+    },
+    {
+      "id": "inegi-ca2022",
+      "title": "Censo Agropecuario 2022 — Resultados definitivos",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/programas/cagf/2022/",
+      "accessDate": "2026-10-03",
+      "license": "Libre (INEGI); citar la fuente",
+      "note": "Superficie sembrada (ha): BC 188 878; BCS 37 816; Sonora 648 396; Sinaloa 1 272 407; Nayarit 456 031. Documentos estatales: https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdBCN.pdf · ca2022_rdBCS.pdf · ca2022_rdSON.pdf · ca2022_rdSIN.pdf · ca2022_rdNAY.pdf",
+      "group": "regional"
+    },
+    {
+      "id": "gfw-tcl-summary",
+      "title": "Pérdida de cobertura arbórea por entidad — resumen acumulado (Hansen et al. 2013)",
+      "organization": "Global Forest Watch / University of Maryland GLAD",
+      "url": "https://data-api.globalforestwatch.org/dataset/gadm__tcl__adm1_summary",
+      "accessDate": "2026-10-03",
+      "license": "CC BY 4.0",
+      "note": "Pérdida acumulada 2001–2025 (umbral 30 % de copa), agregada por entidad federativa (GADM 4.1).",
+      "group": "regional"
+    },
+    {
+      "id": "gfw-tcl-change",
+      "title": "Pérdida de cobertura arbórea por entidad — serie anual",
+      "organization": "Global Forest Watch / University of Maryland GLAD",
+      "url": "https://data-api.globalforestwatch.org/dataset/gadm__tcl__adm1_change",
+      "accessDate": "2026-10-03",
+      "license": "CC BY 4.0",
+      "note": "Serie anual 2001–2025 (umbral 30 %) usada para la serie temporal y validación cruzada.",
+      "group": "regional"
+    },
+    {
+      "id": "gadm",
+      "title": "GADM Administrative Boundaries (v4.1)",
+      "organization": "GADM / Global Forest Watch",
+      "url": "https://data-api.globalforestwatch.org/dataset/gadm_administrative_boundaries",
+      "accessDate": "2026-10-03",
+      "license": "GADM (uso no comercial)",
+      "note": "Correspondencia adm1→entidad: MEX.3_1=BC, MEX.2_1=BCS, MEX.26_1=Sonora, MEX.25_1=Sinaloa, MEX.18_1=Nayarit.",
+      "group": "regional"
+    },
+    {
+      "id": "sanchez-cabeza-2022",
+      "title": "Rapid surface water warming in shallow coastal waters at the eastern entrance of the Gulf of California",
+      "organization": "UNAM / Progress in Oceanography",
+      "url": "https://doi.org/10.1016/j.pocean.2022.102746",
+      "accessDate": "2026-10-03",
+      "license": "© Elsevier; resumen de acceso abierto",
+      "note": "SST 1973–2016 en Mazatlán: +0.57 ± 0.01 °C/década; anomalías de la SST mínima +4 °C (2013–2014) y +7 °C (2016).",
+      "group": "regional"
+    },
+    {
+      "id": "jamet-ardiles-2025",
+      "title": "Tendencias del calentamiento de las aguas superficiales del Golfo de California (1982–2022)",
+      "organization": "Universidad de Guadalajara (tesis de maestría)",
+      "url": "https://hdl.handle.net/20.500.12104/110572",
+      "accessDate": "2026-10-03",
+      "license": "Resumen de acceso abierto",
+      "note": "SST satelital AVHRR/NOAA 1982–2022: tasas regionales de 0.18 a 0.40 °C/década, por encima de la media oceánica global.",
+      "group": "regional"
+    },
+    {
+      "id": "norzagaray-2017",
+      "title": "Aragonite saturation and pH variation in a fringing reef are strongly influenced by oceanic conditions",
+      "organization": "Limnology & Oceanography (ASLO / Wiley)",
+      "url": "https://doi.org/10.1002/lno.10571",
+      "accessDate": "2026-10-03",
+      "license": "© ASLO/Wiley; resumen de acceso abierto",
+      "note": "Arrecife de Cabo Pulmo: rango estacional ΔΩarag = 0.5 unidades, uno de los mayores reportados en arrecifes de coral.",
+      "group": "regional"
+    },
+    {
+      "id": "oliva-mendez-2025",
+      "title": "Seasonal and interannual variability of the aragonite saturation horizon in the California Current System of Baja California",
+      "organization": "Journal of Geophysical Research: Oceans (AGU)",
+      "url": "https://doi.org/10.1029/2024JC021653",
+      "accessDate": "2026-10-03",
+      "license": "© AGU; resumen de acceso abierto",
+      "note": "Contexto de la vertiente Pacífico de Baja California (no el interior del Golfo); horizonte de aragonita entre ~90 y ~133 m.",
+      "group": "regional"
+    },
+    {
+      "id": "semarnat-dbgir-2026",
+      "title": "Diagnóstico Básico para la Gestión Integral de los Residuos (DBGIR) 2026",
+      "organization": "SEMARNAT / INECC",
+      "url": "https://www.gob.mx/semarnat/documentos/diagnostico-basico-para-la-gestion-integral-de-los-residuos-dbgir-2026",
+      "accessDate": "2026-10-03",
+      "license": "Datos públicos del Gobierno de México",
+      "note": "Generación de RSU per cápita por entidad (Tabla 10): BC 1.142; BCS 1.099; Sonora 1.073; Sinaloa 1.079; Nayarit 1.049 kg/hab/día.",
+      "group": "regional"
+    },
+    {
+      "id": "sanchezpaz-2025-microplastics",
+      "title": "Microplastics in surface waters surrounding a touristic beach at the Gulf of California, Mexico",
+      "organization": "International Journal of Environmental Health Research (Taylor & Francis)",
+      "url": "https://doi.org/10.1080/09603123.2025.2483356",
+      "accessDate": "2026-10-03",
+      "license": "Artículo por suscripción; resumen vía PubMed (PMID 40131303)",
+      "note": "CIBNOR y Universidad de Sonora. Microfibras 50.8 % vs partículas 49.2 %; concentración hasta 2.02× tras vacaciones de primavera.",
+      "group": "regional"
+    },
+    {
+      "id": "sinaica-2023",
+      "title": "Informe Nacional de Calidad del Aire 2023",
+      "organization": "INECC / SINAICA (Gobierno de México)",
+      "url": "https://sinaica.inecc.gob.mx/archivo/informes/Informe2023.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Datos públicos del Gobierno de México",
+      "note": "PM2.5 media anual 2023: Mexicali 25 y Tijuana 25 µg/m³ (BC); Nogales 11 µg/m³ (Sonora). BCS, Sinaloa y Nayarit sin media anual oficial.",
+      "group": "regional"
+    },
+    {
+      "id": "cerca-lapaz-2023",
+      "title": "Reporte trimestral de calidad del aire en La Paz, B.C.S. (enero–marzo 2023)",
+      "organization": "CERCA (Departamento de Salud y Calidad Ambiental)",
+      "url": "https://cerca.org.mx/wp-content/uploads/2023/06/Reporte-trimestral-de-calidad-del-aire-en-La-Paz-B.C.S.-Periodo-enero-marzo-2023.docx-2-1.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Publicación de organización civil (CERCA)",
+      "note": "Red ciudadana (PurpleAir) en La Paz; documenta PM10/PM2.5 pero sin media anual oficial.",
+      "group": "regional"
+    },
+    {
+      "id": "noaa-globaltemp",
+      "title": "Global Land and Ocean Temperature Anomalies (Climate at a Glance)",
+      "organization": "NOAA / NCEI",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series",
+      "accessDate": "2026-10-14",
+      "license": "Dominio público (NOAA)",
+      "note": "Anomalía global anual 1850–2025 respecto a 1901–2000.",
+      "group": "global"
+    },
+    {
+      "id": "semarnat-compendio-2018-suelos",
+      "title": "Compendio de Estadísticas Ambientales 2018 — Degradación de suelos por entidad federativa (2002)",
+      "organization": "SEMARNAT (SNIARN)",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2018/archivos/01_suelos/D3_SUELO03_03.pdf",
+      "accessDate": "2026-10-14",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Degradación física, química, eólica e hídrica por estado (SEMARNAT–Colegio de Postgraduados 2001–2002).",
+      "group": "regional"
+    },
+    {
+      "id": "navarro-2018",
+      "title": "Observed trends and future projections of extreme heat events in Sonora, Mexico",
+      "organization": "International Journal of Climatology",
+      "url": "https://doi.org/10.1002/joc.5719",
+      "accessDate": "2026-10-14",
+      "license": "© Wiley",
+      "note": "Olas de calor y días de calor extremo 1966–2015.",
+      "group": "regional"
+    },
+    {
+      "id": "luong-2022",
+      "title": "Future Land Precipitation Changes Over the North American Monsoon Region Using CMIP5 and CMIP6 Simulations",
+      "organization": "Journal of Geophysical Research: Atmospheres",
+      "url": "https://doi.org/10.1029/2021JD035911",
+      "accessDate": "2026-10-14",
+      "license": "© AGU",
+      "note": "Retraso y déficit de precipitación del monzón de Norteamérica.",
+      "group": "regional"
+    },
+    {
+      "id": "gilly-2022",
+      "title": "Long-term hydrographic changes in the Gulf of California and ecological impacts: A crack in the World's Aquarium?",
+      "organization": "Progress in Oceanography",
+      "url": "https://doi.org/10.1016/j.pocean.2022.102857",
+      "accessDate": "2026-10-14",
+      "license": "© Elsevier",
+      "note": "Calentamiento, estratificación y efectos ecológicos en el Golfo.",
+      "group": "regional"
+    },
+    {
+      "id": "frawley-2019",
+      "title": "Impacts of a shift to a warm-water regime in the Gulf of California on jumbo squid (Dosidicus gigas)",
+      "organization": "ICES Journal of Marine Science",
+      "url": "https://doi.org/10.1093/icesjms/fsz133",
+      "accessDate": "2026-10-14",
+      "license": "© OUP",
+      "note": "Colapso del calamar gigante.",
+      "group": "regional"
+    },
+    {
+      "id": "edf-cambioclimatico",
+      "title": "Cambio climático en México: Recomendaciones de política pública para la adaptación y resiliencia del sector pesquero y acuícola",
+      "organization": "Environmental Defense Fund (EDF)",
+      "url": "https://mexico.edf.org/sites/default/files/EstudioCambioClimatico_0.pdf",
+      "accessDate": "2026-10-14",
+      "license": "Informe público",
+      "note": "Proyecciones de productividad primaria y costos para pesquerías.",
+      "group": "regional"
+    },
+    {
+      "id": "smn-msm-historico",
+      "title": "Monitor de Sequía de México (MSM) — porcentaje de área con sequía D1–D4 a nivel nacional",
+      "organization": "Servicio Meteorológico Nacional (SMN) / CONAGUA",
+      "url": "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "accessDate": "2026-10-14",
+      "license": "Dominio público (gob.mx)",
+      "note": "Serie 2011–2026 del % de territorio nacional en sequía D1–D4 (cierre de año).",
+      "group": "regional"
+    },
+    {
+      "id": "ohi-salud-2025",
+      "title": "Evaluación de la Salud Ecológica del Golfo de California (2025)",
+      "organization": "Nueva Generación de Investigadores del Desierto Sonorense / Prescott College",
+      "url": "https://nextgensd.com/wp-content/uploads/2025/01/Health-of-the-Gulf-of-California_final-assesment_Espanol.pdf",
+      "accessDate": "2026-10-14",
+      "license": "Informe público",
+      "note": "Tendencias ecológicas del Golfo: 3 grupos mejorando, 7 estables, 11 en deterioro, 2 en deterioro acelerado.",
+      "group": "regional"
+    },
+    {
+      "id": "aburto-2008-pnas",
+      "title": "Mangroves in the Gulf of California increase fishery yields",
+      "organization": "Proceedings of the National Academy of Sciences (PNAS)",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0804601105",
+      "accessDate": "2026-10-14",
+      "license": "© PNAS",
+      "note": "Valor de los manglares para las pesquerías del Golfo.",
+      "group": "regional"
+    },
+    {
+      "id": "aburto-2011-plosone",
+      "title": "Large Recovery of Fish Biomass in a No-Take Marine Reserve (Cabo Pulmo)",
+      "organization": "PLoS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0023601",
+      "accessDate": "2026-10-14",
+      "license": "CC BY",
+      "note": "Recuperación de +463 % de biomasa en Cabo Pulmo.",
+      "group": "regional"
+    },
+    {
+      "id": "aguirre-2008-ambio",
+      "title": "High-impact Conservation: Invasive Mammal Eradications from the Islands of Western México",
+      "organization": "Ambio / GECI",
+      "url": "https://www.islas.org.mx/articulos_files/2008.%20Aguirre%20et%20al_High%20Impact%20Conservation%20Islands-Ambio.pdf",
+      "accessDate": "2026-10-14",
+      "license": "© Ambio",
+      "note": "Erradicación de mamíferos invasores en islas del Pacífico y Golfo.",
+      "group": "regional"
+    },
+    {
+      "id": "sala-2004-fishingdown",
+      "title": "Fishing Down Coastal Food Webs in the Gulf of California",
+      "organization": "Fisheries (American Fisheries Society)",
+      "url": "https://academic.oup.com/fisheries/article-pdf/29/3/19/61180852/fsh0019.pdf",
+      "accessDate": "2026-10-14",
+      "license": "© AFS",
+      "note": "Degradación trófica por pesca en el Golfo.",
+      "group": "regional"
+    },
+    {
+      "id": "richardson-2023",
+      "title": "Earth beyond six of nine planetary boundaries",
+      "organization": "Science Advances",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499318/",
+      "accessDate": "2026-10-14",
+      "license": "CC BY",
+      "note": "Marco de límites planetarios.",
+      "group": "global"
+    }
+  ],
+  "directory": [
+    {
+      "id": "corredor",
+      "name": "Corredor Científico y Tecnológico del Mar de Cortés",
+      "logo": "logo-corredor.png",
+      "wide": true,
+      "members": [
+        {
+          "name": "Dr. Mario Nieves Soto",
+          "role": "Coordinador del Corredor Científico, Académico y Empresarial del Mar de Cortés",
+          "photo": "persona-nieves.jpg"
+        },
+        {
+          "name": "Dr. Julio Waissman Vilanova",
+          "role": "Coordinador general del Corredor Tecnológico",
+          "photo": "persona-waissman.jpg"
+        }
+      ]
+    },
+    {
+      "id": "unison",
+      "name": "Universidad de Sonora (Unison)",
+      "logo": "logo-unison.png",
+      "members": [
+        {
+          "name": "Dra. Raquel Torres Peralta",
+          "role": "Coordinadora del nodo tecnológico de Sonora",
+          "photo": "persona-torres.png"
+        }
+      ]
+    },
+    {
+      "id": "uas",
+      "name": "Universidad Autónoma de Sinaloa (UAS)",
+      "logo": "logo-uas.png",
+      "members": [
+        {
+          "name": "Dr. José de Jesús Uriarte Adrián",
+          "role": "Responsable del nodo tecnológico de Sinaloa",
+          "photo": "persona-uriarte.jpg"
+        }
+      ]
+    },
+    {
+      "id": "uabc",
+      "name": "Universidad Autónoma de Baja California (UABC)",
+      "logo": "logo-uabc.png",
+      "members": [
+        {
+          "name": "Dr. Juan Pablo García Vázquez",
+          "role": "Responsable del nodo tecnológico de Baja California",
+          "photo": "persona-garcia.jpg"
+        }
+      ]
+    },
+    {
+      "id": "uabcs",
+      "name": "Universidad Autónoma de Baja California Sur (UABCS)",
+      "logo": "logo-uabcs.png",
+      "members": [
+        {
+          "name": "Dr. Javier Aguilar Parra",
+          "role": "Responsable del nodo tecnológico de Baja California Sur",
+          "photo": "persona-aguilar.png"
+        }
+      ]
+    },
+    {
+      "id": "uan",
+      "name": "Universidad Autónoma de Nayarit (UAN)",
+      "logo": "logo-uan.png",
+      "members": [],
+      "note": "Sin responsable listado en el directorio fuente."
+    },
+    {
+      "id": "fmc",
+      "name": "Foro Mar de Cortés",
+      "logo": "logo-fmc.png",
+      "members": [
+        {
+          "name": "Saúl Iván Rubio Robles",
+          "role": "Vinculación",
+          "photo": "persona-rubio.png"
+        }
+      ]
+    }
+  ]
+}

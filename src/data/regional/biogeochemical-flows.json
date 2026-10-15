@@ -1,0 +1,160 @@
+{
+  "boundaryId": "biogeochemical-flows",
+  "updated": "2026-10-03",
+  "stateValues": [
+    {
+      "stateId": "bc",
+      "value": 188878,
+      "unit": "ha sembradas",
+      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+    },
+    {
+      "stateId": "bcs",
+      "value": 37816,
+      "unit": "ha sembradas",
+      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+    },
+    {
+      "stateId": "son",
+      "value": 648396,
+      "unit": "ha sembradas",
+      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+    },
+    {
+      "stateId": "sin",
+      "value": 1272407,
+      "unit": "ha sembradas",
+      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+    },
+    {
+      "stateId": "nay",
+      "value": 456031,
+      "unit": "ha sembradas",
+      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+    }
+  ],
+  "series": [
+    {
+      "id": "modalidad-hidrica",
+      "title": "Superficie agrícola (total) por modalidad hídrica, Censo Agropecuario 2022",
+      "unit": "ha",
+      "points": [
+        {
+          "label": "Riego — Baja California",
+          "value": 229335
+        },
+        {
+          "label": "Temporal — Baja California",
+          "value": 40648
+        },
+        {
+          "label": "Riego — Baja California Sur",
+          "value": 138641
+        },
+        {
+          "label": "Temporal — Baja California Sur",
+          "value": 424
+        },
+        {
+          "label": "Riego — Sonora",
+          "value": 690288
+        },
+        {
+          "label": "Temporal — Sonora",
+          "value": 124382
+        },
+        {
+          "label": "Riego — Sinaloa",
+          "value": 930445
+        },
+        {
+          "label": "Temporal — Sinaloa",
+          "value": 420923
+        },
+        {
+          "label": "Riego — Nayarit",
+          "value": 131896
+        },
+        {
+          "label": "Temporal — Nayarit",
+          "value": 371579
+        }
+      ],
+      "kind": "bar"
+    }
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "Superficie agrícola sembrada por estado (proxy de presión por fertilizantes N/P)",
+    "unit": "ha sembradas",
+    "sourceId": "inegi-ca2022",
+    "valuesByState": {
+      "son": 648396,
+      "bc": 188878,
+      "bcs": 37816,
+      "sin": 1272407,
+      "nay": 456031
+    },
+    "note": "Superficie sembrada del año agrícola 2021-2022 como proxy de la presión por flujos biogeoquímicos (nitrógeno/fósforo) derivada del uso de fertilizantes."
+  },
+  "sources": [
+    {
+      "id": "inegi-ca2022",
+      "title": "Censo Agropecuario 2022. Resultados definitivos (programa)",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/programas/cagf/2022/",
+      "accessDate": "2026-10-03",
+      "license": "Libre (INEGI); citar la fuente",
+      "note": "Periodo de referencia: año agrícola de octubre de 2021 a septiembre de 2022. Los valores estatales provienen de los documentos estatales de Resultados Definitivos listados abajo."
+    },
+    {
+      "id": "inegi-ca2022-bc",
+      "title": "Censo Agropecuario 2022. Resultados definitivos — Baja California",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdBCN.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Libre (INEGI); citar la fuente",
+      "note": "Superficie sembrada: 188 878 ha. Superficie agrícola total de unidades activas: 269 983 ha (riego 229 335 ha / temporal 40 648 ha)."
+    },
+    {
+      "id": "inegi-ca2022-bcs",
+      "title": "Censo Agropecuario 2022. Resultados definitivos — Baja California Sur",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdBCS.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Libre (INEGI); citar la fuente",
+      "note": "Superficie sembrada: 37 816 ha. Superficie agrícola total de unidades activas: 139 065 ha (riego 138 641 ha / temporal 424 ha)."
+    },
+    {
+      "id": "inegi-ca2022-son",
+      "title": "Censo Agropecuario 2022. Resultados definitivos — Sonora",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdSON.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Libre (INEGI); citar la fuente",
+      "note": "Superficie sembrada: 648 396 ha. Superficie agrícola total de unidades activas: 814 670 ha (riego 690 288 ha / temporal 124 382 ha)."
+    },
+    {
+      "id": "inegi-ca2022-sin",
+      "title": "Censo Agropecuario 2022. Resultados definitivos — Sinaloa",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdSIN.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Libre (INEGI); citar la fuente",
+      "note": "Superficie sembrada: 1 272 407 ha. Superficie agrícola total de unidades activas: 1 351 368 ha (riego 930 445 ha / temporal 420 923 ha)."
+    },
+    {
+      "id": "inegi-ca2022-nay",
+      "title": "Censo Agropecuario 2022. Resultados definitivos — Nayarit",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdNAY.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Libre (INEGI); citar la fuente",
+      "note": "Superficie sembrada: 456 031 ha. Superficie agrícola total de unidades activas: 503 475 ha (riego 131 896 ha / temporal 371 579 ha)."
+    }
+  ],
+  "stateTitle": "Superficie agrícola sembrada por estado (INEGI, Censo Agropecuario 2022)",
+  "stateNote": "Sinaloa y Sonora concentran la mayor superficie agrícola, principal fuente de nitrógeno y fósforo hacia el Golfo.",
+  "seriesTitle": "Superficie agrícola por modalidad hídrica (riego vs temporal)",
+  "seriesNote": "El riego predomina en la agricultura intensiva que más fertilizante aplica; el temporal domina en Nayarit."
+}

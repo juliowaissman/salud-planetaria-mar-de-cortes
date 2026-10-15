@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+*.local
+npm-debug.log*
+
+# Material de referencia local (PDFs) y dependencias de Python — no se suben al repo
+refs
+.pylibs
+.gemini
+
+# Estado interno de la herramienta de diseño (se conserva design.json y surfaces/)
+.impeccable/config.local.json
+.impeccable/critique
+.impeccable/questions

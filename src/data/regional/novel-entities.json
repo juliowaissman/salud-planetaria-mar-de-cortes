@@ -1,0 +1,91 @@
+{
+  "boundaryId": "novel-entities",
+  "updated": "2026-10-03",
+  "stateValues": [
+    {
+      "stateId": "son",
+      "value": 1.073,
+      "unit": "kg RSU/hab/día",
+      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
+    },
+    {
+      "stateId": "bc",
+      "value": 1.142,
+      "unit": "kg RSU/hab/día",
+      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
+    },
+    {
+      "stateId": "bcs",
+      "value": 1.099,
+      "unit": "kg RSU/hab/día",
+      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
+    },
+    {
+      "stateId": "sin",
+      "value": 1.079,
+      "unit": "kg RSU/hab/día",
+      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
+    },
+    {
+      "stateId": "nay",
+      "value": 1.049,
+      "unit": "kg RSU/hab/día",
+      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
+    }
+  ],
+  "series": [
+    {
+      "id": "s1",
+      "title": "Abundancia relativa de microfibras vs partículas de microplástico en aguas superficiales de una playa turística del Golfo de California (2025)",
+      "unit": "% de la abundancia total",
+      "points": [
+        {
+          "label": "Microfibras",
+          "value": 50.8
+        },
+        {
+          "label": "Partículas de microplástico",
+          "value": 49.2
+        }
+      ],
+      "kind": "bar"
+    }
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "Generación de residuos sólidos urbanos per cápita (proxy de entidades nuevas)",
+    "unit": "kg RSU/hab/día",
+    "sourceId": "semarnat-dbgir-2026",
+    "valuesByState": {
+      "son": 1.073,
+      "bc": 1.142,
+      "bcs": 1.099,
+      "sin": 1.079,
+      "nay": 1.049
+    }
+  },
+  "sources": [
+    {
+      "id": "semarnat-dbgir-2026",
+      "title": "Diagnóstico Básico para la Gestión Integral de los Residuos (DBGIR) 2026",
+      "organization": "SEMARNAT / INECC",
+      "url": "https://www.gob.mx/semarnat/documentos/diagnostico-basico-para-la-gestion-integral-de-los-residuos-dbgir-2026",
+      "accessDate": "2026-10-03",
+      "license": "Datos públicos del Gobierno de México (gob.mx)",
+      "note": "Tabla 10 'Generación calculada por entidad federativa' (kg/hab/día), elaborada a partir de los CNGMD 2019/2021/2023 (INEGI) y PPGIR. PDF: https://www.gob.mx/cms/uploads/attachment/file/1078948/DBGR.pdf"
+    },
+    {
+      "id": "sanchezpaz-2025-microplastics",
+      "title": "Microplastics in surface waters surrounding a touristic beach at the Gulf of California, Mexico",
+      "organization": "International Journal of Environmental Health Research (Taylor & Francis)",
+      "url": "https://doi.org/10.1080/09603123.2025.2483356",
+      "accessDate": "2026-10-03",
+      "license": "Artículo por suscripción; resumen vía PubMed/Europe PMC (PMID 40131303)",
+      "note": "Autores de CIBNOR y Universidad de Sonora (Hermosillo, Sonora). La concentración media de microplásticos aumentó hasta 2.02× tras las vacaciones de primavera. No existe serie estatal sistemática de microplásticos ni de plaguicidas (SIAP/SENASICA); se usa RSU per cápita como proxy estatal."
+    }
+  ],
+  "stateTitle": "Generación de residuos sólidos urbanos per cápita (proxy de entidades nuevas)",
+  "stateNote": "Baja California genera la mayor cantidad de residuos per cápita; es un proxy de la presión por plásticos y contaminantes.",
+  "seriesTitle": "Microplásticos en aguas superficiales del Golfo de California (2025)",
+  "seriesNote": "Las microfibras y las partículas se reparten casi a la mitad; la concentración aumenta tras temporadas turísticas."
+}

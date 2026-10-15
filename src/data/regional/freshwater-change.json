@@ -1,0 +1,72 @@
+{
+  "boundaryId": "freshwater-change",
+  "updated": "2026-10-03",
+  "stateValues": [
+    {
+      "stateId": "bc",
+      "value": 11,
+      "unit": "acuíferos sobreexplotados",
+      "note": "CONAGUA/SEMARNAT, 2019 (último año de la serie SNIARN)"
+    },
+    {
+      "stateId": "bcs",
+      "value": 6,
+      "unit": "acuíferos sobreexplotados",
+      "note": "CONAGUA/SEMARNAT, 2019 (último año de la serie SNIARN)"
+    },
+    {
+      "stateId": "son",
+      "value": 11,
+      "unit": "acuíferos sobreexplotados",
+      "note": "CONAGUA/SEMARNAT, 2019 (último año de la serie SNIARN)"
+    },
+    {
+      "stateId": "sin",
+      "value": 0,
+      "unit": "acuíferos sobreexplotados",
+      "note": "Sin acuíferos sobreexplotados reportados (CONAGUA/SEMARNAT, 2019)"
+    },
+    {
+      "stateId": "nay",
+      "value": 0,
+      "unit": "acuíferos sobreexplotados",
+      "note": "Sin acuíferos sobreexplotados reportados (CONAGUA/SEMARNAT, 2019)"
+    }
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "Territorio estatal con sequía (D1–D4)",
+    "unit": "% del territorio estatal",
+    "sourceId": "smn-msm-2026-09-15",
+    "valuesByState": {
+      "bc": 1.0,
+      "bcs": 0.0,
+      "son": 8.9,
+      "sin": 0.0,
+      "nay": 16.8
+    },
+    "note": "Sequía de moderada a excepcional (D1–D4) al 15 de septiembre de 2026. D0 (anormalmente seco) excluido."
+  },
+  "sources": [
+    {
+      "id": "dgeia-acuiferos-sobreexplotados",
+      "title": "Volúmenes de extracción y recarga de acuíferos sobreexplotados (hectómetros cúbicos por año)",
+      "organization": "SEMARNAT — SNIARN (con datos de CONAGUA, Gerencia de Aguas Subterráneas)",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_mares/d3_agua02_02_mar.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Datos públicos (SEMARNAT/CONAGUA)",
+      "note": "Serie 2008–2019. Los valores estatales corresponden al conteo de acuíferos sobreexplotados listados por entidad en 2019. Sinaloa y Nayarit no registran acuíferos sobreexplotados en la serie."
+    },
+    {
+      "id": "smn-msm-2026-09-15",
+      "title": "Monitor de Sequía de México (MSM), 15 de septiembre de 2026",
+      "organization": "Servicio Meteorológico Nacional (SMN) / CONAGUA",
+      "url": "https://smn.conagua.gob.mx/tools/DATA/Climatolog%C3%ADa/Sequ%C3%ADa/Monitor%20de%20sequ%C3%ADa%20en%20M%C3%A9xico/Seguimiento%20de%20Sequ%C3%ADa/MSM20260915.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Datos públicos (SMN/CONAGUA)",
+      "note": "Porcentaje de área estatal en sequía de moderada a excepcional (D1–D4) al 15 de septiembre de 2026."
+    }
+  ],
+  "stateTitle": "Acuíferos sobreexplotados por estado (CONAGUA, 2019)",
+  "stateNote": "Sonora y Baja California concentran 11 acuíferos sobreexplotados cada una; es la señal más directa de presión sobre el agua azul de la región."
+}

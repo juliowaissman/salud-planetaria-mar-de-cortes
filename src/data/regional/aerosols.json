@@ -1,0 +1,71 @@
+{
+  "boundaryId": "aerosols",
+  "updated": "2026-10-03",
+  "stateValues": [
+    {
+      "stateId": "bc",
+      "value": 25,
+      "unit": "µg/m³ PM2.5 (media anual)",
+      "note": "PM2.5 media anual 2023: Mexicali 25 y Tijuana 25 µg/m³ (SINAICA/INECC)"
+    },
+    {
+      "stateId": "bcs",
+      "value": null,
+      "unit": "µg/m³ PM2.5 (media anual)",
+      "note": "Sin estaciones oficiales en SINAICA 2023; red ciudadana CERCA (PurpleAir) en La Paz no publica media anual oficial"
+    },
+    {
+      "stateId": "son",
+      "value": 11,
+      "unit": "µg/m³ PM2.5 (media anual)",
+      "note": "PM2.5 media anual 2023, estación Nogales (única con dato); Hermosillo: datos insuficientes"
+    },
+    {
+      "stateId": "sin",
+      "value": null,
+      "unit": "µg/m³ PM2.5 (media anual)",
+      "note": "Sin monitoreo en 2023 (Ahome, Culiacán, Guasave y Mazatlán: IND en SINAICA)"
+    },
+    {
+      "stateId": "nay",
+      "value": null,
+      "unit": "µg/m³ PM2.5 (media anual)",
+      "note": "Tepic: datos insuficientes para media anual 2023 (3 días > 41 µg/m³)"
+    }
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "PM2.5 media anual 2023 (proxy de aerosoles)",
+    "unit": "µg/m³ PM2.5",
+    "sourceId": "sinaica-2023",
+    "valuesByState": {
+      "bc": 25,
+      "bcs": null,
+      "son": 11,
+      "sin": null,
+      "nay": null
+    }
+  },
+  "sources": [
+    {
+      "id": "sinaica-2023",
+      "title": "Informe Nacional de Calidad del Aire 2023",
+      "organization": "INECC / SINAICA (Gobierno de México)",
+      "url": "https://sinaica.inecc.gob.mx/archivo/informes/Informe2023.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Datos públicos del Gobierno de México",
+      "note": "PM2.5 media anual 2023 por ciudad y estación (Tablas de cumplimiento NOM y Anexo). PM2.5 usado como proxy de aerosoles."
+    },
+    {
+      "id": "cerca-lapaz-2023",
+      "title": "Reporte trimestral de calidad del aire en La Paz, B.C.S. (enero–marzo 2023)",
+      "organization": "CERCA (Departamento de Salud y Calidad Ambiental)",
+      "url": "https://cerca.org.mx/wp-content/uploads/2023/06/Reporte-trimestral-de-calidad-del-aire-en-La-Paz-B.C.S.-Periodo-enero-marzo-2023.docx-2-1.pdf",
+      "accessDate": "2026-10-03",
+      "license": "Publicación de organización civil (CERCA)",
+      "note": "Red ciudadana de monitoreo (PurpleAir) en La Paz; documenta PM10/PM2.5 pero sin media anual oficial, por lo que BCS se deja en null."
+    }
+  ],
+  "stateTitle": "Concentración media anual de PM2.5 por estado (2023)",
+  "stateNote": "Baja California (Mexicali y Tijuana) registra la peor calidad del aire de la región; el resto carece de monitoreo oficial sistemático."
+}
