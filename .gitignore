@@ -13,3 +13,6 @@ refs
 .impeccable/config.local.json
 .impeccable/critique
 .impeccable/questions
+
+# Historial y formato para guardar los borradores de prompts antes de enviarlos
+prompt-logs.txt
