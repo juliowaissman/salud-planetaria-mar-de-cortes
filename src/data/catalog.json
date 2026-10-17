@@ -113,7 +113,7 @@
         "functional-integrity"
       ],
       "regional": {
-        "summary": "El Golfo de California es un punto caliente de biodiversidad marina (alto endemismo: vaquita marina, totoaba, arrecifes y manglares) sometido a sobrepesca, pesca incidental y pérdida de hábitat; su integridad funcional está comprometida (HANPP ~30 % frente al límite seguro <10 %; BII ~84.6 % frente a >90 %). En tierra, la agricultura de riego y la acuacultura han convertido selvas secas y manglares (27,622 ha de manglar perdidas a nivel nacional en 2020–2025; Marismas Nacionales pasó de 35 % a 26 % de cobertura). La 'pesca hacia abajo en la red trófica' degrada el ecosistema pelágico. Aun así, la región muestra resiliencia recuperable: Cabo Pulmo aumentó 463 % su biomasa de peces tras ser reserva de no-extracción. Es el límite con mayor relevancia y apalancamiento regional.",
+        "summary": "El Golfo de California es un punto caliente de biodiversidad marina (alto endemismo: vaquita marina, totoaba, arrecifes y manglares) sometido a sobrepesca, pesca incidental y pérdida de hábitat; su integridad funcional está comprometida (HANPP ~30 % frente al límite seguro <10 %; BII ~84.6 % frente a >90 %). En tierra, la agricultura de riego y la acuacultura han convertido selvas secas y manglares (27,622 ha de manglar perdidas a nivel nacional en 2020–2025, según CONABIO; en Marismas Nacionales la degradación del manglar avanza unas diez veces más rápido que su deforestación). La 'pesca hacia abajo en la red trófica' degrada el ecosistema pelágico. Aun así, la región muestra resiliencia recuperable: Cabo Pulmo aumentó 463 % su biomasa de peces tras ser reserva de no-extracción. Es el límite con mayor relevancia y apalancamiento regional.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -136,8 +136,8 @@
         "questions": [
           {
             "q": "¿Cómo detener la conversión de manglar por acuacultura de camarón y restaurar la conectividad hidrológica de los humedales costeros?",
-            "action": "Ordenamiento de la acuacultura (cero conversión de manglar), restauración de flujos hídricos y pago por servicios ecosistémicos (~$37,500 USD/ha/año).",
-            "ref": "Aburto-Oropeza et al. 2008 (PNAS); Mongabay 2024."
+            "action": "Ordenamiento de la acuacultura (cero conversión de manglar), restauración de flujos hídricos y pago por servicios ecosistémicos (mediana de US $37,500 anuales por hectárea de franja de manglar en pesquerías).",
+            "ref": "Aburto-Oropeza et al. 2008 (PNAS); Quintero-Morales et al. 2021 (Ciencias Marinas); CONABIO 2025."
           },
           {
             "q": "¿Cómo frenar la degradación trófica del Mar de Cortés ('fishing down the food web') y reconstruir las poblaciones de depredadores tope?",
@@ -173,12 +173,12 @@
       "short": "Transformación de paisajes naturales (deforestación, urbanización) que reduce funciones ecológicas.",
       "status": "increasing-risk",
       "trend": "worsening",
-      "globalStatus": "Transgredido. La cobertura forestal remanente (≈64%) está por debajo del límite (78%).",
+      "globalStatus": "Transgredido. La cobertura forestal remanente (≈64 %) está por debajo del límite seguro (78 %).",
       "controlVariableIds": [
         "forest-cover"
       ],
       "regional": {
-        "summary": "La expansión agrícola (Sonora y Sinaloa son potencias agroexportadoras) y la acuicultura camaronera han convertido selvas secas, matorrales y manglares. La frontera agrícola y el desarrollo turístico costero presionan la vegetación natural. El apalancamiento es alto mediante ordenamiento territorial y buenas prácticas.",
+        "summary": "En el Mar de Cortés el cambio de uso de suelo no se ve tanto en la tala de bosques como en la conversión de selva baja, matorral y humedales costeros. En Sinaloa, bosques y selvas perdieron unas 227,700 ha entre 1993 y 2011, sobre todo por la expansión agrícola; en Nayarit, la selva baja pasó de ocupar el 20.8 % del estado al 13.8 % entre 1993 y 2014. En la costa, los estanques camaronícolas de Sonora y Sinaloa crecieron de unas 6,700 ha (1993) a más de 100,000 ha (2022); el 81 % está en Sinaloa y muchos colindan con sitios Ramsar o están dentro de reservas. El manglar de Nayarit perdió 14 % de su superficie desde 1970 y, en Marismas Nacionales, su degradación avanza unas diez veces más rápido que su deforestación. En Sonora, el desmonte de matorral para praderas de zacate buffel multiplicó por 18 su superficie alrededor de Hermosillo entre 1973 y 2000. La pérdida de cobertura arbórea que mide Global Forest Watch captura solo una parte de este proceso. Es un límite de alto impacto y alto apalancamiento: el ordenamiento territorial y costero, el cumplimiento de la ley y las prácticas productivas dependen de actores regionales.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -186,14 +186,49 @@
         "actions": [
           {
             "actor": "gobierno-local",
-            "text": "Ordenamiento territorial que frene la conversión de manglares y selvas; control de cambios de uso de suelo."
+            "text": "Ordenamiento ecológico y acuícola costero que frene la conversión de manglar, selva baja y matorral; vigilancia de los cambios de uso de suelo."
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Cero deforestación en cadenas agrícolas y acuícolas; certificación de predios; agroforestería."
+            "text": "Cadenas agrícolas y acuícolas libres de conversión de vegetación natural; intensificación en superficie ya transformada."
           }
         ],
-        "dataGaps": "Series estatales de cambio de cobertura con periodicidad limitada (Series de INEGI/CONAFOR)."
+        "dataGaps": "La mayoría de los datos estatales son históricos (INEGI 1993–2014, buffel hasta 2000, urbanización hasta 2005) y deben leerse como tendencias, no como el estado actual. Las series de manglar mezclan métodos y la serie de estanques no tiene verificación en campo.",
+        "questions": [
+          {
+            "q": "¿Cómo frenar la expansión de estanques camaronícolas sobre manglar y humedales, incluso dentro de áreas protegidas?",
+            "action": "Ordenamiento acuícola costero, cumplimiento de la NOM-022-SEMARNAT-2003 y del artículo 60 TER de la Ley General de Vida Silvestre, e intensificación de la producción en superficie ya transformada.",
+            "ref": "González-Rivas et al. 2025 (Diversity); CONABIO 2025."
+          },
+          {
+            "q": "¿Cómo revertir la degradación hidrológica del manglar en Marismas Nacionales?",
+            "action": "Restaurar los flujos de agua (desazolve de canales, reapertura de bocas) y dar seguimiento al manglar perturbado, que se multiplicó por seis entre 2020 y 2025.",
+            "ref": "Quintero-Morales et al. 2021 (Ciencias Marinas); CONABIO 2025."
+          },
+          {
+            "q": "¿Qué incentivos frenarían la conversión de selva baja a agricultura en Sinaloa y Nayarit?",
+            "action": "Ordenamientos ecológicos con zonas de no conversión, pago por servicios ambientales y cadenas agrícolas libres de deforestación.",
+            "ref": "Monjardín-Armenta et al. 2017 (Madera y Bosques); Moreno-González et al. 2022 (Rev. Geográfica de América Central)."
+          },
+          {
+            "q": "¿Cómo regular el desmonte de matorral para praderas de zacate buffel en Sonora?",
+            "action": "Evaluar el balance entre productividad ganadera y costo ecológico (pérdida de biodiversidad, riesgo de incendio en el desierto) y exigir autorización de cambio de uso de suelo.",
+            "ref": "Franklin et al. 2006 (Biological Conservation)."
+          },
+          {
+            "q": "¿Cómo incorporar el valor del manglar en las decisiones económicas y de permisos?",
+            "action": "Usar valoraciones locales en las evaluaciones de impacto: cada hectárea de franja de manglar sostiene una mediana de US $37,500 anuales en pesquerías ribereñas.",
+            "ref": "Aburto-Oropeza et al. 2008 (PNAS)."
+          }
+        ],
+        "measurementGaps": [
+          "Series anuales por estado de la transformación del matorral xerófilo y la selva baja. MapBiomas México (Colección 1, 1985–2025) podría cubrirlo, pero falta validar su exactitud en matorral.",
+          "La degradación, no solo la deforestación: manglar perturbado, desmonte parcial y sobrepastoreo.",
+          "Un registro público y georreferenciado de granjas acuícolas activas y abandonadas, con superficie y fecha de construcción.",
+          "La expansión urbana y turística reciente sobre dunas, matorral costero y humedales (Los Cabos, La Paz, Puerto Peñasco, Bahía de Banderas): los estudios disponibles son de hace 20 años o más.",
+          "La superficie total convertida a zacate buffel en Sonora.",
+          "Datos de manglar por estado posteriores a 2020 en formato abierto (el informe CONABIO 2025 aún no publica tablas estatales accesibles)."
+        ]
       },
       "hasMap": true
     },

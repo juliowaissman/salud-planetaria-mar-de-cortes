@@ -11,7 +11,8 @@ export default function TimeSeriesChart({ series, height = 300 }: { series: Seri
     return {
       tooltip: { trigger: 'axis' },
       legend: { bottom: 0, show: series.length > 1 },
-      grid: { left: 52, right: 20, top: 30, bottom: series.length > 1 ? 46 : 30 },
+      // Etiquetas en dos líneas (con \n) necesitan más espacio sobre la leyenda
+      grid: { left: 52, right: 20, top: 30, bottom: (series.length > 1 ? 46 : 30) + (cats.some((c) => c.includes('\n')) ? 18 : 0) },
       xAxis: { type: 'category', data: cats },
       yAxis: {
         type: 'value',

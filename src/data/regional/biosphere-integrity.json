@@ -248,7 +248,7 @@
       "url": "https://www.pnas.org/doi/10.1073/pnas.0804601105",
       "accessDate": "2026-10-14",
       "license": "© PNAS",
-      "note": "Cada hectárea de manglar aporta ~$37,500 USD/año en servicios pesqueros."
+      "note": "Mediana de US $37,500 anuales por hectárea de franja de manglar en pesquerías ribereñas (32 % de los desembarques de pesca ribereña del Golfo dependen del manglar)."
     },
     {
       "id": "aburto-2011-plosone",
@@ -285,6 +285,26 @@
       "accessDate": "2026-10-14",
       "license": "CC BY",
       "note": "Marco de límites planetarios; variables de integridad de la biosfera (E/MSY y HANPP)."
+    },
+    {
+      "id": "quintero-morales-2021",
+      "title": "Dinámica de cambios de uso de suelo y estimación de CO₂ en manglares de la zona Marismas Nacionales, México",
+      "organization": "Ciencias Marinas 47(2):105–125 (Quintero-Morales, Plata-Rocha, Olimón-Andalon, Monjardín-Armenta y Nemiga-Antonio)",
+      "url": "https://doi.org/10.7773/cm.v47i2.3162",
+      "accessDate": "2026-10-16",
+      "license": "CC BY",
+      "note": "Tasas anuales de deforestación (0.77 % y 0.44 %) y degradación (7.64 % y 4.94 %) de manglar, 1981–2005 y 2005–2015.",
+      "group": "regional"
+    },
+    {
+      "id": "conabio-manglares-2025",
+      "title": "Manglares de México: actualización y dinámica espacial 2025",
+      "organization": "CONABIO (reportado en Excélsior, 31 jul 2026)",
+      "url": "https://www.excelsior.com.mx/nacional/manglares-mexico-retrocedieron",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Pérdida neta nacional de 27,622 ha de manglar 2020–2025; manglar perturbado de 9,680 a 52,130 ha (Nayarit 16,834 ha). Cifras tomadas de la cobertura de prensa; pendiente consultar el informe primario.",
+      "group": "regional"
     }
   ]
 }

@@ -237,7 +237,7 @@ export default function StateChoropleth({ map, height = 430 }: { map: MapSpec; h
           Mapa interactivo no disponible en este navegador (requiere WebGL). Datos por estado:{' '}
           {TARGET.map((id) => {
             const v = map.valuesByState[id]
-            return v == null ? null : `${id.toUpperCase()} ${v}${map.unit ? ` ${map.unit}` : ''}`
+            return v == null ? null : `${stateName(id)} ${v.toLocaleString('es-MX')}${map.unit ? ` ${map.unit}` : ''}`
           })
             .filter(Boolean)
             .join(' · ')}
