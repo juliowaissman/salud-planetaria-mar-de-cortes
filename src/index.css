@@ -635,3 +635,5 @@ input, textarea, select { caret-color: var(--teal); }
 .about-foot { margin-top: 8px; }
 .node .person { align-items: flex-start; }
 .node .person img, .node .person .avatar { width: 48px; height: 48px; }
+.ptable.compact th, .ptable.compact td { padding: 8px 7px; }
+.ptable.compact thead th { letter-spacing: 0.02em; }

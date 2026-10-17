@@ -9,7 +9,7 @@ import { SourceList } from '../components/SourceList'
 import TimeSeriesChart from '../components/TimeSeriesChart'
 import StateBarChart from '../components/StateBarChart'
 import StateChoropleth from '../components/StateChoropleth'
-import { priorityOf } from '../lib/priority'
+import { assess, boundaryPriority, CRITERIA } from '../lib/priority'
 
 export default function BoundaryDetail() {
   const { id } = useParams()
@@ -25,7 +25,8 @@ export default function BoundaryDetail() {
   }
 
   const cvs = controlVariablesOf(b.id)
-  const priority = priorityOf(b.regional.impact, b.regional.leverage)
+  const priority = boundaryPriority(b)
+  const evaluation = assess(b)
   const sources: Source[] = ['phc-main', 'phc-supp']
     .map((sid) => sourceById.get(sid))
     .filter((s): s is Source => Boolean(s))
@@ -40,6 +41,7 @@ export default function BoundaryDetail() {
 
   const toc = [
     { id: 'diagnostico', label: 'Diagnóstico regional' },
+    evaluation && { id: 'evaluacion', label: 'Evaluación para la priorización' },
     { id: 'variables', label: 'Variables de control' },
     (hasCharts || hasSeries) && { id: 'graficas', label: 'Gráficas regionales' },
     (hasGroups || hasStateValues) && { id: 'estados', label: 'Comparación por estado' },
@@ -91,11 +93,11 @@ export default function BoundaryDetail() {
             <div className="grid cols-3" style={{ marginTop: 8 }}>
               <div className="metric">
                 <span className="label">Impacto regional</span>
-                <span className="badge info">{b.regional.impact}</span>
+                <span className="badge info">{b.regional.impact}{evaluation ? ` · ${evaluation.impact.toFixed(2)}` : ''}</span>
               </div>
               <div className="metric">
                 <span className="label">Apalancamiento regional</span>
-                <span className="badge info">{b.regional.leverage}</span>
+                <span className="badge info">{b.regional.leverage}{evaluation ? ` · ${evaluation.leverage.toFixed(2)}` : ''}</span>
               </div>
               <div className="metric">
                 <span className="label">Prioridad resultante</span>
@@ -103,6 +105,41 @@ export default function BoundaryDetail() {
               </div>
             </div>
           </section>
+
+          {evaluation && (
+            <section className="card" id="evaluacion">
+              <h2>Evaluación para la priorización</h2>
+              <p className="chart-subtitle">
+                Calificación de 1 a 4 de cada criterio. Cada eje es la media geométrica de sus tres criterios; la prioridad es
+                alta solo si ambos ejes llegan a 3. <Link to="/priorizacion">Ver la metodología completa →</Link>
+              </p>
+              <div className="table-scroll">
+                <table className="ptable">
+                  <thead>
+                    <tr><th>Eje</th><th>Criterio</th><th>Calificación</th><th>Justificación</th></tr>
+                  </thead>
+                  <tbody>
+                    {CRITERIA.map((c) => (
+                      <tr key={c.id}>
+                        <td className="small">{c.axis === 'impact' ? 'Impacto' : 'Apalancamiento'}</td>
+                        <td>{c.name}</td>
+                        <td className="num"><strong>{b.regional.scores![c.id].value}</strong></td>
+                        <td className="small">{b.regional.scores![c.id].why}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="small" style={{ marginTop: 10 }}>
+                <strong>Impacto</strong> {evaluation.impact.toFixed(2)} ({evaluation.impactLevel}) ·{' '}
+                <strong>Apalancamiento</strong> {evaluation.leverage.toFixed(2)} ({evaluation.leverageLevel}) ·{' '}
+                <strong>Prioridad</strong> {evaluation.priority} ·{' '}
+                {evaluation.robust
+                  ? 'Clasificación robusta: ningún cambio de un punto en un solo criterio la modifica.'
+                  : `Clasificación sensible: ${evaluation.sensitiveTo.join('; ')}.`}
+              </p>
+            </section>
+          )}
 
           <section className="card" id="variables">
             <h2>Variables de control (global)</h2>

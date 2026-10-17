@@ -45,7 +45,7 @@
         "radiative-forcing"
       ],
       "regional": {
-        "summary": "La región aporta una fracción pequeña de las emisiones globales, así que su peso sobre la variable planetaria es limitado; su mayor margen está en la adaptación y en reducir sus propias emisiones. Pero ya vive los impactos con fuerza. El calor extremo mata: en 2023 los cinco estados sumaron casi la mitad de las muertes por calor del país (199 de 421), y Sonora tuvo más que cualquier otro estado; su mortalidad por calor es casi diez veces el promedio nacional. Las estaciones de Sonora registran más días y olas de calor desde 1966. El Golfo de California se calienta unos 0.36 °C por década, de dos a tres veces más rápido que el océano global, con olas de calor marinas que lo elevan de 1 a 3 °C, y su clorofila ha bajado. Tras El Niño de 2009–2010 la pesquería de calamar gigante colapsó, porque el calamar empezó a madurar a una talla pequeña sin valor comercial. Los modelos proyectan un monzón desplazado: menos lluvia al inicio del verano y más en septiembre y octubre.",
+        "summary": "La región aporta una fracción pequeña de las emisiones globales, así que su peso sobre la variable planetaria es limitado; su mayor margen está en la adaptación y en reducir sus propias emisiones. Pero ya vive los impactos con fuerza. El calor extremo mata: en 2023 los cinco estados sumaron casi la mitad de las muertes por calor del país (199 de 421), y Sonora tuvo más que cualquier otro estado; su mortalidad por calor es casi diez veces el promedio nacional. Las estaciones de Sonora registran más días y olas de calor desde 1966. El Golfo de California se calienta unos 0.36 °C por década, de dos a tres veces más rápido que el océano global, con olas de calor marinas que lo elevan de 1 a 3 °C, y su clorofila ha bajado. Tras El Niño de 2009–2010 la pesquería de calamar gigante colapsó, porque el calamar empezó a madurar a una talla pequeña sin valor comercial. Los modelos proyectan un monzón desplazado: menos lluvia al inicio del verano y más en septiembre y octubre. En la priorización regional obtiene impacto alto pero apalancamiento medio, porque la región no controla las causas: prioridad media, con énfasis en la adaptación.",
         "impact": "Alto",
         "leverage": "Medio",
         "priority": "Media",
@@ -100,7 +100,33 @@
           "Inicio, duración e intensidad del monzón con resolución regional.",
           "Estrés térmico y blanqueamiento de corales en Cabo Pulmo y otros arrecifes del Golfo.",
           "Nivel del mar en mareógrafos de La Paz, Mazatlán, Guaymas y Ensenada."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 4,
+            "why": "Calor extremo en los cinco estados y calentamiento de todo el Golfo de California."
+          },
+          "severidad": {
+            "value": 4,
+            "why": "199 muertes por calor en la región en 2023 (47 % del país) y colapso de la pesquería de calamar gigante."
+          },
+          "irreversibilidad": {
+            "value": 4,
+            "why": "El CO₂ acumulado permanece siglos en la atmósfera."
+          },
+          "control": {
+            "value": 1,
+            "why": "Las emisiones de la región son una fracción mínima de las globales; el CO₂ es un presupuesto global."
+          },
+          "competencia": {
+            "value": 3,
+            "why": "La adaptación (salud, protección civil, desarrollo urbano) está en manos estatales y municipales; la política energética es federal."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "Alertas de calor, sombra urbana y energía solar están probadas, aunque con costo."
+          }
+        }
       },
       "hasMap": true
     },
@@ -118,7 +144,7 @@
         "functional-integrity"
       ],
       "regional": {
-        "summary": "El Golfo de California es uno de los mares con más biodiversidad y endemismo del planeta —vaquita marina, totoaba, arrecifes, manglares e islas con especies únicas— y está sometido a sobrepesca, pesca incidental y pérdida de hábitat. A escala global el límite está muy rebasado, y México también: su índice de integridad de la biodiversidad (BII) es de ~74 %, frente al 90 % considerado seguro. En la región, la Evaluación de la Salud Ecológica del Golfo 2025 encontró que 13 de los 23 grupos con tendencia determinada están en deterioro, con un declive alarmante de los depredadores tope. La pesca costera se ha movido de especies grandes y longevas a especies pequeñas, y la talla máxima capturada bajó unos 45 cm en 20 años. Los cinco estados aportan el 86 % de la captura pesquera del país. La vaquita sobrevive con 7 a 10 individuos observados en 2025. En tierra, la agricultura y la acuacultura han convertido selvas secas y manglares (ver límite 3). Pero la región también demuestra que la recuperación es posible: en Cabo Pulmo la biomasa de peces creció 463 % en diez años de protección, y la erradicación de especies invasoras ha restaurado islas del Golfo. Es el límite con mayor relevancia y apalancamiento regional.",
+        "summary": "El Golfo de California es uno de los mares con más biodiversidad y endemismo del planeta —vaquita marina, totoaba, arrecifes, manglares e islas con especies únicas— y está sometido a sobrepesca, pesca incidental y pérdida de hábitat. A escala global el límite está muy rebasado, y México también: su índice de integridad de la biodiversidad (BII) es de ~74 %, frente al 90 % considerado seguro. En la región, la Evaluación de la Salud Ecológica del Golfo 2025 encontró que 13 de los 23 grupos con tendencia determinada están en deterioro, con un declive alarmante de los depredadores tope. La pesca costera se ha movido de especies grandes y longevas a especies pequeñas, y la talla máxima capturada bajó unos 45 cm en 20 años. Los cinco estados aportan el 86 % de la captura pesquera del país. La vaquita sobrevive con 7 a 10 individuos observados en 2025. En tierra, la agricultura y la acuacultura han convertido selvas secas y manglares (ver límite 3). Pero la región también demuestra que la recuperación es posible: en Cabo Pulmo la biomasa de peces creció 463 % en diez años de protección, y la erradicación de especies invasoras ha restaurado islas del Golfo. En la priorización regional es el límite mejor calificado: impacto alto y apalancamiento alto.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -172,7 +198,33 @@
           "Series continuas de megafauna amenazada (vaquita, totoaba, tiburones, tortugas, lobo marino) y de la pesca ilegal.",
           "Estado de las pesquerías artesanales (esfuerzo, biomasa, tallas) con resolución espacial para el manejo adaptativo.",
           "Monitoreo de manglares, pastos marinos y peces de agua dulce de las cuencas del noroeste integrado en series regionales."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 4,
+            "why": "Todo el Golfo: 13 de 23 grupos con tendencia determinada están en deterioro (Evaluación de Salud 2025)."
+          },
+          "severidad": {
+            "value": 4,
+            "why": "Vaquita al borde de la extinción (7–10 observadas en 2025) y declive de depredadores tope."
+          },
+          "irreversibilidad": {
+            "value": 4,
+            "why": "Las extinciones son irreversibles."
+          },
+          "control": {
+            "value": 4,
+            "why": "La pesca, la pesca incidental y la pérdida de hábitat son presiones regionales."
+          },
+          "competencia": {
+            "value": 3,
+            "why": "Pesca y áreas protegidas son de competencia federal, pero se cogestionan con cooperativas y comunidades."
+          },
+          "factibilidad": {
+            "value": 4,
+            "why": "Probada en la región: Cabo Pulmo (+463 % de biomasa) y erradicación de invasores en islas."
+          }
+        }
       },
       "hasMap": true
     },
@@ -189,7 +241,7 @@
         "forest-cover"
       ],
       "regional": {
-        "summary": "En el Mar de Cortés el cambio de uso de suelo no se ve tanto en la tala de bosques como en la conversión de selva baja, matorral y humedales costeros. En Sinaloa, bosques y selvas perdieron unas 227,700 ha entre 1993 y 2011, sobre todo por la expansión agrícola; en Nayarit, la selva baja pasó de ocupar el 20.8 % del estado al 13.8 % entre 1993 y 2014. En la costa, los estanques camaronícolas de Sonora y Sinaloa crecieron de unas 6,700 ha (1993) a más de 100,000 ha (2022); el 81 % está en Sinaloa y muchos colindan con sitios Ramsar o están dentro de reservas. El manglar de Nayarit perdió 14 % de su superficie desde 1970 y, en Marismas Nacionales, su degradación avanza unas diez veces más rápido que su deforestación. En Sonora, el desmonte de matorral para praderas de zacate buffel multiplicó por 18 su superficie alrededor de Hermosillo entre 1973 y 2000. La pérdida de cobertura arbórea que mide Global Forest Watch captura solo una parte de este proceso. Es un límite de alto impacto y alto apalancamiento: el ordenamiento territorial y costero, el cumplimiento de la ley y las prácticas productivas dependen de actores regionales.",
+        "summary": "En el Mar de Cortés el cambio de uso de suelo no se ve tanto en la tala de bosques como en la conversión de selva baja, matorral y humedales costeros. En Sinaloa, bosques y selvas perdieron unas 227,700 ha entre 1993 y 2011, sobre todo por la expansión agrícola; en Nayarit, la selva baja pasó de ocupar el 20.8 % del estado al 13.8 % entre 1993 y 2014. En la costa, los estanques camaronícolas de Sonora y Sinaloa crecieron de unas 6,700 ha (1993) a más de 100,000 ha (2022); el 81 % está en Sinaloa y muchos colindan con sitios Ramsar o están dentro de reservas. El manglar de Nayarit perdió 14 % de su superficie desde 1970 y, en Marismas Nacionales, su degradación avanza unas diez veces más rápido que su deforestación. En Sonora, el desmonte de matorral para praderas de zacate buffel multiplicó por 18 su superficie alrededor de Hermosillo entre 1973 y 2000. La pérdida de cobertura arbórea que mide Global Forest Watch captura solo una parte de este proceso. En la priorización regional obtiene impacto alto y apalancamiento alto, porque el ordenamiento territorial y costero, el cumplimiento de la ley y las prácticas productivas dependen de actores regionales.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -239,7 +291,33 @@
           "La expansión urbana y turística reciente sobre dunas, matorral costero y humedales (Los Cabos, La Paz, Puerto Peñasco, Bahía de Banderas): los estudios disponibles son de hace 20 años o más.",
           "La superficie total convertida a zacate buffel en Sonora.",
           "Datos de manglar por estado posteriores a 2020 en formato abierto (el informe CONABIO 2025 aún no publica tablas estatales accesibles)."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 4,
+            "why": "Conversión documentada en los cinco estados (selva, matorral, manglar, costa)."
+          },
+          "severidad": {
+            "value": 3,
+            "why": "Deterioro medible: −227,700 ha de bosques y selvas en Sinaloa, −14 % de manglar en Nayarit."
+          },
+          "irreversibilidad": {
+            "value": 3,
+            "why": "Selva baja y manglar tardan décadas en recuperarse."
+          },
+          "control": {
+            "value": 4,
+            "why": "Agricultura, acuacultura y urbanización son regionales."
+          },
+          "competencia": {
+            "value": 4,
+            "why": "El ordenamiento ecológico y el uso de suelo son estatales y municipales; los permisos acuícolas se otorgan en la región."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "Restauración de manglar y ordenamiento probados, con costo moderado."
+          }
+        }
       },
       "hasMap": true
     },
@@ -257,7 +335,7 @@
         "green-water"
       ],
       "regional": {
-        "summary": "El Mar de Cortés es una de las zonas con más presión sobre el agua del país. Las cuatro regiones hidrológicas que lo cubren concesionan entre 40 % y 90 % de su agua renovable, frente a un promedio nacional de 19.5 %; por estado, Sonora concesiona más agua de la que se renueva (101.9 %) y Baja California y Sinaloa están cerca del 100 %. La agricultura de riego usa entre 78 % y 94 % del agua concesionada de cada estado. En Baja California, Baja California Sur y Sonora, 28 acuíferos sobreexplotados extraen unos 617 hm³ al año más de lo que se recargan, y de los 18 acuíferos costeros con intrusión marina del país, 16 están en esta región: en la Costa de Hermosillo el agua de mar ha penetrado hasta 32 km tierra adentro y en La Paz su influencia llega a 13 km. El río Colorado, del que dependen Mexicali y San Luis Río Colorado, entrega cada vez menos: el Acta 334 recorta 308 hm³ al año en 2027 y 2028, cerca del 17 % de lo pactado en 1944. Es un límite de alto impacto y alto apalancamiento: concesiones, riego, medición y reúso se deciden en la región.",
+        "summary": "El Mar de Cortés es una de las zonas con más presión sobre el agua del país. Las cuatro regiones hidrológicas que lo cubren concesionan entre 40 % y 90 % de su agua renovable, frente a un promedio nacional de 19.5 %; por estado, Sonora concesiona más agua de la que se renueva (101.9 %) y Baja California y Sinaloa están cerca del 100 %. La agricultura de riego usa entre 78 % y 94 % del agua concesionada de cada estado. En Baja California, Baja California Sur y Sonora, 28 acuíferos sobreexplotados extraen unos 617 hm³ al año más de lo que se recargan, y de los 18 acuíferos costeros con intrusión marina del país, 16 están en esta región: en la Costa de Hermosillo el agua de mar ha penetrado hasta 32 km tierra adentro y en La Paz su influencia llega a 13 km. El río Colorado, del que dependen Mexicali y San Luis Río Colorado, entrega cada vez menos: el Acta 334 recorta 308 hm³ al año en 2027 y 2028, cerca del 17 % de lo pactado en 1944. En la priorización regional obtiene impacto alto y apalancamiento alto: el riego, la medición y el reúso se deciden en la región, aunque las concesiones sean federales.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -307,7 +385,33 @@
           "El número de acuíferos sobreexplotados por estado con la disponibilidad vigente (DOF 2020 y 2023) en formato abierto, y una red continua de monitoreo de niveles y salinidad en los acuíferos costeros.",
           "El agua verde a escala estatal: no hay un indicador oficial de humedad del suelo ni de evapotranspiración; solo estudios con satélites y modelos.",
           "La producción real de las plantas desaladoras y los volúmenes de reúso de agua tratada, así como los caudales ecológicos medidos en ríos y estuarios."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 4,
+            "why": "Las cuatro regiones hidrológicas tienen presión alta; Sonora concesiona más agua de la que se renueva."
+          },
+          "severidad": {
+            "value": 4,
+            "why": "28 acuíferos sobreexplotados, intrusión marina hasta 32 km y recortes del río Colorado."
+          },
+          "irreversibilidad": {
+            "value": 4,
+            "why": "Un acuífero salinizado tarda más de un siglo en recuperarse."
+          },
+          "control": {
+            "value": 4,
+            "why": "El riego regional usa entre 78 % y 94 % del agua concesionada."
+          },
+          "competencia": {
+            "value": 3,
+            "why": "Las concesiones son federales (CONAGUA), pero los distritos de riego y los organismos de agua son regionales."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "Tecnificación del riego y reúso probados, con costo alto de inversión."
+          }
+        }
       },
       "hasMap": true
     },
@@ -325,11 +429,11 @@
         "phosphorus"
       ],
       "regional": {
-        "summary": "Las costas agrícolas del Mar de Cortés reciben más nitrógeno y fósforo de los que los cultivos y el mar pueden absorber. En el Valle del Yaqui, los agricultores aplican al trigo unos 300 kg de nitrógeno por hectárea, al menos el doble de la dosis óptima, y el cultivo aprovecha menos del 40 %. El resto se pierde como gases (óxido nitroso, un potente gas de efecto invernadero) y en el agua de los drenes, y sus pulsos alimentan grandes florecimientos de fitoplancton en el Golfo pocos días después de cada riego con fertilizante. Se estima que las costas de Sinaloa y Sonora descargan unas 77 mil t de nitrógeno y 38 mil t de fósforo al año; las granjas camaroneras aportan una parte pequeña pero creciente y son la principal fuente puntual en las lagunas de Sinaloa. En 2021, 12 de las 14 vedas sanitarias del país por marea roja fueron en estados de la región. Es un límite de alto impacto y alto apalancamiento: la dosis de fertilizante, el tratamiento de efluentes y el saneamiento se deciden en la región, y reducir el nitrógeno ahorra dinero a los productores.",
-        "impact": "Alto",
+        "summary": "Las costas agrícolas del Mar de Cortés reciben más nitrógeno y fósforo de los que los cultivos y el mar pueden absorber. En el Valle del Yaqui, los agricultores aplican al trigo unos 300 kg de nitrógeno por hectárea, al menos el doble de la dosis óptima, y el cultivo aprovecha menos del 40 %. El resto se pierde como gases (óxido nitroso, un potente gas de efecto invernadero) y en el agua de los drenes, y sus pulsos alimentan grandes florecimientos de fitoplancton en el Golfo pocos días después de cada riego con fertilizante. Se estima que las costas de Sinaloa y Sonora descargan unas 77 mil t de nitrógeno y 38 mil t de fósforo al año; las granjas camaroneras aportan una parte pequeña pero creciente y son la principal fuente puntual en las lagunas de Sinaloa. En 2021, 12 de las 14 vedas sanitarias del país por marea roja fueron en estados de la región. En la priorización regional obtiene el apalancamiento más alto de todos —la dosis de fertilizante, el tratamiento de efluentes y el saneamiento se deciden en la región, y reducir el nitrógeno ahorra dinero a los productores— pero impacto medio, porque el daño documentado se concentra en Sonora y Sinaloa y las lagunas se recuperan en pocos años si baja la carga: prioridad media. Es el límite donde actuar es más fácil y barato.",
+        "impact": "Medio",
         "leverage": "Alto",
-        "priority": "Alta",
-        "priorityScore": 3,
+        "priority": "Media",
+        "priorityScore": 2,
         "actions": [
           {
             "actor": "iniciativa-privada",
@@ -375,7 +479,33 @@
           "El tratamiento de aguas residuales por estado con remoción de nutrientes: solo se publica el caudal tratado por región hidrológica.",
           "Nitratos en los acuíferos de los valles agrícolas y oxígeno disuelto en lagunas y bahías para detectar hipoxia.",
           "Una serie regional de florecimientos algales nocivos que relacione su frecuencia con las cargas de nutrientes."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 3,
+            "why": "Documentado sobre todo en los valles de Sonora y Sinaloa y sus lagunas costeras."
+          },
+          "severidad": {
+            "value": 3,
+            "why": "Florecimientos de fitoplancton tras los riegos y 12 de las 14 vedas por marea roja del país en 2021."
+          },
+          "irreversibilidad": {
+            "value": 2,
+            "why": "Las lagunas se recuperan en años si baja la carga de nutrientes."
+          },
+          "control": {
+            "value": 4,
+            "why": "La fertilización y las descargas son regionales."
+          },
+          "competencia": {
+            "value": 4,
+            "why": "Las dosis las deciden los productores y el saneamiento es municipal."
+          },
+          "factibilidad": {
+            "value": 4,
+            "why": "Probada en el Yaqui: la dosis óptima no reduce la cosecha y ahorra dinero."
+          }
+        }
       },
       "hasMap": true
     },
@@ -392,11 +522,11 @@
         "aragonite-saturation"
       ],
       "regional": {
-        "summary": "En el Mar de Cortés y el Pacífico de la península, la acidificación no llega como un descenso lento y parejo del pH: llega en pulsos. Las surgencias, la mezcla por mareas y una zona de mínimo oxígeno muy somera suben a la plataforma agua rica en CO₂, baja en oxígeno y corrosiva para las conchas. Frente a Baja California, el agua que disuelve la aragonita sube en primavera a unos 90 m de la costa y, en años de La Niña, llegó a unos 30 m en la Bahía de Todos Santos. En Cabo Pulmo, la saturación de aragonita cambia media unidad entre invierno y verano, uno de los rangos más amplios medidos en arrecifes. El CO₂ que absorbe el océano hace más frecuentes y extensos estos episodios. La exposición es alta: la región produce el 48 % de los moluscos con concha del país, incluido todo el abulón y casi toda la almeja y el callo de hacha. En 2009 una mortandad por agua de surgencia baja en oxígeno eliminó tres cuartas partes del abulón en las zonas de pesca de Isla Natividad. El apalancamiento es medio: la causa es el CO₂ global, pero la región puede monitorear, proteger pastos marinos y manglares, reducir los nutrientes que acidifican las lagunas y crear reservas que aumentan la resiliencia.",
-        "impact": "Alto",
-        "leverage": "Medio",
-        "priority": "Alta",
-        "priorityScore": 3,
+        "summary": "En el Mar de Cortés y el Pacífico de la península, la acidificación no llega como un descenso lento y parejo del pH: llega en pulsos. Las surgencias, la mezcla por mareas y una zona de mínimo oxígeno muy somera suben a la plataforma agua rica en CO₂, baja en oxígeno y corrosiva para las conchas. Frente a Baja California, el agua que disuelve la aragonita sube en primavera a unos 90 m de la costa y, en años de La Niña, llegó a unos 30 m en la Bahía de Todos Santos. En Cabo Pulmo, la saturación de aragonita cambia media unidad entre invierno y verano, uno de los rangos más amplios medidos en arrecifes. El CO₂ que absorbe el océano hace más frecuentes y extensos estos episodios. La exposición es alta: la región produce el 48 % de los moluscos con concha del país, incluido todo el abulón y casi toda la almeja y el callo de hacha. En 2009 una mortandad por agua de surgencia baja en oxígeno eliminó tres cuartas partes del abulón en las zonas de pesca de Isla Natividad. En la priorización regional obtiene impacto medio, porque el daño a los organismos no se ha medido de forma directa, y apalancamiento bajo, porque la causa es el CO₂ global: prioridad baja para invertir en reducir la presión. Aun así, la región puede monitorear, proteger pastos marinos y manglares, reducir los nutrientes que acidifican las lagunas y crear reservas que aumentan la resiliencia de las pesquerías de moluscos.",
+        "impact": "Medio",
+        "leverage": "Bajo",
+        "priority": "Baja",
+        "priorityScore": 1,
         "actions": [
           {
             "actor": "academia",
@@ -442,7 +572,33 @@
           "El efecto medido de la acidificación en la calcificación de corales, moluscos y pterópodos de la región.",
           "Oxígeno disuelto continuo en bancos de abulón y lagunas, para separar los efectos de la hipoxia y la acidificación, que llegan juntas.",
           "La parte del ascenso del agua corrosiva que se debe al CO₂ antropogénico y la que se debe a El Niño y La Niña."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 3,
+            "why": "Pacífico de Baja California y algunas zonas del Golfo; casi sin datos en Sonora, Sinaloa y Nayarit."
+          },
+          "severidad": {
+            "value": 2,
+            "why": "Episodios de agua corrosiva medidos; el daño a moluscos y corales no se ha medido de forma directa."
+          },
+          "irreversibilidad": {
+            "value": 4,
+            "why": "La química del océano tarda siglos en revertirse."
+          },
+          "control": {
+            "value": 1,
+            "why": "La causa es el CO₂ global; las surgencias son naturales."
+          },
+          "competencia": {
+            "value": 2,
+            "why": "Depende de la política climática global; la región solo puede monitorear y proteger hábitats."
+          },
+          "factibilidad": {
+            "value": 2,
+            "why": "Solo monitoreo y amortiguamiento local de efecto incierto (pastos marinos, reservas)."
+          }
+        }
       },
       "hasMap": true
     },
@@ -459,9 +615,9 @@
         "aerosol-aod"
       ],
       "regional": {
-        "summary": "El límite global no está en riesgo, pero en la región los aerosoles son un problema de salud: las partículas finas (PM2.5) son el principal riesgo ambiental para la salud en México. Mexicali es el foco regional. En 2023 rebasó al menos una norma de calidad del aire en 108 días (30 % del año) y, junto con Tijuana, registró una PM2.5 media de hasta 25 µg/m³, más del doble del límite de la norma mexicana y cinco veces la guía de la OMS. Emite 1.7 veces más partículas finas que el Valle Imperial y explican las excedencias de Calexico, al otro lado de la frontera. Nogales superó el límite diario de PM10 en 85 días. En Sinaloa, bajar la PM2.5 de Mazatlán, Los Mochis y Culiacán a 10 µg/m³ evitaría unas 354 muertes al año. El problema mayor es que casi no se mide: en 2023 solo Mexicali, Tijuana y Nogales tuvieron datos suficientes de PM2.5, Sinaloa no envió información y Baja California Sur no tuvo estación oficial hasta 2025. Las fuentes son locales y controlables: quemas agrícolas, caminos sin pavimentar, incendios, generación eléctrica y tráfico, además del polvo del desierto.",
+        "summary": "El límite global no está en riesgo, pero en la región los aerosoles son un problema de salud: las partículas finas (PM2.5) son el principal riesgo ambiental para la salud en México. Mexicali es el foco regional. En 2023 rebasó al menos una norma de calidad del aire en 108 días (30 % del año) y, junto con Tijuana, registró una PM2.5 media de hasta 25 µg/m³, más del doble del límite de la norma mexicana y cinco veces la guía de la OMS. Emite 1.7 veces más partículas finas que el Valle Imperial y explican las excedencias de Calexico, al otro lado de la frontera. Nogales superó el límite diario de PM10 en 85 días. En Sinaloa, bajar la PM2.5 de Mazatlán, Los Mochis y Culiacán a 10 µg/m³ evitaría unas 354 muertes al año. El problema mayor es que casi no se mide: en 2023 solo Mexicali, Tijuana y Nogales tuvieron datos suficientes de PM2.5, Sinaloa no envió información y Baja California Sur no tuvo estación oficial hasta 2025. Las fuentes son locales y controlables: quemas agrícolas, caminos sin pavimentar, incendios, generación eléctrica y tráfico, además del polvo del desierto. En la priorización regional obtiene apalancamiento alto e impacto medio, porque el daño se concentra en algunas ciudades y las partículas desaparecen en días si se controlan las fuentes: prioridad media.",
         "impact": "Medio",
-        "leverage": "Medio",
+        "leverage": "Alto",
         "priority": "Media",
         "priorityScore": 2,
         "actions": [
@@ -509,7 +665,33 @@
           "Inventarios de emisiones actualizados por estado y por fuente, incluido el carbono negro: los disponibles son de 2005 (Mexicali), 2013 (vehículos) y 2014 (Sonora).",
           "Mortalidad atribuible a PM2.5 por estado: los estudios nacionales mezclan todos los riesgos ambientales en la clasificación estatal.",
           "La composición química de las partículas, para separar el polvo del desierto de las fuentes que se pueden controlar."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 3,
+            "why": "Partículas por encima de la norma en ciudades de Baja California, Sonora y Sinaloa."
+          },
+          "severidad": {
+            "value": 3,
+            "why": "Mexicali rebasó la norma en 108 días de 2023; 354 muertes evitables al año en tres ciudades de Sinaloa."
+          },
+          "irreversibilidad": {
+            "value": 1,
+            "why": "Las partículas salen de la atmósfera en días si se controla la fuente."
+          },
+          "control": {
+            "value": 3,
+            "why": "Quemas, caminos, tráfico y generación eléctrica son locales; parte es polvo natural del desierto."
+          },
+          "competencia": {
+            "value": 4,
+            "why": "Control de quemas, pavimentación y ProAire son estatales y municipales."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "Medidas probadas en otras cuencas, con costo moderado."
+          }
+        }
       },
       "hasMap": true
     },
@@ -526,9 +708,9 @@
         "ozone-column"
       ],
       "regional": {
-        "summary": "La capa de ozono se está recuperando gracias al Protocolo de Montreal, y México ha cumplido: dejó de consumir CFC hacia 2006, redujo el bromuro de metilo de 5,421 t en 1994 a 814 t en 2011 y está eliminando los HCFC. El ozono es un bien global y la región no puede cambiar su estado por sí sola, por eso el impacto regional es bajo. Pero sí tiene un vínculo directo con la amenaza que queda: el óxido nitroso (N₂O), que hoy es la sustancia que más destruye el ozono entre las que se siguen emitiendo y que no regula el Protocolo. El 74 % del N₂O humano viene de la agricultura, y en el Valle del Yaqui y los valles de Sinaloa la sobrefertilización del trigo genera emisiones muy altas (ver límite 5). Otras dos palancas regionales son los refrigerantes de la cadena de frío agrícola y pesquera (el HCFC-22, un refrigerante, sigue en eliminación en el país) y la fumigación con bromuro de metilo de productos de exportación, que no está controlada por el Protocolo. La región recibe además mucha radiación ultravioleta: con cielo despejado, el índice UV a mediodía va de 6 a 12 en el norte del país y de 9 a 15 en el sur.",
+        "summary": "La capa de ozono se está recuperando gracias al Protocolo de Montreal, y México ha cumplido: dejó de consumir CFC hacia 2006, redujo el bromuro de metilo de 5,421 t en 1994 a 814 t en 2011 y está eliminando los HCFC. El ozono es un bien global y la región no puede cambiar su estado por sí sola, por eso el impacto regional es bajo. Pero sí tiene un vínculo directo con la amenaza que queda: el óxido nitroso (N₂O), que hoy es la sustancia que más destruye el ozono entre las que se siguen emitiendo y que no regula el Protocolo. El 74 % del N₂O humano viene de la agricultura, y en el Valle del Yaqui y los valles de Sinaloa la sobrefertilización del trigo genera emisiones muy altas (ver límite 5). Otras dos palancas regionales son los refrigerantes de la cadena de frío agrícola y pesquera (el HCFC-22, un refrigerante, sigue en eliminación en el país) y la fumigación con bromuro de metilo de productos de exportación, que no está controlada por el Protocolo. La región recibe además mucha radiación ultravioleta: con cielo despejado, el índice UV a mediodía va de 6 a 12 en el norte del país y de 9 a 15 en el sur. En la priorización regional obtiene impacto bajo y apalancamiento medio: prioridad baja. Su acción más útil, reducir el óxido nitroso agrícola, se comparte con el límite 5.",
         "impact": "Bajo",
-        "leverage": "Bajo",
+        "leverage": "Medio",
         "priority": "Baja",
         "priorityScore": 1,
         "actions": [
@@ -570,7 +752,33 @@
           "El volumen de bromuro de metilo usado en la fumigación de cuarentena y preembarque de exportaciones agrícolas de la región.",
           "Índice UV medido en tierra en Hermosillo, La Paz, Culiacán, Mexicali y Tepic, más allá de estimaciones satelitales.",
           "Incidencia de cáncer de piel y melanoma por estado, y exposición de trabajadores al aire libre."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 1,
+            "why": "La capa de ozono no está adelgazada en estas latitudes."
+          },
+          "severidad": {
+            "value": 1,
+            "why": "Sin daño regional atribuible al agotamiento del ozono."
+          },
+          "irreversibilidad": {
+            "value": 3,
+            "why": "Las sustancias agotadoras persisten décadas en la atmósfera."
+          },
+          "control": {
+            "value": 2,
+            "why": "La región emite N₂O agrícola y usa refrigerantes, pero el ozono es un bien global."
+          },
+          "competencia": {
+            "value": 2,
+            "why": "El Protocolo de Montreal se aplica por vía federal; las prácticas agrícolas sí son regionales."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "La fertilización óptima y la recuperación de refrigerantes están probadas."
+          }
+        }
       },
       "hasMap": false
     },
@@ -587,7 +795,7 @@
         "novel-entities"
       ],
       "regional": {
-        "summary": "En el Mar de Cortés las entidades nuevas no son una abstracción: se han medido en las personas, en la fauna y en los sedimentos. En 2009 todos los 153 niños estudiados en los valles agrícolas del Yaqui y del Mayo tenían en la sangre DDE, el derivado del DDT, y casi cuatro de cada diez tenían lindano. En las lagunas de Sinaloa se acumulan organoclorados heredados y plaguicidas de uso actual que llegan por los drenes agrícolas. Los lobos marinos del Golfo cargan DDT y PCB, señal de que estas sustancias recorren toda la cadena alimentaria. La minería suma metales: en 2014 se derramaron unos 40,000 m³ de solución ácida de sulfato de cobre al río Sonora, y en Santa Rosalía los desechos de la fundición elevaron el cobalto y el zinc de los sedimentos hasta 75 veces sobre el fondo. Los plásticos están en playas, agua y peces: la mitad de los peces de un estuario del Golfo tenía plásticos en el tracto digestivo. Y casi ningún residuo de la región llega a un relleno sanitario que cumpla la norma. Es un límite de alto impacto y alto apalancamiento: las fuentes —agricultura, minería y residuos— son regionales y regulables.",
+        "summary": "En el Mar de Cortés las entidades nuevas no son una abstracción: se han medido en las personas, en la fauna y en los sedimentos. En 2009 todos los 153 niños estudiados en los valles agrícolas del Yaqui y del Mayo tenían en la sangre DDE, el derivado del DDT, y casi cuatro de cada diez tenían lindano. En las lagunas de Sinaloa se acumulan organoclorados heredados y plaguicidas de uso actual que llegan por los drenes agrícolas. Los lobos marinos del Golfo cargan DDT y PCB, señal de que estas sustancias recorren toda la cadena alimentaria. La minería suma metales: en 2014 se derramaron unos 40,000 m³ de solución ácida de sulfato de cobre al río Sonora, y en Santa Rosalía los desechos de la fundición elevaron el cobalto y el zinc de los sedimentos hasta 75 veces sobre el fondo. Los plásticos están en playas, agua y peces: la mitad de los peces de un estuario del Golfo tenía plásticos en el tracto digestivo. Y casi ningún residuo de la región llega a un relleno sanitario que cumpla la norma. En la priorización regional obtiene impacto alto y apalancamiento alto, porque las fuentes —agricultura, minería y residuos— son regionales y regulables.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -637,7 +845,33 @@
           "PFAS, fármacos y retardantes de flama: no se encontraron mediciones en la región.",
           "Series de microplásticos y basura marina en las costas de los cinco estados; hoy solo hay estudios puntuales en Mazatlán, La Paz y algunas playas.",
           "Intoxicaciones agudas por plaguicidas notificadas por estado y municipio, y datos para Nayarit y Baja California, donde casi no hay estudios."
-        ]
+        ],
+        "scores": {
+          "alcance": {
+            "value": 4,
+            "why": "Plaguicidas, metales y plásticos documentados en el Golfo; casi ningún residuo llega a un relleno que cumpla la norma en los cinco estados."
+          },
+          "severidad": {
+            "value": 3,
+            "why": "DDE en la sangre del 100 % de los niños estudiados en el Yaqui y el Mayo, y DDT y PCB en lobos marinos."
+          },
+          "irreversibilidad": {
+            "value": 4,
+            "why": "Organoclorados, metales y plásticos persisten décadas o siglos."
+          },
+          "control": {
+            "value": 4,
+            "why": "Agricultura, minería y residuos son regionales."
+          },
+          "competencia": {
+            "value": 3,
+            "why": "Los residuos son municipales; el registro de plaguicidas y la minería son federales."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "Rellenos sanitarios y sustitución de plaguicidas probados, con costo."
+          }
+        }
       },
       "hasMap": true
     }

@@ -29,12 +29,21 @@ export interface OpenQuestion {
   ref?: string
 }
 
+export type CriterionId = 'alcance' | 'severidad' | 'irreversibilidad' | 'control' | 'competencia' | 'factibilidad'
+
+export interface CriterionScore {
+  value: 1 | 2 | 3 | 4
+  why: string
+}
+
 export interface RegionalAssessment {
   summary: string
   impact: Rating
   leverage: Rating
   priority: Priority
   priorityScore: number // 1..3 used for ordering
+  // Calificación de los seis criterios del método de priorización (ver src/lib/priority.ts)
+  scores?: Record<CriterionId, CriterionScore>
   actions: Action[]
   questions?: OpenQuestion[]
   measurementGaps?: string[]

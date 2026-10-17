@@ -112,3 +112,13 @@ Para añadir un límite nuevo, edita `catalog.json` y crea su `regional/<id>.jso
   INECC, SEMARNAT) e internacionales (NOAA, FAO, Global Forest Watch, NASA), citadas en cada indicador con fecha de acceso.
 - **Cartografía:** Natural Earth (dominio público) para los límites estatales; mapa base vectorial OpenFreeMap
   (© OpenFreeMap © OpenStreetMap contributors), con respaldo raster de CARTO.
+
+## Priorización
+
+Cada límite tiene en `catalog.json` (`regional.scores`) seis criterios calificados de 1 a 4 con su justificación:
+alcance, severidad e irreversibilidad (impacto) y control regional de las causas, competencia de los actores
+regionales y factibilidad de soluciones (apalancamiento). `src/lib/priority.ts` calcula cada eje como la media
+geométrica de sus criterios, asigna el nivel (alto ≥ 3, medio ≥ 2, bajo < 2), clasifica la prioridad (alta solo si
+ambos ejes son altos; baja si alguno es bajo) y hace la prueba de sensibilidad. Los campos `impact`, `leverage` y
+`priority` del catálogo deben coincidir con ese cálculo; la metodología completa se explica en la página de
+priorización.

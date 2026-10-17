@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import type { Boundary } from '../types'
 import { StatusBadge, PriorityBadge } from './StatusBadge'
 import { regionalIds } from '../data/regional'
-import { priorityOf } from '../lib/priority'
+import { boundaryPriority } from '../lib/priority'
 
 const withData = new Set(regionalIds())
 
@@ -15,7 +15,7 @@ export default function BoundaryCard({ b }: { b: Boundary }) {
       <p className="desc">{b.short}</p>
       <div className="meta">
         <StatusBadge status={b.status} />
-        <PriorityBadge priority={priorityOf(b.regional.impact, b.regional.leverage)} />
+        <PriorityBadge priority={boundaryPriority(b)} />
         {withData.has(b.id) && <span className="badge info">Con datos regionales</span>}
       </div>
     </Link>
