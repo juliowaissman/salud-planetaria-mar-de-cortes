@@ -7,6 +7,9 @@ import { assess, LEVEL_THRESHOLDS } from '../lib/priority'
 // Rampa navy propia para prioridad (distinta del verde/ámbar/rojo de estado); igual a --priority-* en CSS
 const COLOR: Record<string, string> = { Alta: '#0a3a66', Media: '#3f7fa6', Baja: '#a9c8da' }
 
+// Posición de la etiqueta cuando dos puntos quedan muy cerca (Agua dulce y Biosfera comparten impacto 4.0)
+const LABEL_POS: Record<string, 'top' | 'right' | 'left' | 'bottom'> = { 'freshwater-change': 'top' }
+
 // Etiquetas cortas para que no se encimen en la matriz; el nombre completo va en el tooltip y la leyenda.
 const SHORT: Record<string, string> = {
   'climate-change': 'Clima',
@@ -33,6 +36,7 @@ export default function PriorityMatrix({ height = 460 }: { height?: number }) {
           value: [a.leverage, a.impact],
           itemStyle: { color: COLOR[a.priority], borderColor: '#ffffff', borderWidth: 2 },
           symbolSize: 18,
+          label: { position: LABEL_POS[b.id] ?? 'right' },
         },
       ]
     })
@@ -86,7 +90,7 @@ export default function PriorityMatrix({ height = 460 }: { height?: number }) {
           markArea: {
             silent: true,
             itemStyle: { color: 'rgba(10,58,102,0.07)' },
-            label: { show: true, position: 'insideTopRight', color: CHART.muted, fontSize: 11, fontWeight: 600 },
+            label: { show: true, position: 'insideBottomRight', color: CHART.muted, fontSize: 11, fontWeight: 600 },
             data: [[{ name: 'Prioridad alta', xAxis: LEVEL_THRESHOLDS.alto, yAxis: LEVEL_THRESHOLDS.alto }, { xAxis: 4, yAxis: 4 }]],
           },
         },
