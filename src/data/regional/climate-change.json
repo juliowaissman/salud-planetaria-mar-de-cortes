@@ -1,32 +1,33 @@
 {
   "boundaryId": "climate-change",
-  "updated": "2026-10-14",
+  "updated": "2026-10-17",
   "charts": [
     {
       "title": "Anomalía de temperatura global (1950–2025)",
-      "subtitle": "La anomalía es la diferencia entre la temperatura media de cada año y el promedio 1901–2000: un valor positivo significa que ese año fue más cálido que dicho promedio, y negativo más frío. No son picos de calor, es el promedio anual; la tendencia ascendente indica calentamiento global.",
-      "note": "Desde 1950 la anomalía pasó de ~−0.1 °C a +1.02 °C en 2025. El Mar de Cortés se calienta aún más rápido (ver la siguiente figura).",
+      "subtitle": "Diferencia entre la temperatura media de cada año (enero a diciembre) y el promedio de 1901–2000. Un valor positivo significa que ese año fue más cálido que el promedio del siglo XX.",
+      "note": "La anomalía pasó de −0.13 °C en 1950 a +1.25 °C en 2024, el año más cálido de la serie, y +1.12 °C en 2025. Los diez años más cálidos son posteriores a 2014. Fuente: NOAA, Climate at a Glance (promedio anual de tierra y océano).",
       "series": [
         {
-          "id": "anom-global",
+          "id": "anomalia",
           "title": "Anomalía de temperatura global",
           "unit": "°C (respecto a 1901–2000)",
+          "kind": "line",
           "points": [
             {
               "label": "1950",
-              "value": -0.19
+              "value": -0.13
             },
             {
               "label": "1951",
-              "value": 0.19
+              "value": -0.02
             },
             {
               "label": "1952",
-              "value": 0.03
+              "value": 0.04
             },
             {
               "label": "1953",
-              "value": 0.09
+              "value": 0.1
             },
             {
               "label": "1954",
@@ -34,67 +35,67 @@
             },
             {
               "label": "1955",
-              "value": -0.3
+              "value": -0.13
             },
             {
               "label": "1956",
-              "value": -0.02
+              "value": -0.17
             },
             {
               "label": "1957",
-              "value": 0.14
-            },
-            {
-              "label": "1958",
-              "value": 0.1
-            },
-            {
-              "label": "1959",
               "value": 0.06
             },
             {
+              "label": "1958",
+              "value": 0.09
+            },
+            {
+              "label": "1959",
+              "value": 0.08
+            },
+            {
               "label": "1960",
-              "value": 0.21
+              "value": -0.01
             },
             {
               "label": "1961",
-              "value": -0.11
+              "value": 0.07
             },
             {
               "label": "1962",
-              "value": 0.01
+              "value": 0.04
             },
             {
               "label": "1963",
-              "value": 0.05
+              "value": 0.06
             },
             {
               "label": "1964",
-              "value": -0.25
+              "value": -0.18
             },
             {
               "label": "1965",
-              "value": -0.02
+              "value": -0.08
             },
             {
               "label": "1966",
-              "value": -0.03
+              "value": -0.04
             },
             {
               "label": "1967",
-              "value": 0.0
+              "value": -0.01
             },
             {
               "label": "1968",
-              "value": -0.11
+              "value": -0.05
             },
             {
               "label": "1969",
-              "value": 0.29
+              "value": 0.09
             },
             {
               "label": "1970",
-              "value": -0.12
+              "value": 0.04
             },
             {
               "label": "1971",
@@ -102,211 +103,211 @@
             },
             {
               "label": "1972",
-              "value": 0.22
+              "value": 0.05
             },
             {
               "label": "1973",
-              "value": -0.0
+              "value": 0.17
             },
             {
               "label": "1974",
-              "value": -0.11
+              "value": -0.05
             },
             {
               "label": "1975",
-              "value": -0.13
+              "value": -0.01
             },
             {
               "label": "1976",
-              "value": 0.12
+              "value": -0.06
             },
             {
               "label": "1977",
-              "value": 0.1
+              "value": 0.2
             },
             {
               "label": "1978",
-              "value": 0.12
+              "value": 0.11
             },
             {
               "label": "1979",
-              "value": 0.5
+              "value": 0.19
             },
             {
               "label": "1980",
-              "value": 0.23
+              "value": 0.29
             },
             {
               "label": "1981",
-              "value": 0.43
+              "value": 0.33
             },
             {
               "label": "1982",
-              "value": 0.42
+              "value": 0.15
             },
             {
               "label": "1983",
-              "value": 0.22
+              "value": 0.32
             },
             {
               "label": "1984",
-              "value": 0.0
+              "value": 0.17
             },
             {
               "label": "1985",
-              "value": 0.18
+              "value": 0.14
             },
             {
               "label": "1986",
-              "value": 0.19
-            },
-            {
-              "label": "1987",
-              "value": 0.43
-            },
-            {
-              "label": "1988",
-              "value": 0.27
-            },
-            {
-              "label": "1989",
-              "value": 0.4
-            },
-            {
-              "label": "1990",
-              "value": 0.39
-            },
-            {
-              "label": "1991",
-              "value": 0.28
-            },
-            {
-              "label": "1992",
-              "value": 0.19
-            },
-            {
-              "label": "1993",
               "value": 0.22
             },
             {
+              "label": "1987",
+              "value": 0.33
+            },
+            {
+              "label": "1988",
+              "value": 0.38
+            },
+            {
+              "label": "1989",
+              "value": 0.26
+            },
+            {
+              "label": "1990",
+              "value": 0.42
+            },
+            {
+              "label": "1991",
+              "value": 0.4
+            },
+            {
+              "label": "1992",
+              "value": 0.23
+            },
+            {
+              "label": "1993",
+              "value": 0.26
+            },
+            {
               "label": "1994",
-              "value": 0.35
+              "value": 0.32
             },
             {
               "label": "1995",
-              "value": 0.28
-            },
-            {
-              "label": "1996",
-              "value": 0.35
-            },
-            {
-              "label": "1997",
-              "value": 0.56
-            },
-            {
-              "label": "1998",
-              "value": 0.56
-            },
-            {
-              "label": "1999",
-              "value": 0.44
-            },
-            {
-              "label": "2000",
-              "value": 0.27
-            },
-            {
-              "label": "2001",
-              "value": 0.58
-            },
-            {
-              "label": "2002",
-              "value": 0.48
-            },
-            {
-              "label": "2003",
-              "value": 0.71
-            },
-            {
-              "label": "2004",
-              "value": 0.51
-            },
-            {
-              "label": "2005",
-              "value": 0.7
-            },
-            {
-              "label": "2006",
-              "value": 0.76
-            },
-            {
-              "label": "2007",
               "value": 0.46
             },
             {
+              "label": "1996",
+              "value": 0.34
+            },
+            {
+              "label": "1997",
+              "value": 0.47
+            },
+            {
+              "label": "1998",
+              "value": 0.61
+            },
+            {
+              "label": "1999",
+              "value": 0.4
+            },
+            {
+              "label": "2000",
+              "value": 0.4
+            },
+            {
+              "label": "2001",
+              "value": 0.52
+            },
+            {
+              "label": "2002",
+              "value": 0.59
+            },
+            {
+              "label": "2003",
+              "value": 0.6
+            },
+            {
+              "label": "2004",
+              "value": 0.53
+            },
+            {
+              "label": "2005",
+              "value": 0.66
+            },
+            {
+              "label": "2006",
+              "value": 0.63
+            },
+            {
+              "label": "2007",
+              "value": 0.62
+            },
+            {
               "label": "2008",
-              "value": 0.58
+              "value": 0.52
             },
             {
               "label": "2009",
-              "value": 0.68
+              "value": 0.64
             },
             {
               "label": "2010",
-              "value": 0.49
+              "value": 0.71
             },
             {
               "label": "2011",
-              "value": 0.57
+              "value": 0.6
             },
             {
               "label": "2012",
-              "value": 0.5
+              "value": 0.63
             },
             {
               "label": "2013",
-              "value": 0.69
+              "value": 0.66
             },
             {
               "label": "2014",
-              "value": 0.79
+              "value": 0.73
             },
             {
               "label": "2015",
-              "value": 1.08
+              "value": 0.87
             },
             {
               "label": "2016",
-              "value": 0.88
+              "value": 0.99
             },
             {
               "label": "2017",
-              "value": 0.96
+              "value": 0.92
             },
             {
               "label": "2018",
-              "value": 0.94
+              "value": 0.86
             },
             {
               "label": "2019",
-              "value": 1.14
+              "value": 0.99
             },
             {
               "label": "2020",
-              "value": 0.82
+              "value": 1.01
             },
             {
               "label": "2021",
-              "value": 0.88
+              "value": 0.86
             },
             {
               "label": "2022",
-              "value": 0.82
+              "value": 0.89
             },
             {
               "label": "2023",
-              "value": 1.35
+              "value": 1.17
             },
             {
               "label": "2024",
@@ -314,38 +315,97 @@
             },
             {
               "label": "2025",
-              "value": 1.02
+              "value": 1.12
             }
           ]
         }
       ]
     },
     {
-      "title": "Calentamiento superficial del Golfo de California (1982–2022)",
-      "subtitle": "SST = Temperatura Superficial del Mar (Sea Surface Temperature). La gráfica muestra cuántos °C se calienta cada región del Golfo por década; la media oceánica global es ~0.11 °C/década.",
-      "note": "La costa oriental se calienta más del doble que la entrada del Golfo (0.40 vs 0.18 °C/década).",
+      "title": "El Golfo de California se calienta más rápido que el océano global",
+      "subtitle": "Tendencia de la temperatura superficial del mar en °C por década, medida con satélites.",
+      "note": "Con 513 subáreas analizadas entre 1998 y 2022, el Golfo se calienta unos 0.36 °C por década, de dos a tres veces más rápido que el océano global, cuya tendencia va de 0.11 a 0.18 °C por década según la base de datos (1982–2024, entre 60°S y 60°N). Durante olas de calor marinas, como las de 2014–2016 y 2023, la temperatura sube de 1 a 3 °C por encima de lo normal. La clorofila, indicador del alimento disponible en la base de la red alimentaria, bajó en el mismo periodo. Fuentes: López Martínez et al. 2023; Menemenlis et al. 2025.",
       "series": [
         {
-          "id": "sst-tendencia-regional",
-          "title": "Tasa de calentamiento de la SST por región",
-          "unit": "°C/década",
+          "id": "sst",
+          "title": "Tendencia de calentamiento",
+          "unit": "°C por década",
           "kind": "bar",
           "points": [
             {
-              "label": "Entrada del Golfo",
-              "value": 0.18
+              "label": "Golfo de California\n(1998–2022)",
+              "value": 0.36
             },
             {
-              "label": "Sur y Archipiélago",
-              "value": 0.19
+              "label": "Océano global\n(valor más bajo)",
+              "value": 0.108
             },
             {
-              "label": "Norte y Alto Golfo",
-              "value": 0.25
+              "label": "Océano global\n(valor más alto)",
+              "value": 0.184
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Muertes por calor extremo en la temporada de calor (2023 y 2024)",
+      "subtitle": "Defunciones por golpe de calor y deshidratación registradas por el sistema de vigilancia epidemiológica de temperaturas extremas, de marzo a principios de octubre.",
+      "note": "En 2023 los cinco estados sumaron 199 de las 421 muertes por calor del país (47 %); Sonora tuvo más que cualquier otro estado (117) y Baja California fue tercero (54). En 2024 sumaron 105 de 331 (32 %). Las cifras son preliminares y no cuentan todas las muertes en las que el calor agrava otras enfermedades. Fuente: Secretaría de Salud, Informe semanal de temperaturas naturales extremas, semana 40 de 2023 y de 2024.",
+      "series": [
+        {
+          "id": "tne-2023",
+          "title": "2023",
+          "unit": "defunciones",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California",
+              "value": 54
             },
             {
-              "label": "Costa Oriental",
-              "value": 0.4
+              "label": "Baja California Sur",
+              "value": 14
+            },
+            {
+              "label": "Sonora",
+              "value": 117
+            },
+            {
+              "label": "Sinaloa",
+              "value": 11
+            },
+            {
+              "label": "Nayarit",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "tne-2024",
+          "title": "2024",
+          "unit": "defunciones",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California",
+              "value": 47
+            },
+            {
+              "label": "Baja California Sur",
+              "value": 5
+            },
+            {
+              "label": "Sonora",
+              "value": 48
+            },
+            {
+              "label": "Sinaloa",
+              "value": 3
+            },
+            {
+              "label": "Nayarit",
+              "value": 2
             }
           ]
         }
@@ -435,71 +495,86 @@
       "id": "noaa-globaltemp",
       "title": "Global Land and Ocean Temperature Anomalies (Climate at a Glance)",
       "organization": "NOAA / NCEI",
-      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series",
-      "accessDate": "2026-10-14",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe/land_ocean/12/12/1950-2025",
+      "accessDate": "2026-10-17",
       "license": "Dominio público (NOAA)",
-      "note": "Anomalía global anual respecto a 1901–2000."
+      "note": "Anomalía anual (enero–diciembre) de temperatura global de tierra y océano respecto a 1901–2000."
     },
     {
-      "id": "jamet-ardiles-2025",
-      "title": "Tendencias del calentamiento de las aguas superficiales del Golfo de California (1982–2022)",
-      "organization": "Universidad de Guadalajara (tesis de maestría)",
-      "url": "https://hdl.handle.net/20.500.12104/110572",
-      "accessDate": "2026-10-03",
-      "license": "Resumen de acceso abierto",
-      "note": "SST satelital AVHRR/NOAA: tasas regionales 0.18–0.40 °C/década."
+      "id": "lopez-martinez-2023",
+      "title": "Long-Term Variability in Sea Surface Temperature and Chlorophyll a Concentration in the Gulf of California",
+      "organization": "Remote Sensing 15(16):4088 (López Martínez, Farach Espinoza, Herrera Cervantes y García Morales)",
+      "url": "https://doi.org/10.3390/rs15164088",
+      "accessDate": "2026-10-17",
+      "license": "CC BY 4.0",
+      "note": "513 subáreas, 1998–2022: calentamiento de ~0.036 °C al año y descenso de la clorofila.",
+      "group": "regional"
     },
     {
-      "id": "sanchez-cabeza-2022",
-      "title": "Rapid surface water warming at the eastern entrance of the Gulf of California",
-      "organization": "UNAM / Progress in Oceanography",
-      "url": "https://doi.org/10.1016/j.pocean.2022.102746",
-      "accessDate": "2026-10-03",
-      "license": "© Elsevier; resumen abierto",
-      "note": "SST Mazatlán 1973–2016: +0.57 ± 0.01 °C/década."
+      "id": "menemenlis-2025",
+      "title": "Consequential differences in satellite-era sea surface temperature trends across datasets",
+      "organization": "Nature Climate Change 15(8):897–903 (Menemenlis, Vecchi, Yang, Fueglistaler y Raghuraman)",
+      "url": "https://doi.org/10.1038/s41558-025-02362-6",
+      "accessDate": "2026-10-17",
+      "license": "© Springer Nature",
+      "note": "Tendencia del océano global (60°S–60°N, 1982–2024) de 0.108 a 0.184 °C por década según la base de datos.",
+      "group": "regional"
     },
     {
-      "id": "smn-repclima-2024",
-      "title": "Reporte del Clima en México — Anual 2024",
-      "organization": "SMN / CONAGUA",
-      "url": "https://smn.conagua.gob.mx/tools/DATA/Climatolog%C3%ADa/Diagn%C3%B3stico%20Atmosf%C3%A9rico/Reporte%20del%20Clima%20en%20M%C3%A9xico/Anual2024.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Dominio público (gob.mx)",
-      "note": "Récords de calor 2026 (Hermosillo 47.5 °C)."
+      "id": "dge-tne-2023",
+      "title": "Informe semanal de vigilancia epidemiológica: temperaturas naturales extremas, temporada de calor 2023 (semana 40)",
+      "organization": "Secretaría de Salud, Dirección General de Epidemiología",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/862593/TNE_SE_40.pdf",
+      "accessDate": "2026-10-17",
+      "license": "Información pública",
+      "note": "421 defunciones en el país: Sonora 117, Baja California 54, Baja California Sur 14, Sinaloa 11, Nayarit 3.",
+      "group": "regional"
     },
     {
-      "id": "inecc-inegycei-2022",
-      "title": "INEGyCEI 1990–2022 (Primer Informe Bienal de Transparencia)",
-      "organization": "INECC / SEMARNAT",
-      "url": "https://www.gob.mx/cms/uploads/attachment/file/1018303/INEGYCEI__Dif_250725.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Dominio público (gob.mx)",
-      "note": "Contexto de emisiones nacionales."
+      "id": "dge-tne-2024",
+      "title": "Temperaturas naturales extremas, temporada de calor 2024 (semana 40)",
+      "organization": "Secretaría de Salud, Dirección General de Epidemiología",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/952997/TNE_2024_SE_40.pdf",
+      "accessDate": "2026-10-17",
+      "license": "Información pública",
+      "note": "331 defunciones en el país: Sonora 48, Baja California 47, Baja California Sur 5, Sinaloa 3, Nayarit 2.",
+      "group": "regional"
+    },
+    {
+      "id": "inegi-censo-2020",
+      "title": "Censo de Población y Vivienda 2020",
+      "organization": "INEGI",
+      "url": "https://www.inegi.org.mx/programas/ccpv/2020/",
+      "accessDate": "2026-10-17",
+      "license": "Libre (INEGI)",
+      "note": "Población por estado usada para la tasa de mortalidad por calor.",
+      "group": "regional"
     },
     {
       "id": "navarro-2018",
       "title": "Observed trends and future projections of extreme heat events in Sonora, Mexico",
-      "organization": "International Journal of Climatology",
+      "organization": "International Journal of Climatology 38(14):5168–5181 (Navarro-Estupiñan, Robles-Morua, Vivoni et al.)",
       "url": "https://doi.org/10.1002/joc.5719",
-      "accessDate": "2026-10-14",
+      "accessDate": "2026-10-17",
       "license": "© Wiley",
-      "note": "Olas de calor 1966–2015 (hasta +205 % en Cd. Obregón)."
+      "note": "Las estaciones de Sonora registran más días de calor y más olas de calor entre 1966 y 2015, y los modelos proyectan más hacia 2060."
     },
     {
-      "id": "luong-2022",
+      "id": "hernandez-chen-2022",
       "title": "Future Land Precipitation Changes Over the North American Monsoon Region Using CMIP5 and CMIP6 Simulations",
-      "organization": "Journal of Geophysical Research: Atmospheres",
+      "organization": "Journal of Geophysical Research: Atmospheres 127(9):e2021JD035911 (Hernandez y Chen)",
       "url": "https://doi.org/10.1029/2021JD035911",
-      "accessDate": "2026-10-14",
+      "accessDate": "2026-10-17",
       "license": "© AGU",
-      "note": "Retraso y déficit del monzón de Norteamérica."
+      "note": "En un escenario de altas emisiones, menos lluvia en junio–agosto y más en septiembre–octubre, con un total parecido.",
+      "group": "regional"
     },
     {
       "id": "gilly-2022",
       "title": "Long-term hydrographic changes in the Gulf of California and ecological impacts: A crack in the World's Aquarium?",
       "organization": "Progress in Oceanography",
       "url": "https://doi.org/10.1016/j.pocean.2022.102857",
-      "accessDate": "2026-10-14",
+      "accessDate": "2026-10-17",
       "license": "© Elsevier",
       "note": "Calentamiento y estratificación del Golfo."
     },
@@ -508,9 +583,18 @@
       "title": "Impacts of a shift to a warm-water regime in the Gulf of California on jumbo squid (Dosidicus gigas)",
       "organization": "ICES Journal of Marine Science",
       "url": "https://doi.org/10.1093/icesjms/fsz133",
-      "accessDate": "2026-10-14",
+      "accessDate": "2026-10-17",
       "license": "© OUP",
       "note": "Colapso del calamar gigante."
+    },
+    {
+      "id": "smn-msm-historico",
+      "title": "Monitor de Sequía de México (MSM) — porcentaje de área con sequía D1–D4 a nivel nacional",
+      "organization": "Servicio Meteorológico Nacional (SMN) / CONAGUA",
+      "url": "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "accessDate": "2026-10-14",
+      "license": "Dominio público (gob.mx)",
+      "note": "Valor de diciembre de cada año extraído de los reportes MSM de fin de año (Seguimiento de Sequía, MSM<AAAAMMDD>.pdf, 2014–2024) y del reporte del 15-abr-2026. 2011 y 2013 citados del reporte de diciembre 2014. 2025 y 2026 del reporte MS 15-abr-2026. 2012 y 2018 no disponibles en los reportes accesibles (se dejan vacíos)."
     },
     {
       "id": "edf-cambioclimatico",
@@ -522,13 +606,27 @@
       "note": "Proyecciones de productividad primaria y costos para pesquerías."
     },
     {
-      "id": "smn-msm-historico",
-      "title": "Monitor de Sequía de México (MSM) — porcentaje de área con sequía D1–D4 a nivel nacional",
-      "organization": "Servicio Meteorológico Nacional (SMN) / CONAGUA",
-      "url": "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
-      "accessDate": "2026-10-14",
+      "id": "inecc-inegycei-2022",
+      "title": "INEGyCEI 1990–2022 (Primer Informe Bienal de Transparencia)",
+      "organization": "INECC / SEMARNAT",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/1018303/INEGYCEI__Dif_250725.pdf",
+      "accessDate": "2026-10-03",
       "license": "Dominio público (gob.mx)",
-      "note": "Valor de diciembre de cada año extraído de los reportes MSM de fin de año (Seguimiento de Sequía, MSM<AAAAMMDD>.pdf, 2014–2024) y del reporte del 15-abr-2026. 2011 y 2013 citados del reporte de diciembre 2014. 2025 y 2026 del reporte MS 15-abr-2026. 2012 y 2018 no disponibles en los reportes accesibles (se dejan vacíos)."
+      "note": "Contexto de emisiones nacionales."
     }
-  ]
+  ],
+  "map": {
+    "kind": "choropleth",
+    "title": "Muertes por calor extremo por cada 100 mil habitantes (promedio anual 2023–2024)",
+    "unit": "por 100 mil hab.",
+    "sourceId": "dge-tne-2024",
+    "valuesByState": {
+      "bc": 1.34,
+      "bcs": 1.19,
+      "son": 2.8,
+      "sin": 0.23,
+      "nay": 0.2
+    },
+    "note": "Sonora tiene la mortalidad por calor más alta de la región, casi diez veces el promedio nacional (0.30 por 100 mil habitantes al año). Baja California y Baja California Sur también lo superan varias veces. Cálculo del Observatorio con las defunciones de la Secretaría de Salud y la población del Censo 2020 (INEGI)."
+  }
 }

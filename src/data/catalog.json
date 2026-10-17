@@ -39,13 +39,13 @@
       "short": "Alteración del balance radiativo de la Tierra por gases de efecto invernadero y otros forzamientos.",
       "status": "high-risk",
       "trend": "worsening",
-      "globalStatus": "Fuertemente transgredido. CO₂ y forzamiento radiativo exceden sus niveles seguros.",
+      "globalStatus": "Fuertemente transgredido. El CO₂ atmosférico (426 ppm) y el forzamiento radiativo (+3.10 W/m²) superan desde hace décadas sus límites seguros (350 ppm y +1 W/m²) y el umbral de alto riesgo.",
       "controlVariableIds": [
         "co2",
         "radiative-forcing"
       ],
       "regional": {
-        "summary": "La región contribuye una fracción pequeña a las emisiones globales de GEI, por lo que su apalancamiento sobre la variable global (CO₂/forzamiento radiativo) es bajo; la lectura regional correcta es de adaptación, no de mitigación. Sin embargo, ya sufre los impactos con severidad: olas de calor en aumento (hasta +205 % en Ciudad Obregón y +138 % en Hermosillo, 1966–2015), un «horno atmosférico» reforzado por islas de calor urbanas (47.5 °C en Hermosillo y 51.1 °C en Mexicali en 2026), un monzón mexicano más tardío y errático que agudiza la sequía, y un Golfo de California que se calienta (1–3 °C de 2002 a 2025) y se estratifica, con proyecciones de −50 % a −80 % de productividad primaria para 2100, blanqueamiento de corales en Cabo Pulmo y el colapso del calamar gigante.",
+        "summary": "La región aporta una fracción pequeña de las emisiones globales, así que su peso sobre la variable planetaria es limitado; su mayor margen está en la adaptación y en reducir sus propias emisiones. Pero ya vive los impactos con fuerza. El calor extremo mata: en 2023 los cinco estados sumaron casi la mitad de las muertes por calor del país (199 de 421), y Sonora tuvo más que cualquier otro estado; su mortalidad por calor es casi diez veces el promedio nacional. Las estaciones de Sonora registran más días y olas de calor desde 1966. El Golfo de California se calienta unos 0.36 °C por década, de dos a tres veces más rápido que el océano global, con olas de calor marinas que lo elevan de 1 a 3 °C, y su clorofila ha bajado. Tras El Niño de 2009–2010 la pesquería de calamar gigante colapsó, porque el calamar empezó a madurar a una talla pequeña sin valor comercial. Los modelos proyectan un monzón desplazado: menos lluvia al inicio del verano y más en septiembre y octubre.",
         "impact": "Alto",
         "leverage": "Medio",
         "priority": "Media",
@@ -64,40 +64,45 @@
             "text": "Monitoreo de temperatura y eventos extremos a escala del Golfo para sustentar decisiones locales."
           }
         ],
-        "dataGaps": "Series estatales de emisiones con rezago; olas de calor marinas y nivel del mar aún poco regionalizadas a escala de los 5 estados.",
+        "dataGaps": "Las muertes por calor son cifras preliminares y subestiman el impacto real. Las tendencias del Golfo vienen de satélites; no hay una red continua en el agua. Las proyecciones del monzón tienen confianza baja a media.",
         "questions": [
           {
-            "q": "¿Cómo reducir la exposición al calor extremo y a las islas de calor urbanas en ciudades como Hermosillo y Mexicali?",
-            "action": "Inventariar y ampliar infraestructura verde (arbolado, superficies permeables) y activar alertas por calor con umbrales locales.",
-            "ref": "Navarro-Estupiñán et al. 2018; estudios de isla de calor urbana de la Universidad de Sonora."
+            "q": "¿Cómo reducir las muertes por calor en Hermosillo, Mexicali, Cajeme y otras ciudades del noroeste?",
+            "action": "Alertas de calor con umbrales locales, refugios climáticos, protección de trabajadores al aire libre y vigilancia de los casos en tiempo real, con atención especial a personas mayores y en situación de calle.",
+            "ref": "Secretaría de Salud, informes de temperaturas extremas 2023–2024; Navarro-Estupiñan et al. 2018."
           },
           {
-            "q": "¿Cómo anticipar y adaptar la agricultura de riego al retraso y déficit del monzón de Norteamérica?",
-            "action": "Desarrollar pronóstico estacional del monzón y acoplarlo a calendarios de siembra y cultivos de menor demanda hídrica.",
-            "ref": "Luong et al. 2022 (Journal of Climate)."
+            "q": "¿Cómo enfriar las ciudades del desierto?",
+            "action": "Arbolado y sombra en calles, techos y pavimentos claros, y planeación urbana que reduzca las islas de calor.",
+            "ref": "Navarro-Estupiñan et al. 2018 (Int. J. Climatol.)."
           },
           {
-            "q": "¿Cómo vigilar y responder al calentamiento y la estratificación del Golfo para proteger pesquerías y acuacultura?",
-            "action": "Monitoreo oceanográfico continuo (TSM, oxígeno, pH) compartido entre academia y sector pesquero para cuotas dinámicas.",
-            "ref": "Gilly et al. 2022; Frawley et al. 2019; EDF."
+            "q": "¿Cómo adaptar la agricultura de riego a un monzón que llega más tarde?",
+            "action": "Pronóstico estacional del monzón ligado a los calendarios de siembra y a cultivos de menor demanda de agua al inicio del verano.",
+            "ref": "Hernandez y Chen 2022 (J. Geophys. Res. Atmos.)."
           },
           {
-            "q": "¿Cómo proteger la salud pública y la infraestructura crítica ante olas de calor más frecuentes e intensas?",
-            "action": "Sistemas de alerta temprana calor–salud y evaluación de resiliencia de infraestructura (energía, agua, transporte).",
-            "ref": "Navarro-Estupiñán et al. 2018; EDF."
+            "q": "¿Cómo proteger las pesquerías y la acuacultura del calentamiento del Golfo?",
+            "action": "Monitoreo oceanográfico continuo (temperatura, oxígeno, pH), alertas de olas de calor marinas y manejo pesquero que se ajuste a los cambios de talla y distribución de las especies.",
+            "ref": "López Martínez et al. 2023; Gilly et al. 2022; Frawley et al. 2019."
+          },
+          {
+            "q": "¿Qué puede reducir la región de sus propias emisiones?",
+            "action": "Energía solar en un territorio con alta radiación, eficiencia en el bombeo de agua para riego y transporte de carga más limpio.",
+            "ref": "INECC, INEGYCEI 1990–2022."
           }
         ],
         "measurementGaps": [
-          "Monitoreo continuo in situ de temperatura, oxígeno disuelto y pH en el Golfo de California (hoy es por campañas, no una red permanente).",
-          "Series de olas de calor marinas específicas del Golfo y su alerta temprana para pesquerías.",
-          "Monitoreo de islas de calor urbanas y de mortalidad/morbilidad por calor en las principales ciudades.",
-          "Inicio, duración e intensidad del monzón mexicano con resolución regional (presupuesto de humedad).",
-          "Intrusión salina en acuíferos costeros (p. ej. Costa de Hermosillo) ante el abatimiento del nivel freático.",
-          "Estrés térmico y blanqueamiento coralino continuo (no por evento) en Cabo Pulmo y arrecifes del Golfo.",
-          "Desertificación (NDVI) y degradación de tierras a escala de cuenca."
+          "Mortalidad total atribuible al calor por estado: el registro oficial solo cuenta golpes de calor y deshidratación, no las muertes en las que el calor agrava enfermedades cardiacas o renales.",
+          "Islas de calor urbanas y temperatura en barrios de Hermosillo, Mexicali, Culiacán y otras ciudades.",
+          "Monitoreo continuo de temperatura, oxígeno y pH en el Golfo y un sistema de alerta de olas de calor marinas para pesquerías.",
+          "Emisiones de gases de efecto invernadero por estado con datos recientes y comparables.",
+          "Inicio, duración e intensidad del monzón con resolución regional.",
+          "Estrés térmico y blanqueamiento de corales en Cabo Pulmo y otros arrecifes del Golfo.",
+          "Nivel del mar en mareógrafos de La Paz, Mazatlán, Guaymas y Ensenada."
         ]
       },
-      "hasMap": false
+      "hasMap": true
     },
     {
       "id": "biosphere-integrity",
