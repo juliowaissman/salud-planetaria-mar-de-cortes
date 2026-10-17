@@ -68,9 +68,6 @@ function Robustness({ a }: { a: Assessment }) {
 }
 
 export default function Prioritization() {
-  const nHigh = rows.filter((r) => r.a.priority === 'Alta').length
-  const nSensitive = rows.filter((r) => !r.a.robust).length
-
   const toc = [
     { id: 'idea', label: 'La idea en breve' },
     { id: 'matriz', label: 'La matriz' },
@@ -85,7 +82,7 @@ export default function Prioritization() {
 
   return (
     <>
-      <section className="page-banner prio-banner">
+      <section className="page-banner">
         <div className="container">
           <p className="eyebrow">Priorización regional · Mar de Cortés</p>
           <h1>Dónde puede actuar la región</h1>
@@ -97,13 +94,6 @@ export default function Prioritization() {
       </section>
 
       <div className="container">
-        <dl className="facts spot-figs">
-          <div><dt>9</dt><dd>límites planetarios evaluados con el mismo método</dd></div>
-          <div><dt>6</dt><dd>criterios calificados de 1 a 4, cada uno con su justificación</dd></div>
-          <div><dt>{nHigh} de 9</dt><dd>límites tienen prioridad alta para la región</dd></div>
-          <div><dt>{nSensitive}</dt><dd>clasificaciones son sensibles: cambian si un criterio sube o baja un punto</dd></div>
-        </dl>
-
         <div className="detail-layout section">
           <nav className="toc" aria-label="En esta página">
             <p className="toc-title">En esta página</p>

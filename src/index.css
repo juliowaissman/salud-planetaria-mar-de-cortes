@@ -872,7 +872,6 @@ sup.cite button:hover { text-decoration: underline; }
 /* =========================================================
    Priorización (mismo lenguaje visual que límites y temas)
    ========================================================= */
-.prio-banner { padding-bottom: 76px; }
 .prio-axes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
 .prio-axis { background: var(--surface-2); border-radius: 10px; padding: 16px 18px; border-top: 4px solid var(--navy); }
 .prio-axis.leverage { border-top-color: var(--teal-bright); }
