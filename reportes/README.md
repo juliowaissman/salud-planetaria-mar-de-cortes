@@ -2,7 +2,8 @@
 
 Documentos de trabajo del Observatorio Tecnológico del Mar de Cortés: un reporte
 «Diagnóstico y propuesta» por cada límite planetario, con la verificación de las
-cifras del sitio, los hallazgos regionales y la bibliografía.
+cifras del sitio, los hallazgos regionales, la evaluación para la priorización
+(seis criterios calificados de 1 a 4) y la bibliografía.
 
 Esta carpeta no forma parte del sitio web: la compilación (`npm run build`) solo
 publica `dist/`, que se genera a partir de `src/` y `public/`.
@@ -18,3 +19,10 @@ publica `dist/`, que se genera a partir de `src/` y `public/`.
 | 7 | Aerosoles atmosféricos - Diagnóstico y propuesta.pdf |
 | 8 | Ozono estratosférico - Diagnóstico y propuesta.pdf |
 | 9 | Entidades nuevas - Diagnóstico y propuesta.pdf |
+
+## Método de priorización
+
+«Método de priorización regional.pdf» es el documento de referencia del método:
+criterios y escalas, fórmulas, regla de prioridad, prueba de sensibilidad,
+resultados de los nueve límites, justificación de cada calificación,
+comparación con el método anterior, limitaciones y cómo actualizarlo.
