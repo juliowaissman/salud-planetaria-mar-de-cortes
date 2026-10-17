@@ -240,13 +240,13 @@
       "short": "Alteración de flujos de agua azul (ríos, lagos, acuíferos) y agua verde (humedad del suelo).",
       "status": "increasing-risk",
       "trend": "worsening",
-      "globalStatus": "Transgredido. Perturbaciones de agua azul (22.6%) y verde (22.0%) por encima del límite seguro.",
+      "globalStatus": "Transgredido. El 22.6 % de la superficie terrestre tiene caudales alterados (agua azul) y el 22.0 % humedad del suelo alterada (agua verde), frente a límites seguros de 12.9 % y 12.4 %.",
       "controlVariableIds": [
         "blue-water",
         "green-water"
       ],
       "regional": {
-        "summary": "La cuenca del río Colorado está sobreasignada (afecta a Sonora y Baja California), hay acuíferos sobreexplotados en toda la región y sequías recurrentes. La agricultura de riego concentra el consumo de agua. Es un límite de altísima relevancia y con fuerte capacidad de acción local.",
+        "summary": "El Mar de Cortés es una de las zonas con más presión sobre el agua del país. Las cuatro regiones hidrológicas que lo cubren concesionan entre 40 % y 90 % de su agua renovable, frente a un promedio nacional de 19.5 %; por estado, Sonora concesiona más agua de la que se renueva (101.9 %) y Baja California y Sinaloa están cerca del 100 %. La agricultura de riego usa entre 78 % y 94 % del agua concesionada de cada estado. En Baja California, Baja California Sur y Sonora, 28 acuíferos sobreexplotados extraen unos 617 hm³ al año más de lo que se recargan, y de los 18 acuíferos costeros con intrusión marina del país, 16 están en esta región: en la Costa de Hermosillo el agua de mar ha penetrado hasta 32 km tierra adentro y en La Paz su influencia llega a 13 km. El río Colorado, del que dependen Mexicali y San Luis Río Colorado, entrega cada vez menos: el Acta 334 recorta 308 hm³ al año en 2027 y 2028, cerca del 17 % de lo pactado en 1944. Es un límite de alto impacto y alto apalancamiento: concesiones, riego, medición y reúso se deciden en la región.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -254,14 +254,49 @@
         "actions": [
           {
             "actor": "gobierno-local",
-            "text": "Regular la extracción de acuíferos sobreexplotados; modernizar distritos de riego; reúso de aguas residuales tratadas."
+            "text": "Medir la extracción real en pozos y distritos de riego, ajustar concesiones a la disponibilidad y proteger los acuíferos costeros de la intrusión marina."
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Tecnificación del riego (goteo) y cultivos de menor demanda hídrica; gestión corporativa del agua."
+            "text": "Tecnificación del riego, cultivos de menor demanda hídrica y reúso de agua tratada en la agroindustria y el turismo."
           }
         ],
-        "dataGaps": "Indicador global (WaterGAP) no tiene equivalente estatal directo; se usan disponibilidad, acuíferos y sequía (CONAGUA)."
+        "dataGaps": "Los volúmenes oficiales son concesionados, no extraídos. El grado de presión por estado es de 2017 y la serie de acuíferos sobreexplotados por estado llega a 2019. El indicador global (WaterGAP, Virkki et al. 2026) no tiene equivalente estatal.",
+        "questions": [
+          {
+            "q": "¿Cómo reducir la demanda agrícola, que usa entre 78 % y 94 % del agua concesionada de cada estado?",
+            "action": "Medir la extracción real en distritos y unidades de riego, ajustar concesiones a la disponibilidad, tecnificar el riego sin ampliar la superficie regada y revisar los cultivos de mayor demanda.",
+            "ref": "CONAGUA 2023 (Estadísticas del Agua en México); SEMARNAT, ficha del grado de presión."
+          },
+          {
+            "q": "¿Cómo frenar la intrusión marina en los acuíferos costeros de la Costa de Hermosillo y La Paz?",
+            "action": "Reducir el bombeo cerca de la costa, cumplir los reglamentos de acuíferos, recarga gestionada con agua tratada y monitoreo continuo de salinidad.",
+            "ref": "Castillo-Gurrola et al. 2004 (Geofísica Internacional); Tamez-Meléndez et al. 2016 (Environ. Earth Sci.); Cruz-Falcón et al. 2023 (Terra Latinoamericana)."
+          },
+          {
+            "q": "¿Cómo se adaptan el valle de Mexicali y San Luis Río Colorado a recortes de 308 hm³ anuales del río Colorado?",
+            "action": "Plan regional de reducción de demanda, modernización del Distrito de Riego 014, reúso agrícola y uso de la Reserva de Agua de México previstos en el Acta 334.",
+            "ref": "CILA/IBWC: Actas 323, 330 y 334."
+          },
+          {
+            "q": "¿Qué papel deben tener la desalación y el reúso frente a la sobreexplotación de acuíferos?",
+            "action": "Evaluar su costo energético y el manejo de salmuera; asegurar la operación de las plantas existentes (Ensenada produjo menos de la mitad de su capacidad de 250 l/s en 2021–2022) y priorizar el reúso de aguas tratadas.",
+            "ref": "CILA/IBWC, Acta 334 (estudios de desalación); Proyectos México, planta desaladora de Ensenada."
+          },
+          {
+            "q": "¿Cómo garantizar agua para los ecosistemas y para los pueblos originarios?",
+            "action": "Flujos ambientales permanentes, no episódicos, para el delta del Colorado; reservas de agua para el ambiente en las cuencas, y acuerdos que respeten los derechos de la tribu yaqui sobre el río Yaqui.",
+            "ref": "CILA/IBWC, informe de monitoreo del Acta 323 (2018); Revista Noroeste de México (INAH)."
+          }
+        ],
+        "measurementGaps": [
+          "La extracción real de agua: el indicador oficial usa los volúmenes concesionados, porque la mayoría de los pozos agrícolas no tienen medición pública.",
+          "El grado de presión por estado y por cuenca: la última cifra estatal es de 2017 y desde entonces solo se publica por región hidrológica.",
+          "Una disponibilidad anual que refleje la sequía: el cálculo usa el agua renovable media histórica, no la del año.",
+          "El número de acuíferos sobreexplotados por estado con la disponibilidad vigente (DOF 2020 y 2023) en formato abierto, y una red continua de monitoreo de niveles y salinidad en los acuíferos costeros.",
+          "El agua verde a escala estatal: no hay un indicador oficial de humedad del suelo ni de evapotranspiración; solo estudios con satélites y modelos.",
+          "La producción real de las plantas desaladoras y los volúmenes de reúso de agua tratada, así como los caudales ecológicos medidos en ríos y estuarios."
+        ]
       },
       "hasMap": true
     },

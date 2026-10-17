@@ -17,6 +17,7 @@ export default function TimeSeriesChart({ series, height = 300 }: { series: Seri
       yAxis: {
         type: 'value',
         name: series[0]?.unit ?? '',
+        nameTextStyle: { align: 'left' },
       },
       series: series.map((s) => ({
         name: s.title,

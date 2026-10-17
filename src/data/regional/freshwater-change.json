@@ -1,72 +1,365 @@
 {
   "boundaryId": "freshwater-change",
-  "updated": "2026-10-03",
-  "stateValues": [
+  "updated": "2026-10-16",
+  "charts": [
     {
-      "stateId": "bc",
-      "value": 11,
-      "unit": "acuíferos sobreexplotados",
-      "note": "CONAGUA/SEMARNAT, 2019 (último año de la serie SNIARN)"
+      "title": "Grado de presión sobre el agua por región hidrológico-administrativa",
+      "subtitle": "Volumen concesionado para usos consuntivos como porcentaje del agua renovable. Más de 40 % se considera presión alta.",
+      "note": "Las cuatro regiones que cubren el Mar de Cortés están en presión alta, entre dos y casi cinco veces el promedio nacional. La Península de Baja California pasó de 79.8 % a 89.9 % en siete años. La región Lerma-Santiago-Pacífico abarca mucho más que Nayarit. Fuentes: CONAGUA, Estadísticas del Agua en México 2023 (Tabla 3.4) y Atlas del Agua en México 2016.",
+      "series": [
+        {
+          "id": "gp-2015",
+          "title": "2015",
+          "unit": "% del agua renovable",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "I Península\nde Baja California",
+              "value": 79.8
+            },
+            {
+              "label": "II Noroeste\n(Sonora)",
+              "value": 81.4
+            },
+            {
+              "label": "III Pacífico Norte\n(Sinaloa)",
+              "value": 42.1
+            },
+            {
+              "label": "VIII Lerma-Santiago-\nPacífico (Nayarit)",
+              "value": 44.8
+            },
+            {
+              "label": "Promedio\nnacional",
+              "value": 19.2
+            }
+          ]
+        },
+        {
+          "id": "gp-2022",
+          "title": "2022",
+          "unit": "% del agua renovable",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "I Península\nde Baja California",
+              "value": 89.9
+            },
+            {
+              "label": "II Noroeste\n(Sonora)",
+              "value": 83.2
+            },
+            {
+              "label": "III Pacífico Norte\n(Sinaloa)",
+              "value": 40.5
+            },
+            {
+              "label": "VIII Lerma-Santiago-\nPacífico (Nayarit)",
+              "value": 45.9
+            },
+            {
+              "label": "Promedio\nnacional",
+              "value": 19.5
+            }
+          ]
+        }
+      ]
     },
     {
-      "stateId": "bcs",
-      "value": 6,
-      "unit": "acuíferos sobreexplotados",
-      "note": "CONAGUA/SEMARNAT, 2019 (último año de la serie SNIARN)"
+      "title": "Acuíferos sobreexplotados: recarga frente a extracción (2019)",
+      "subtitle": "Suma de la recarga media y de la extracción de los acuíferos sobreexplotados de cada estado.",
+      "note": "Baja California tiene 11 acuíferos sobreexplotados, Baja California Sur 6 y Sonora 11; en conjunto extraen 2,614 hm³ al año frente a una recarga de 1,997 hm³, un déficit de unos 617 hm³ anuales. Sinaloa y Nayarit no tenían acuíferos sobreexplotados en esta serie, pero la actualización de disponibilidad del DOF (2020) ya registra 5 en la región Pacífico Norte. Fuente: SEMARNAT-SNIARN con datos de CONAGUA.",
+      "series": [
+        {
+          "id": "acu-recarga",
+          "title": "Recarga media",
+          "unit": "hm³ al año",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California\n(11 acuíferos)",
+              "value": 681
+            },
+            {
+              "label": "Baja California Sur\n(6 acuíferos)",
+              "value": 190
+            },
+            {
+              "label": "Sonora\n(11 acuíferos)",
+              "value": 1126
+            }
+          ]
+        },
+        {
+          "id": "acu-extraccion",
+          "title": "Extracción",
+          "unit": "hm³ al año",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California\n(11 acuíferos)",
+              "value": 811
+            },
+            {
+              "label": "Baja California Sur\n(6 acuíferos)",
+              "value": 232
+            },
+            {
+              "label": "Sonora\n(11 acuíferos)",
+              "value": 1571
+            }
+          ]
+        }
+      ]
     },
     {
-      "stateId": "son",
-      "value": 11,
-      "unit": "acuíferos sobreexplotados",
-      "note": "CONAGUA/SEMARNAT, 2019 (último año de la serie SNIARN)"
-    },
+      "title": "Río Colorado: recortes a las entregas a México",
+      "subtitle": "Volumen que México deja de recibir cada año del río Colorado por la escasez en el lago Mead. La entrega normal del Tratado de 1944 es de 1,850 hm³ al año.",
+      "note": "Con el Acta 323 los recortes (reducción más ahorro recuperable) fueron de 99 a 128 hm³ al año en 2023–2026; en 2026 México además debe conservar al menos 82.6 hm³ con el Acta 330, que no se incluye en la gráfica. El Acta 334, firmada el 2 de septiembre de 2026, fija un recorte de 308 hm³ anuales para 2027 y 2028, cerca del 17 % de la entrega normal. El valle de Mexicali y San Luis Río Colorado dependen de este volumen. Fuente: CILA/IBWC.",
+      "series": [
+        {
+          "id": "colorado",
+          "title": "Recorte a México",
+          "unit": "hm³ al año",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "2023",
+              "value": 128
+            },
+            {
+              "label": "2024",
+              "value": 99
+            },
+            {
+              "label": "2025",
+              "value": 99
+            },
+            {
+              "label": "2026",
+              "value": 99
+            },
+            {
+              "label": "2027",
+              "value": 308
+            },
+            {
+              "label": "2028",
+              "value": 308
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stateGroups": [
     {
-      "stateId": "sin",
-      "value": 0,
-      "unit": "acuíferos sobreexplotados",
-      "note": "Sin acuíferos sobreexplotados reportados (CONAGUA/SEMARNAT, 2019)"
-    },
-    {
-      "stateId": "nay",
-      "value": 0,
-      "unit": "acuíferos sobreexplotados",
-      "note": "Sin acuíferos sobreexplotados reportados (CONAGUA/SEMARNAT, 2019)"
+      "id": "agricola",
+      "title": "Peso del riego: volumen concesionado para uso agrícola (2022)",
+      "unit": "% del volumen concesionado del estado",
+      "values": [
+        {
+          "stateId": "bc",
+          "value": 77.9,
+          "note": "2,777 de 3,563 hm³"
+        },
+        {
+          "stateId": "bcs",
+          "value": 80.2,
+          "note": "346 de 431 hm³"
+        },
+        {
+          "stateId": "son",
+          "value": 87.1,
+          "note": "6,217 de 7,140 hm³"
+        },
+        {
+          "stateId": "sin",
+          "value": 94.0,
+          "note": "8,971 de 9,547 hm³"
+        },
+        {
+          "stateId": "nay",
+          "value": 82.7,
+          "note": "1,131 de 1,368 hm³"
+        }
+      ],
+      "note": "La agricultura concentra entre 78 % y 94 % del agua concesionada en cada estado; Sinaloa es el caso extremo. El abastecimiento público va de 5 % (Sinaloa) a 15 % (Baja California). Son volúmenes concesionados, no extracciones medidas. Fuente: CONAGUA, Estadísticas del Agua en México 2023 (Tabla 3.2)."
     }
   ],
   "map": {
     "kind": "choropleth",
-    "title": "Territorio estatal con sequía (D1–D4)",
-    "unit": "% del territorio estatal",
-    "sourceId": "smn-msm-2026-09-15",
+    "title": "Grado de presión sobre el agua por estado (2017)",
+    "unit": "% del agua renovable",
+    "sourceId": "semarnat-gp-estados-2017",
     "valuesByState": {
-      "bc": 1.0,
-      "bcs": 0.0,
-      "son": 8.9,
-      "sin": 0.0,
-      "nay": 16.8
+      "bc": 99.9,
+      "bcs": 34.4,
+      "son": 101.9,
+      "sin": 96.5,
+      "nay": 20.5
     },
-    "note": "Sequía de moderada a excepcional (D1–D4) al 15 de septiembre de 2026. D0 (anormalmente seco) excluido."
+    "note": "Sonora concesiona más agua de la que se renueva (101.9 %) y Baja California y Sinaloa están cerca del 100 %. Es la cifra estatal más reciente publicada: desde 2017 CONAGUA solo reporta el indicador por región hidrológico-administrativa."
   },
   "sources": [
+    {
+      "id": "conagua-eam-2023",
+      "title": "Estadísticas del Agua en México 2023",
+      "organization": "CONAGUA",
+      "url": "https://agua.org.mx/wp-content/uploads/2024/10/EAM2023_f.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública (Gobierno de México)",
+      "note": "Tabla 3.2 (usos consuntivos por estado, 2022), Tabla 3.4 (grado de presión por RHA, 2022) y Tabla 2.12 (acuíferos por RHA con la disponibilidad publicada en el DOF el 17 sep 2020).",
+      "group": "regional"
+    },
+    {
+      "id": "semarnat-gp-estados-2017",
+      "title": "Grado de presión sobre el recurso hídrico por entidad federativa (2017)",
+      "organization": "SEMARNAT-DGEIA, Compendio de Estadísticas Ambientales 2020 (con datos de CONAGUA)",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2020/archivos/01_agua/d3_agua03_10.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Datos públicos",
+      "note": "Última serie estatal publicada: Sonora 101.9 %, BC 99.9 %, Sinaloa 96.5 %, BCS 34.4 %, Nayarit 20.5 %.",
+      "group": "regional"
+    },
+    {
+      "id": "semarnat-ficha-gp",
+      "title": "Ficha metodológica del indicador Grado de presión sobre el recurso hídrico",
+      "organization": "SEMARNAT-DGEIA",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compartidos/pdf/COM_MET_GRADOPRES.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Datos públicos",
+      "note": "El indicador usa el volumen concesionado (REPDA) como aproximación de la extracción; estimar la extracción real es su principal limitante.",
+      "group": "regional"
+    },
+    {
+      "id": "conagua-atlas-2016",
+      "title": "Atlas del Agua en México 2016",
+      "organization": "CONAGUA",
+      "url": "https://agua.org.mx/wp-content/uploads/2019/10/AAM_2016-1.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Grado de presión por RHA en 2015 (Tabla 3.9).",
+      "group": "regional"
+    },
     {
       "id": "dgeia-acuiferos-sobreexplotados",
       "title": "Volúmenes de extracción y recarga de acuíferos sobreexplotados (hectómetros cúbicos por año)",
       "organization": "SEMARNAT — SNIARN (con datos de CONAGUA, Gerencia de Aguas Subterráneas)",
       "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_mares/d3_agua02_02_mar.pdf",
-      "accessDate": "2026-10-03",
+      "accessDate": "2026-10-16",
       "license": "Datos públicos (SEMARNAT/CONAGUA)",
-      "note": "Serie 2008–2019. Los valores estatales corresponden al conteo de acuíferos sobreexplotados listados por entidad en 2019. Sinaloa y Nayarit no registran acuíferos sobreexplotados en la serie."
+      "note": "Serie 2001–2019 de acuíferos sobreexplotados con recarga media y extracción por acuífero. En 2019: BC 11 acuíferos (recarga 681 hm³, extracción 811 hm³), BCS 6 (190 frente a 232) y Sonora 11 (1,126 frente a 1,571); Sinaloa y Nayarit sin acuíferos sobreexplotados en la serie."
     },
     {
-      "id": "smn-msm-2026-09-15",
-      "title": "Monitor de Sequía de México (MSM), 15 de septiembre de 2026",
-      "organization": "Servicio Meteorológico Nacional (SMN) / CONAGUA",
-      "url": "https://smn.conagua.gob.mx/tools/DATA/Climatolog%C3%ADa/Sequ%C3%ADa/Monitor%20de%20sequ%C3%ADa%20en%20M%C3%A9xico/Seguimiento%20de%20Sequ%C3%ADa/MSM20260915.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Datos públicos (SMN/CONAGUA)",
-      "note": "Porcentaje de área estatal en sequía de moderada a excepcional (D1–D4) al 15 de septiembre de 2026."
+      "id": "ibwc-2026-allocation",
+      "title": "2026 Colorado River water allocations announced for the United States and Mexico",
+      "organization": "CILA / IBWC (comunicado del 15 ago 2025)",
+      "url": "https://www.ibwc.gov/wp-content/uploads/2025/08/2026-COLORADO-RIVER-WATER-ALLOCATIONS-ANNOUNCED-FOR-THE-UNITED-STATES-AND-MEXICO.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Asignación a México en 2026: 1,668.4 hm³ (reducción de 62 hm³ y ahorro recuperable de 37 hm³ por el Acta 323; al menos 82.6 hm³ de conservación por el Acta 330).",
+      "group": "regional"
+    },
+    {
+      "id": "ibwc-2024-reductions",
+      "title": "2024 Colorado River water delivery reductions announced for the United States and Mexico",
+      "organization": "CILA / IBWC (comunicado del 15 ago 2023)",
+      "url": "https://www.ibwc.gov/wp-content/uploads/2023/08/2024-COLORADO-RIVER-WATER-DELIVERY-REDUCTIONS.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Recorte total de 99 hm³ a México en 2024; en 2023 fue de 128 hm³.",
+      "group": "regional"
+    },
+    {
+      "id": "ibwc-2025-allocation",
+      "title": "2025 Colorado River water allocations",
+      "organization": "CILA / IBWC (comunicado del 15 ago 2024)",
+      "url": "https://ibwc.gov/wp-content/uploads/2024/08/2025-COLORADO-RIVER-WATER-ALLOCATIONS-final-8-15-2024.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Recorte de 62 hm³ más 37 hm³ de ahorro recuperable a México en 2025.",
+      "group": "regional"
+    },
+    {
+      "id": "acta-334",
+      "title": "Estados Unidos y México anuncian acuerdo de cooperación sobre el río Colorado (Acta 334)",
+      "organization": "CILA / IBWC, vía Water Online (10 sep 2026)",
+      "url": "https://www.wateronline.com/doc/united-states-and-mexico-announce-colorado-river-cooperative-agreement-0001",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Acta 334 (2 sep 2026): recorte de 250,000 acres-pie (308 hm³) anuales a México en 2027 y 2028; sustituye las Actas 323 y 330.",
+      "group": "regional"
+    },
+    {
+      "id": "ibwc-minute323-2018",
+      "title": "Minute 323 environmental flows monitoring report 2018",
+      "organization": "CILA / IBWC (2022)",
+      "url": "https://www.ibwc.gov/wp-content/uploads/2024/06/FINAL_2018Min323MonitoringReport-2022-02-15-Clean.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "El pulso de 2014 elevó el verdor ribereño (NDVI) 17 %, pero en 2018 había regresado al nivel de 2013; en 2018 se entregaron 11.9 hm³ de flujos ambientales y los niveles freáticos siguieron bajando en los tramos 1 a 3.",
+      "group": "regional"
+    },
+    {
+      "id": "tamez-melendez-2016",
+      "title": "Isotope signatures and hydrochemistry as tools in assessing groundwater occurrence and dynamics in a coastal arid aquifer",
+      "organization": "Environmental Earth Sciences 75:830 (Tamez-Meléndez et al.)",
+      "url": "https://doi.org/10.1007/s12665-016-5617-2",
+      "accessDate": "2026-10-16",
+      "license": "CC BY",
+      "note": "Acuífero de La Paz: abatimiento de hasta 10 m, salinidad de hasta ~5,800 mg/L e intrusión marina que avanzó rápido y llega a 13 km tierra adentro.",
+      "group": "regional"
+    },
+    {
+      "id": "cruz-falcon-2023",
+      "title": "Evolución de la intrusión marina y relaciones iónicas en el acuífero de La Paz BCS, México",
+      "organization": "Terra Latinoamericana 41:e1636 (Cruz-Falcón, Murillo-Jiménez y Fraga-Palomino)",
+      "url": "https://doi.org/10.28940/terra.v41i0.1636",
+      "accessDate": "2026-10-16",
+      "license": "CC BY-NC",
+      "note": "En 2019 el frente de agua salobre (isolínea de 1,000 mg/L de sólidos disueltos) estaba a 8.8 km de la costa en la zona norte y a 8 km en la noreste; entre 2013 y 2019 avanzó 0.5 km netos en la zona norte.",
+      "group": "regional"
+    },
+    {
+      "id": "castillo-gurrola-2004",
+      "title": "Estimation of the vulnerability to saline intrusion of the coast of Hermosillo aquifer, Sonora, Mexico",
+      "organization": "Geofísica Internacional 43(4):611–621 (Castillo Gurrola, Morales, Monreal y Rangel-Medina)",
+      "url": "https://doaj.org/article/8396350eaec94ed7b83347ec27f4306e",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Por el bombeo intensivo, la intrusión marina ha penetrado hasta 32 km tierra adentro, con conductividad eléctrica de hasta 40,000 µS/cm.",
+      "group": "regional"
+    },
+    {
+      "id": "bohn-vivoni-2016",
+      "title": "Process-based characterization of evapotranspiration sources over the North American monsoon region",
+      "organization": "Water Resources Research 52(1):358–384 (Bohn y Vivoni)",
+      "url": "https://doi.org/10.1002/2015WR017934",
+      "accessDate": "2026-10-16",
+      "license": "© AGU",
+      "note": "Agua verde: los bosques de montaña aportan 22 % y los cultivos de riego 9 % de la evapotranspiración anual de la región del monzón; la evaporación del suelo es 60 % del total (2000–2012).",
+      "group": "regional"
+    },
+    {
+      "id": "desaladora-ensenada",
+      "title": "Planta desaladora de Ensenada",
+      "organization": "Proyectos México (Gobierno de México); Zeta Tijuana, «Toleran incumplimiento de desalinizadora» (feb 2022)",
+      "url": "https://www.proyectosmexico.gob.mx/proyecto_inversion/0839-planta-desaladora-de-ensenada/",
+      "accessDate": "2026-10-16",
+      "license": "Información pública / prensa",
+      "note": "Capacidad contratada de 250 l/s (en operación desde 2018). Según la prensa, desde junio de 2021 entregaba solo 110–120 l/s por una falla en la toma de agua.",
+      "group": "regional"
+    },
+    {
+      "id": "inah-acueducto-independencia",
+      "title": "El conflicto por el agua del río Yaqui y el Acueducto Independencia",
+      "organization": "Revista Noroeste de México (INAH)",
+      "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/download/17176/18382/36708",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Trasvase de la presa El Novillo a Hermosillo anunciado en 2010; amparos de la tribu yaqui desde 2011 y fallo favorable de la SCJN en 2013, aunque el acueducto siguió operando.",
+      "group": "regional"
     }
-  ],
-  "stateTitle": "Acuíferos sobreexplotados por estado (CONAGUA, 2019)",
-  "stateNote": "Sonora y Baja California concentran 11 acuíferos sobreexplotados cada una; es la señal más directa de presión sobre el agua azul de la región."
+  ]
 }

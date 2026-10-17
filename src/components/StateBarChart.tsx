@@ -27,6 +27,7 @@ export default function StateBarChart({ values, unit, height = 300 }: { values: 
       yAxis: {
         type: 'value',
         name: unit ?? '',
+        nameTextStyle: { align: 'left' },
       },
       series: [
         {
