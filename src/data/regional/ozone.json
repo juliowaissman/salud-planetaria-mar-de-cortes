@@ -1,0 +1,438 @@
+{
+  "boundaryId": "ozone",
+  "updated": "2026-10-16",
+  "charts": [
+    {
+      "title": "México: consumo de sustancias que agotan la capa de ozono (1989–2011)",
+      "subtitle": "Toneladas físicas al año (producción más importación menos exportación). No están ponderadas por su potencial de agotamiento del ozono.",
+      "note": "México dejó de consumir CFC hacia 2006; desde entonces su consumo neto es negativo por exportaciones (en la gráfica se muestra como cero). Los HCFC crecieron como sustitutos hasta casi 20 mil t en 2000 y 2007, y ahora están en eliminación: la línea base de 2013 fue de 1,148 t de potencial de agotamiento, casi toda HCFC-141b y HCFC-22. El bromuro de metilo, usado como fumigante agrícola, bajó de 5,421 t en 1994 a 814 t en 2011 y se programó su eliminación para 2014–2015; la cifra no incluye la fumigación de cuarentena y preembarque de productos de exportación, que el Protocolo no controla. Fuente: SEMARNAT, Unidad de Protección a la Capa de Ozono (Compendio 2012) e Inventario de Sustancias Agotadoras (SNIEG 2013).",
+      "series": [
+        {
+          "id": "cfc",
+          "title": "CFC",
+          "unit": "toneladas",
+          "kind": "line",
+          "points": [
+            {
+              "label": "1989",
+              "value": 10348
+            },
+            {
+              "label": "1990",
+              "value": 12891
+            },
+            {
+              "label": "1991",
+              "value": 10876
+            },
+            {
+              "label": "1992",
+              "value": 8782
+            },
+            {
+              "label": "1993",
+              "value": 9483
+            },
+            {
+              "label": "1994",
+              "value": 9827
+            },
+            {
+              "label": "1995",
+              "value": 4877
+            },
+            {
+              "label": "1996",
+              "value": 4897
+            },
+            {
+              "label": "1997",
+              "value": 4159
+            },
+            {
+              "label": "1998",
+              "value": 3496
+            },
+            {
+              "label": "1999",
+              "value": 2867
+            },
+            {
+              "label": "2000",
+              "value": 3066
+            },
+            {
+              "label": "2001",
+              "value": 2230
+            },
+            {
+              "label": "2002",
+              "value": 1962
+            },
+            {
+              "label": "2003",
+              "value": 1990
+            },
+            {
+              "label": "2004",
+              "value": 3212
+            },
+            {
+              "label": "2005",
+              "value": 1621
+            },
+            {
+              "label": "2006",
+              "value": 0
+            },
+            {
+              "label": "2007",
+              "value": 0
+            },
+            {
+              "label": "2008",
+              "value": 0
+            },
+            {
+              "label": "2009",
+              "value": 0
+            },
+            {
+              "label": "2010",
+              "value": 0
+            },
+            {
+              "label": "2011",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "hcfc",
+          "title": "HCFC",
+          "unit": "toneladas",
+          "kind": "line",
+          "points": [
+            {
+              "label": "1989",
+              "value": 2491
+            },
+            {
+              "label": "1990",
+              "value": 2301
+            },
+            {
+              "label": "1991",
+              "value": 1960
+            },
+            {
+              "label": "1992",
+              "value": 5697
+            },
+            {
+              "label": "1993",
+              "value": 5856
+            },
+            {
+              "label": "1994",
+              "value": 6780
+            },
+            {
+              "label": "1995",
+              "value": 4856
+            },
+            {
+              "label": "1996",
+              "value": 4824
+            },
+            {
+              "label": "1997",
+              "value": 5753
+            },
+            {
+              "label": "1998",
+              "value": 6290
+            },
+            {
+              "label": "1999",
+              "value": 12954
+            },
+            {
+              "label": "2000",
+              "value": 19990
+            },
+            {
+              "label": "2001",
+              "value": 14372
+            },
+            {
+              "label": "2002",
+              "value": 9751
+            },
+            {
+              "label": "2003",
+              "value": 9404
+            },
+            {
+              "label": "2004",
+              "value": 16230
+            },
+            {
+              "label": "2005",
+              "value": 14526
+            },
+            {
+              "label": "2006",
+              "value": 16244
+            },
+            {
+              "label": "2007",
+              "value": 19310
+            },
+            {
+              "label": "2008",
+              "value": 14634
+            },
+            {
+              "label": "2009",
+              "value": 14989
+            },
+            {
+              "label": "2010",
+              "value": 14493
+            },
+            {
+              "label": "2011",
+              "value": 13559
+            }
+          ]
+        },
+        {
+          "id": "mbr",
+          "title": "Bromuro de metilo",
+          "unit": "toneladas",
+          "kind": "line",
+          "points": [
+            {
+              "label": "1989",
+              "value": null
+            },
+            {
+              "label": "1990",
+              "value": null
+            },
+            {
+              "label": "1991",
+              "value": 661
+            },
+            {
+              "label": "1992",
+              "value": 1297
+            },
+            {
+              "label": "1993",
+              "value": 3523
+            },
+            {
+              "label": "1994",
+              "value": 5421
+            },
+            {
+              "label": "1995",
+              "value": 2397
+            },
+            {
+              "label": "1996",
+              "value": 1250
+            },
+            {
+              "label": "1997",
+              "value": 1878
+            },
+            {
+              "label": "1998",
+              "value": 2012
+            },
+            {
+              "label": "1999",
+              "value": 1399
+            },
+            {
+              "label": "2000",
+              "value": 1445
+            },
+            {
+              "label": "2001",
+              "value": 1834
+            },
+            {
+              "label": "2002",
+              "value": 1779
+            },
+            {
+              "label": "2003",
+              "value": 1613
+            },
+            {
+              "label": "2004",
+              "value": 1646
+            },
+            {
+              "label": "2005",
+              "value": 1485
+            },
+            {
+              "label": "2006",
+              "value": 1204
+            },
+            {
+              "label": "2007",
+              "value": 1491
+            },
+            {
+              "label": "2008",
+              "value": 1366
+            },
+            {
+              "label": "2009",
+              "value": 1242
+            },
+            {
+              "label": "2010",
+              "value": 1113
+            },
+            {
+              "label": "2011",
+              "value": 814
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "El nuevo frente: emisiones humanas de óxido nitroso (N₂O)",
+      "subtitle": "Emisiones antropogénicas globales de N₂O, en millones de toneladas de nitrógeno al año. El N₂O no está regulado por el Protocolo de Montreal.",
+      "note": "Las emisiones humanas de N₂O crecieron 40 % entre 1980 y 2020; el 74 % viene de la agricultura, sobre todo de fertilizantes y estiércol. En 2020, ponderado por su efecto sobre el ozono, el N₂O humano superó más de dos veces lo que emitían todos los CFC juntos, y su efecto aumenta a medida que baja el cloro en la estratosfera. En el Valle del Yaqui, la sobrefertilización del trigo genera emisiones de N₂O muy altas en los suelos y en los drenes (ver límite 5). Fuentes: Tian et al. 2024 (Earth Syst. Sci. Data); OMM/PNUMA 2022; Ravishankara et al. 2009 (Science).",
+      "series": [
+        {
+          "id": "n2o",
+          "title": "N₂O antropogénico",
+          "unit": "Tg N por año",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "1980",
+              "value": 4.8
+            },
+            {
+              "label": "2020",
+              "value": 6.7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "semarnat-sao-2012",
+      "title": "Consumo de sustancias agotadoras del ozono estratosférico, 1989–2011",
+      "organization": "SEMARNAT-DGEIA, Compendio 2012 (datos de la Unidad de Protección a la Capa de Ozono)",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/Compendio_2012/archivos/01_atmosfera/D3_AIRE03_04.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Datos públicos",
+      "note": "Consumo anual en toneladas de CFC, halones, HCFC, bromuro de metilo, metilcloroformo y tetracloruro de carbono.",
+      "group": "regional"
+    },
+    {
+      "id": "snieg-sao-2013",
+      "title": "Inventario de Sustancias Agotadoras de la Capa de Ozono",
+      "organization": "SEMARNAT / SNIEG (2013)",
+      "url": "https://www.snieg.mx/Documentos/Geografico/sesiones/doc_22013/Inventario%20Sustancias%20Agotadoras.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Línea base de HCFC de 1,147.92 t PAO (2013) y consumo de bromuro de metilo 2008–2012 frente a su línea base de 1,884 t.",
+      "group": "regional"
+    },
+    {
+      "id": "ravishankara-2009",
+      "title": "Nitrous Oxide (N2O): The Dominant Ozone-Depleting Substance Emitted in the 21st Century",
+      "organization": "Science 326(5949):123–125 (Ravishankara, Daniel y Portmann)",
+      "url": "https://doi.org/10.1126/science.1176985",
+      "accessDate": "2026-10-16",
+      "license": "© AAAS",
+      "note": "El N2O es la emisión agotadora del ozono más importante y no está regulada por el Protocolo de Montreal.",
+      "group": "regional"
+    },
+    {
+      "id": "wmo-unep-2022",
+      "title": "Scientific Assessment of Ozone Depletion: 2022",
+      "organization": "OMM / PNUMA",
+      "url": "https://csl.noaa.gov/assessments/ozone/2022/executivesummary/",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "En 2020 las emisiones antropogénicas de N2O, ponderadas por su potencial de agotamiento, fueron más de dos veces las de todos los CFC.",
+      "group": "regional"
+    },
+    {
+      "id": "tian-2024",
+      "title": "Global nitrous oxide budget (1980–2020)",
+      "organization": "Earth System Science Data 16:2543–2604 (Tian et al.)",
+      "url": "https://doi.org/10.5194/essd-16-2543-2024",
+      "accessDate": "2026-10-16",
+      "license": "CC BY 4.0",
+      "note": "Las emisiones antropogénicas de N2O crecieron 40 % entre 1980 y 2020 (de 4.8 a 6.7 Tg N/año); la agricultura aportó 74 % en la década de 2010.",
+      "group": "regional"
+    },
+    {
+      "id": "unep-n2o-2024",
+      "title": "Global Nitrous Oxide Assessment",
+      "organization": "PNUMA / Coalición Clima y Aire Limpio (2024)",
+      "url": "https://www.unep.org/news-and-stories/press-release/rise-nitrous-oxide-emissions-endangers-pathway-15degc-ozone-layer",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Las emisiones de N2O crecen más rápido de lo previsto; podrían reducirse más de 40 % con estrategias en varios sectores.",
+      "group": "regional"
+    },
+    {
+      "id": "harrison-matson-2003",
+      "title": "Patterns and controls of nitrous oxide emissions from waters draining a subtropical agricultural valley",
+      "organization": "Global Biogeochemical Cycles 17(3) (Harrison y Matson)",
+      "url": "https://doi.org/10.1029/2002GB001991",
+      "accessDate": "2026-10-16",
+      "license": "© AGU",
+      "note": "Los drenes agrícolas del Valle del Yaqui emiten unos 20,869 kg de N2O-N al año.",
+      "group": "regional"
+    },
+    {
+      "id": "millar-2018",
+      "title": "Nitrous oxide (N2O) flux responds exponentially to nitrogen fertilizer in irrigated wheat in the Yaqui Valley, Mexico",
+      "organization": "Agriculture, Ecosystems & Environment 261:125–132 (Millar et al.)",
+      "url": "https://doi.org/10.1016/j.agee.2018.04.003",
+      "accessDate": "2026-10-16",
+      "license": "© Elsevier",
+      "note": "Las emisiones de N2O crecen de forma exponencial por encima de la dosis óptima de nitrógeno; bajar a la dosis óptima evitaría el equivalente a 84–138 mil t de CO2 al año en el Yaqui.",
+      "group": "regional"
+    },
+    {
+      "id": "lemus-deschamps-2002",
+      "title": "Diagnosis of clear sky ultraviolet radiation for Mexico",
+      "organization": "Atmósfera 15(3) (Lemus-Deschamps, Galindo, Solano, Elizalde y Fonseca)",
+      "url": "https://www.scielo.org.mx/scielo.php?pid=S0187-62362002000300003&script=sci_arttext",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Índice UV a mediodía con cielo despejado de 6 a 12 en el norte de México y de 9 a 15 en el sur.",
+      "group": "regional"
+    },
+    {
+      "id": "castanedo-2016",
+      "title": "Analysis of the cumulative solar ultraviolet radiation in Mexico",
+      "organization": "Revista Médica del IMSS 54(1):26–31 (Castanedo-Cázares, Portales-González, Martínez-Rosales, Hernández-Blanco y Torres-Álvarez)",
+      "url": "https://revistamedica.imss.gob.mx/index.php/revista_medica/article/view/228/1292",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Dosis eritémica anual por satélite (2009–2013) en 11 ciudades: la menor en Tijuana (85 MED) y la mayor en la Ciudad de México (146 MED).",
+      "group": "regional"
+    }
+  ]
+}

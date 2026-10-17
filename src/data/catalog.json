@@ -510,23 +510,56 @@
       "short": "Adelgazamiento de la capa de ozono por químicos de larga vida (CFC).",
       "status": "safe",
       "trend": "stable",
-      "globalStatus": "Dentro del espacio seguro (285.7 DU), gracias al Protocolo de Montreal.",
+      "globalStatus": "Dentro del espacio seguro gracias al Protocolo de Montreal: el ozono estratosférico medio es 285.7 DU, por encima del límite de 277.4 DU. La recuperación podría haberse estancado.",
       "controlVariableIds": [
         "ozone-column"
       ],
       "regional": {
-        "summary": "Límite global dentro del espacio seguro; no es un problema accionable desde el Mar de Cortés. Se recomienda no concentrar recursos en este límite.",
+        "summary": "La capa de ozono se está recuperando gracias al Protocolo de Montreal, y México ha cumplido: dejó de consumir CFC hacia 2006, redujo el bromuro de metilo de 5,421 t en 1994 a 814 t en 2011 y está eliminando los HCFC. El ozono es un bien global y la región no puede cambiar su estado por sí sola, por eso el impacto regional es bajo. Pero sí tiene un vínculo directo con la amenaza que queda: el óxido nitroso (N₂O), que hoy es la sustancia que más destruye el ozono entre las que se siguen emitiendo y que no regula el Protocolo. El 74 % del N₂O humano viene de la agricultura, y en el Valle del Yaqui y los valles de Sinaloa la sobrefertilización del trigo genera emisiones muy altas (ver límite 5). Otras dos palancas regionales son los refrigerantes de la cadena de frío agrícola y pesquera (el HCFC-22, un refrigerante, sigue en eliminación en el país) y la fumigación con bromuro de metilo de productos de exportación, que no está controlada por el Protocolo. La región recibe además mucha radiación ultravioleta: con cielo despejado, el índice UV a mediodía va de 6 a 12 en el norte del país y de 9 a 15 en el sur.",
         "impact": "Bajo",
         "leverage": "Bajo",
         "priority": "Baja",
         "priorityScore": 1,
         "actions": [
           {
-            "actor": "sociedad",
-            "text": "Protección solar ante el índice UV elevado propio de la latitud (contexto de salud, no de transgresión)."
+            "actor": "iniciativa-privada",
+            "text": "Ajustar la fertilización nitrogenada a la dosis óptima (reduce N₂O, ahorra dinero) y recuperar los refrigerantes en empacadoras, frigoríficos y flotas pesqueras."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "Centros de acopio y regeneración de refrigerantes, capacitación de técnicos y vigilancia del comercio ilegal; campañas de protección solar para jornaleros y pescadores."
           }
         ],
-        "dataGaps": "No aplica un diagnóstico regional de transgresión."
+        "dataGaps": "No hay datos regionales de ozono estratosférico ni de sustancias agotadoras por estado. La serie nacional de consumo publicada llega a 2011 y los datos de radiación UV son estimaciones satelitales o de cielo despejado.",
+        "questions": [
+          {
+            "q": "¿Cómo reducir las emisiones de óxido nitroso de la agricultura de riego?",
+            "action": "Llevar la fertilización del trigo y otros cultivos a la dosis óptima, aplicar el nitrógeno más tarde y en partes, y reconocer la reducción de N₂O con créditos de carbono.",
+            "ref": "Millar et al. 2018 (Agric. Ecosyst. Environ.); Matson et al. 1998 (Science); ver límite 5."
+          },
+          {
+            "q": "¿Cómo manejar los refrigerantes de la cadena de frío agrícola y pesquera mientras se eliminan los HCFC?",
+            "action": "Recuperación y regeneración de refrigerantes, sustitución por refrigerantes naturales en empacadoras y frigoríficos, y técnicos certificados.",
+            "ref": "SEMARNAT, Inventario de Sustancias Agotadoras (2013)."
+          },
+          {
+            "q": "¿Se sigue usando bromuro de metilo para fumigar productos de exportación de la región?",
+            "action": "Cuantificar la fumigación de cuarentena y preembarque en Sinaloa y Baja California y promover alternativas (tratamientos térmicos, atmósferas controladas).",
+            "ref": "SEMARNAT, Compendio 2012; SNIEG 2013."
+          },
+          {
+            "q": "¿Cómo proteger de la radiación ultravioleta a quienes trabajan al aire libre?",
+            "action": "Información diaria del índice UV y medidas de protección solar para jornaleros agrícolas, pescadores y trabajadores de la construcción.",
+            "ref": "Lemus-Deschamps et al. 2002 (Atmósfera); Castanedo-Cázares et al. 2016 (Rev. Med. IMSS)."
+          }
+        ],
+        "measurementGaps": [
+          "Emisiones de N₂O por estado y por distrito de riego: no se encontraron cifras estatales publicadas, solo mediciones de estudios en el Valle del Yaqui.",
+          "El consumo de sustancias agotadoras después de 2013 en formato abierto, y su uso por estado en refrigeración y fumigación.",
+          "El volumen de bromuro de metilo usado en la fumigación de cuarentena y preembarque de exportaciones agrícolas de la región.",
+          "Índice UV medido en tierra en Hermosillo, La Paz, Culiacán, Mexicali y Tepic, más allá de estimaciones satelitales.",
+          "Incidencia de cáncer de piel y melanoma por estado, y exposición de trabajadores al aire libre."
+        ]
       },
       "hasMap": false
     },
@@ -697,12 +730,15 @@
     {
       "id": "ozone-column",
       "boundaryId": "ozone",
-      "name": "Ozono total en columna",
+      "name": "Ozono estratosférico medio fuera de los polos",
       "nameEn": "Total column ozone",
       "globalValue": "285.7 DU",
       "unit": "DU",
       "status": "safe",
-      "trend": "stable"
+      "trend": "stable",
+      "safeBoundary": "277.4 DU (5 % bajo el nivel de 1964–1980)",
+      "highRisk": "263 DU",
+      "note": "La recuperación desde mediados de los noventa podría haberse estancado; los valores siguen por debajo de los de mediados del siglo XX."
     },
     {
       "id": "novel-entities",
