@@ -62,7 +62,7 @@ src/
     index.ts              # Cargador tipado del catálogo
     regional.ts           # Cargador de datos regionales (import.meta.glob)
   components/             # StatusBadge, PlanetaryBar, PriorityMatrix, gráficas, mapa, listas
-  pages/                  # Home, Boundaries, BoundaryDetail, Spotlights, Prioritization, Sources, About
+  pages/                  # Home, Boundaries, BoundaryDetail, Prioritization, Spotlights, About
 public/
   geo/states.json         # GeoJSON de los 32 estados de México (Natural Earth, dominio público)
 ```

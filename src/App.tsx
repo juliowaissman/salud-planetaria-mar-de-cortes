@@ -1,11 +1,10 @@
-import { HashRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link, Navigate } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import Boundaries from './pages/Boundaries'
 import BoundaryDetail from './pages/BoundaryDetail'
 import Spotlights from './pages/Spotlights'
 import Prioritization from './pages/Prioritization'
-import Sources from './pages/Sources'
 import About from './pages/About'
 
 function NotFound() {
@@ -30,10 +29,11 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/limites" element={<Boundaries />} />
           <Route path="/limites/:id" element={<BoundaryDetail />} />
+          <Route path="/priorizacion" element={<Prioritization />} />
           <Route path="/spotlights" element={<Spotlights />} />
           <Route path="/spotlights/:id" element={<Spotlights />} />
-          <Route path="/priorizacion" element={<Prioritization />} />
-          <Route path="/fuentes" element={<Sources />} />
+          {/* La antigua página de fuentes: cada sección cita ya sus propias fuentes */}
+          <Route path="/fuentes" element={<Navigate to="/limites" replace />} />
           <Route path="/acerca" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Route>

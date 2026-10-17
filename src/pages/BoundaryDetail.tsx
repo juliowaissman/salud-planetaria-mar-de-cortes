@@ -337,8 +337,8 @@ export default function BoundaryDetail() {
                 ))}
               </ol>
               <p className="small muted" style={{ margin: '12px 0 0' }}>
-                Ver también la <Link to="/priorizacion">matriz de priorización</Link> y el{' '}
-                <Link to="/fuentes">catálogo completo de fuentes</Link>.
+                Ver también la <Link to="/priorizacion">matriz de priorización</Link>, que compara este límite con los
+                otros ocho.
               </p>
             </section>
 

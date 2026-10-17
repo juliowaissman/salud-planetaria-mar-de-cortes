@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { catalog, sourceById } from '../data'
 import type { DirectoryOrg, DirectoryPerson } from '../types'
 
@@ -228,7 +227,6 @@ export default function About() {
                   <span>Nature</span>
                 </li>
               </ul>
-              <Link to="/fuentes" className="small">Ver el catálogo completo de fuentes →</Link>
             </div>
           </div>
         </section>

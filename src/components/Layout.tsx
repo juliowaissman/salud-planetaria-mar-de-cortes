@@ -7,9 +7,8 @@ const base = import.meta.env.BASE_URL
 const nav = [
   { to: '/', label: 'Inicio', end: true },
   { to: '/limites', label: 'Límites planetarios' },
-  { to: '/spotlights', label: 'Temas emergentes' },
   { to: '/priorizacion', label: 'Priorización' },
-  { to: '/fuentes', label: 'Fuentes' },
+  { to: '/spotlights', label: 'Temas emergentes' },
   { to: '/acerca', label: 'Acerca' },
 ]
 
@@ -122,8 +121,6 @@ export default function Layout() {
                 <a href="https://www.planetaryhealthcheck.org" target="_blank" rel="noopener noreferrer">
                   Planetary Health Check
                 </a>
-                <br />
-                <Link to="/fuentes">Catálogo de fuentes</Link>
               </p>
             </div>
           </div>
