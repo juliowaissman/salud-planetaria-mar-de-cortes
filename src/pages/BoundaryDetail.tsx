@@ -117,6 +117,7 @@ export default function BoundaryDetail() {
                     {cv.highRisk ? `Alto riesgo: ${cv.highRisk}` : ''}
                     {!cv.safeBoundary && cv.note ? cv.note : ''}
                   </div>
+                  {cv.safeBoundary && cv.note && <div className="small muted" style={{ marginTop: 4 }}>{cv.note}</div>}
                 </div>
               ))}
             </div>

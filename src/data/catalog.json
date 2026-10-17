@@ -308,13 +308,13 @@
       "short": "Disrupción de los ciclos de nitrógeno y fósforo por fertilizantes y aguas residuales.",
       "status": "high-risk",
       "trend": "worsening",
-      "globalStatus": "Fuertemente transgredido. Nitrógeno (165 Tg N/año) y fósforo (18.2 Tg P/año) en zona de alto riesgo.",
+      "globalStatus": "Fuertemente transgredido. La agricultura fija 165 Tg de nitrógeno al año (límite 62) y aplica 18.2 Tg de fósforo de minas (límite 6.2); ambos superan el umbral de alto riesgo.",
       "controlVariableIds": [
         "nitrogen",
         "phosphorus"
       ],
       "regional": {
-        "summary": "La agricultura intensiva de Sinaloa y Sonora aplica grandes volúmenes de fertilizantes nitrogenados y fosfatados; los excedentes drenan por los ríos Yaqui, Fuerte y Sinaloa hacia el Golfo, favoreciendo eutrofización y zonas con bajo oxígeno. La acuicultura suma nutrientes. Alto impacto y alto apalancamiento (eficiencia en fertilización y saneamiento).",
+        "summary": "Las costas agrícolas del Mar de Cortés reciben más nitrógeno y fósforo de los que los cultivos y el mar pueden absorber. En el Valle del Yaqui, los agricultores aplican al trigo unos 300 kg de nitrógeno por hectárea, al menos el doble de la dosis óptima, y el cultivo aprovecha menos del 40 %. El resto se pierde como gases (óxido nitroso, un potente gas de efecto invernadero) y en el agua de los drenes, y sus pulsos alimentan grandes florecimientos de fitoplancton en el Golfo pocos días después de cada riego con fertilizante. Se estima que las costas de Sinaloa y Sonora descargan unas 77 mil t de nitrógeno y 38 mil t de fósforo al año; las granjas camaroneras aportan una parte pequeña pero creciente y son la principal fuente puntual en las lagunas de Sinaloa. En 2021, 12 de las 14 vedas sanitarias del país por marea roja fueron en estados de la región. Es un límite de alto impacto y alto apalancamiento: la dosis de fertilizante, el tratamiento de efluentes y el saneamiento se deciden en la región, y reducir el nitrógeno ahorra dinero a los productores.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -322,14 +322,49 @@
         "actions": [
           {
             "actor": "iniciativa-privada",
-            "text": "Fertilización de precisión y manejo integrado de nutrientes; tratamiento de efluentes acuícolas."
+            "text": "Ajustar la dosis y el momento de la fertilización a la demanda del cultivo; tratar los efluentes de granjas acuícolas y porcícolas."
           },
           {
             "actor": "gobierno-local",
-            "text": "Saneamiento de aguas residuales urbanas y vigilancia de calidad de agua en ríos y esteros."
+            "text": "Saneamiento de aguas residuales urbanas, vigilancia de nutrientes en drenes, esteros y lagunas, y alerta temprana de florecimientos nocivos."
           }
         ],
-        "dataGaps": "Carga de N/P hacia el Golfo poco cuantificada a nivel estatal; se usan superficies fertilizadas y calidad del agua."
+        "dataGaps": "Casi toda la evidencia regional sobre nutrientes es de 1994–2013 y se concentra en el Valle del Yaqui y Sinaloa. Las cargas al Golfo son estimaciones de un solo estudio. No hay una medición regional actual de nitrógeno y fósforo en el agua.",
+        "questions": [
+          {
+            "q": "¿Cómo llevar la fertilización del Valle del Yaqui y los valles de Sinaloa a la dosis óptima?",
+            "action": "Recomendaciones de dosis por parcela con sensores y análisis de suelo, aplicar el nitrógeno más tarde y dividido, y créditos de carbono por reducir el óxido nitroso.",
+            "ref": "Matson et al. 1998 (Science); Millar et al. 2018 (Agric. Ecosyst. Environ.)."
+          },
+          {
+            "q": "¿Cómo reducir los pulsos de nutrientes que llegan al Golfo después de cada riego?",
+            "action": "Coordinar calendarios de riego y fertilización, humedales de tratamiento en los drenes y monitoreo de nitrógeno en las descargas de los distritos de riego.",
+            "ref": "Beman et al. 2005 (Nature); Ahrens et al. 2008 (Water Resour. Res.)."
+          },
+          {
+            "q": "¿Cómo controlar las descargas de las granjas camaroneras en las lagunas costeras?",
+            "action": "Estanques de sedimentación, menor recambio de agua, sistemas de recirculación y límites de carga por laguna según su capacidad.",
+            "ref": "Miranda et al. 2009 (Hidrobiológica); Páez-Osuna et al. 2013 (Mar. Pollut. Bull.)."
+          },
+          {
+            "q": "¿Cómo proteger a los productores de moluscos y a los consumidores de las mareas rojas?",
+            "action": "Monitoreo permanente de fitoplancton y toxinas en zonas de cosecha, alerta temprana y estudios que vinculen los florecimientos con las cargas de nutrientes.",
+            "ref": "COFEPRIS 2021; Beman et al. 2005 (Nature)."
+          },
+          {
+            "q": "¿Cómo reducir el nitrógeno de las aguas residuales urbanas y porcícolas?",
+            "action": "Ampliar el tratamiento con remoción de nutrientes, no solo de materia orgánica, y reúso agrícola del agua tratada en lugar de descargarla a drenes y esteros.",
+            "ref": "Harrison y Matson 2003 (Global Biogeochem. Cycles); CONAGUA 2023."
+          }
+        ],
+        "measurementGaps": [
+          "Nitrógeno y fósforo en ríos, presas y costas: desde 2020 la red oficial de calidad del agua (RENAMECA) ya no los mide en esos cuerpos de agua, y su semáforo nunca los incluyó.",
+          "El consumo de fertilizantes por estado y por distrito de riego: el dato estatal más reciente es la superficie fertilizada de 2007, no las toneladas aplicadas.",
+          "Las cargas de nutrientes que llegan al Golfo: la estimación disponible para Sinaloa y Sonora tiene más de 20 años, y no hay datos para Baja California, Baja California Sur ni Nayarit.",
+          "El tratamiento de aguas residuales por estado con remoción de nutrientes: solo se publica el caudal tratado por región hidrológica.",
+          "Nitratos en los acuíferos de los valles agrícolas y oxígeno disuelto en lagunas y bahías para detectar hipoxia.",
+          "Una serie regional de florecimientos algales nocivos que relacione su frecuencia con las cargas de nutrientes."
+        ]
       },
       "hasMap": true
     },
@@ -543,24 +578,27 @@
     {
       "id": "nitrogen",
       "boundaryId": "biogeochemical-flows",
-      "name": "Fijación de nitrógeno",
-      "nameEn": "Nitrogen fixation",
+      "name": "Fijación intencional de nitrógeno en la agricultura",
+      "nameEn": "Intentional N fixation in agriculture",
       "globalValue": "165 Tg N/año",
       "unit": "Tg N/año",
       "safeBoundary": "62 Tg N/año",
       "status": "high-risk",
-      "trend": "worsening"
+      "trend": "worsening",
+      "highRisk": "82 Tg N/año"
     },
     {
       "id": "phosphorus",
       "boundaryId": "biogeochemical-flows",
-      "name": "Fósforo al océano",
-      "nameEn": "Phosphorus to ocean",
+      "name": "Fósforo de minas aplicado a suelos agrícolas",
+      "nameEn": "Application of mined P to cropland",
       "globalValue": "18.2 Tg P/año",
       "unit": "Tg P/año",
-      "safeBoundary": "11 Tg P/año",
+      "safeBoundary": "6.2 Tg P/año",
       "status": "high-risk",
-      "trend": "worsening"
+      "trend": "worsening",
+      "highRisk": "11.2 Tg P/año",
+      "note": "El fósforo que llega al océano (4.4 Tg P/año) sigue por debajo de su límite global de 11 Tg P/año."
     },
     {
       "id": "aragonite-saturation",

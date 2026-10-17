@@ -1,160 +1,300 @@
 {
   "boundaryId": "biogeochemical-flows",
-  "updated": "2026-10-03",
-  "stateValues": [
+  "updated": "2026-10-16",
+  "charts": [
     {
-      "stateId": "bc",
-      "value": 188878,
-      "unit": "ha sembradas",
-      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+      "title": "Valle del Yaqui: nitrógeno aplicado al trigo frente a la dosis óptima",
+      "subtitle": "Kilogramos de nitrógeno por hectárea en trigo de riego. La dosis óptima es la que maximiza la ganancia del agricultor sin bajar el rendimiento, según ensayos del CIMMYT en Ciudad Obregón (2013 y 2014).",
+      "note": "Los agricultores aplican en promedio unos 300 kg N/ha, el doble que en los años ochenta y al menos el doble de la dosis óptima. Con la dosis actual el cultivo aprovecha solo 36–39 % del nitrógeno; con la óptima, 50–57 %. Bajar a la dosis óptima evitaría emisiones de óxido nitroso equivalentes a 84–138 mil t de CO₂ al año en la región sin perder rendimiento (Millar et al. 2018). Ya en 1998 se había mostrado que aplicar menos nitrógeno y más tarde ahorra 12–17 % de las ganancias sin afectar la cosecha (Matson et al. 1998).",
+      "series": [
+        {
+          "id": "yaqui-n",
+          "title": "Dosis de nitrógeno",
+          "unit": "kg N por hectárea",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Dosis promedio\nde los agricultores",
+              "value": 300
+            },
+            {
+              "label": "Dosis óptima\n(ensayo 2013)",
+              "value": 123
+            },
+            {
+              "label": "Dosis óptima\n(ensayo 2014)",
+              "value": 145
+            }
+          ]
+        }
+      ]
     },
     {
-      "stateId": "bcs",
-      "value": 37816,
-      "unit": "ha sembradas",
-      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+      "title": "Nitrógeno y fósforo que llegan al Golfo desde Sinaloa y Sonora",
+      "subtitle": "Toneladas al año que descargan los ríos, el escurrimiento agrícola y las aguas residuales urbanas, comparadas con la descarga de las granjas camaroneras (estimación de Miranda et al. 2009, que recalcula un balance de 1998).",
+      "note": "Las dos costas descargan unas 77 mil t de nitrógeno y 38 mil t de fósforo al año. Las granjas camaroneras aportan una fracción pequeña del total (los autores la estiman en 4.8 % del N y 1.6 % del P), pero creciente: para 2003 proyectan 10.1 % y 3.3 %. En las lagunas del sureste del Golfo, las granjas son la principal fuente puntual de nutrientes (Páez-Osuna et al. 2013). Fuente: Miranda et al. 2009.",
+      "series": [
+        {
+          "id": "carga-total",
+          "title": "Ríos, escurrimiento agrícola y aguas urbanas",
+          "unit": "toneladas al año",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Nitrógeno",
+              "value": 77008
+            },
+            {
+              "label": "Fósforo",
+              "value": 38108
+            }
+          ]
+        },
+        {
+          "id": "carga-camaron",
+          "title": "Granjas camaroneras",
+          "unit": "toneladas al año",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Nitrógeno",
+              "value": 3556
+            },
+            {
+              "label": "Fósforo",
+              "value": 621
+            }
+          ]
+        }
+      ]
     },
     {
-      "stateId": "son",
-      "value": 648396,
-      "unit": "ha sembradas",
-      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
-    },
-    {
-      "stateId": "sin",
-      "value": 1272407,
-      "unit": "ha sembradas",
-      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
-    },
-    {
-      "stateId": "nay",
-      "value": 456031,
-      "unit": "ha sembradas",
-      "note": "INEGI Censo Agropecuario 2022 (resultados definitivos); superficie sembrada, año agrícola 2021-2022."
+      "title": "Cada vez menos monitoreo de la calidad del agua",
+      "subtitle": "Sitios de la Red Nacional de Medición de Calidad del Agua (RENAMECA) monitoreados cada año en todo el país.",
+      "note": "Hasta 2019 la red medía unos 5,000 sitios al año e incluía nitrógeno (amoniacal, nitritos, nitratos, total) y fósforo en ríos, presas y costas. Desde 2020 bajó a menos de la mitad, el monitoreo pasó a ser anual y el conjunto de parámetros de ríos, presas y costas ya no incluye nitrógeno ni fósforo; solo se miden nitratos en acuíferos. Fuente: CONAGUA, presentación de la RENAMECA.",
+      "series": [
+        {
+          "id": "renameca",
+          "title": "Sitios monitoreados",
+          "unit": "sitios",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "2012",
+              "value": 5150
+            },
+            {
+              "label": "2013",
+              "value": 5025
+            },
+            {
+              "label": "2014",
+              "value": 5000
+            },
+            {
+              "label": "2015",
+              "value": 4999
+            },
+            {
+              "label": "2016",
+              "value": 5068
+            },
+            {
+              "label": "2017",
+              "value": 5028
+            },
+            {
+              "label": "2018",
+              "value": 5080
+            },
+            {
+              "label": "2019",
+              "value": 4655
+            },
+            {
+              "label": "2020",
+              "value": 5034
+            },
+            {
+              "label": "2021",
+              "value": 2050
+            },
+            {
+              "label": "2022",
+              "value": 2595
+            },
+            {
+              "label": "2023",
+              "value": 1143
+            },
+            {
+              "label": "2024",
+              "value": 1231
+            }
+          ]
+        }
+      ]
     }
   ],
-  "series": [
+  "stateGroups": [
     {
-      "id": "modalidad-hidrica",
-      "title": "Superficie agrícola (total) por modalidad hídrica, Censo Agropecuario 2022",
-      "unit": "ha",
-      "points": [
+      "id": "vedas-2021",
+      "title": "Vedas sanitarias por marea roja (2021)",
+      "unit": "vedas declaradas por COFEPRIS",
+      "values": [
         {
-          "label": "Riego — Baja California",
-          "value": 229335
+          "stateId": "bc",
+          "value": 8,
+          "note": "6 en el Alto Golfo y San Felipe–Puertecitos; 2 en el Pacífico (Ensenada)"
         },
         {
-          "label": "Temporal — Baja California",
-          "value": 40648
+          "stateId": "bcs",
+          "value": 1,
+          "note": "Bahía Magdalena–Bahía Almejas (Pacífico), ácido domoico"
         },
         {
-          "label": "Riego — Baja California Sur",
-          "value": 138641
+          "stateId": "son",
+          "value": 1,
+          "note": "Estero Morúa, Puerto Peñasco"
         },
         {
-          "label": "Temporal — Baja California Sur",
-          "value": 424
+          "stateId": "sin",
+          "value": 2,
+          "note": "Celestino Gasca; Bahía Altata Norte–Ensenada del Pabellón"
         },
         {
-          "label": "Riego — Sonora",
-          "value": 690288
-        },
-        {
-          "label": "Temporal — Sonora",
-          "value": 124382
-        },
-        {
-          "label": "Riego — Sinaloa",
-          "value": 930445
-        },
-        {
-          "label": "Temporal — Sinaloa",
-          "value": 420923
-        },
-        {
-          "label": "Riego — Nayarit",
-          "value": 131896
-        },
-        {
-          "label": "Temporal — Nayarit",
-          "value": 371579
+          "stateId": "nay",
+          "value": 0,
+          "note": "Sin vedas en 2021"
         }
       ],
-      "kind": "bar"
+      "note": "De las 14 vedas por florecimientos algales nocivos que COFEPRIS declaró en México en 2021, 12 fueron en estados del Mar de Cortés, sobre todo por saxitoxina en zonas de cosecha de moluscos. No hubo casos de intoxicación. Las vedas indican florecimientos tóxicos, pero no prueban por sí solas que los causen los nutrientes. Fuente: COFEPRIS, Presencia de florecimientos algales nocivos en México durante 2021."
     }
   ],
   "map": {
     "kind": "choropleth",
-    "title": "Superficie agrícola sembrada por estado (proxy de presión por fertilizantes N/P)",
-    "unit": "ha sembradas",
-    "sourceId": "inegi-ca2022",
+    "title": "Superficie agrícola con fertilizantes químicos (2007)",
+    "unit": "ha",
+    "sourceId": "semarnat-fertilizantes-2007",
     "valuesByState": {
-      "son": 648396,
-      "bc": 188878,
-      "bcs": 37816,
-      "sin": 1272407,
-      "nay": 456031
+      "bc": 173694,
+      "bcs": 41358,
+      "son": 455220,
+      "sin": 594369,
+      "nay": 226984
     },
-    "note": "Superficie sembrada del año agrícola 2021-2022 como proxy de la presión por flujos biogeoquímicos (nitrógeno/fósforo) derivada del uso de fertilizantes."
+    "note": "Sinaloa y Sonora concentran la mayor superficie fertilizada con químicos. En proporción, los cinco estados fertilizan entre 32 % y 46 % de su superficie agrícola, frente a 26 % en el país (BC 45.9 %, Sinaloa 44.5 %, Nayarit 37.7 %, Sonora 36.1 %, BCS 32.0 %). Es el dato estatal más reciente disponible: el Censo Agropecuario 2022 no publica la superficie fertilizada en sus resultados estatales."
   },
   "sources": [
     {
-      "id": "inegi-ca2022",
-      "title": "Censo Agropecuario 2022. Resultados definitivos (programa)",
-      "organization": "INEGI",
-      "url": "https://www.inegi.org.mx/programas/cagf/2022/",
-      "accessDate": "2026-10-03",
-      "license": "Libre (INEGI); citar la fuente",
-      "note": "Periodo de referencia: año agrícola de octubre de 2021 a septiembre de 2022. Los valores estatales provienen de los documentos estatales de Resultados Definitivos listados abajo."
+      "id": "millar-2018",
+      "title": "Nitrous oxide (N2O) flux responds exponentially to nitrogen fertilizer in irrigated wheat in the Yaqui Valley, Mexico",
+      "organization": "Agriculture, Ecosystems & Environment 261:125–132 (Millar, Urrea, Kahmark, Shcherbak, Robertson y Ortiz-Monasterio)",
+      "url": "https://doi.org/10.1016/j.agee.2018.04.003",
+      "accessDate": "2026-10-16",
+      "license": "© Elsevier",
+      "note": "Dosis promedio de ~300 kg N/ha en trigo, al menos el doble de la óptima (123–145 kg N/ha); eficiencia de uso de N de 36–39 % frente a 50–57 %.",
+      "group": "regional"
     },
     {
-      "id": "inegi-ca2022-bc",
-      "title": "Censo Agropecuario 2022. Resultados definitivos — Baja California",
-      "organization": "INEGI",
-      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdBCN.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Libre (INEGI); citar la fuente",
-      "note": "Superficie sembrada: 188 878 ha. Superficie agrícola total de unidades activas: 269 983 ha (riego 229 335 ha / temporal 40 648 ha)."
+      "id": "matson-1998",
+      "title": "Integration of Environmental, Agronomic, and Economic Aspects of Fertilizer Management",
+      "organization": "Science 280(5360):112–115 (Matson, Naylor y Ortiz-Monasterio)",
+      "url": "https://doi.org/10.1126/science.280.5360.112",
+      "accessDate": "2026-10-16",
+      "license": "© AAAS",
+      "note": "La fertilización típica del Yaqui genera flujos muy altos de N2O y NO; aplicar menos N y más tarde no reduce el rendimiento y ahorra 12–17 % de las ganancias.",
+      "group": "regional"
     },
     {
-      "id": "inegi-ca2022-bcs",
-      "title": "Censo Agropecuario 2022. Resultados definitivos — Baja California Sur",
-      "organization": "INEGI",
-      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdBCS.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Libre (INEGI); citar la fuente",
-      "note": "Superficie sembrada: 37 816 ha. Superficie agrícola total de unidades activas: 139 065 ha (riego 138 641 ha / temporal 424 ha)."
+      "id": "ahrens-2008",
+      "title": "A synthesis of nitrogen transformations and transfers from land to the sea in the Yaqui Valley agricultural region of northwest Mexico",
+      "organization": "Water Resources Research 44(7) (Ahrens, Beman, Harrison, Jewett y Matson)",
+      "url": "https://doi.org/10.1029/2007WR006661",
+      "accessDate": "2026-10-16",
+      "license": "© AGU",
+      "note": "Síntesis de 15 años: menos del 4 % del N que entra al valle llega a la costa por agua superficial, pero en pulsos que alimentan florecimientos de fitoplancton.",
+      "group": "regional"
     },
     {
-      "id": "inegi-ca2022-son",
-      "title": "Censo Agropecuario 2022. Resultados definitivos — Sonora",
-      "organization": "INEGI",
-      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdSON.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Libre (INEGI); citar la fuente",
-      "note": "Superficie sembrada: 648 396 ha. Superficie agrícola total de unidades activas: 814 670 ha (riego 690 288 ha / temporal 124 382 ha)."
+      "id": "beman-2005",
+      "title": "Agricultural runoff fuels large phytoplankton blooms in vulnerable areas of the ocean",
+      "organization": "Nature 434(7030):211–214 (Beman, Arrigo y Matson)",
+      "url": "https://doi.org/10.1038/nature03370",
+      "accessDate": "2026-10-16",
+      "license": "© Nature",
+      "note": "Con imágenes satelitales de 1998–2002, grandes florecimientos en el Golfo aparecen pocos días después de los riegos con fertilizante en el Valle del Yaqui.",
+      "group": "regional"
     },
     {
-      "id": "inegi-ca2022-sin",
-      "title": "Censo Agropecuario 2022. Resultados definitivos — Sinaloa",
-      "organization": "INEGI",
-      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdSIN.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Libre (INEGI); citar la fuente",
-      "note": "Superficie sembrada: 1 272 407 ha. Superficie agrícola total de unidades activas: 1 351 368 ha (riego 930 445 ha / temporal 420 923 ha)."
+      "id": "harrison-matson-2003",
+      "title": "Patterns and controls of nitrous oxide emissions from waters draining a subtropical agricultural valley",
+      "organization": "Global Biogeochemical Cycles 17(3) (Harrison y Matson)",
+      "url": "https://doi.org/10.1029/2002GB001991",
+      "accessDate": "2026-10-16",
+      "license": "© AGU",
+      "note": "Emisiones de N2O en los drenes agrícolas del Yaqui; los valores más altos ocurren en canales que reciben descargas porcícolas y urbanas.",
+      "group": "regional"
     },
     {
-      "id": "inegi-ca2022-nay",
-      "title": "Censo Agropecuario 2022. Resultados definitivos — Nayarit",
-      "organization": "INEGI",
-      "url": "https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdNAY.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Libre (INEGI); citar la fuente",
-      "note": "Superficie sembrada: 456 031 ha. Superficie agrícola total de unidades activas: 503 475 ha (riego 131 896 ha / temporal 371 579 ha)."
+      "id": "miranda-2009",
+      "title": "Budget and discharges of nutrients to the Gulf of California of a semi-intensive shrimp farm (NW Mexico)",
+      "organization": "Hidrobiológica 19(1):43–48 (Miranda, Voltolina, Frías-Espericueta, Izaguirre-Fierro y Rivas-Vega)",
+      "url": "https://cibnor.repositorioinstitucional.mx/jspui/bitstream/1001/1081/1/Miranda-A.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Cargas a la costa de Sinaloa y Sonora: 77,007.7 t N y 38,108.3 t P al año (ríos, escurrimiento agrícola y aguas urbanas); granjas camaroneras: 3,556 t N y 620.7 t P.",
+      "group": "regional"
+    },
+    {
+      "id": "paez-osuna-2013",
+      "title": "Dominance patterns in macroalgal and phytoplankton biomass under different nutrient loads in subtropical coastal lagoons of the SE Gulf of California",
+      "organization": "Marine Pollution Bulletin 77(1–2):274–281 (Páez-Osuna et al.)",
+      "url": "https://doi.org/10.1016/j.marpolbul.2013.09.048",
+      "accessDate": "2026-10-16",
+      "license": "© Elsevier",
+      "note": "En cinco lagunas de Sinaloa, las granjas camaroneras son la principal fuente puntual de N y P, y la biomasa de algas sigue a las cargas de nutrientes.",
+      "group": "regional"
+    },
+    {
+      "id": "cofepris-marea-roja-2021",
+      "title": "Presencia de florecimientos algales nocivos (marea roja) en México durante 2021",
+      "organization": "COFEPRIS",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/787257/Presencia_de_Marea_Roja_en_M_xico_durante_2021.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "14 vedas sanitarias en el país; 12 en BC, BCS, Sonora y Sinaloa.",
+      "group": "regional"
+    },
+    {
+      "id": "semarnat-fertilizantes-2007",
+      "title": "Superficie agrícola según tipo de tecnología aplicada en el manejo de los cultivos, 2007",
+      "organization": "SEMARNAT-DGEIA, Compendio 2020, con datos de INEGI (Censos Agropecuarios 2007, IX Censo Ejidal)",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2020/archivos/02_agrigan/d2_agrigan01_23.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Datos públicos",
+      "note": "Superficie con fertilizantes químicos por estado (ha) y superficie agrícola total.",
+      "group": "regional"
+    },
+    {
+      "id": "renameca-conagua",
+      "title": "Red Nacional de Medición de Calidad del Agua (RENAMECA)",
+      "organization": "CONAGUA (presentación institucional)",
+      "url": "https://atl.org.mx/wp-content/uploads/pdf/Golfo/Presentacion-RENAMECA_CONAGUA.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Sitios monitoreados por año 2012–2024 y parámetros medidos antes y después de 2020.",
+      "group": "regional"
+    },
+    {
+      "id": "conagua-eam-2023",
+      "title": "Estadísticas del Agua en México 2023",
+      "organization": "CONAGUA",
+      "url": "https://agua.org.mx/wp-content/uploads/2024/10/EAM2023_f.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "En 2022 se trató el 66.7 % de las aguas residuales municipales recolectadas en el país (Tabla 4.8: plantas y caudal tratado por región).",
+      "group": "regional"
     }
-  ],
-  "stateTitle": "Superficie agrícola sembrada por estado (INEGI, Censo Agropecuario 2022)",
-  "stateNote": "Sinaloa y Sonora concentran la mayor superficie agrícola, principal fuente de nitrógeno y fósforo hacia el Golfo.",
-  "seriesTitle": "Superficie agrícola por modalidad hídrica (riego vs temporal)",
-  "seriesNote": "El riego predomina en la agricultura intensiva que más fertilizante aplica; el temporal domina en Nayarit."
+  ]
 }
