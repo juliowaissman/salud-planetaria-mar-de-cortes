@@ -1,91 +1,262 @@
 {
   "boundaryId": "novel-entities",
-  "updated": "2026-10-03",
-  "stateValues": [
+  "updated": "2026-10-17",
+  "charts": [
     {
-      "stateId": "son",
-      "value": 1.073,
-      "unit": "kg RSU/hab/día",
-      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
-    },
-    {
-      "stateId": "bc",
-      "value": 1.142,
-      "unit": "kg RSU/hab/día",
-      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
-    },
-    {
-      "stateId": "bcs",
-      "value": 1.099,
-      "unit": "kg RSU/hab/día",
-      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
-    },
-    {
-      "stateId": "sin",
-      "value": 1.079,
-      "unit": "kg RSU/hab/día",
-      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
-    },
-    {
-      "stateId": "nay",
-      "value": 1.049,
-      "unit": "kg RSU/hab/día",
-      "note": "Proxy de entidades nuevas: generación per cápita de residuos sólidos urbanos. SEMARNAT DBGIR 2026, Tabla 10."
-    }
-  ],
-  "series": [
-    {
-      "id": "s1",
-      "title": "Abundancia relativa de microfibras vs partículas de microplástico en aguas superficiales de una playa turística del Golfo de California (2025)",
-      "unit": "% de la abundancia total",
-      "points": [
+      "title": "Plaguicidas en la sangre de niños de los valles del Yaqui y del Mayo (2009)",
+      "subtitle": "Porcentaje de 153 niños de 6 a 12 años, de nueve comunidades agrícolas de Sonora, con cada plaguicida organoclorado detectable en el suero.",
+      "note": "Todos los niños tenían DDE, el producto de degradación del DDT, aunque el DDT se dejó de usar en la agricultura hace décadas: estos compuestos persisten en el ambiente y en el cuerpo. Uno de cada cuatro tenía DDT y casi cuatro de cada diez lindano. Un estudio previo en el Yaqui asoció la exposición agrícola a plaguicidas con menor coordinación, resistencia y memoria en niños de preescolar (Guillette et al. 1998). Fuente: Meza-Montenegro et al. 2013.",
+      "series": [
         {
-          "label": "Microfibras",
-          "value": 50.8
+          "id": "ninos-ocp",
+          "title": "Niños con el plaguicida detectable",
+          "unit": "% de los niños",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "DDE",
+              "value": 100
+            },
+            {
+              "label": "Lindano",
+              "value": 39.2
+            },
+            {
+              "label": "DDT",
+              "value": 25.5
+            },
+            {
+              "label": "Aldrín",
+              "value": 9.8
+            },
+            {
+              "label": "Endosulfán",
+              "value": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Contaminantes persistentes en lobos marinos del Golfo de California",
+      "subtitle": "Concentración media en la grasa de 34 lobos marinos de California, en nanogramos por gramo de lípido (muestras de mediados de la década de 2000).",
+      "note": "Dominan el DDT y sus derivados, seguidos de los bifenilos policlorados (PCB), prohibidos por el Convenio de Estocolmo. Que estén en un depredador tope muestra que estas sustancias recorren toda la cadena alimentaria del Golfo, aunque los niveles son menores que en los lobos marinos de California, en Estados Unidos. Fuente: Niño-Torres et al. 2009.",
+      "series": [
+        {
+          "id": "lobos-pop",
+          "title": "Concentración media",
+          "unit": "ng/g de lípido",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "DDT total",
+              "value": 3400
+            },
+            {
+              "label": "PCB total",
+              "value": 1400
+            },
+            {
+              "label": "HCH total",
+              "value": 50
+            },
+            {
+              "label": "Clordanos",
+              "value": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Santa Rosalía (BCS): metales de la fundición de cobre en los sedimentos del puerto",
+      "subtitle": "Cociente entre cobalto o zinc y escandio en los sedimentos (un indicador de enriquecimiento): fondo natural de la costa frente al valor máximo junto al puerto.",
+      "note": "Los desechos de la antigua fundición de cobre de El Boleo elevaron el cobalto entre 20 y 75 veces y el zinc entre 15 y 70 veces sobre el fondo natural. La contaminación es local: lejos del punto caliente los valores vuelven al fondo. Fuente: Shumilin et al. 2013.",
+      "series": [
+        {
+          "id": "sr-fondo",
+          "title": "Fondo natural de la costa",
+          "unit": "cociente con escandio",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Cobalto / escandio",
+              "value": 2
+            },
+            {
+              "label": "Zinc / escandio",
+              "value": 10
+            }
+          ]
         },
         {
-          "label": "Partículas de microplástico",
-          "value": 49.2
+          "id": "sr-max",
+          "title": "Máximo junto al puerto",
+          "unit": "cociente con escandio",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Cobalto / escandio",
+              "value": 150
+            },
+            {
+              "label": "Zinc / escandio",
+              "value": 350
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stateGroups": [
+    {
+      "id": "rellenos",
+      "title": "Residuos que llegan a un relleno sanitario que cumple la norma (2023)",
+      "unit": "% de los residuos dispuestos",
+      "values": [
+        {
+          "stateId": "bc",
+          "value": 0,
+          "note": "0 de 20 sitios cumplen la NOM-083"
+        },
+        {
+          "stateId": "bcs",
+          "value": 0,
+          "note": "0 de 32 sitios cumplen la NOM-083"
+        },
+        {
+          "stateId": "son",
+          "value": 17.1,
+          "note": "1 de 116 sitios cumple (410 de 2,393 t/día)"
+        },
+        {
+          "stateId": "sin",
+          "value": 0,
+          "note": "0 de 48 sitios cumplen la NOM-083"
+        },
+        {
+          "stateId": "nay",
+          "value": 0,
+          "note": "0 de 29 sitios cumplen la NOM-083"
         }
       ],
-      "kind": "bar"
+      "note": "De 245 sitios de disposición final en los cinco estados, solo uno, en Sonora, cumple todos los requisitos de un relleno sanitario según la NOM-083-SEMARNAT-2003. En el país, 15.6 % de los residuos llega a un relleno que cumple. El resto va a sitios que no cumplen todos los requisitos de construcción y operación de la norma, lo que facilita que plásticos y sustancias químicas escapen al suelo, al agua y al mar. Fuente: SEMARNAT, DBGIR 2026 (Tablas 34 y 35, con datos del CNGMD 2023)."
     }
   ],
   "map": {
     "kind": "choropleth",
-    "title": "Generación de residuos sólidos urbanos per cápita (proxy de entidades nuevas)",
-    "unit": "kg RSU/hab/día",
+    "title": "Sitios de disposición final de residuos por estado (2023)",
+    "unit": "sitios",
     "sourceId": "semarnat-dbgir-2026",
     "valuesByState": {
-      "son": 1.073,
-      "bc": 1.142,
-      "bcs": 1.099,
-      "sin": 1.079,
-      "nay": 1.049
-    }
+      "bc": 20,
+      "bcs": 32,
+      "son": 116,
+      "sin": 48,
+      "nay": 29
+    },
+    "note": "Sonora tiene 116 sitios de disposición final; 92 son de categoría D, la que recibe menos residuos al día según la NOM-083. Muchos sitios pequeños y dispersos son más difíciles de controlar. Cada estado genera además entre 1.05 y 1.14 kg de residuos por habitante al día."
   },
   "sources": [
     {
-      "id": "semarnat-dbgir-2026",
-      "title": "Diagnóstico Básico para la Gestión Integral de los Residuos (DBGIR) 2026",
-      "organization": "SEMARNAT / INECC",
-      "url": "https://www.gob.mx/semarnat/documentos/diagnostico-basico-para-la-gestion-integral-de-los-residuos-dbgir-2026",
-      "accessDate": "2026-10-03",
-      "license": "Datos públicos del Gobierno de México (gob.mx)",
-      "note": "Tabla 10 'Generación calculada por entidad federativa' (kg/hab/día), elaborada a partir de los CNGMD 2019/2021/2023 (INEGI) y PPGIR. PDF: https://www.gob.mx/cms/uploads/attachment/file/1078948/DBGR.pdf"
+      "id": "meza-montenegro-2013",
+      "title": "Exposure Assessment of Organochlorine Pesticides, Arsenic, and Lead in Children From the Major Agricultural Areas in Sonora, Mexico",
+      "organization": "Archives of Environmental Contamination and Toxicology 64(3):519–527 (Meza-Montenegro et al.)",
+      "url": "https://doi.org/10.1007/s00244-012-9846-4",
+      "accessDate": "2026-10-17",
+      "license": "Acceso abierto (PMC)",
+      "note": "153 niños de los valles del Yaqui y del Mayo (2009): DDE en 100 % (media 1.24 µg/L), lindano 39.2 %, DDT 25.5 %, aldrín 9.8 %, endosulfán 3.9 %.",
+      "group": "regional"
+    },
+    {
+      "id": "guillette-1998",
+      "title": "An anthropological approach to the evaluation of preschool children exposed to pesticides in Mexico",
+      "organization": "Environmental Health Perspectives 106:347–353 (Guillette, Meza, Aquilar, Soto y García)",
+      "url": "https://doi.org/10.1289/ehp.98106347",
+      "accessDate": "2026-10-17",
+      "license": "Acceso abierto",
+      "note": "Niños de preescolar del valle agrícola del Yaqui rindieron peor en resistencia, coordinación, memoria y dibujo que los de la sierra. Estudio piloto: asociación, no causalidad.",
+      "group": "regional"
+    },
+    {
+      "id": "arellano-aguilar-2017",
+      "title": "Agrochemical loading in drains and rivers and its connection with pollution in coastal lagoons of the Mexican Pacific",
+      "organization": "Environmental Monitoring and Assessment 189:270 (Arellano-Aguilar, Betancourt-Lozano, Aguilar-Zárate y Ponce de León-Hill)",
+      "url": "https://doi.org/10.1007/s10661-017-5981-8",
+      "accessDate": "2026-10-17",
+      "license": "© Springer",
+      "note": "Lagunas de Sinaloa: organoclorados que se acumulan de los drenes a las lagunas y cinco organofosforados de uso actual (diazinón en todos los sitios).",
+      "group": "regional"
+    },
+    {
+      "id": "nino-torres-2009",
+      "title": "Organochlorine Pesticides and Polychlorinated Biphenyls in California Sea Lions (Zalophus californianus californianus) from the Gulf of California, México",
+      "organization": "Archives of Environmental Contamination and Toxicology 56:350–359 (Niño-Torres, Gardner, Zenteno-Savín e Ylitalo)",
+      "url": "https://doi.org/10.1007/s00244-008-9181-y",
+      "accessDate": "2026-10-17",
+      "license": "© Springer",
+      "note": "Grasa de 34 lobos marinos: ΣDDT ≈ 3,400 y ΣPCB ≈ 1,400 ng/g de lípido.",
+      "group": "regional"
+    },
+    {
+      "id": "shumilin-2013",
+      "title": "Vertical profiles of cobalt and zinc in marine sediments of the Santa Rosalía mining region, Gulf of California, Mexico",
+      "organization": "Journal of Iberian Geology 39(1):89–96 (Shumilin, Rodríguez Figueroa, Sapozhnikov y Mirlean)",
+      "url": "https://doi.org/10.5209/rev_JIGE.2013.v39.n1.41750",
+      "accessDate": "2026-10-17",
+      "license": "Acceso abierto",
+      "note": "Co/Sc de 40 a 150 frente a ~2 de fondo, y Zn/Sc de 150 a 350 frente a 5–10, por los desechos de la fundición de El Boleo.",
+      "group": "regional"
+    },
+    {
+      "id": "rio-sonora-2020",
+      "title": "Assessment of Geogenic and Anthropogenic Pollution Sources Using an Aquatic Plant Along the Sonora River Basin: Insights from Elemental Concentrations and Pb Isotope Signatures",
+      "organization": "Natural Resources Research 29(4):2773–2786 (Romo-Morales et al.)",
+      "url": "https://doi.org/10.1007/s11053-020-09620-8",
+      "accessDate": "2026-10-17",
+      "license": "© Springer",
+      "note": "Derrame de ~40,000 m³ de solución ácida de sulfato de cobre de Buenavista del Cobre (6 ago 2014). En la ruta del derrame de los años ochenta, Cu, Zn y Cd superan los valores de FAO/OMS.",
+      "group": "regional"
+    },
+    {
+      "id": "rios-mendoza-2021",
+      "title": "Microplastic contamination and fluxes in a touristic area at the SE Gulf of California",
+      "organization": "Marine Pollution Bulletin 170:112638 (Rios-Mendoza et al.)",
+      "url": "https://doi.org/10.1016/j.marpolbul.2021.112638",
+      "accessDate": "2026-10-17",
+      "license": "© Elsevier",
+      "note": "Mazatlán: 4–36 partículas/m² en playas, 1.7–2.0 partículas/m³ en agua y flujos de 40–782 partículas/m²/día, más altos en lluvias.",
+      "group": "regional"
+    },
+    {
+      "id": "salazar-perez-2021",
+      "title": "First insight into plastics ingestion by fish in the Gulf of California, Mexico",
+      "organization": "Marine Pollution Bulletin 171:112705 (Salazar-Pérez et al.)",
+      "url": "https://doi.org/10.1016/j.marpolbul.2021.112705",
+      "accessDate": "2026-10-17",
+      "license": "© Elsevier",
+      "note": "La mitad (50.5 %) de 1,095 peces de un estuario tropical del Golfo tenía plásticos en el tracto digestivo.",
+      "group": "regional"
     },
     {
       "id": "sanchezpaz-2025-microplastics",
       "title": "Microplastics in surface waters surrounding a touristic beach at the Gulf of California, Mexico",
-      "organization": "International Journal of Environmental Health Research (Taylor & Francis)",
+      "organization": "International Journal of Environmental Health Research 35(11):3283–3295 (Sánchez-Paz, Encinas-García, Ávila-Félix y Mendoza-Cano)",
       "url": "https://doi.org/10.1080/09603123.2025.2483356",
-      "accessDate": "2026-10-03",
+      "accessDate": "2026-10-17",
       "license": "Artículo por suscripción; resumen vía PubMed/Europe PMC (PMID 40131303)",
-      "note": "Autores de CIBNOR y Universidad de Sonora (Hermosillo, Sonora). La concentración media de microplásticos aumentó hasta 2.02× tras las vacaciones de primavera. No existe serie estatal sistemática de microplásticos ni de plaguicidas (SIAP/SENASICA); se usa RSU per cápita como proxy estatal."
+      "note": "Autores de CIBNOR y Universidad de Sonora (Hermosillo, Sonora). La concentración media de microplásticos aumentó hasta 2.02× tras las vacaciones de primavera. No existe serie estatal sistemática de microplásticos ni de plaguicidas (SIAP/SENASICA); se usa RSU per cápita como proxy estatal.",
+      "group": "regional"
+    },
+    {
+      "id": "semarnat-dbgir-2026",
+      "title": "Diagnóstico Básico para la Gestión Integral de los Residuos (DBGIR) 2026",
+      "organization": "SEMARNAT / INECC",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/1078946/Diagn_stico_B_sico_Gesti_n_Integral_Residuos.pdf",
+      "accessDate": "2026-10-17",
+      "license": "Datos públicos del Gobierno de México (gob.mx)",
+      "note": "Tabla 10 (generación per cápita), Tabla 34 (sitios de disposición final por estado) y Tabla 35 (rellenos sanitarios que cumplen la NOM-083), con datos del CNGMD 2023.",
+      "group": "regional"
     }
-  ],
-  "stateTitle": "Generación de residuos sólidos urbanos per cápita (proxy de entidades nuevas)",
-  "stateNote": "Baja California genera la mayor cantidad de residuos per cápita; es un proxy de la presión por plásticos y contaminantes.",
-  "seriesTitle": "Microplásticos en aguas superficiales del Golfo de California (2025)",
-  "seriesNote": "Las microfibras y las partículas se reparten casi a la mitad; la concentración aumenta tras temporadas turísticas."
+  ]
 }

@@ -571,12 +571,12 @@
       "short": "Sustancias sintéticas (plásticos, plaguicidas, PFAS) liberadas más rápido de lo que se evalúan.",
       "status": "high-risk",
       "trend": "worsening",
-      "globalStatus": "Fuertemente transgredido. No tiene variable numérica formal; la transgresión es cualitativa.",
+      "globalStatus": "Transgredido. El límite es que ninguna sustancia sintética se libere sin evaluación de seguridad adecuada (0 %); hoy una gran parte se libera sin ella, y la producción crece más rápido que la capacidad de evaluar.",
       "controlVariableIds": [
         "novel-entities"
       ],
       "regional": {
-        "summary": "Plásticos y microplásticos llegan a playas y aguas del Golfo (existe monitoreo regional en Sonora); los plaguicidas de la agricultura intensiva y contaminantes como los PFAS son preocupaciones crecientes. La producción y liberación superan la capacidad de evaluación. Alto impacto y alto apalancamiento (reducción en origen, gestión de residuos y sustitución de agroquímicos).",
+        "summary": "En el Mar de Cortés las entidades nuevas no son una abstracción: se han medido en las personas, en la fauna y en los sedimentos. En 2009 todos los 153 niños estudiados en los valles agrícolas del Yaqui y del Mayo tenían en la sangre DDE, el derivado del DDT, y casi cuatro de cada diez tenían lindano. En las lagunas de Sinaloa se acumulan organoclorados heredados y plaguicidas de uso actual que llegan por los drenes agrícolas. Los lobos marinos del Golfo cargan DDT y PCB, señal de que estas sustancias recorren toda la cadena alimentaria. La minería suma metales: en 2014 se derramaron unos 40,000 m³ de solución ácida de sulfato de cobre al río Sonora, y en Santa Rosalía los desechos de la fundición elevaron el cobalto y el zinc de los sedimentos hasta 75 veces sobre el fondo. Los plásticos están en playas, agua y peces: la mitad de los peces de un estuario del Golfo tenía plásticos en el tracto digestivo. Y casi ningún residuo de la región llega a un relleno sanitario que cumpla la norma. Es un límite de alto impacto y alto apalancamiento: las fuentes —agricultura, minería y residuos— son regionales y regulables.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -584,14 +584,49 @@
         "actions": [
           {
             "actor": "gobierno-local",
-            "text": "Gestión de residuos sólidos y saneamiento; restricción de plásticos de un solo uso; vigilancia de plaguicidas."
+            "text": "Rellenos sanitarios que cumplan la NOM-083 y cierre de tiraderos; vigilancia de plaguicidas en drenes, lagunas y agua potable; seguimiento de los pasivos mineros."
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Reducción de envases, economía circular y sustitución de agroquímicos de alto riesgo."
+            "text": "Sustitución de plaguicidas altamente peligrosos, recolección de envases de agroquímicos, reducción de plásticos de un solo uso y manejo seguro de jales mineros."
           }
         ],
-        "dataGaps": "Microplásticos y contaminantes emergentes aún sin series estatales sistemáticas."
+        "dataGaps": "Casi todos los estudios son puntuales e históricos (1990–2021) y se concentran en Sonora, Sinaloa y BCS. No hay series oficiales de plaguicidas, microplásticos ni contaminantes emergentes por estado.",
+        "questions": [
+          {
+            "q": "¿Cómo reducir la exposición de niños y jornaleros a plaguicidas en los valles agrícolas?",
+            "action": "Sustituir los plaguicidas más tóxicos, respetar zonas de amortiguamiento junto a escuelas y viviendas, y vigilar periódicamente la exposición en niños y trabajadores.",
+            "ref": "Meza-Montenegro et al. 2013 (Arch. Environ. Contam. Toxicol.); Guillette et al. 1998 (Environ. Health Perspect.)."
+          },
+          {
+            "q": "¿Cómo evitar que los plaguicidas lleguen a las lagunas costeras por los drenes agrícolas?",
+            "action": "Monitoreo de plaguicidas en drenes y lagunas, humedales de tratamiento y control de la aplicación cerca de los canales.",
+            "ref": "Arellano-Aguilar et al. 2017 (Environ. Monit. Assess.)."
+          },
+          {
+            "q": "¿Cómo prevenir y reparar la contaminación minera en los ríos y costas?",
+            "action": "Seguimiento público de la calidad del agua y la salud en el río Sonora, manejo seguro de presas de jales y remediación de pasivos como los de Santa Rosalía.",
+            "ref": "Romo-Morales et al. 2020 (Nat. Resour. Res.); Shumilin et al. 2013 (J. Iber. Geol.)."
+          },
+          {
+            "q": "¿Cómo lograr que los residuos de la región lleguen a rellenos sanitarios que cumplan la norma?",
+            "action": "Rellenos regionales compartidos entre municipios, cierre de tiraderos y separación y reciclaje de plásticos para que no lleguen al mar.",
+            "ref": "SEMARNAT, DBGIR 2026."
+          },
+          {
+            "q": "¿Cómo reducir los plásticos que llegan al Golfo?",
+            "action": "Reducción de plásticos de un solo uso en zonas turísticas, captura de basura en drenes pluviales antes de la temporada de lluvias y recuperación de redes de pesca abandonadas.",
+            "ref": "Rios-Mendoza et al. 2021 y Salazar-Pérez et al. 2021 (Mar. Pollut. Bull.); Sánchez-Paz et al. 2025."
+          }
+        ],
+        "measurementGaps": [
+          "Uso y venta de plaguicidas por estado y por tipo: no hay una estadística oficial pública; la cifra disponible para Sinaloa (~700 t/año) es una estimación secundaria.",
+          "Monitoreo periódico de plaguicidas, metales y contaminantes emergentes en drenes, lagunas, agua potable y alimentos marinos.",
+          "Biomonitoreo en personas (niños, jornaleros, mujeres embarazadas) más allá de estudios aislados, como el de 2009 en Sonora.",
+          "PFAS, fármacos y retardantes de flama: no se encontraron mediciones en la región.",
+          "Series de microplásticos y basura marina en las costas de los cinco estados; hoy solo hay estudios puntuales en Mazatlán, La Paz y algunas playas.",
+          "Intoxicaciones agudas por plaguicidas notificadas por estado y municipio, y datos para Nayarit y Baja California, donde casi no hay estudios."
+        ]
       },
       "hasMap": true
     }
@@ -743,12 +778,13 @@
     {
       "id": "novel-entities",
       "boundaryId": "novel-entities",
-      "name": "Entidades nuevas (cualitativo)",
+      "name": "Sustancias sintéticas liberadas sin evaluación de seguridad adecuada",
       "nameEn": "Novel entities",
-      "globalValue": "Transgredido (sin variable numérica)",
+      "globalValue": "Mayor que 0 %",
       "status": "high-risk",
       "trend": "worsening",
-      "note": "La transgresión se define por la liberación de sustancias sin evaluación de seguridad adecuada."
+      "note": "Ejemplos: los PCB siguen en el ambiente décadas después de su prohibición y los PFAS se han extendido por todo el planeta.",
+      "safeBoundary": "0 % (principio precautorio)"
     }
   ],
   "spotlights": [
