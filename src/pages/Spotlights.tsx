@@ -33,7 +33,7 @@ export default function Spotlights() {
     return (
       <div className="container section">
         <nav className="small muted" style={{ marginBottom: 12 }}>
-          <Link to="/spotlights">Análisis a fondo</Link> › {s.name}
+          <Link to="/spotlights">Temas emergentes</Link> › {s.name}
         </nav>
         <div className="tag-row"><PriorityBadge priority={priorityOf(s.regional.impact, s.regional.leverage)} /></div>
         <h1>{s.name}</h1>
@@ -68,7 +68,7 @@ export default function Spotlights() {
 
   return (
     <div className="container section">
-      <h1>Análisis a fondo</h1>
+      <h1>Temas emergentes</h1>
       <p className="muted page-intro">
         Tres temas emergentes destacados por el Planetary Health Check 2026, con lectura para el Mar de Cortés.
       </p>

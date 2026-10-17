@@ -267,7 +267,7 @@ export default function About() {
                 {org.members.length > 0 ? (
                   org.members.map((p) => <Person p={p} key={p.name} />)
                 ) : (
-                  <p className="node-empty">{org.note ?? 'Responsable por confirmar.'}</p>
+                  <p className="node-empty">{org.note ?? 'Coordinador por confirmar.'}</p>
                 )}
               </article>
             ))}

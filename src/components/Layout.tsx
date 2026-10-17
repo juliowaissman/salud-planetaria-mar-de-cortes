@@ -7,7 +7,7 @@ const base = import.meta.env.BASE_URL
 const nav = [
   { to: '/', label: 'Inicio', end: true },
   { to: '/limites', label: 'Límites planetarios' },
-  { to: '/spotlights', label: 'Análisis a fondo' },
+  { to: '/spotlights', label: 'Temas emergentes' },
   { to: '/priorizacion', label: 'Priorización' },
   { to: '/fuentes', label: 'Fuentes' },
   { to: '/acerca', label: 'Acerca' },

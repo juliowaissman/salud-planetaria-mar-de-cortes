@@ -28,7 +28,7 @@ Producto del **Observatorio Tecnológico del Mar de Cortés** (coordinado por la
 
 ## Capabilities and Constraints
 
-- Cubre 9 límites, 13 variables de control y 3 «análisis a fondo» (spotlights), con estado global (PHC 2026), diagnóstico regional, gráficas, mapas y bibliografía.
+- Cubre 9 límites, 13 variables de control y 3 «temas emergentes» (spotlights), con estado global (PHC 2026), diagnóstico regional, gráficas, mapas y bibliografía.
 - Incluye secciones por límite: **«¿Qué puede hacer la región?»** (preguntas abiertas con referencias científicas) y **«Lo que hay que medir y no se mide»** (brechas de medición para la triple hélice academia–empresa–gobierno).
 - Sitio **estático** (Vite + React + TypeScript + ECharts + MapLibre GL), sin backend; los datos viven en JSON versionables (`src/data/catalog.json` y `src/data/regional/*.json`) que los investigadores pueden actualizar editando archivos.
 - Todo el contenido está en **español**.
@@ -46,7 +46,7 @@ Producto del **Observatorio Tecnológico del Mar de Cortés** (coordinado por la
 - Planetary Health Check 2026 (informe principal y materiales suplementarios) — base del estado global.
 - Documentos de referencia por límite aportados por el usuario (p. ej., `Cambio_climatico_MdC.pdf`, `Cambio climático resumen general.pdf`, `Biosfera Noroeste de México.pdf`).
 - Datos regionales recopilados de fuentes públicas (INEGI, CONAGUA, CONABIO, CONAFOR, CONANP, CONAPESCA, SEMARNAT, SMN, INECC, NOAA, Global Forest Watch, etc.), con URL y fecha de acceso en `src/data/regional/*.json`.
-- Directorio del Observatorio (universidades y responsables) extraído del sitio institucional.
+- Directorio del Observatorio (universidades y coordinadores) extraído del sitio institucional.
 - **Ausencia a no fabricar:** no hay testimonios, clientes ni casos de éxito de terceros.
 
 ## Product Principles

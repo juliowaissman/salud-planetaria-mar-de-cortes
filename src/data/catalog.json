@@ -1268,14 +1268,14 @@
       "wide": true,
       "members": [
         {
-          "name": "Dr. Mario Nieves Soto",
-          "role": "Coordinador del Corredor Científico, Académico y Empresarial del Mar de Cortés",
-          "photo": "persona-nieves.jpg"
-        },
-        {
           "name": "Dr. Julio Waissman Vilanova",
           "role": "Coordinador general del Corredor Tecnológico",
           "photo": "persona-waissman.jpg"
+        },
+        {
+          "name": "Dr. Mario Nieves Soto",
+          "role": "Coordinador del Corredor Científico, Académico y Empresarial del Mar de Cortés",
+          "photo": "persona-nieves.jpg"
         }
       ]
     },
@@ -1298,7 +1298,7 @@
       "members": [
         {
           "name": "Dr. José de Jesús Uriarte Adrián",
-          "role": "Responsable del nodo tecnológico de Sinaloa",
+          "role": "Coordinador del nodo tecnológico de Sinaloa",
           "photo": "persona-uriarte.jpg"
         }
       ]
@@ -1310,7 +1310,7 @@
       "members": [
         {
           "name": "Dr. Juan Pablo García Vázquez",
-          "role": "Responsable del nodo tecnológico de Baja California",
+          "role": "Coordinador del nodo tecnológico de Baja California",
           "photo": "persona-garcia.jpg"
         }
       ]
@@ -1322,7 +1322,7 @@
       "members": [
         {
           "name": "Dr. Javier Aguilar Parra",
-          "role": "Responsable del nodo tecnológico de Baja California Sur",
+          "role": "Coordinador del nodo tecnológico de Baja California Sur",
           "photo": "persona-aguilar.png"
         }
       ]
@@ -1332,7 +1332,7 @@
       "name": "Universidad Autónoma de Nayarit (UAN)",
       "logo": "logo-uan.png",
       "members": [],
-      "note": "Sin responsable listado en el directorio fuente."
+      "note": "Sin coordinador listado en el directorio fuente."
     },
     {
       "id": "fmc",
