@@ -128,7 +128,66 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Cómo se adapta una región que aporta poco a las emisiones globales, pero vive de frente el calor extremo?",
+      "message": "El clima ya cambió en el noroeste: más calor, un Golfo que se calienta más rápido que el océano y lluvias que se desplazan. La región aporta poco a las emisiones globales, así que su tarea principal es adaptarse, sin dejar de reducir sus propias emisiones.",
+      "figures": [
+        {
+          "value": "426 ppm",
+          "label": "de CO₂ en la atmósfera; el límite seguro es 350 ppm",
+          "scope": "global"
+        },
+        {
+          "value": "199 de 421",
+          "label": "muertes por calor del país en 2023 ocurrieron en los cinco estados",
+          "scope": "regional"
+        },
+        {
+          "value": "0.36 °C",
+          "label": "por década se calienta el Golfo, de dos a tres veces más rápido que el océano global",
+          "scope": "regional"
+        },
+        {
+          "value": "1 a 3 °C",
+          "label": "eleva la temperatura del Golfo una ola de calor marina",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Emisiones",
+            "text": "La quema de combustibles fósiles y el cambio de uso del suelo acumulan CO₂ y otros gases en la atmósfera.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Más calor retenido",
+            "text": "Estos gases atrapan parte del calor que la Tierra devolvería al espacio: es el forzamiento radiativo.",
+            "tone": "loss"
+          },
+          {
+            "title": "Tierra y mar más calientes",
+            "text": "Sube la temperatura del aire y del océano, y se vuelven más frecuentes las olas de calor y las sequías.",
+            "tone": "loss"
+          },
+          {
+            "title": "Impactos en la región",
+            "text": "En el noroeste se traducen en muertes por calor, menos agua disponible y cambios en las pesquerías.",
+            "tone": "loss"
+          },
+          {
+            "title": "Adaptación",
+            "text": "La región no controla la causa, pero sí cómo se prepara: alertas, ciudades más frescas y agua y pesca adaptadas.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "ocean-acidification",
+        "freshwater-change",
+        "aerosols"
+      ]
     },
     {
       "id": "biosphere-integrity",
@@ -226,7 +285,66 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Puede uno de los mares más diversos del planeta recuperar lo que la pesca y la pérdida de hábitat le han quitado?",
+      "message": "El Golfo de California es uno de los mares con más biodiversidad del planeta y está perdiendo a sus especies grandes. Cabo Pulmo demuestra que, con protección real, la vida marina se recupera.",
+      "figures": [
+        {
+          "value": "≈74 %",
+          "label": "índice de integridad de la biodiversidad de México; el nivel seguro es 90 %",
+          "scope": "nacional"
+        },
+        {
+          "value": "13 de 23",
+          "label": "grupos de especies del Golfo con tendencia conocida están en deterioro (2025)",
+          "scope": "regional"
+        },
+        {
+          "value": "7 a 10",
+          "label": "vaquitas marinas observadas en 2025",
+          "scope": "regional"
+        },
+        {
+          "value": "+463 %",
+          "label": "creció la biomasa de peces en Cabo Pulmo en diez años de protección",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Presión",
+            "text": "La sobrepesca, la pesca incidental y la conversión de hábitat reducen las poblaciones de muchas especies.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Se pierden los grandes",
+            "text": "Primero caen los depredadores tope y las especies grandes y longevas; la pesca se desplaza a especies pequeñas.",
+            "tone": "loss"
+          },
+          {
+            "title": "Ecosistemas más frágiles",
+            "text": "Con menos especies e individuos, las redes alimentarias se simplifican y el ecosistema se recupera más despacio.",
+            "tone": "loss"
+          },
+          {
+            "title": "Riesgo de extinción",
+            "text": "Las especies endémicas, como la vaquita, no tienen otro lugar del mundo donde sobrevivir.",
+            "tone": "loss"
+          },
+          {
+            "title": "Protección que funciona",
+            "text": "Cuando la protección se cumple, como en Cabo Pulmo o en las islas sin especies invasoras, la vida se recupera.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "land-system-change",
+        "novel-entities",
+        "climate-change"
+      ]
     },
     {
       "id": "land-system-change",
@@ -319,7 +437,61 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Qué se pierde cuando la selva baja, el matorral y el manglar se convierten en campos, praderas y estanques?",
+      "message": "En la región, el cambio de uso de suelo no es la tala de grandes bosques: es la conversión de selva baja, matorral y manglares en campos agrícolas, praderas y estanques. Como se decide aquí, aquí se puede corregir.",
+      "figures": [
+        {
+          "value": "≈64 %",
+          "label": "de la cobertura forestal original sigue en pie; el límite seguro es 78 %",
+          "scope": "global"
+        },
+        {
+          "value": "227,700 ha",
+          "label": "de bosques y selvas perdió Sinaloa entre 1993 y 2011",
+          "scope": "regional"
+        },
+        {
+          "value": "> 100,000 ha",
+          "label": "de estanques camaronícolas en Sonora y Sinaloa en 2022; eran unas 6,700 en 1993",
+          "scope": "regional"
+        },
+        {
+          "value": "14 %",
+          "label": "de su manglar ha perdido Nayarit desde 1970",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Conversión",
+            "text": "La selva baja, el matorral y los humedales costeros se transforman en campos, praderas de pasto y estanques.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Fragmentación",
+            "text": "Lo que queda se divide en parches; la fauna pierde corredores y refugios.",
+            "tone": "loss"
+          },
+          {
+            "title": "Funciones que se pierden",
+            "text": "Se reduce el carbono almacenado, la protección contra tormentas y las áreas de crianza de peces.",
+            "tone": "loss"
+          },
+          {
+            "title": "Ordenamiento y restauración",
+            "text": "El uso del suelo se decide en la región: ordenamiento territorial y costero, cumplimiento de la ley y restauración.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "biosphere-integrity",
+        "freshwater-change",
+        "biogeochemical-flows"
+      ]
     },
     {
       "id": "freshwater-change",
@@ -413,7 +585,66 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Cuánta agua le queda a una región que ya concesiona casi toda la que se renueva?",
+      "message": "La región concesiona casi toda el agua que se renueva y, en varios acuíferos costeros, el mar ya entró tierra adentro. El riego, la medición y el reúso se deciden aquí, aunque las concesiones sean federales.",
+      "figures": [
+        {
+          "value": "101.9 %",
+          "label": "del agua renovable de Sonora está concesionada",
+          "scope": "regional"
+        },
+        {
+          "value": "617 hm³",
+          "label": "al año extraen de más 28 acuíferos sobreexplotados de BC, BCS y Sonora",
+          "scope": "regional"
+        },
+        {
+          "value": "16 de 18",
+          "label": "acuíferos costeros con intrusión marina del país están en la región",
+          "scope": "regional"
+        },
+        {
+          "value": "32 km",
+          "label": "tierra adentro ha penetrado el agua de mar en la Costa de Hermosillo",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Extracción",
+            "text": "Se concesiona y bombea más agua de la que llueve y se recarga, sobre todo para riego agrícola.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Acuíferos que bajan",
+            "text": "El nivel del agua subterránea desciende y los pozos se vuelven más profundos y caros.",
+            "tone": "loss"
+          },
+          {
+            "title": "El mar entra",
+            "text": "En la costa, el agua de mar invade el acuífero y lo saliniza, a veces sin remedio.",
+            "tone": "loss"
+          },
+          {
+            "title": "Ríos que no llegan",
+            "text": "Llega menos caudal a los deltas y esteros, y se recortan las entregas del río Colorado.",
+            "tone": "loss"
+          },
+          {
+            "title": "Medir y reusar",
+            "text": "Riego más eficiente, medición real de lo que se extrae y reúso de aguas tratadas.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "climate-change",
+        "land-system-change",
+        "biogeochemical-flows"
+      ]
     },
     {
       "id": "biogeochemical-flows",
@@ -507,7 +738,66 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Cómo dejar de pagar por un fertilizante que termina en el mar?",
+      "message": "Los valles agrícolas aplican mucho más fertilizante del que los cultivos aprovechan, y el excedente termina en el aire y en el Golfo. Es el límite donde actuar es más fácil y barato.",
+      "figures": [
+        {
+          "value": "165 Tg",
+          "label": "de nitrógeno fija la agricultura cada año en el mundo; el límite seguro es 62",
+          "scope": "global"
+        },
+        {
+          "value": "≈300 kg/ha",
+          "label": "de nitrógeno aplican al trigo en el Valle del Yaqui, al menos el doble de la dosis óptima",
+          "scope": "regional"
+        },
+        {
+          "value": "77 mil t",
+          "label": "de nitrógeno al año descargan las costas de Sinaloa y Sonora, junto con 38 mil t de fósforo",
+          "scope": "regional"
+        },
+        {
+          "value": "12 de 14",
+          "label": "vedas sanitarias del país por marea roja en 2021 fueron en estados de la región",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Exceso de fertilizante",
+            "text": "Se aplica más nitrógeno y fósforo del que el cultivo puede aprovechar.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Escurrimiento",
+            "text": "El excedente sale por los drenes agrícolas y los efluentes hacia las lagunas y el mar.",
+            "tone": "loss"
+          },
+          {
+            "title": "Florecimientos",
+            "text": "Los nutrientes alimentan florecimientos de fitoplancton y mareas rojas; al descomponerse consumen oxígeno.",
+            "tone": "loss"
+          },
+          {
+            "title": "Gases",
+            "text": "Parte del nitrógeno se pierde como óxido nitroso, un gas de efecto invernadero que también destruye el ozono.",
+            "tone": "loss"
+          },
+          {
+            "title": "La dosis justa",
+            "text": "Ajustar la dosis ahorra dinero al productor y reduce la carga al mar; las lagunas se recuperan en pocos años.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "ozone",
+        "ocean-acidification",
+        "land-system-change"
+      ]
     },
     {
       "id": "ocean-acidification",
@@ -600,7 +890,66 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Qué pasa con las conchas cuando el agua corrosiva sube hasta la costa?",
+      "message": "Frente a las costas de la región, el agua corrosiva para las conchas sube en pulsos. La causa es el CO₂ global, pero la región produce casi la mitad de los moluscos con concha del país y puede darles margen.",
+      "figures": [
+        {
+          "value": "Ω ≈ 2.85",
+          "label": "saturación media de aragonita en la superficie del océano; el límite seguro es 2.86",
+          "scope": "global"
+        },
+        {
+          "value": "≈30 m",
+          "label": "de profundidad alcanzó el agua corrosiva en la Bahía de Todos Santos en años de La Niña",
+          "scope": "regional"
+        },
+        {
+          "value": "48 %",
+          "label": "de los moluscos con concha del país se producen en la región",
+          "scope": "regional"
+        },
+        {
+          "value": "3 de 4",
+          "label": "abulones de las zonas de pesca de Isla Natividad murieron en la mortandad de 2009",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "CO₂ al océano",
+            "text": "El océano absorbe una parte importante del CO₂ que emitimos.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Agua más ácida",
+            "text": "El CO₂ disuelto baja el pH y reduce el carbonato que los organismos usan para formar conchas y esqueletos.",
+            "tone": "loss"
+          },
+          {
+            "title": "Pulsos en la costa",
+            "text": "Las surgencias suben a la plataforma agua profunda que ya es rica en CO₂ y pobre en oxígeno.",
+            "tone": "loss"
+          },
+          {
+            "title": "Conchas en riesgo",
+            "text": "Abulones, almejas, ostiones y sus larvas gastan más energía en formar su concha, o no lo logran.",
+            "tone": "loss"
+          },
+          {
+            "title": "Margen local",
+            "text": "Pastos marinos y manglares, menos nutrientes en las lagunas y reservas pesqueras aumentan la resiliencia.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "climate-change",
+        "biogeochemical-flows",
+        "biosphere-integrity"
+      ]
     },
     {
       "id": "aerosols",
@@ -693,7 +1042,65 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Qué respiran las ciudades del noroeste, y por qué casi nadie lo mide?",
+      "message": "El límite global no está en riesgo, pero el aire de algunas ciudades de la región sí enferma. Las fuentes son locales y el aire mejora pronto cuando se controlan; el primer problema es que casi no se mide.",
+      "figures": [
+        {
+          "value": "108 días",
+          "label": "de 2023 rebasó Mexicali al menos una norma de calidad del aire (30 % del año)",
+          "scope": "regional"
+        },
+        {
+          "value": "25 µg/m³",
+          "label": "de PM2.5 media en Mexicali y Tijuana: cinco veces la guía de la OMS",
+          "scope": "regional"
+        },
+        {
+          "value": "354",
+          "label": "muertes al año se evitarían en tres ciudades de Sinaloa con aire más limpio",
+          "scope": "regional"
+        },
+        {
+          "value": "Solo 3",
+          "label": "ciudades de la región tuvieron datos suficientes de PM2.5 en 2023: Mexicali, Tijuana y Nogales",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Fuentes locales",
+            "text": "Quemas agrícolas, caminos sin pavimentar, incendios, generación eléctrica, tráfico y polvo del desierto.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Partículas finas",
+            "text": "Las PM2.5 son tan pequeñas que llegan al fondo de los pulmones y a la sangre.",
+            "tone": "loss"
+          },
+          {
+            "title": "Daño a la salud",
+            "text": "Aumentan las enfermedades respiratorias y cardiovasculares y las muertes prematuras.",
+            "tone": "loss"
+          },
+          {
+            "title": "Efecto en el clima",
+            "text": "Los aerosoles también reflejan o absorben la luz del sol y cambian la formación de nubes.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Resultados rápidos",
+            "text": "Las partículas duran días en el aire: si se controlan las fuentes, el aire mejora pronto.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "climate-change",
+        "land-system-change"
+      ]
     },
     {
       "id": "ozone",
@@ -780,7 +1187,65 @@
           }
         }
       },
-      "hasMap": false
+      "hasMap": false,
+      "question": "Si la capa de ozono se está recuperando, ¿qué le queda por hacer a la región?",
+      "message": "La capa de ozono se recupera y México cumplió con el Protocolo de Montreal. La amenaza que queda, el óxido nitroso de los fertilizantes, se ataca con las mismas acciones del límite de flujos biogeoquímicos.",
+      "figures": [
+        {
+          "value": "285.7 DU",
+          "label": "de ozono estratosférico medio; el límite seguro es 277.4 DU",
+          "scope": "global"
+        },
+        {
+          "value": "5,421 → 814 t",
+          "label": "bajó el consumo de bromuro de metilo en México entre 1994 y 2011",
+          "scope": "nacional"
+        },
+        {
+          "value": "74 %",
+          "label": "del óxido nitroso emitido por actividades humanas viene de la agricultura",
+          "scope": "global"
+        },
+        {
+          "value": "6 a 15",
+          "label": "índice UV a mediodía con cielo despejado en México, de norte a sur",
+          "scope": "nacional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Sustancias de larga vida",
+            "text": "CFC, halones, bromuro de metilo y óxido nitroso duran lo suficiente para llegar a la estratosfera.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Destrucción del ozono",
+            "text": "Allí liberan cloro, bromo u óxidos de nitrógeno que destruyen moléculas de ozono.",
+            "tone": "loss"
+          },
+          {
+            "title": "Más radiación ultravioleta",
+            "text": "Una capa más delgada deja pasar más radiación UV, que daña la piel, los ojos y los cultivos.",
+            "tone": "loss"
+          },
+          {
+            "title": "Protocolo de Montreal",
+            "text": "La eliminación de los CFC está permitiendo que la capa se recupere.",
+            "tone": "gain"
+          },
+          {
+            "title": "Lo que falta",
+            "text": "El óxido nitroso agrícola no está regulado por el Protocolo y hoy es la principal amenaza que se sigue emitiendo.",
+            "tone": "neutral"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "biogeochemical-flows",
+        "climate-change"
+      ]
     },
     {
       "id": "novel-entities",
@@ -873,7 +1338,66 @@
           }
         }
       },
-      "hasMap": true
+      "hasMap": true,
+      "question": "¿Qué sustancias que nunca se evaluaron ya están en las personas, la fauna y el mar de la región?",
+      "message": "Plaguicidas, metales y plásticos ya se han medido en la sangre de niños, en lobos marinos y en los sedimentos de la región. Sus fuentes —agricultura, minería y residuos— son regionales y regulables.",
+      "figures": [
+        {
+          "value": "153 de 153",
+          "label": "niños estudiados en los valles del Yaqui y del Mayo tenían DDE en la sangre (2009)",
+          "scope": "regional"
+        },
+        {
+          "value": "40,000 m³",
+          "label": "de solución ácida de sulfato de cobre se derramaron al río Sonora en 2014",
+          "scope": "regional"
+        },
+        {
+          "value": "75 veces",
+          "label": "sobre el fondo natural llegaron el cobalto y el zinc en los sedimentos de Santa Rosalía",
+          "scope": "regional"
+        },
+        {
+          "value": "1 de cada 2",
+          "label": "peces de un estuario del Golfo tenía plásticos en el tracto digestivo",
+          "scope": "regional"
+        }
+      ],
+      "mechanism": {
+        "title": "Cómo funciona",
+        "steps": [
+          {
+            "title": "Producción",
+            "text": "Plaguicidas, plásticos, metales de la minería y otros compuestos se liberan más rápido de lo que se evalúan.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Dispersión",
+            "text": "Llegan al agua, al suelo y a los sedimentos por drenes, ríos, viento y residuos mal manejados.",
+            "tone": "loss"
+          },
+          {
+            "title": "Acumulación",
+            "text": "Los más persistentes se acumulan en los tejidos y se concentran a lo largo de la cadena alimentaria.",
+            "tone": "loss"
+          },
+          {
+            "title": "Exposición humana",
+            "text": "Terminan en el agua, los alimentos y la sangre de las personas.",
+            "tone": "loss"
+          },
+          {
+            "title": "Prevención",
+            "text": "Regular su uso, manejar bien los residuos y remediar los sitios contaminados corta la exposición.",
+            "tone": "gain"
+          }
+        ]
+      },
+      "relatedBoundaryIds": [
+        "biosphere-integrity",
+        "biogeochemical-flows",
+        "freshwater-change"
+      ]
     }
   ],
   "controlVariables": [

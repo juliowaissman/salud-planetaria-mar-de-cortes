@@ -1,34 +1,14 @@
 import { Link, useParams } from 'react-router-dom'
 import { catalog, boundaryById, spotlightById } from '../data'
-import type { Action, Reference, Spotlight } from '../types'
+import type { Reference, Spotlight } from '../types'
 import { PriorityBadge, StatusBadge } from '../components/StatusBadge'
 import SpotlightArt from '../components/SpotlightArt'
 import SpotlightChartView from '../components/SpotlightChartView'
 import PriorityEvaluation from '../components/PriorityEvaluation'
 import { assess, boundaryPriority } from '../lib/priority'
+import { ACTOR, goTo, groupByActor, shortUrl } from '../lib/editorial'
 
 const spotlights = [...catalog.spotlights].sort((a, b) => a.order - b.order)
-
-const ACTOR: Record<Action['actor'], { label: string; cls: string }> = {
-  'gobierno-local': { label: 'Gobierno', cls: 'gobierno' },
-  'iniciativa-privada': { label: 'Iniciativa privada', cls: 'privado' },
-  academia: { label: 'Academia', cls: 'academia' },
-  sociedad: { label: 'Sociedad', cls: 'sociedad' },
-}
-const ACTOR_ORDER: Action['actor'][] = ['gobierno-local', 'iniciativa-privada', 'academia', 'sociedad']
-
-// El sitio usa HashRouter: se desplaza con JS en lugar de anclas #id
-const goTo = (sid: string) => document.getElementById(sid)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-
-function shortUrl(u: string) {
-  const doi = u.match(/doi\.org\/(.+)$/)
-  if (doi) return `doi:${doi[1]}`
-  try {
-    return new URL(u).hostname.replace(/^www\./, '')
-  } catch {
-    return u
-  }
-}
 
 /** Llamadas a referencias numeradas, p. ej. [3, 5] */
 function Cites({ ids, refs }: { ids?: string[]; refs: Reference[] }) {
@@ -177,9 +157,7 @@ function SpotlightDetail({ s }: { s: Spotlight }) {
     { id: 'referencias', label: 'Referencias' },
   ].filter((t): t is { id: string; label: string } => Boolean(t))
 
-  const byActor = ACTOR_ORDER.map((actor) => ({ actor, items: s.regional.actions.filter((a) => a.actor === actor) })).filter(
-    (g) => g.items.length > 0,
-  )
+  const byActor = groupByActor(s.regional.actions)
 
   const findingCard = (f: Spotlight['findings'][number], i: number) => (
     <div className={`finding ${f.kind ?? ''}`} key={i}>

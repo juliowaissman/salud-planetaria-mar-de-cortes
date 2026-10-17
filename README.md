@@ -123,6 +123,14 @@ ambos ejes son altos; baja si alguno es bajo) y hace la prueba de sensibilidad. 
 `priority` del catálogo deben coincidir con ese cálculo; la metodología completa se explica en la página de
 priorización.
 
+## Páginas de los límites
+
+Las páginas de los nueve límites siguen el mismo diseño editorial que los temas emergentes. Además del diagnóstico
+regional, cada límite tiene en `catalog.json`: pregunta guía (`question`), mensaje central (`message`), cuatro cifras
+clave (`figures`, con `scope` global, nacional o regional, tomadas del resumen regional o de las variables de
+control), los pasos de «Cómo funciona» (`mechanism`) y límites relacionados (`relatedBoundaryIds`). Las
+ilustraciones están en `src/components/BoundaryArt.tsx`.
+
 ## Temas emergentes
 
 Los tres capítulos «Spotlight» del PHC 2026 están en `catalog.json` (`spotlights`). Cada uno tiene, además del

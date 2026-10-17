@@ -62,6 +62,14 @@ export interface Boundary {
   controlVariableIds: string[]
   regional: RegionalAssessment
   hasMap: boolean
+  /** Pregunta guía (encabezado de la página) */
+  question: string
+  /** Mensaje central, en lenguaje claro */
+  message: string
+  /** Cifras clave; scope indica si la cifra es global, nacional o regional */
+  figures: SpotlightFigure[]
+  mechanism: { title: string; intro?: string; steps: SpotlightStep[] }
+  relatedBoundaryIds: string[]
 }
 
 // ---------- Temas emergentes (capítulos «Spotlight» del PHC 2026) ----------
@@ -77,6 +85,7 @@ export interface SpotlightFigure {
   value: string
   label: string
   refId?: string
+  scope?: 'global' | 'nacional' | 'regional'
 }
 
 export interface SpotlightFinding {
