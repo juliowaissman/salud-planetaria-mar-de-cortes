@@ -443,12 +443,12 @@
       "short": "Partículas en el aire (polvo, humo, contaminación) que afectan clima y salud.",
       "status": "safe",
       "trend": "improving",
-      "globalStatus": "Dentro del espacio seguro a nivel global (con transgresiones regionales, p. ej. sur de Asia).",
+      "globalStatus": "Dentro del espacio seguro a nivel global: la diferencia de aerosoles entre hemisferios es 0.07, frente a un límite de 0.1. Hay transgresión regional en el sur de Asia.",
       "controlVariableIds": [
         "aerosol-aod"
       ],
       "regional": {
-        "summary": "A escala global el límite está dentro del espacio seguro. En el Mar de Cortés, el polvo de desiertos (Sonora/BC), la quema de biomasa y las emisiones urbanas afectan la calidad del aire local. La lectura regional es de calidad del aire y salud pública, no de variable planetaria.",
+        "summary": "El límite global no está en riesgo, pero en la región los aerosoles son un problema de salud: las partículas finas (PM2.5) son el principal riesgo ambiental para la salud en México. Mexicali es el foco regional. En 2023 rebasó al menos una norma de calidad del aire en 108 días (30 % del año) y, junto con Tijuana, registró una PM2.5 media de hasta 25 µg/m³, más del doble del límite de la norma mexicana y cinco veces la guía de la OMS. Emite 1.7 veces más partículas finas que el Valle Imperial y explican las excedencias de Calexico, al otro lado de la frontera. Nogales superó el límite diario de PM10 en 85 días. En Sinaloa, bajar la PM2.5 de Mazatlán, Los Mochis y Culiacán a 10 µg/m³ evitaría unas 354 muertes al año. El problema mayor es que casi no se mide: en 2023 solo Mexicali, Tijuana y Nogales tuvieron datos suficientes de PM2.5, Sinaloa no envió información y Baja California Sur no tuvo estación oficial hasta 2025. Las fuentes son locales y controlables: quemas agrícolas, caminos sin pavimentar, incendios, generación eléctrica y tráfico, además del polvo del desierto.",
         "impact": "Medio",
         "leverage": "Medio",
         "priority": "Media",
@@ -456,14 +456,49 @@
         "actions": [
           {
             "actor": "gobierno-local",
-            "text": "Programas de calidad del aire urbana y control de quema agrícola y de residuos."
+            "text": "Monitoreo continuo con datos suficientes en todas las ciudades medianas; control de quemas agrícolas y de residuos; pavimentación y control de polvo."
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Reducción de emisiones industriales y de transporte; mitigación de polvo en actividades extractivas."
+            "text": "Reducir emisiones de partículas y óxidos de azufre en generación eléctrica, industria y transporte de carga; evitar la quema de residuos de cosecha."
           }
         ],
-        "dataGaps": "AOD regional por satélite disponible; inventarios locales de emisiones incompletos."
+        "dataGaps": "La medición en tierra es escasa e intermitente y no hay promedios estatales. Los inventarios de emisiones y los estudios de salud usan datos de 2005–2017 y normas anteriores (NOM-025-SSA1-2014, guía OMS 2005).",
+        "questions": [
+          {
+            "q": "¿Cómo reducir las partículas en Mexicali, la ciudad con peor calidad del aire de la región?",
+            "action": "Eliminar las quemas agrícolas y de residuos, pavimentar caminos y controlar el polvo, con un plan de cuenca compartido con el Valle Imperial.",
+            "ref": "CARB, Imperial County PM2.5 SIP; Reyna et al. 2017 (Rev. Int. Contam. Ambient.)."
+          },
+          {
+            "q": "¿Cómo lograr que todas las ciudades de la región midan su calidad del aire?",
+            "action": "Mantener las estaciones existentes (Cajeme, Agua Prieta, Tepic y Sinaloa estuvieron fuera de operación o sin datos suficientes) y validar redes de sensores de bajo costo con factores de corrección.",
+            "ref": "INECC 2023; US EPA, Border 2025 (2022)."
+          },
+          {
+            "q": "¿Qué beneficios de salud tendría cumplir la guía de la OMS en las ciudades medianas?",
+            "action": "Estudios de impacto en salud con datos locales para Culiacán, Mazatlán, Los Mochis, Hermosillo, Tepic y La Paz, que orienten los ProAire estatales.",
+            "ref": "Becerra-Pérez y Ramos-Álvarez 2020 (Rev. Int. Contam. Ambient.); Téllez-Rojo et al. 2023 (Gac. Méd. Méx.)."
+          },
+          {
+            "q": "¿Cómo reducir las quemas agrícolas e incendios, que aportan buena parte de las partículas de origen humano?",
+            "action": "Alternativas para incorporar los residuos de cosecha al suelo, calendarios y permisos de quema, y prevención de incendios forestales.",
+            "ref": "ProAire Sonora 2017–2026."
+          },
+          {
+            "q": "¿Cómo separar el polvo natural del desierto de la contaminación que sí se puede controlar?",
+            "action": "Estudios de composición química de las partículas (como el de PM2.5 en Mexicali) para atribuir fuentes y priorizar acciones.",
+            "ref": "US EPA, Border 2025; ProAire Sonora 2017–2026."
+          }
+        ],
+        "measurementGaps": [
+          "PM2.5 con datos suficientes en Hermosillo, Culiacán, Mazatlán, Los Mochis, Tepic, Ensenada, La Paz y Los Cabos: en 2023 solo Mexicali, Tijuana y Nogales los tuvieron.",
+          "Un promedio estatal de PM2.5 para los cinco estados: las estimaciones satelitales existen (ACAG/WashU, 1998–2023) pero nadie publica el cálculo por estado mexicano.",
+          "La profundidad óptica de aerosoles (la variable del límite planetario) sobre el noroeste de México y el Golfo de California, y su variación por polvo, monzón e incendios.",
+          "Inventarios de emisiones actualizados por estado y por fuente, incluido el carbono negro: los disponibles son de 2005 (Mexicali), 2013 (vehículos) y 2014 (Sonora).",
+          "Mortalidad atribuible a PM2.5 por estado: los estudios nacionales mezclan todos los riesgos ambientales en la clasificación estatal.",
+          "La composición química de las partículas, para separar el polvo del desierto de las fuentes que se pueden controlar."
+        ]
       },
       "hasMap": true
     },
@@ -650,12 +685,14 @@
     {
       "id": "aerosol-aod",
       "boundaryId": "aerosols",
-      "name": "Carga de aerosoles (AOD interhemisférico)",
+      "name": "Diferencia de aerosoles entre hemisferios (profundidad óptica)",
       "nameEn": "Aerosol optical depth",
-      "globalValue": "Dentro del espacio seguro",
+      "globalValue": "0.07",
       "status": "safe",
       "trend": "improving",
-      "note": "Transgresiones regionales (sur de Asia AOD ≈0.32 vs límite 0.25)."
+      "note": "Hay un límite regional solo para el sur de Asia, donde la profundidad óptica es 0.32 frente a un límite de 0.25.",
+      "safeBoundary": "0.1",
+      "highRisk": "0.25"
     },
     {
       "id": "ozone-column",

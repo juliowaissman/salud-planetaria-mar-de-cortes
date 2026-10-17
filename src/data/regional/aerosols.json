@@ -1,71 +1,288 @@
 {
   "boundaryId": "aerosols",
-  "updated": "2026-10-03",
-  "stateValues": [
+  "updated": "2026-10-16",
+  "charts": [
     {
-      "stateId": "bc",
-      "value": 25,
-      "unit": "µg/m³ PM2.5 (media anual)",
-      "note": "PM2.5 media anual 2023: Mexicali 25 y Tijuana 25 µg/m³ (SINAICA/INECC)"
+      "title": "Partículas finas (PM2.5): media anual en 2023 frente a la norma y la guía de la OMS",
+      "subtitle": "Microgramos por metro cúbico. Para Mexicali y Tijuana se muestra la estación con el valor más alto de cada ciudad; son las únicas ciudades de la región con datos suficientes en 2023.",
+      "note": "Mexicali (cuatro estaciones, 18–25 µg/m³) y Tijuana (dos estaciones, 23–25 µg/m³) duplican el límite anual de la NOM-025-SSA1-2021 (10 µg/m³) y quintuplican la guía de la OMS (5 µg/m³). Nogales apenas lo rebasa. Hermosillo, Tecate, San Luis Río Colorado y Tepic no tuvieron datos suficientes de PM2.5; Baja California Sur y Sinaloa no aparecen en el informe. Fuente: INECC, Informe Nacional de Calidad del Aire 2023.",
+      "series": [
+        {
+          "id": "pm25-2023",
+          "title": "PM2.5 media anual",
+          "unit": "µg/m³",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mexicali",
+              "value": 25
+            },
+            {
+              "label": "Tijuana",
+              "value": 25
+            },
+            {
+              "label": "Nogales",
+              "value": 11
+            },
+            {
+              "label": "Límite NOM\n(anual)",
+              "value": 10
+            },
+            {
+              "label": "Guía OMS\n2021",
+              "value": 5
+            }
+          ]
+        }
+      ]
     },
     {
-      "stateId": "bcs",
-      "value": null,
-      "unit": "µg/m³ PM2.5 (media anual)",
-      "note": "Sin estaciones oficiales en SINAICA 2023; red ciudadana CERCA (PurpleAir) en La Paz no publica media anual oficial"
+      "title": "Días con partículas por encima del límite de 24 horas (2023)",
+      "subtitle": "Número de días del año en que las partículas PM10 o PM2.5 superaron el límite diario de la NOM-025-SSA1-2021.",
+      "note": "En Mexicali, 108 días del año (30 %) rebasaron al menos una norma de salud ambiental, sobre todo entre septiembre y febrero. Nogales superó el límite de PM10 en 85 días. En Tepic los datos no alcanzaron para evaluar la norma, pero la información disponible muestra 28 días con PM10 alto. Tijuana no tuvo equipo de PM10 en operación. Fuente: INECC, Informe Nacional de Calidad del Aire 2023.",
+      "series": [
+        {
+          "id": "dias-pm10",
+          "title": "PM10",
+          "unit": "días",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mexicali",
+              "value": 82
+            },
+            {
+              "label": "Tijuana",
+              "value": null
+            },
+            {
+              "label": "Nogales",
+              "value": 85
+            },
+            {
+              "label": "Tepic",
+              "value": 28
+            }
+          ]
+        },
+        {
+          "id": "dias-pm25",
+          "title": "PM2.5",
+          "unit": "días",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mexicali",
+              "value": 39
+            },
+            {
+              "label": "Tijuana",
+              "value": 29
+            },
+            {
+              "label": "Nogales",
+              "value": 1
+            },
+            {
+              "label": "Tepic",
+              "value": 3
+            }
+          ]
+        }
+      ]
     },
     {
-      "stateId": "son",
-      "value": 11,
-      "unit": "µg/m³ PM2.5 (media anual)",
-      "note": "PM2.5 media anual 2023, estación Nogales (única con dato); Hermosillo: datos insuficientes"
+      "title": "Mexicali y el Valle Imperial: una sola cuenca de aire",
+      "subtitle": "Emisiones primarias diarias en toneladas, según los inventarios usados por la Junta de Recursos del Aire de California (CARB): Mexicali 2005 e Imperial 2008.",
+      "note": "Mexicali emite 1.7 veces más partículas finas que todo el Valle Imperial y 34 veces más óxidos de azufre. CARB concluyó que, sin las emisiones de Mexicali, el Valle Imperial habría cumplido la norma de PM2.5 de 24 horas en 2010–2012: en días fríos y estancados, Calexico promedió 26.4 µg/m³ frente a 9.9 en El Centro. El inventario de Mexicali subestima emisiones porque no incluye el polvo levantado por el viento. Fuente: CARB, Imperial County PM2.5 SIP.",
+      "series": [
+        {
+          "id": "mxl-imp-pm25",
+          "title": "PM2.5 primario",
+          "unit": "toneladas por día",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mexicali (2005)",
+              "value": 22.1
+            },
+            {
+              "label": "Valle Imperial (2008)",
+              "value": 12.8
+            }
+          ]
+        },
+        {
+          "id": "mxl-imp-sox",
+          "title": "Óxidos de azufre",
+          "unit": "toneladas por día",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mexicali (2005)",
+              "value": 13.7
+            },
+            {
+              "label": "Valle Imperial (2008)",
+              "value": 0.4
+            }
+          ]
+        }
+      ]
     },
     {
-      "stateId": "sin",
-      "value": null,
-      "unit": "µg/m³ PM2.5 (media anual)",
-      "note": "Sin monitoreo en 2023 (Ahome, Culiacán, Guasave y Mazatlán: IND en SINAICA)"
-    },
-    {
-      "stateId": "nay",
-      "value": null,
-      "unit": "µg/m³ PM2.5 (media anual)",
-      "note": "Tepic: datos insuficientes para media anual 2023 (3 días > 41 µg/m³)"
+      "title": "Sinaloa: muertes que se evitarían al año con aire más limpio",
+      "subtitle": "Muertes evitables en la población de 14 a 65 años si la PM2.5 media anual bajara a 10 µg/m³, con datos de las estaciones estatales de 2017.",
+      "note": "En 2017 la PM2.5 media anual fue de 22.2 µg/m³ en Mazatlán, 20.1 en Los Mochis y 13.2 en Culiacán. Llevarla a 10 µg/m³ evitaría unas 354 muertes al año en las tres ciudades, con una pérdida de productividad de 24 a 34 millones de dólares. La meta usada es la guía de la OMS de 2005; con la guía actual de 5 µg/m³ el beneficio sería mayor. Fuente: Becerra-Pérez y Ramos-Álvarez 2020.",
+      "series": [
+        {
+          "id": "sin-muertes",
+          "title": "Muertes evitables al año",
+          "unit": "muertes al año",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mazatlán",
+              "value": 171
+            },
+            {
+              "label": "Los Mochis",
+              "value": 113
+            },
+            {
+              "label": "Culiacán",
+              "value": 70
+            }
+          ]
+        }
+      ]
     }
   ],
   "map": {
     "kind": "choropleth",
-    "title": "PM2.5 media anual 2023 (proxy de aerosoles)",
-    "unit": "µg/m³ PM2.5",
-    "sourceId": "sinaica-2023",
+    "title": "Estaciones de monitoreo de la calidad del aire con información en el Informe Nacional 2023",
+    "unit": "estaciones",
+    "sourceId": "inecc-informe-2023",
     "valuesByState": {
-      "bc": 25,
-      "bcs": null,
-      "son": 11,
-      "sin": null,
-      "nay": null
-    }
+      "bc": 7,
+      "bcs": 0,
+      "son": 3,
+      "sin": 0,
+      "nay": 2
+    },
+    "note": "Baja California tuvo 7 estaciones (4 en Mexicali, 2 en Tijuana y 1 en Tecate), Sonora 3 (Nogales, San Luis Río Colorado y Hermosillo; las de Cajeme y Agua Prieta estuvieron fuera de operación) y Nayarit 2 en Tepic, ninguna con datos suficientes. Sinaloa no envió información y Baja California Sur integró su primera estación oficial hasta febrero de 2025. Muestra cuánto se mide, no la contaminación."
   },
   "sources": [
     {
-      "id": "sinaica-2023",
+      "id": "inecc-informe-2023",
       "title": "Informe Nacional de Calidad del Aire 2023",
-      "organization": "INECC / SINAICA (Gobierno de México)",
+      "organization": "INECC",
       "url": "https://sinaica.inecc.gob.mx/archivo/informes/Informe2023.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Datos públicos del Gobierno de México",
-      "note": "PM2.5 media anual 2023 por ciudad y estación (Tablas de cumplimiento NOM y Anexo). PM2.5 usado como proxy de aerosoles."
+      "accessDate": "2026-10-16",
+      "license": "Datos públicos",
+      "note": "Tablas de cumplimiento por estado: PM2.5 media anual por estación (Mexicali 18–25, Tijuana 23–25, Nogales 11 µg/m³), días por encima del límite de 24 h y estaciones en operación.",
+      "group": "regional"
+    },
+    {
+      "id": "carb-imperial-sip",
+      "title": "Imperial County PM2.5 State Implementation Plan — Staff Report",
+      "organization": "California Air Resources Board (CARB)",
+      "url": "https://ww2.arb.ca.gov/sites/default/files/classic/planning/sip/planarea/imperial/staff-report-with-appendices.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Inventarios de Mexicali (2005) e Imperial (2008) y análisis de peso de la evidencia que atribuye a Mexicali las excedencias de PM2.5 en Calexico.",
+      "group": "regional"
+    },
+    {
+      "id": "becerra-perez-2020",
+      "title": "Evaluación del impacto en la salud por partículas PM2.5 en Sinaloa, México",
+      "organization": "Revista Internacional de Contaminación Ambiental 36(2):249–259 (Becerra-Pérez y Ramos-Álvarez)",
+      "url": "https://doi.org/10.20937/RICA.53463",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "354 muertes evitables al año en Culiacán, Mazatlán y Los Mochis (meta OMS 2005) y 261 con la NOM de entonces; costo de 24 a 34 millones de USD (2017).",
+      "group": "regional"
+    },
+    {
+      "id": "reyna-2017",
+      "title": "An estimation of costs and public-health benefits by the PM10 mitigation in Mexicali, Baja California, Mexico",
+      "organization": "Revista Internacional de Contaminación Ambiental 33(1):117–129 (Reyna et al.)",
+      "url": "https://doi.org/10.20937/RICA.2017.33.01.11",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Sin control de PM10, el costo social en salud en Mexicali sería de ~1,659 millones de USD en 2013–2020 (5.6 % del PIB estatal de 2011).",
+      "group": "regional"
+    },
+    {
+      "id": "tellez-rojo-2023",
+      "title": "Análisis de la carga de enfermedad atribuible a los factores de riesgo ambientales en México en el período 1990-2021",
+      "organization": "Gaceta Médica de México 159(6) (Téllez-Rojo et al.)",
+      "url": "https://doi.org/10.24875/GMM.23000398",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "La contaminación por partículas en exterior es el principal riesgo ambiental en México: 42.2 % de las muertes atribuibles a los riesgos ambientales analizados (2021).",
+      "group": "regional"
+    },
+    {
+      "id": "proaire-sonora",
+      "title": "ProAire Sonora 2017–2026",
+      "organization": "SEMARNAT y Gobierno de Sonora",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/310199/23_ProAire_Sonora.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Inventario 2014: las fuentes naturales (sobre todo erosión eólica) aportan 65 % del PM2.5 y 86 % del PM10; la generación eléctrica produce 91 % del SO2.",
+      "group": "regional"
+    },
+    {
+      "id": "semarnat-pm25-2016",
+      "title": "Concentración promedio anual de PM2.5 en ciudades, 2003–2016",
+      "organization": "SEMARNAT-DGEIA, Compendio 2017 (con datos del INECC)",
+      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2017/archivos/01_atmosfera/D3_AIRE01_23.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Datos públicos",
+      "note": "Serie histórica fragmentaria: Mexicali 23 µg/m³ (2014), Tepic 10 µg/m³ (2015).",
+      "group": "regional"
+    },
+    {
+      "id": "bcs-sinaica-2025",
+      "title": "Disponible para consulta la información para la medición de calidad del aire (SEPUIMM)",
+      "organization": "Gobierno de Baja California Sur (10 feb 2025)",
+      "url": "https://iert.bcs.gob.mx/disponible-para-consulta-la-informacion-para-la-medicion-de-calidad-del-aire-sepuimm",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Primera estación de BCS integrada a SINAICA en febrero de 2025.",
+      "group": "regional"
+    },
+    {
+      "id": "epa-border2025",
+      "title": "Border 2025: California–Baja California Action Plan 2021–2023",
+      "organization": "US EPA",
+      "url": "https://origin-awswest-www.epa.gov/system/files/documents/2022-05/border%202025-ca-baja-ca-2021-2023-action-plan-2022-05.pdf",
+      "accessDate": "2026-10-16",
+      "license": "Información pública",
+      "note": "Red de sensores PurpleAir en Mexicali, factor de corrección de CARB y estudio de composición de PM2.5.",
+      "group": "regional"
     },
     {
       "id": "cerca-lapaz-2023",
       "title": "Reporte trimestral de calidad del aire en La Paz, B.C.S. (enero–marzo 2023)",
       "organization": "CERCA (Departamento de Salud y Calidad Ambiental)",
       "url": "https://cerca.org.mx/wp-content/uploads/2023/06/Reporte-trimestral-de-calidad-del-aire-en-La-Paz-B.C.S.-Periodo-enero-marzo-2023.docx-2-1.pdf",
-      "accessDate": "2026-10-03",
+      "accessDate": "2026-10-16",
       "license": "Publicación de organización civil (CERCA)",
-      "note": "Red ciudadana de monitoreo (PurpleAir) en La Paz; documenta PM10/PM2.5 pero sin media anual oficial, por lo que BCS se deja en null."
+      "note": "Red ciudadana de monitoreo (PurpleAir) en La Paz; documenta PM10/PM2.5 pero sin media anual oficial, por lo que BCS se deja en null.",
+      "group": "regional"
+    },
+    {
+      "id": "acag-v6gl",
+      "title": "Surface PM2.5 V6.GL.02.04 (1998–2023)",
+      "organization": "Atmospheric Composition Analysis Group, Washington University in St. Louis (Shen et al. 2024, ACS ES&T Air)",
+      "url": "https://sites.wustl.edu/acag/?p=385",
+      "accessDate": "2026-10-16",
+      "license": "Datos abiertos",
+      "note": "Estimación satelital global de PM2.5 a 0.01°; no publica promedios por estado mexicano, que tendrían que calcularse.",
+      "group": "regional"
     }
-  ],
-  "stateTitle": "Concentración media anual de PM2.5 por estado (2023)",
-  "stateNote": "Baja California (Mexicali y Tijuana) registra la peor calidad del aire de la región; el resto carece de monitoreo oficial sistemático."
+  ]
 }
