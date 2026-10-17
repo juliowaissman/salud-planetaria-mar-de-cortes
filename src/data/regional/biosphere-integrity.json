@@ -1,11 +1,11 @@
 {
   "boundaryId": "biosphere-integrity",
-  "updated": "2026-10-14",
+  "updated": "2026-10-17",
   "charts": [
     {
       "title": "Tendencias ecológicas de la biodiversidad del Golfo de California (2025)",
       "subtitle": "Resultado de la Evaluación de la Salud Ecológica del Golfo de California: de 41 proyectos de monitoreo de largo plazo (32 investigadores), cuántos grupos taxonómicos se evalúan en mejoría, estables o en deterioro.",
-      "note": "La mayoría de los grupos evaluados está en deterioro (11) o deterioro acelerado (2); solo 3 mejoran y 18 no tienen tendencia determinada. Fuente: Wilder et al. 2025.",
+      "note": "La mayoría de los grupos con tendencia determinada está en deterioro (11) o deterioro acelerado (2); solo 3 mejoran. La evaluación concluye que hay un declive alarmante de las poblaciones de niveles tróficos altos en todo el Golfo. Los dos casos de deterioro acelerado son equinodermos y corales del Golfo bajo, y cetáceos en las Grandes Islas. Nota: la gráfica de tendencias del propio informe muestra cifras distintas (1 en deterioro acelerado, 13 sin tendencia); aquí se usan las del resumen ejecutivo y la tabla del apéndice. Fuente: Wilder, Meltzer y Torre (comps.) 2025.",
       "series": [
         {
           "id": "ohi-tendencias",
@@ -32,6 +32,76 @@
             {
               "label": "No determinado",
               "value": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vaquita marina: individuos observados en el Alto Golfo (2023–2025)",
+      "subtitle": "Rango de vaquitas observadas en los cruceros anuales de monitoreo acústico y visual, estimado por elicitación de expertos. Son conteos mínimos, no el tamaño total de la población.",
+      "note": "La vaquita, endémica del Alto Golfo, cayó cerca de 49 % al año en 2015–2016 por la pesca con redes de enmalle, sobre todo la ilegal de totoaba. Desde 2023 el número observado se mantiene entre 6 y 12 individuos y se siguen viendo crías: en 2025, 7 a 10 vaquitas (67 % de probabilidad) y nuevas crías. Fuentes: Semarnat, Semar, Conanp y Sea Shepherd, comunicado del 28 oct 2025; reporte del crucero 2024.",
+      "series": [
+        {
+          "id": "vaq-min",
+          "title": "Mínimo observado",
+          "unit": "individuos",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "2023",
+              "value": 8
+            },
+            {
+              "label": "2024",
+              "value": 6
+            },
+            {
+              "label": "2025",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "id": "vaq-max",
+          "title": "Máximo observado",
+          "unit": "individuos",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "2023",
+              "value": 12
+            },
+            {
+              "label": "2024",
+              "value": 8
+            },
+            {
+              "label": "2025",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cabo Pulmo: la recuperación que logra la protección",
+      "subtitle": "Biomasa de peces en el Parque Nacional Cabo Pulmo (BCS), creado en 1995 como zona de no pesca, en toneladas por hectárea.",
+      "note": "Entre 1999 y 2009 la biomasa total de peces aumentó 463 % y la de depredadores tope 1,070 %, unas once veces. Muestra que una zona de no pesca bien cuidada recupera el ecosistema en una década. Fuente: Aburto-Oropeza et al. 2011.",
+      "series": [
+        {
+          "id": "cp-biomasa",
+          "title": "Biomasa total de peces",
+          "unit": "t por hectárea",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "1999",
+              "value": 0.75
+            },
+            {
+              "label": "2009",
+              "value": 4.24
             }
           ]
         }
@@ -70,7 +140,7 @@
           "note": "CONANP Numeralia 2024"
         }
       ],
-      "note": "Baja California y Baja California Sur concentran la mayor superficie protegida; Sinaloa tiene la menor cobertura de ANP de la región."
+      "note": "Superficie terrestre de las ANP federales dentro de cada estado. Baja California y Baja California Sur concentran la mayor superficie, sobre todo por el Valle de los Cirios y El Vizcaíno; la de Nayarit incluye una amplia área de protección de recursos naturales. Sinaloa tiene la menor cobertura de la región. Fuente: CONANP, Numeralia (septiembre de 2024)."
     },
     {
       "id": "pesca",
@@ -103,7 +173,7 @@
           "note": "CONAPESCA Anuario 2024"
         }
       ],
-      "note": "Sonora y Sinaloa lideran la captura; la pesca es la principal presión sobre la biodiversidad marina del Golfo."
+      "note": "Los cinco estados aportan el 86 % de la captura pesquera del país (1.59 de 1.85 millones de toneladas). Casi dos tercios son sardina y anchoveta; en Sinaloa destaca el atún. La pesca, incluida la incidental y la ilegal, es la principal presión documentada sobre la biodiversidad marina del Golfo (Sala et al. 2004; Wilder et al. 2025). Fuente: CONAPESCA, base de datos del Anuario 2024."
     }
   ],
   "map": {
@@ -235,7 +305,7 @@
     {
       "id": "ohi-salud-2025",
       "title": "Evaluación de la Salud Ecológica del Golfo de California (2025)",
-      "organization": "Nueva Generación de Investigadores del Desierto Sonorense / Prescott College",
+      "organization": "Wilder, B. T., Meltzer, L. y Torre, J. (comps.). NextGen Sonoran Desert Researchers / Kino Bay Center",
       "url": "https://nextgensd.com/wp-content/uploads/2025/01/Health-of-the-Gulf-of-California_final-assesment_Espanol.pdf",
       "accessDate": "2026-10-14",
       "license": "Informe público",
@@ -254,10 +324,10 @@
       "id": "aburto-2011-plosone",
       "title": "Large Recovery of Fish Biomass in a No-Take Marine Reserve (Cabo Pulmo)",
       "organization": "PLoS ONE",
-      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0023601",
+      "url": "https://doi.org/10.1371/journal.pone.0023601",
       "accessDate": "2026-10-14",
       "license": "CC BY",
-      "note": "Recuperación de +463 % de biomasa de peces y +1070 % de depredadores tope en Cabo Pulmo (1999–2009)."
+      "note": "Cabo Pulmo, 1999–2009: biomasa total de peces de 0.75 a 4.24 t/ha (+463 %) y depredadores tope +1,070 %."
     },
     {
       "id": "aguirre-2008-ambio",
@@ -266,16 +336,16 @@
       "url": "https://www.islas.org.mx/articulos_files/2008.%20Aguirre%20et%20al_High%20Impact%20Conservation%20Islands-Ambio.pdf",
       "accessDate": "2026-10-14",
       "license": "© Ambio",
-      "note": "42 poblaciones de mamíferos invasores erradicadas en 26 islas; protege 88 taxones endémicos."
+      "note": "Erradicación de mamíferos invasores en islas del occidente de México (cifras de 2008). Para 2017, GECI reporta 58 poblaciones erradicadas en 37 islas del país y al menos 147 taxones endémicos protegidos."
     },
     {
       "id": "sala-2004-fishingdown",
       "title": "Fishing Down Coastal Food Webs in the Gulf of California",
-      "organization": "Fisheries (American Fisheries Society)",
-      "url": "https://academic.oup.com/fisheries/article-pdf/29/3/19/61180852/fsh0019.pdf",
+      "organization": "Fisheries 29(3):19–25 (Sala, Aburto-Oropeza, Reza, Paredes y López-Lemus)",
+      "url": "https://doi.org/10.1577/1548-8446(2004)29[19:FDCFWI]2.0.CO;2",
       "accessDate": "2026-10-14",
       "license": "© AFS",
-      "note": "Degradación trófica por pesca secuencial de niveles altos a bajos."
+      "note": "En 30 años la pesca costera pasó de especies grandes y longevas de nivel trófico alto a especies pequeñas; la talla máxima de los desembarques bajó ~45 cm en 20 años."
     },
     {
       "id": "richardson-2023",
@@ -304,6 +374,66 @@
       "accessDate": "2026-10-16",
       "license": "Información pública",
       "note": "Pérdida neta nacional de 27,622 ha de manglar 2020–2025; manglar perturbado de 9,680 a 52,130 ha (Nayarit 16,834 ha). Cifras tomadas de la cobertura de prensa; pendiente consultar el informe primario.",
+      "group": "regional"
+    },
+    {
+      "id": "vaquita-2025",
+      "title": "Gobierno de México y Sea Shepherd refuerzan acciones de conservación de la vaquita marina (resultados del Crucero 2025)",
+      "organization": "Semarnat, Semar, Conanp y Sea Shepherd Conservation Society (comunicado conjunto, 28 oct 2025)",
+      "url": "https://seashepherd.org/wp-content/uploads/2025/10/281025-Comunicado-conjunto-conservacion-vaquita-marina-7pm.pdf",
+      "accessDate": "2026-10-17",
+      "license": "Información pública",
+      "note": "Entre 7 y 10 vaquitas observadas en 2025 y nacimiento de nuevas crías; tres años sin disminución sustancial.",
+      "group": "regional"
+    },
+    {
+      "id": "vaquita-2024",
+      "title": "Vaquita acoustic and visual survey 2024 — report",
+      "organization": "Comité para la Recuperación de la Vaquita (CIRVA) / IUCN SSC Cetacean Specialist Group",
+      "url": "https://iucn-csg.org/wp-content/uploads/2024/12/Reporte-Crucero-Vaquita-2024-Ingles-Final.pdf",
+      "accessDate": "2026-10-17",
+      "license": "Información pública",
+      "note": "6 a 8 vaquitas observadas en 2024 (8 a 12 en 2023).",
+      "group": "regional"
+    },
+    {
+      "id": "geci-2017",
+      "title": "Conservación y restauración de las islas mexicanas",
+      "organization": "Aguirre-Muñoz et al., en compilación de CONABIO (2017)",
+      "url": "https://islas.org.mx/articulos_files/2017.%20Aguirre%20Mu%C3%B1oz%20et%20al.%20Conservaci%C3%B3n%20y%20restauraci%C3%B3n%20de%20las%20islas%20mexicanas.pdf",
+      "accessDate": "2026-10-17",
+      "license": "Información pública",
+      "note": "58 poblaciones de mamíferos invasores erradicadas en 37 islas mexicanas; al menos 147 taxones endémicos protegidos (cifras nacionales).",
+      "group": "regional"
+    },
+    {
+      "id": "burkhead-2012",
+      "title": "Extinction Rates in North American Freshwater Fishes, 1900–2010",
+      "organization": "BioScience 62(9):798–808 (Burkhead)",
+      "url": "https://doi.org/10.1525/bio.2012.62.9.5",
+      "accessDate": "2026-10-17",
+      "license": "© Oxford University Press",
+      "note": "57 taxones de peces de agua dulce extintos en Norteamérica entre 1898 y 2006; la tasa moderna es al menos 877 veces la natural.",
+      "group": "regional"
+    },
+    {
+      "id": "iucn-peces-2020",
+      "title": "La biodiversidad dulceacuícola de México se encuentra en declinación (evaluación regional de peces de agua dulce)",
+      "organization": "UICN (2020)",
+      "url": "https://iucn.org/es/news/species/202005/la-biodiversidad-dulceacuicola-de-mexico-se-encuentra-en-declinacion-ya-que-mas-de-un-tercio-de-sus-especies-de-peces-estan-amenazadas-de-extincion-reporte-de-la-uicn",
+      "accessDate": "2026-10-17",
+      "license": "Información pública",
+      "note": "De 536 especies de peces de agua dulce de México, 39 % están amenazadas; 12 extintas y 8 extintas en estado silvestre.",
+      "group": "regional"
+    },
+    {
+      "id": "nhm-bii",
+      "title": "Biodiversity Intactness Index (BII) — serie por país",
+      "organization": "Natural History Museum, Londres (conjunto PREDICTS, 2021; descontinuado y sustituido por BII v2.1.1)",
+      "url": "https://data.nhm.ac.uk/dataset/bii-bte",
+      "accessDate": "2026-10-17",
+      "license": "CC BY-NC-SA",
+      "note": "BII de México ≈ 0.74 en 2000 y 2014 (≈ 0.78 en 1970), frente a un umbral seguro de 0.90 y un valor global de ~0.84.",
       "group": "regional"
     }
   ]

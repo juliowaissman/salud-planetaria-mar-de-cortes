@@ -112,13 +112,13 @@
       "short": "Pérdida de diversidad y funcionamiento de la vida en tierra, agua dulce y océano.",
       "status": "high-risk",
       "trend": "worsening",
-      "globalStatus": "Fuertemente transgredido. Extinción de especies y apropiación humana de la productividad primaria en zona de alto riesgo.",
+      "globalStatus": "Fuertemente transgredido. La extinción ocurre a 100–1,000 veces el ritmo natural y los humanos se apropian de 21–30 % de la productividad de los ecosistemas, frente a límites de menos de 10 en ambos casos.",
       "controlVariableIds": [
         "genetic-diversity",
         "functional-integrity"
       ],
       "regional": {
-        "summary": "El Golfo de California es un punto caliente de biodiversidad marina (alto endemismo: vaquita marina, totoaba, arrecifes y manglares) sometido a sobrepesca, pesca incidental y pérdida de hábitat; su integridad funcional está comprometida (HANPP ~30 % frente al límite seguro <10 %; BII ~84.6 % frente a >90 %). En tierra, la agricultura de riego y la acuacultura han convertido selvas secas y manglares (27,622 ha de manglar perdidas a nivel nacional en 2020–2025, según CONABIO; en Marismas Nacionales la degradación del manglar avanza unas diez veces más rápido que su deforestación). La 'pesca hacia abajo en la red trófica' degrada el ecosistema pelágico. Aun así, la región muestra resiliencia recuperable: Cabo Pulmo aumentó 463 % su biomasa de peces tras ser reserva de no-extracción. Es el límite con mayor relevancia y apalancamiento regional.",
+        "summary": "El Golfo de California es uno de los mares con más biodiversidad y endemismo del planeta —vaquita marina, totoaba, arrecifes, manglares e islas con especies únicas— y está sometido a sobrepesca, pesca incidental y pérdida de hábitat. A escala global el límite está muy rebasado, y México también: su índice de integridad de la biodiversidad (BII) es de ~74 %, frente al 90 % considerado seguro. En la región, la Evaluación de la Salud Ecológica del Golfo 2025 encontró que 13 de los 23 grupos con tendencia determinada están en deterioro, con un declive alarmante de los depredadores tope. La pesca costera se ha movido de especies grandes y longevas a especies pequeñas, y la talla máxima capturada bajó unos 45 cm en 20 años. Los cinco estados aportan el 86 % de la captura pesquera del país. La vaquita sobrevive con 7 a 10 individuos observados en 2025. En tierra, la agricultura y la acuacultura han convertido selvas secas y manglares (ver límite 3). Pero la región también demuestra que la recuperación es posible: en Cabo Pulmo la biomasa de peces creció 463 % en diez años de protección, y la erradicación de especies invasoras ha restaurado islas del Golfo. Es el límite con mayor relevancia y apalancamiento regional.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -137,7 +137,7 @@
             "text": "Consumo responsable de productos del mar y participación en monitoreo comunitario."
           }
         ],
-        "dataGaps": "No existe un índice regional tipo HANPP/BII a escala estatal; se usan proxies (ANP, manglar, pesca) y el índice marino cualitativo de 2025.",
+        "dataGaps": "Los indicadores del límite (extinción, HANPP, BII) no existen a escala estatal; se usan áreas protegidas, manglar, captura pesquera, la evaluación cualitativa del Golfo de 2025 y casos documentados.",
         "questions": [
           {
             "q": "¿Cómo detener la conversión de manglar por acuacultura de camarón y restaurar la conectividad hidrológica de los humedales costeros?",
@@ -145,14 +145,19 @@
             "ref": "Aburto-Oropeza et al. 2008 (PNAS); Quintero-Morales et al. 2021 (Ciencias Marinas); CONABIO 2025."
           },
           {
+            "q": "¿Cómo evitar la extinción de la vaquita marina?",
+            "action": "Eliminar las redes de enmalle en su zona de distribución, con vigilancia permanente, artes de pesca alternativas y apoyo económico a las comunidades pesqueras del Alto Golfo.",
+            "ref": "Semarnat et al. 2025; reporte del crucero de la vaquita 2024."
+          },
+          {
             "q": "¿Cómo frenar la degradación trófica del Mar de Cortés ('fishing down the food web') y reconstruir las poblaciones de depredadores tope?",
             "action": "Cuotas y reservas de no-extracción cogestionadas con comunidades, como el modelo de Cabo Pulmo.",
-            "ref": "Sala et al. 2004; Aburto-Oropeza et al. 2011."
+            "ref": "Sala et al. 2004 (Fisheries); Aburto-Oropeza et al. 2011 (PLoS ONE)."
           },
           {
             "q": "¿Cómo proteger la diversidad genética insular y dulceacuícola (endemismos y extinciones locales) frente a especies invasoras y sobreexplotación de agua?",
             "action": "Erradicación de mamíferos invasores en islas y restauración de caudales ecológicos en ríos.",
-            "ref": "Aguirre-Muñoz et al. 2008; Extinction rates in North American freshwater fishes."
+            "ref": "Aguirre-Muñoz et al. 2008 (Ambio) y GECI 2017; Burkhead 2012 (BioScience); UICN 2020."
           },
           {
             "q": "¿Cómo sostener el monitoreo ecológico de largo plazo del Golfo para distinguir tendencias y orientar el manejo adaptativo?",
@@ -161,11 +166,12 @@
           }
         ],
         "measurementGaps": [
-          "Series continuas de productividad primaria marina (clorofila, fitoplancton) y de megafauna amenazada (tiburones, totoaba, vaquita).",
-          "Monitoreo de manglares y pastos marinos integrado a una serie regional (hoy es intermitente).",
-          "Índices de integridad funcional regionales (HANPP/BII) a escala de los 5 estados o del Golfo, no solo valores globales.",
-          "Series de biodiversidad marina por eDNA o inventarios sistemáticos para el Mar de Cortés.",
-          "Estado de las pesquerías artesanales (esfuerzo, biomasa, tallas) con resolución espacial para manejo adaptativo."
+          "Índices de integridad de la biodiversidad (BII) y de apropiación humana de la productividad (HANPP) por estado o para el Golfo: hoy solo hay valores globales y nacionales.",
+          "Tendencias para los 18 grupos de la Evaluación de Salud del Golfo que no tienen suficiente información.",
+          "Seguimiento publicado de la biomasa de peces en Cabo Pulmo después de 2009 y en otras reservas del Golfo.",
+          "Series continuas de megafauna amenazada (vaquita, totoaba, tiburones, tortugas, lobo marino) y de la pesca ilegal.",
+          "Estado de las pesquerías artesanales (esfuerzo, biomasa, tallas) con resolución espacial para el manejo adaptativo.",
+          "Monitoreo de manglares, pastos marinos y peces de agua dulce de las cuencas del noroeste integrado en series regionales."
         ]
       },
       "hasMap": true
@@ -664,23 +670,27 @@
     {
       "id": "genetic-diversity",
       "boundaryId": "biosphere-integrity",
-      "name": "Diversidad genética (extinción)",
+      "name": "Diversidad genética (tasa de extinción)",
       "nameEn": "Genetic diversity",
-      "globalValue": "Tasa de extinción >100× el fondo natural",
+      "globalValue": "100–1,000 extinciones por millón de especies al año",
       "status": "high-risk",
       "trend": "worsening",
-      "note": "Sin valor numérico único; el estado está en zona de alto riesgo."
+      "note": "El ritmo natural de extinción es de ~1 por millón de especies al año.",
+      "unit": "E/MSY",
+      "safeBoundary": "< 10 E/MSY",
+      "highRisk": "100 E/MSY"
     },
     {
       "id": "functional-integrity",
       "boundaryId": "biosphere-integrity",
-      "name": "Integridad funcional (HANPP)",
+      "name": "Integridad funcional (apropiación humana de la productividad primaria, HANPP)",
       "nameEn": "Functional integrity (HANPP)",
-      "globalValue": "21–30% de la NPP",
+      "globalValue": "21–30 % de la productividad preindustrial",
       "unit": "% NPP",
-      "safeBoundary": "≈10%",
+      "safeBoundary": "< 10 %",
       "status": "high-risk",
-      "trend": "worsening"
+      "trend": "worsening",
+      "highRisk": "20 %"
     },
     {
       "id": "forest-cover",
