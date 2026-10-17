@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom'
-import { catalog } from '../data'
+import { catalog, sourceById } from '../data'
 import PlanetaryBar from '../components/PlanetaryBar'
-import PriorityMatrix from '../components/PriorityMatrix'
-import BoundaryCard from '../components/BoundaryCard'
 
+const report = sourceById.get('phc-main')
 const heroImage = `${import.meta.env.BASE_URL}img/hero-mar-cortes.jpg`
 
 const entries = [
@@ -58,6 +57,7 @@ export default function Home() {
             <Link to="/priorizacion" className="btn btn-ghost">Dónde actuar como región</Link>
           </div>
         </div>
+        <span className="credit">Imagen satelital: NASA</span>
       </section>
 
       <div className="container">
@@ -74,6 +74,39 @@ export default function Home() {
                 <span className="go">{e.go}</span>
               </Link>
             ))}
+          </div>
+        </section>
+
+        <section className="section" aria-labelledby="about-title">
+          <div className="section-title">
+            <h2 id="about-title">Sobre esta plataforma</h2>
+            <Link to="/acerca" className="small">Conocer al Observatorio →</Link>
+          </div>
+          <div className="grid cols-2">
+            <div className="card context-card">
+              <p className="kicker">Quién la hace</p>
+              <h3>Observatorio Tecnológico del Mar de Cortés</h3>
+              <p>
+                Es una iniciativa del <strong>Foro Mar de Cortés</strong> y de las cinco universidades públicas de la
+                región —UABC, UABCS, UAN, UAS y Unison—, articulada por el Corredor Científico, Académico y Empresarial
+                del Mar de Cortés. Su propósito es unir ciencia, innovación y sostenibilidad para el Golfo de California.
+              </p>
+              <p>
+                En su primera fase analiza la <strong>incidencia regional de los límites planetarios</strong>: qué tan
+                presente está cada uno en Baja California, Baja California Sur, Sonora, Sinaloa y Nayarit, y dónde la
+                región puede hacer algo al respecto.
+              </p>
+            </div>
+            <div className="card context-card">
+              <p className="kicker">Qué ofrece</p>
+              <h3>Del diagnóstico global a la decisión regional</h3>
+              <ol className="steps">
+                <li><strong>Estado global.</strong> Parte del Planetary Health Check 2026, la evaluación científica más reciente de los 9 límites.</li>
+                <li><strong>Lectura regional.</strong> Reúne datos públicos por estado (INEGI, CONAGUA, CONABIO, SEMARNAT, NOAA, entre otros), con fuente y fecha de consulta.</li>
+                <li><strong>Priorización.</strong> Cruza el impacto regional con la capacidad de incidir para señalar dónde conviene concentrar esfuerzos.</li>
+                <li><strong>Agenda.</strong> Propone preguntas abiertas y señala lo que hoy no se mide, para academia, empresas y gobiernos.</li>
+              </ol>
+            </div>
           </div>
         </section>
 
@@ -126,6 +159,11 @@ export default function Home() {
         <section className="section">
           <div className="section-title">
             <h2>5 mensajes clave del reporte 2026</h2>
+            {report && (
+              <a href={report.url} target="_blank" rel="noopener noreferrer" className="small">
+                Consultar el reporte original (en inglés) ↗
+              </a>
+            )}
           </div>
           <div className="card">
             <ol className="prose" style={{ marginBottom: 0 }}>
@@ -150,35 +188,18 @@ export default function Home() {
             </p>
             <PlanetaryBar />
           </div>
-        </section>
-
-        <section className="section">
-          <div className="section-title">
-            <h2>Dónde actuar como región</h2>
-            <Link to="/priorizacion" className="small">
-              Metodología de priorización →
-            </Link>
-          </div>
-          <div className="card">
-            <p className="muted" style={{ marginTop: 0 }}>
-              Priorizamos los límites con <strong>alto impacto regional</strong> y <strong>alto apalancamiento</strong> desde la
-              iniciativa privada y los gobiernos locales. Ejemplos de bajo apalancamiento —como la huella de carbono de la
-              región o el ozono estratosférico— se marcan para <em>no</em> concentrar recursos en ellos.
+          {report && (
+            <p className="report-ref">
+              <span>
+                <strong>Fuente:</strong> {report.title}. {report.organization}.
+              </span>
+              <a href={report.url} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+                Descargar el reporte ↗
+              </a>
             </p>
-            <PriorityMatrix />
-          </div>
+          )}
         </section>
 
-        <section className="section">
-          <div className="section-title">
-            <h2>Límites planetarios</h2>
-          </div>
-          <div className="grid cols-3">
-            {catalog.boundaries.map((b) => (
-              <BoundaryCard key={b.id} b={b} />
-            ))}
-          </div>
-        </section>
       </div>
     </>
   )

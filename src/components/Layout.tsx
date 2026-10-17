@@ -129,7 +129,7 @@ export default function Layout() {
           </div>
           <p className="fine">
             Última actualización: {catalog.updated} · Las fuentes globales corresponden al Planetary Health Check 2026;
-            los datos regionales provienen de fuentes públicas.
+            los datos regionales provienen de fuentes públicas. Imagen satelital de portada: NASA.
           </p>
         </div>
       </footer>
