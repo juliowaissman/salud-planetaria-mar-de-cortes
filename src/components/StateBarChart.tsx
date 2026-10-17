@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import type { EChartsOption } from 'echarts'
-import EChart from '../lib/EChart'
+import EChart, { CHART } from '../lib/EChart'
 import { catalog } from '../data'
 import type { StateValue } from '../types'
 
@@ -14,29 +14,26 @@ export default function StateBarChart({ values, unit, height = 300 }: { values: 
         formatter: (params: any) => {
           const p = Array.isArray(params) ? params[0] : params
           const sv = values[p.dataIndex]
-          const extra = sv?.note ? `<br/><span style="color:#8594a3">${sv.note}</span>` : ''
+          const extra = sv?.note ? `<br/><span style="color:${CHART.muted}">${sv.note}</span>` : ''
           return `${p.name}: ${p.value ?? 'n/d'}${extra}`
         },
       },
-      grid: { left: 52, right: 20, top: 20, bottom: 70 },
+      grid: { left: 52, right: 20, top: 36, bottom: 70 },
       xAxis: {
         type: 'category',
         data: values.map((v) => name(v.stateId)),
-        axisLabel: { color: '#5a6b7a', rotate: 30, fontSize: 11 },
+        axisLabel: { rotate: 30, fontSize: 12 },
       },
       yAxis: {
         type: 'value',
-        axisLabel: { color: '#5a6b7a' },
         name: unit ?? '',
-        nameTextStyle: { color: '#8594a3' },
-        splitLine: { lineStyle: { color: '#e6ecf2' } },
       },
       series: [
         {
           type: 'bar',
-          data: values.map((v) => ({ value: v.value, itemStyle: { color: '#3f6f5f' } })),
+          data: values.map((v) => ({ value: v.value, itemStyle: { color: CHART.palette[0] } })),
           barMaxWidth: 56,
-          label: { show: true, position: 'top', color: '#5a6b7a', formatter: (p: any) => (p.value == null ? 'n/d' : p.value) },
+          label: { show: true, position: 'top', color: CHART.muted, formatter: (p: any) => (p.value == null ? 'n/d' : p.value) },
         },
       ],
     }

@@ -16,7 +16,7 @@ export default function BoundaryCard({ b }: { b: Boundary }) {
       <div className="meta">
         <StatusBadge status={b.status} />
         <PriorityBadge priority={priorityOf(b.regional.impact, b.regional.leverage)} />
-        {withData.has(b.id) && <span className="badge safe"><span className="dot" />datos regionales</span>}
+        {withData.has(b.id) && <span className="badge info">Con datos regionales</span>}
       </div>
     </Link>
   )

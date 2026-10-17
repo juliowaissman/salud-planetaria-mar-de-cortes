@@ -7,7 +7,7 @@ import { stateById } from '../data'
 const stateName = (id: string) => stateById.get(id)?.name ?? id.toUpperCase()
 
 const TARGET = ['bc', 'bcs', 'son', 'sin', 'nay']
-const GRAY = '#e4ddcd'
+const GRAY = '#e3e8ec'
 
 // Basemaps vectoriales gratuitos, sin API key (OpenFreeMap).
 // Estilo por defecto configurable en build con VITE_BASEMAP_STYLE (positron|bright|liberty).
@@ -37,10 +37,10 @@ const FALLBACK_STYLE: maplibregl.StyleSpecification = {
 }
 
 function hex(ratio: number): string {
-  // rampa verdigris: de un hueso-verde claro a un verdigris profundo
-  const r = Math.round(221 + (47 - 221) * ratio)
-  const g = Math.round(231 + (87 - 231) * ratio)
-  const b = Math.round(218 + (73 - 218) * ratio)
+  // rampa secuencial de un solo tono: azul claro (#d6e6f2) → navy del logo (#0a3a66)
+  const r = Math.round(214 + (10 - 214) * ratio)
+  const g = Math.round(230 + (58 - 230) * ratio)
+  const b = Math.round(242 + (102 - 242) * ratio)
   return `rgb(${r},${g},${b})`
 }
 
@@ -63,7 +63,8 @@ function miniBarsHtml(bars: MapTooltipBar[]): string {
     .map((b) => {
       const v = b.value ?? 0
       const h = Math.max(4, Math.round((Math.abs(v) / max) * 40))
-      const color = v >= 0 ? '#2e9e5b' : '#c0392b'
+      // par apto para daltonismo: turquesa (positivo) / naranja (negativo)
+      const color = v >= 0 ? '#1a9aad' : '#cc6c26'
       return (
         `<div class="mb-col">` +
         `<span class="mb-val">${v >= 0 ? '+' : ''}${v.toFixed(1)}%</span>` +

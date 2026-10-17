@@ -1,5 +1,8 @@
-import { NavLink, Link, Outlet } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { NavLink, Link, Outlet, useLocation } from 'react-router-dom'
 import { catalog } from '../data'
+
+const base = import.meta.env.BASE_URL
 
 const nav = [
   { to: '/', label: 'Inicio', end: true },
@@ -10,7 +13,19 @@ const nav = [
   { to: '/acerca', label: 'Acerca' },
 ]
 
+// Red institucional (el logo del Corredor ya va en la franja superior)
+const partners = catalog.directory.filter((o) => o.id !== 'corredor')
+
 export default function Layout() {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const location = useLocation()
+
+  // Cerrar el menú móvil y volver arriba al cambiar de página
+  useEffect(() => {
+    setMenuOpen(false)
+    window.scrollTo(0, 0)
+  }, [location.pathname])
+
   return (
     <>
       <button
@@ -20,22 +35,39 @@ export default function Layout() {
       >
         Saltar al contenido
       </button>
+
+      <div className="inst-bar">
+        <div className="inner">
+          <Link to="/" className="logo-link" aria-label="Inicio">
+            <img
+              src={`${base}img/logo-corredor.png`}
+              alt="Corredor Científico, Académico y Empresarial del Mar de Cortés"
+            />
+          </Link>
+          <span className="inst-text">
+            <strong>Observatorio Tecnológico del Mar de Cortés</strong>
+            <br />
+            Foro Mar de Cortés · UABC · UABCS · UAN · UAS · Unison
+          </span>
+        </div>
+      </div>
+
       <header className="site-header">
         <div className="bar">
           <Link to="/" className="brand">
-            <span className="brand-logo">
-              <img
-                src={`${import.meta.env.BASE_URL}img/logo-corredor.png`}
-                alt="Corredor Científico y Tecnológico del Mar de Cortés"
-              />
-            </span>
-            <span>
-              <span className="title">Salud Planetaria · Mar de Cortés</span>
-              <br />
-              <span className="sub">Observatorio Tecnológico del Mar de Cortés</span>
-            </span>
+            Salud Planetaria · Mar de Cortés
           </Link>
-          <nav className="nav" aria-label="Principal">
+          <button
+            type="button"
+            className="menu-toggle"
+            aria-expanded={menuOpen}
+            aria-controls="main-nav"
+            onClick={() => setMenuOpen((o) => !o)}
+          >
+            <span className="bars" aria-hidden="true"><i /><i /><i /></span>
+            <span className="label">{menuOpen ? 'Cerrar' : 'Menú'}</span>
+          </button>
+          <nav id="main-nav" className={`nav${menuOpen ? ' open' : ''}`} aria-label="Principal">
             {nav.map((n) => (
               <NavLink key={n.to} to={n.to} end={n.end} className={({ isActive }) => (isActive ? 'active' : '')}>
                 {n.label}
@@ -44,9 +76,25 @@ export default function Layout() {
           </nav>
         </div>
       </header>
+
       <main id="main" tabIndex={-1}>
         <Outlet />
       </main>
+
+      <section className="partners" aria-label="Instituciones participantes">
+        <div className="container">
+          <p className="label">Una iniciativa de</p>
+          <div className="logos">
+            {partners.map((p) => (
+              <Link to="/acerca" key={p.id} title={p.name}>
+                <img src={`${base}img/${p.logo}`} alt="" loading="lazy" />
+                <span>{p.name.match(/\(([^)]+)\)/)?.[1] ?? p.name}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <footer className="site-footer">
         <div className="container">
           <div className="cols">
@@ -74,6 +122,8 @@ export default function Layout() {
                 <a href="https://www.planetaryhealthcheck.org" target="_blank" rel="noopener noreferrer">
                   Planetary Health Check
                 </a>
+                <br />
+                <Link to="/fuentes">Catálogo de fuentes</Link>
               </p>
             </div>
           </div>

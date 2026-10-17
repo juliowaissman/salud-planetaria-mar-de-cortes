@@ -10,15 +10,12 @@ export default function TimeSeriesChart({ series, height = 300 }: { series: Seri
     const valueAt = (s: Series, label: string) => s.points.find((p) => p.label === label)?.value ?? null
     return {
       tooltip: { trigger: 'axis' },
-      legend: { bottom: 0, textStyle: { color: '#5a6b7a' } },
-      grid: { left: 52, right: 20, top: 24, bottom: 46 },
-      xAxis: { type: 'category', data: cats, axisLabel: { color: '#5a6b7a' } },
+      legend: { bottom: 0, show: series.length > 1 },
+      grid: { left: 52, right: 20, top: 30, bottom: series.length > 1 ? 46 : 30 },
+      xAxis: { type: 'category', data: cats },
       yAxis: {
         type: 'value',
-        axisLabel: { color: '#5a6b7a' },
         name: series[0]?.unit ?? '',
-        nameTextStyle: { color: '#8594a3' },
-        splitLine: { lineStyle: { color: '#e6ecf2' } },
       },
       series: series.map((s) => ({
         name: s.title,
@@ -26,12 +23,10 @@ export default function TimeSeriesChart({ series, height = 300 }: { series: Seri
         smooth: s.kind === 'bar' ? undefined : true,
         connectNulls: true,
         data: cats.map((c) => valueAt(s, c)),
-        lineStyle: { width: 2.5 },
-        itemStyle: { color: undefined },
-        symbolSize: 6,
+        lineStyle: { width: 2 },
+        symbolSize: 7,
         barMaxWidth: 40,
       })),
-      color: ['#3f6f5f', '#a05a3c', '#b8721a', '#2f5749', '#b54333', '#8a8272'],
     }
   }, [series])
 

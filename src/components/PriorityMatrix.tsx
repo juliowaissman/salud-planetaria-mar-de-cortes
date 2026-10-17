@@ -1,13 +1,13 @@
 import { useMemo } from 'react'
 import type { EChartsOption } from 'echarts'
-import EChart from '../lib/EChart'
+import EChart, { CHART } from '../lib/EChart'
 import { catalog } from '../data'
 import type { Rating } from '../types'
 import { priorityOf } from '../lib/priority'
 
 const R: Record<Rating, number> = { Alto: 3, Medio: 2, Bajo: 1 }
-// Rampa teal propia para prioridad (distinta del verde/ámbar/rojo de estado)
-const COLOR: Record<string, string> = { Alta: '#2f5749', Media: '#4a7a6a', Baja: '#8fb3a3' }
+// Rampa navy propia para prioridad (distinta del verde/ámbar/rojo de estado); igual a --priority-* en CSS
+const COLOR: Record<string, string> = { Alta: '#0a3a66', Media: '#3f7fa6', Baja: '#a9c8da' }
 
 // Etiquetas cortas para que no se encimen en la matriz; el nombre completo va en el tooltip y la leyenda.
 const SHORT: Record<string, string> = {
@@ -40,8 +40,8 @@ export default function PriorityMatrix({ height = 460 }: { height?: number }) {
         leverage: b.regional.leverage,
         priority: pr,
         value: [x + jx, y + jy],
-        itemStyle: { color: COLOR[pr] },
-        symbolSize: 16,
+        itemStyle: { color: COLOR[pr], borderColor: '#ffffff', borderWidth: 2 },
+        symbolSize: 18,
       }
     })
     return {
@@ -58,8 +58,8 @@ export default function PriorityMatrix({ height = 460 }: { height?: number }) {
         min: 0.5,
         max: 3.5,
         interval: 1,
-        axisLabel: { formatter: (v: number) => AXIS[v] ?? '', color: '#5a6b7a' },
-        splitLine: { lineStyle: { color: '#e6ecf2' } },
+        axisLabel: { formatter: (v: number) => AXIS[v] ?? '' },
+        nameTextStyle: { color: CHART.muted, fontWeight: 600 },
       },
       yAxis: {
         name: 'Impacto regional →',
@@ -68,8 +68,8 @@ export default function PriorityMatrix({ height = 460 }: { height?: number }) {
         min: 0.5,
         max: 3.5,
         interval: 1,
-        axisLabel: { formatter: (v: number) => AXIS[v] ?? '', color: '#5a6b7a' },
-        splitLine: { lineStyle: { color: '#e6ecf2' } },
+        axisLabel: { formatter: (v: number) => AXIS[v] ?? '' },
+        nameTextStyle: { color: CHART.muted, fontWeight: 600 },
       },
       series: [
         {
@@ -81,13 +81,13 @@ export default function PriorityMatrix({ height = 460 }: { height?: number }) {
             position: 'right',
             distance: 5,
             fontSize: 11,
-            color: '#14242f',
+            color: CHART.ink,
           },
           labelLayout: { hideOverlap: true },
           markLine: {
             silent: true,
             symbol: 'none',
-            lineStyle: { color: '#c3cfda', type: 'dashed' },
+            lineStyle: { color: CHART.axis, type: 'dashed' },
             label: { show: false },
             data: [{ xAxis: 2 }, { yAxis: 2 }],
           },
