@@ -1043,58 +1043,761 @@
       "order": 1,
       "name": "Resiliencia terrestre: cuando la tierra deja de amortiguar el clima",
       "nameEn": "Earth Resilience: When Land Stops Buffering Climate Change",
-      "summary": "Los manglares y humedales costeros del Golfo capturan y almacenan carbono (carbono azul) y protegen la costa; su pérdida libera CO₂ y reduce la amortiguación climática. Restaurarlos es una acción de alto beneficio regional y global.",
+      "short": "Resiliencia terrestre",
+      "question": "¿Seguirán los manglares, las selvas y los desiertos de la región guardando el carbono que ya acumularon?",
+      "motif": "land",
+      "chapter": "PHC 2026, cap. 4.1 · B. Sakschewski y J. F. Donges (PIK)",
+      "summary": "La tierra ha absorbido casi una cuarta parte del CO₂ que emitimos, pero ese amortiguador se estanca. En la región, el carbono se concentra en pocos ecosistemas —manglares, selva baja— que la sequía, el fuego y los huracanes ya ponen a prueba.",
+      "message": "En el noroeste de México, el carbono que la tierra ha guardado se concentra en pocos ecosistemas: los manglares, con turba acumulada durante cerca de dos mil años, y la selva baja de Sonora, Sinaloa y Nayarit. Ese «crédito ecológico» ya está bajo presión: la sequía y el calor de 2020–2021 triplicaron la mortalidad de las cactáceas gigantes, la superficie quemada en 2023–2025 fue 2.4 veces la de los tres años anteriores y un solo huracán dañó el dosel del 83 % del manglar de Marismas Nacionales. Proteger y restaurar estos ecosistemas es la forma más directa en que la región puede ayudar a que la tierra siga amortiguando el cambio climático.",
+      "phc": {
+        "points": [
+          "De 1850 a 2024 la humanidad emitió 751 mil millones de toneladas de carbono (GtC): 503 de combustibles fósiles e industria y 248 por cambio de uso de suelo. La tierra absorbió 173 GtC (23 %), el océano 200 GtC (27 %) y en la atmósfera quedaron 292 GtC (39 %).",
+          "La absorción de la tierra, sin contar el cambio de uso de suelo, está relativamente estancada desde alrededor del año 2000: sigue amortiguando, pero de forma menos confiable.",
+          "El sumidero descansa en los pocos ecosistemas que siguen intactos o en recuperación, mientras los humanos se apropian de cerca de una cuarta parte de la productividad vegetal terrestre potencial.",
+          "Sequías y olas de calor reducen la productividad y aumentan la mortalidad, el fuego y las plagas; el carbono liberado agrava el calentamiento. Es un círculo que se refuerza.",
+          "El carbono acumulado es un «crédito ecológico»: más biomasa también significa más carbono que puede perderse. Lo que amortiguamos hoy aumenta lo que está en riesgo mañana.",
+          "Los modelos del sistema Tierra probablemente son demasiado optimistas: representan la vegetación como masas genéricas que se recuperan con facilidad. Si sobreestiman la resiliencia, el presupuesto de carbono restante es menor de lo que se cree."
+        ],
+        "quote": "«La existencia del sumidero terrestre neto no debe confundirse con una biosfera sana y resiliente.» (PHC 2026, p. 41; traducción propia)"
+      },
+      "mechanism": {
+        "title": "Cómo funciona el amortiguador",
+        "intro": "El sumidero terrestre es el saldo entre lo que la vegetación y los suelos ganan y lo que pierden. Hoy el saldo todavía favorece a la absorción, pero por un margen estrecho.",
+        "steps": [
+          {
+            "title": "La vegetación captura CO₂",
+            "text": "La fotosíntesis, favorecida por más CO₂ y temporadas de crecimiento más largas, retira carbono de la atmósfera.",
+            "tone": "gain"
+          },
+          {
+            "title": "El carbono se acumula",
+            "text": "Se guarda en troncos, raíces y suelos. En los manglares del Golfo, la turba de raíces acumula carbono durante siglos.",
+            "tone": "gain"
+          },
+          {
+            "title": "Los extremos lo debilitan",
+            "text": "Sequía, calor, fuego y huracanes reducen el crecimiento y matan plantas; la recuperación es lenta y a veces no ocurre.",
+            "tone": "loss"
+          },
+          {
+            "title": "El desmonte lo libera",
+            "text": "Convertir manglar en estanques o matorral en pradera libera de golpe carbono que tardó siglos en acumularse.",
+            "tone": "loss"
+          },
+          {
+            "title": "Más calor, más pérdidas",
+            "text": "El carbono liberado calienta más el planeta y hace más probables nuevos extremos: el amortiguador se erosiona antes de desaparecer.",
+            "tone": "neutral"
+          }
+        ]
+      },
+      "figures": [
+        {
+          "value": "28 %",
+          "label": "del carbono subterráneo del noroeste árido está en manglares y matorrales halófilos, que ocupan menos del 1 % del territorio",
+          "refId": "ezcurra"
+        },
+        {
+          "value": "21.5 Tg C",
+          "label": "guardados en 755 km² de manglar de Marismas Nacionales (Nayarit y Sinaloa)",
+          "refId": "troche"
+        },
+        {
+          "value": "× 3",
+          "label": "mortalidad de cactáceas gigantes tras la sequía y el calor de 2020–2021",
+          "refId": "wilder"
+        },
+        {
+          "value": "683 mil ha",
+          "label": "quemadas en los cinco estados en 2023–2025, 2.4 veces más que en 2020–2022",
+          "refId": "conafor"
+        }
+      ],
+      "findings": [
+        {
+          "where": "Baja California y Baja California Sur",
+          "title": "Los manglares del desierto: el mayor almacén por hectárea",
+          "text": "En las ensenadas de la península, los manglares han acumulado turba de raíces durante cerca de 2,000 años. Bajo el suelo guardan entre 900 y 3,000 toneladas de carbono por hectárea (promedio 1,130). Con los matorrales halófilos ocupan menos del 1 % del noroeste árido, pero guardan alrededor del 28 % de su carbono subterráneo.",
+          "refIds": [
+            "ezcurra"
+          ]
+        },
+        {
+          "where": "Nayarit y Sinaloa",
+          "title": "Marismas Nacionales: el carbono está bajo el suelo",
+          "text": "El mapa de carbono de CONABIO estima 21.46 Tg C en 755 km² de manglar, unas 285 t C/ha, de las que solo unas 21 están sobre el suelo. Los valores más altos están en los rodales mejor conservados (Agua Brava, San Blas) y el 74.6 % de los puntos calientes de carbono está dentro de áreas protegidas.",
+          "refIds": [
+            "troche"
+          ]
+        },
+        {
+          "where": "Los cinco estados",
+          "title": "Más de 10,000 hectáreas de manglar perdidas desde 1970",
+          "text": "El Pacífico Norte guarda unos 38.3 Tg C en manglares y 1.2 Tg C en 47,400 ha de pastos marinos. Entre 1970 y 2015 perdió 10,512 ha de manglar. Entre 2015 y 2020 la pérdida neta fue de 1,817 ha, sobre todo por estanques acuícolas y huracanes.",
+          "refIds": [
+            "herrera",
+            "valderrama"
+          ]
+        },
+        {
+          "where": "Nayarit y Sinaloa",
+          "title": "Un huracán y una recuperación lenta",
+          "text": "El huracán Roslyn (octubre de 2022) redujo la cobertura del dosel en el 82.8 % del manglar de Marismas Nacionales. Dos años y medio después, solo un tercio del área dañada se recuperaba; la mayor parte tardaría de 3.4 a 10 años, y los rodales ya degradados no muestran recuperación.",
+          "refIds": [
+            "velazquez"
+          ]
+        },
+        {
+          "where": "Desierto Sonorense",
+          "title": "La sequía de 2020–2021 mató cactáceas gigantes",
+          "text": "2020 fue el año más caluroso y seco desde 1980 en el Desierto Sonorense, con 46.5 °C en Hermosillo y 48 °C en Sonoyta. La mortalidad de cactáceas columnares gigantes fue tres veces la de fondo, y en Baja California Sur varias poblaciones perdieron más del 10 % de sus individuos.",
+          "refIds": [
+            "wilder"
+          ]
+        },
+        {
+          "where": "Sur de Sonora",
+          "title": "La selva baja más norteña depende de dos monzones",
+          "text": "El verdor de la selva baja del sur de Sonora (2001–2021) se explica por la lluvia de dos temporadas de monzón y cae con las sequías prolongadas y heladas extremas, como la de febrero de 2011.",
+          "refIds": [
+            "verdugo"
+          ]
+        },
+        {
+          "where": "Los cinco estados",
+          "title": "El fuego aumenta, y casi siempre lo provocan personas",
+          "text": "La superficie afectada por incendios pasó de 281,680 ha en 2020–2022 a 683,327 ha en 2023–2025. En 2025 la región sumó el 22.8 % del total nacional; en el país, solo el 1.36 % de los incendios tuvo causa natural. Gran parte de lo quemado en Sinaloa y Nayarit es pasto y hojarasca, así que no equivale a pérdida de bosque.",
+          "refIds": [
+            "conafor"
+          ]
+        },
+        {
+          "where": "Sonora",
+          "title": "Récord de pérdida de cobertura arbórea por fuego",
+          "text": "Según Global Forest Watch, en 2025 Sonora perdió 5,097 ha de cobertura arbórea, el 95 % por incendios: la mayor pérdida anual del estado desde 2001 (el máximo anterior fue de 1,081 ha en 2010).",
+          "refIds": [
+            "gfw"
+          ]
+        },
+        {
+          "where": "Sinaloa y Nayarit",
+          "title": "Los bosques todavía son sumidero, según un modelo optimista",
+          "text": "El modelo de flujos forestales que usa el PHC estima que los bosques de los cinco estados absorbieron en neto unos 19.6 Mt CO₂e al año entre 2001 y 2025, el 83 % en Sinaloa y Nayarit. Pero el modelo no incluye el matorral, la degradación ni el efecto de la sequía: justo el tipo de supuesto que, según el PHC, hace optimistas las proyecciones.",
+          "refIds": [
+            "gfw",
+            "harris",
+            "gibbs"
+          ]
+        },
+        {
+          "where": "Sonora",
+          "title": "El zacate buffel no se recupera solo",
+          "text": "Convertir matorral en pradera de buffel redujo la productividad, cerca del 50 % de las especies perennes y el 78 % de la cobertura de árboles y arbustos. La edad de la pradera no se relaciona con la recuperación de especies, así que no se espera una recuperación pasiva.",
+          "refIds": [
+            "franklin"
+          ]
+        },
+        {
+          "where": "Norte de Sonora",
+          "title": "Restaurar sí funciona: la Ciénega de San Bernardino",
+          "text": "Las obras de retención de suelo y agua construidas desde 1984 mantuvieron más verdor y humedad en la vegetación que los sitios de control, aun en sequía, con efectos hasta 5 km aguas abajo (análisis con Landsat 1984–2016).",
+          "refIds": [
+            "wilson"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Superficie afectada por incendios en los cinco estados",
+        "subtitle": "Hectáreas por año, suma de Baja California, Baja California Sur, Sonora, Sinaloa y Nayarit",
+        "unit": "ha",
+        "categories": [
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "series": [
+          {
+            "name": "Cinco estados",
+            "values": [
+              103431,
+              79325,
+              98923,
+              237730,
+              166928,
+              278669
+            ]
+          }
+        ],
+        "note": "Datos de CONAFOR (cierre de cada temporada, 1 de enero a 31 de diciembre); suma regional calculada por el Observatorio. Incluye arbolado, arbustos, pasto y hojarasca, así que no equivale a pérdida de bosque ni a emisiones. En 2025: Sinaloa 106,815 ha, Nayarit 67,771, Baja California 55,435, Sonora 48,528 y Baja California Sur 120. Seis años no bastan para hablar de tendencia, pero los tres más recientes superan a los tres anteriores.",
+        "refId": "conafor"
+      },
       "regional": {
-        "summary": "El sumidero de carbono terrestre global se está debilitando. En el Mar de Cortés, los manglares y humedales costeros son los principales sumideros naturales de carbono (carbono azul); su conservación y restauración rinde beneficios climáticos y de protección costera a la vez.",
+        "summary": "La región no controla el sumidero global, pero sí guarda carbono de alto valor en ecosistemas pequeños y frágiles. La evidencia muestra las tres presiones que describe el PHC: extremos climáticos que matan vegetación, fuego provocado por personas y conversión de manglar y matorral. También muestra que la restauración hidrológica funciona en la región.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
         "priorityScore": 3,
+        "scores": {
+          "alcance": {
+            "value": 4,
+            "why": "Los cinco estados tienen almacenes de carbono documentados (manglar en todos, selva baja en Sonora, Sinaloa y Nayarit) y todos registran incendios; la sequía de 2020–2021 abarcó todo el Desierto Sonorense."
+          },
+          "severidad": {
+            "value": 3,
+            "why": "Deterioro medible y persistente: mortalidad de cactáceas gigantes tres veces la de fondo, daño al dosel del 83 % de Marismas Nacionales y 2.4 veces más superficie quemada en 2023–2025. No hay pérdida masiva del sumidero documentada."
+          },
+          "irreversibilidad": {
+            "value": 3,
+            "why": "El dosel del manglar y la selva se recuperan en años o décadas, pero la turba de manglar tardó cerca de 2,000 años en formarse y las praderas de buffel no se recuperan solas."
+          },
+          "control": {
+            "value": 3,
+            "why": "La conversión de manglar y matorral y casi todas las igniciones son regionales (solo 1.4 % de los incendios de 2025 tuvo causa natural); la sequía y el calor extremos vienen del cambio climático global."
+          },
+          "competencia": {
+            "value": 3,
+            "why": "El cambio de uso de suelo forestal, la protección del manglar y el manejo del fuego son federales (SEMARNAT, CONAFOR, CONANP), pero se aplican con brigadas estatales y municipales, ordenamientos ecológicos y decisiones de ejidos y productores."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "Hay restauración hidrológica probada en la región (Ciénega de San Bernardino) y manejo del fuego probado en otros lugares, con costo moderado; controlar el buffel y recuperar turba es más difícil."
+          }
+        },
         "actions": [
           {
             "actor": "gobierno-local",
-            "text": "Proteger y restaurar manglares y humedales costeros; evitar su conversión para acuicultura o desarrollo."
+            "text": "Usar el carbono del manglar y su turba como criterio de exclusión en los ordenamientos ecológicos costeros y en las autorizaciones acuícolas."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "Concentrar la prevención de incendios (brigadas, calendario de quemas, sanciones a quemas agrícolas) en Sinaloa, Nayarit, Baja California y Sonora, con metas medidas en hectáreas quemadas."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "Exigir autorización de cambio de uso de suelo y un plan de contención para nuevas praderas de buffel en Sonora."
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Proyectos de carbono azul y restauración con especies nativas."
+            "text": "Granjas camaronícolas: restaurar canales y flujos de marea en manglar degradado y producir más en estanques existentes en lugar de abrir nuevos."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Ganaderos y agricultores: dejar la quema y adoptar obras de retención de suelo y agua probadas en el norte de Sonora."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Proyectos de carbono azul con línea base medida y verificación independiente."
+          },
+          {
+            "actor": "academia",
+            "text": "Producir series anuales de productividad vegetal (NDVI, GPP) y mortalidad por estado para 2020–2025 y probar si el sumidero regional se debilitó tras la megasequía."
+          },
+          {
+            "actor": "academia",
+            "text": "Extender los mapas de carbono de manglar y pastos marinos a toda la costa y comparar el modelo de flujos forestales con inventarios de campo."
+          },
+          {
+            "actor": "sociedad",
+            "text": "Participar en brigadas comunitarias contra incendios y reportar quemas."
+          },
+          {
+            "actor": "sociedad",
+            "text": "Apoyar la restauración de manglar que restituye el flujo de agua, no solo la plantación."
           }
         ],
-        "dataGaps": "Inventarios de carbono azul regionales aún parciales."
+        "measurementGaps": [
+          "Productividad vegetal por estado después de la megasequía (2022–2025): no hay un estudio revisado por pares.",
+          "Un balance de carbono terrestre que incluya matorral, pastizal y suelos: el modelo forestal solo cubre bosque con más de 30 % de dosel.",
+          "Superficie y carbono de pastos marinos por laguna y por estado: solo existe el total del Pacífico Norte.",
+          "Severidad de los incendios y emisiones por fuego en la selva baja.",
+          "Degradación de suelos por estado: el dato oficial es de 2001–2002.",
+          "Seguimiento público de los proyectos de restauración de manglar (supervivencia, hectáreas, carbono)."
+        ],
+        "dataGaps": "Las cifras de incendios son superficie afectada, no pérdida de bosque. Las de flujos forestales vienen de un modelo global que el propio PHC considera optimista."
       },
       "relatedBoundaryIds": [
+        "climate-change",
         "biosphere-integrity",
         "land-system-change",
-        "climate-change"
+        "freshwater-change"
+      ],
+      "references": [
+        {
+          "id": "phc",
+          "text": "Sakschewski, B. y Donges, J. F. (2026). 4.1 Earth Resilience: When Land Stops Buffering Climate Change. En Planetary Boundaries Science, Planetary Health Check 2026, pp. 41–44. Potsdam Institute for Climate Impact Research.",
+          "url": "https://www.planetaryhealthcheck.org/downloads/"
+        },
+        {
+          "id": "ezcurra",
+          "text": "Ezcurra, P., Ezcurra, E., Garcillán, P. P., Costa, M. T. y Aburto-Oropeza, O. (2016). Coastal landforms and accumulation of mangrove peat increase carbon sequestration and storage. Proceedings of the National Academy of Sciences 113(16):4404–4409.",
+          "url": "https://doi.org/10.1073/pnas.1519774113"
+        },
+        {
+          "id": "troche",
+          "text": "Troche-Souza, C., Villeda-Chávez, E., Vázquez-Balderas, B. et al. (2025). Spatial Distribution of Mangrove Forest Carbon Stocks in Marismas Nacionales, Mexico: Contributions to Climate Change Adaptation and Mitigation. Forests 16(8):1224.",
+          "url": "https://doi.org/10.3390/f16081224"
+        },
+        {
+          "id": "herrera",
+          "text": "Herrera-Silveira, J. A., Pech-Cardenas, M. A., Morales-Ojeda, S. M. et al. (2020). Blue carbon of Mexico, carbon stocks and fluxes: a systematic review. PeerJ 8:e8790.",
+          "url": "https://doi.org/10.7717/peerj.8790"
+        },
+        {
+          "id": "valderrama",
+          "text": "Valderrama-Landeros, L., Troche-Souza, C., Alcántara-Maya, J. A. et al. (2024). An assessment of mangrove forest in northwestern Mexico using the Google Earth Engine cloud computing platform. PLOS ONE 19(12):e0315181.",
+          "url": "https://doi.org/10.1371/journal.pone.0315181"
+        },
+        {
+          "id": "velazquez",
+          "text": "Velázquez-Salazar, S., Valderrama-Landeros, L., Villeda-Chávez, E. et al. (2025). Mangrove Damage and Early-Stage Canopy Recovery Following Hurricane Roslyn in Marismas Nacionales, Mexico. Forests 16(8):1207.",
+          "url": "https://doi.org/10.3390/f16081207"
+        },
+        {
+          "id": "wilder",
+          "text": "Wilder, B. T., Hultine, K. R., Dorshow, W. B. et al. (2025). Plant Responses to Anomalous Heat and Drought Events in the Sonoran Desert. Global Change Biology 31(5):e70217.",
+          "url": "https://doi.org/10.1111/gcb.70217"
+        },
+        {
+          "id": "verdugo",
+          "text": "Verdugo, L., Bojórquez, A., Galaz, O. et al. (2024). Assessing two decades of landscape greenness in relation to temperature and precipitation in a tropical dry forest of Northwestern Mexico. Ecological Indicators 166:112369.",
+          "url": "https://doi.org/10.1016/j.ecolind.2024.112369"
+        },
+        {
+          "id": "conafor",
+          "text": "CONAFOR (2020–2026). Cierre de la Temporada de incendios forestales 2020, 2021, 2022, 2023, 2024 y 2025. Comisión Nacional Forestal.",
+          "url": "https://www.gob.mx/conafor/documentos/reporte-semanal-de-incendios"
+        },
+        {
+          "id": "gfw",
+          "text": "Global Forest Watch / World Resources Institute (2026). GFW Data API: pérdida de cobertura arbórea 2001–2025 y flujos de carbono forestal por entidad (umbral de dosel 30 %), consulta del 17 de octubre de 2026.",
+          "url": "https://data-api.globalforestwatch.org"
+        },
+        {
+          "id": "harris",
+          "text": "Harris, N. L., Gibbs, D. A., Baccini, A. et al. (2021). Global maps of twenty-first century forest carbon fluxes. Nature Climate Change 11(3):234–240.",
+          "url": "https://doi.org/10.1038/s41558-020-00976-6"
+        },
+        {
+          "id": "gibbs",
+          "text": "Gibbs, D. A., Rose, M., Grassi, G. et al. (2025). Revised and updated geospatial monitoring of 21st century forest carbon fluxes. Earth System Science Data 17(3):1217–1243.",
+          "url": "https://doi.org/10.5194/essd-17-1217-2025"
+        },
+        {
+          "id": "franklin",
+          "text": "Franklin, K. y Molina-Freaner, F. (2010). Consequences of Buffelgrass Pasture Development for Primary Productivity, Perennial Plant Richness, and Vegetation Structure in the Drylands of Sonora, Mexico. Conservation Biology 24(6):1664–1673.",
+          "url": "https://doi.org/10.1111/j.1523-1739.2010.01540.x"
+        },
+        {
+          "id": "wilson",
+          "text": "Wilson, N. R. y Norman, L. M. (2018). Analysis of vegetation recovery surrounding a restored wetland using the normalized difference infrared index (NDII) and normalized difference vegetation index (NDVI). International Journal of Remote Sensing 39(10):3243–3274.",
+          "url": "https://doi.org/10.1080/01431161.2018.1437297"
+        }
       ]
     },
     {
       "id": "seafloor-integrity",
       "order": 2,
       "name": "Integridad del fondo marino",
-      "nameEn": "Seafloor Integrity",
-      "summary": "La pesca de arrastre de camarón daña los fondos del Golfo, afectando biodiversidad y almacenamiento de carbono; la minería submarina es una amenaza emergente.",
+      "nameEn": "Seafloor Integrity: Why the Bottom of the Ocean Matters",
+      "short": "Fondo marino",
+      "question": "¿Qué pasa con el fondo del Golfo, que nadie ve, cuando lo arrastramos o lo minamos?",
+      "motif": "seafloor",
+      "chapter": "PHC 2026, cap. 4.2 · J. Geersen, N. Matz-Lück y L. Caesar",
+      "summary": "El fondo marino es hábitat, almacén de carbono y procesador de nutrientes. En el Golfo lo raspa la pesca de arrastre de camarón y lo amenaza la minería de fosfatos; casi nada de la zona de arrastre está protegido.",
+      "message": "En el Mar de Cortés el fondo marino tiene dos frentes. El primero está activo: el arrastre camaronero industrial opera sobre la plataforma de Sonora, Sinaloa, Nayarit y el Alto Golfo, saca cerca de diez kilos de otras especies por cada kilo de camarón y, en 2012, menos del 1 % de su zona de pesca estaba cerrada al arrastre. El segundo es una amenaza: la minería del fondo, con el proyecto de fosfatos Don Diego en el Golfo de Ulloa, que sigue en litigio. La región tiene además hábitats únicos y lentos de recuperar —ventilas hidrotermales, mantos de rodolitos— que el PHC pide proteger con precaución.",
+      "phc": {
+        "points": [
+          "Integridad del fondo marino significa que el lecho conserva la estructura física, las comunidades y el funcionamiento químico que sostienen la estabilidad del sistema Tierra.",
+          "La pesca de arrastre perturba cada año alrededor del 1–2 % del fondo marino mundial, un área cercana a la mitad de Europa, concentrada en las plataformas continentales. Donde se arrastra con frecuencia, paisajes complejos pueden convertirse en «desiertos marinos» de arena o lodo.",
+          "Animales excavadores, microbios y química del sedimento regulan cómo se mueven el nitrógeno, el fósforo y el carbono entre el fondo y el agua.",
+          "Los sedimentos de plataforma guardan unos 360 mil millones de toneladas de carbono orgánico en su primer metro, entre 75 y 90 % del enterramiento de carbono marino. El arrastre podría liberar de 160 a 400 millones de toneladas de carbono al año; la cifra es incierta.",
+          "En el mar profundo, incluso perturbaciones limitadas pueden suprimir el ecosistema por décadas o para siempre; cada operación de minería de nódulos afectaría más de 200 km².",
+          "Propone un enfoque precautorio: reducir la perturbación en plataformas y sedimentos ricos en carbono, vedar las actividades destructivas en hábitats lentos de recuperar y una planeación espacial marina que considere el carbono y los nutrientes, no solo la biodiversidad."
+        ],
+        "quote": "«Cuando perturbamos el fondo marino no solo raspamos lodo: dañamos hábitats, alteramos el ciclo de nutrientes y, en algunos lugares, podemos debilitar uno de los almacenes de carbono de largo plazo del océano.» (PHC 2026, p. 45; traducción propia)"
+      },
+      "mechanism": {
+        "title": "Qué hace el fondo y cómo se daña",
+        "intro": "El fondo marino cumple tres funciones a la vez. Las presiones humanas las afectan de forma distinta según el tipo de fondo: los fondos blandos someros se reacomodan rápido; los hábitats profundos o de estructura biológica pueden tardar décadas o no recuperarse.",
+        "steps": [
+          {
+            "title": "Hábitat",
+            "text": "Arrecifes, esponjas, mantos de rodolitos y comunidades excavadoras forman la base de redes alimentarias y zonas de crianza.",
+            "tone": "gain"
+          },
+          {
+            "title": "Procesador de nutrientes",
+            "text": "El sedimento y su fauna reciclan nitrógeno y fósforo y los devuelven al agua.",
+            "tone": "gain"
+          },
+          {
+            "title": "Almacén de carbono",
+            "text": "La materia orgánica enterrada en sedimentos queda fuera de la atmósfera por siglos o milenios.",
+            "tone": "gain"
+          },
+          {
+            "title": "El arrastre",
+            "text": "Las redes pesadas resuspenden el sedimento, cambian su textura y capturan muchas especies que no son objetivo.",
+            "tone": "loss"
+          },
+          {
+            "title": "La minería",
+            "text": "El dragado remueve metros de sedimento en áreas grandes; en el mar profundo la recuperación puede no ocurrir.",
+            "tone": "loss"
+          }
+        ]
+      },
+      "figures": [
+        {
+          "value": "1 : 9.7",
+          "label": "kilos de camarón frente a kilos de otras especies capturadas por el arrastre (temporada 2004–2005)",
+          "refId": "lm12a"
+        },
+        {
+          "value": "0.91 %",
+          "label": "de la zona apta para el arrastre de camarón en el Golfo estaba cerrada al arrastre por áreas protegidas (2012)",
+          "refId": "bt12"
+        },
+        {
+          "value": "1,674 → < 850",
+          "label": "barcos camaroneros de altamar en el Pacífico mexicano, de 2004 a 2013",
+          "refId": "inp16"
+        },
+        {
+          "value": "2,680 km²",
+          "label": "de concesión para minar fosfatos del fondo en el Golfo de Ulloa (Don Diego)",
+          "refId": "awd24"
+        }
+      ],
+      "findings": [
+        {
+          "where": "Sonora, Sinaloa, Nayarit y Alto Golfo",
+          "title": "El arrastre ocupa la plataforma oriental, casi sin áreas protegidas",
+          "text": "Los caladeros están frente a Sonora, toda la costa de Sinaloa y Nayarit y el norte del Golfo; Baja California Sur casi no tiene zonas de arrastre. Ninguna de las 12 áreas marinas protegidas del Golfo está frente a Sinaloa, Nayarit o el centro-sur de Sonora. De los 101,974 km² aptos para el arrastre, solo el 0.91 % estaba cerrado (2.23 % contando todo el refugio de la vaquita). No se encontró una cifra posterior a 2012.",
+          "refIds": [
+            "bt12"
+          ]
+        },
+        {
+          "where": "Golfo de California",
+          "title": "Diez kilos de otras especies por cada kilo de camarón",
+          "text": "Con observadores a bordo, la temporada 2004–2005 promedió 9.7 kg de fauna de acompañamiento por kilo de camarón. La relación pasó de 1.8 en Sinaloa (1955) a cerca de 10 desde 1978, y casi no ha cambiado. En Bahía de Kino, la captura incidental fue el 85.9 % del peso capturado e incluyó 183 especies, siete en listas de riesgo.",
+          "refIds": [
+            "lm12a",
+            "lm12b",
+            "mel12"
+          ]
+        },
+        {
+          "where": "Pacífico mexicano",
+          "title": "537 especies en la red",
+          "text": "INAPESCA identificó 537 especies en 185,918 organismos de fauna de acompañamiento del Pacífico (2004–2014): 74 % peces, 16.5 % crustáceos y 6 % equinodermos.",
+          "refIds": [
+            "inp16"
+          ]
+        },
+        {
+          "where": "Costa de Sonora y Sinaloa",
+          "title": "El sedimento cambia; las comunidades, al parecer, no",
+          "text": "El arrastre resuspende materia orgánica y vuelve el sedimento más arenoso. Pero los experimentos de CIBNOR no encontraron diferencias significativas en las comunidades entre zonas arrastradas y no arrastradas, y en Sinaloa–Sonora el carbono y el nitrógeno del sedimento tampoco difirieron. El «desierto marino» del PHC no está documentado en los fondos blandos del Golfo; lo documentado es la captura incidental y el cambio de textura.",
+          "refIds": [
+            "lm12a",
+            "pa12",
+            "san09"
+          ]
+        },
+        {
+          "where": "Sinaloa y Sonora",
+          "title": "La flota se redujo a la mitad",
+          "text": "Con un programa de retiro voluntario, la flota camaronera de altamar del Pacífico pasó de 1,674 barcos en 2004 a menos de 850 en 2013. Sinaloa y Sonora concentran la mayor parte de los barcos activos.",
+          "refIds": [
+            "inp16",
+            "semc"
+          ]
+        },
+        {
+          "where": "Bocas de lagunas",
+          "title": "La norma protege la franja más somera",
+          "text": "La NOM-002-SAG/PESC-2013 prohíbe el arrastre entre 0 y 9.14 m de profundidad y en 5 millas náuticas alrededor de las bocas de Bahía Magdalena, Bahía de Kino, Agiabampo, Topolobampo y Agua Brava.",
+          "refIds": [
+            "nom02"
+          ]
+        },
+        {
+          "where": "Baja California Sur",
+          "title": "Mantos de rodolitos: biodiversidad sobre piedras vivas",
+          "text": "En El Coyote hay unos 11,000 rodolitos por metro cuadrado. El manto alberga 52 especies frente a 30 en la arena vecina, y la pesca comercial lo amenaza al fragmentarlo y enterrarlo.",
+          "refIds": [
+            "ste03"
+          ]
+        },
+        {
+          "where": "Cuencas de Guaymas y Pescadero",
+          "title": "Ventilas hidrotermales: hábitats únicos y parcialmente protegidos",
+          "text": "En 2015 MBARI descubrió en la cuenca Pescadero, frente a La Paz, ventilas a unos 3,700 m que emiten fluidos de hasta 291 °C por chimeneas de carbonato, con fauna quimiosintética propia. El santuario de ventilas de Guaymas y la dorsal del Pacífico Oriental (2009) mide 145,565 ha; no se encontró protección para las de Pescadero.",
+          "refIds": [
+            "mbari15",
+            "pad18",
+            "sal19",
+            "wdpa"
+          ]
+        },
+        {
+          "where": "Golfo de Ulloa, Baja California Sur",
+          "title": "Don Diego: minería del fondo que sigue en tribunales",
+          "text": "La concesión de 2,680 km², a 25–40 km de la costa, planeaba dragar de 1 a 7 m de sedimento fosfático. SEMARNAT negó el permiso ambiental en 2016 y en 2018 por el hábitat de la tortuga caguama. En 2024 un tribunal arbitral del TLCAN ordenó a México pagar 37.1 millones de dólares más intereses; México pidió anular el laudo y la audiencia está prevista para 2027. Desde mayo de 2023 la Ley de Minería prohíbe minar el lecho marino, pero no está claro cómo se aplica a concesiones anteriores.",
+          "refIds": [
+            "awd24",
+            "q26",
+            "lmin"
+          ]
+        },
+        {
+          "where": "México",
+          "title": "Moratoria en alta mar y tratado BBNJ",
+          "text": "En 2023 México anunció su apoyo a una moratoria de la minería en aguas profundas fuera de la jurisdicción nacional. Ratificó el tratado de alta mar (BBNJ) el 22 de septiembre de 2025; el acuerdo entró en vigor el 17 de enero de 2026.",
+          "refIds": [
+            "sre23",
+            "untc"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "hbar",
+        "title": "Kilos de otras especies por cada kilo de camarón",
+        "subtitle": "Relación entre la fauna de acompañamiento y el camarón en la flota comercial, según estudios de 1955 a 2005",
+        "unit": "kg por kg de camarón",
+        "categories": [
+          "1955 · Sinaloa",
+          "1964 · Sinaloa",
+          "1969 · Golfo",
+          "1969 · Sinaloa",
+          "1978 · Golfo (Pérez-Mellado)",
+          "1978 · Golfo (Romero)",
+          "1979 · Golfo",
+          "1986 · Sinaloa",
+          "1994 · Alto Golfo",
+          "2001 · Golfo",
+          "2003 · Nayarit–Sinaloa",
+          "2005 · Sonora (observadores)"
+        ],
+        "series": [
+          {
+            "name": "Relación",
+            "values": [
+              1.8,
+              7.1,
+              7.8,
+              10.2,
+              9.7,
+              10.2,
+              15.5,
+              9.7,
+              10,
+              10,
+              8.5,
+              9.5
+            ]
+          }
+        ],
+        "note": "Recopilación de López-Martínez et al. (2012), tabla 2. Se excluyen los cruceros de investigación en veda, que siguen rutas fijas y no son comparables. Los autores advierten que la relación varía mucho entre zonas y fechas y que no mide por sí sola el daño al fondo.",
+        "refId": "lm12b"
+      },
       "regional": {
-        "summary": "Cada año se arrastra 1–2% del lecho marino global, y los fondos más productivos reciben el mayor esfuerzo. En el Golfo de California la pesca de arrastre de camarón es la principal presión sobre el fondo; mejorar artes de pesca y proteger hábitats bentónicos es accionable regionalmente.",
-        "impact": "Alto",
+        "summary": "Las causas son regionales y los instrumentos existen, pero el daño directo al fondo está poco medido. Lo documentado es una captura incidental alta y persistente, un cambio en la textura del sedimento y una protección espacial mínima de la zona de arrastre. La minería del fondo es una amenaza latente, y los hábitats profundos del Golfo apenas se conocen.",
+        "impact": "Medio",
         "leverage": "Alto",
-        "priority": "Alta",
-        "priorityScore": 3,
+        "priority": "Media",
+        "priorityScore": 2,
+        "scores": {
+          "alcance": {
+            "value": 3,
+            "why": "El arrastre ocupa la plataforma oriental del Golfo (Sonora, Sinaloa, Nayarit) y el Alto Golfo, unos 102,000 km² aptos de los 375,000 km² del Golfo; Baja California Sur casi no tiene arrastre, pero sí la amenaza minera de Don Diego."
+          },
+          "severidad": {
+            "value": 3,
+            "why": "Captura incidental medible y persistente (cerca de 1:10 desde 1978; 85.9 % del peso en Bahía de Kino) y cambio de textura del sedimento. Los estudios en fondos blandos no detectaron cambios significativos en las comunidades; con solo esa evidencia sería 2."
+          },
+          "irreversibilidad": {
+            "value": 2,
+            "why": "Los fondos blandos someros, donde está la presión principal, se reacomodan en horas o días y no mostraron cambios persistentes. Los rodolitos, las ventilas y el dragado minero serían de 3 a 4."
+          },
+          "control": {
+            "value": 4,
+            "why": "El arrastre lo hacen flotas con base en Sinaloa y Sonora, y el proyecto minero está en aguas mexicanas frente a Baja California Sur: las causas son regionales."
+          },
+          "competencia": {
+            "value": 3,
+            "why": "Los instrumentos son federales (NOM-002 de CONAPESCA, áreas protegidas y evaluación de impacto ambiental de SEMARNAT, Ley de Minería), pero se aplican y negocian en la región con armadores, cooperativas y gobiernos estatales."
+          },
+          "factibilidad": {
+            "value": 3,
+            "why": "Hay soluciones probadas en la región —retiro de la mitad de la flota, redes selectivas, vedas y zonas sin pesca como Cabo Pulmo—; proteger fondos por su carbono solo está probado en otros lugares, con costo moderado."
+          }
+        },
         "actions": [
           {
             "actor": "gobierno-local",
-            "text": "Regular artes de pesca de fondo y crear refugios pesqueros/no-pesca en hábitats bentónicos clave."
+            "text": "CONAPESCA e INAPESCA: actualizar el mapa de la huella del arrastre con el monitoreo satelital de barcos y cerrar al arrastre los hábitats sensibles (rodolitos, fondos rocosos, sedimentos finos ricos en carbono)."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "SEMARNAT: sostener la prohibición minera del lecho marino ante cualquier nueva solicitud en el Golfo de Ulloa y evaluar la protección legal de las ventilas de Pescadero."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "Gobiernos estatales: impulsar en la planeación espacial marina zonas de refugio que protejan el fondo frente a Sinaloa, Nayarit y el sur de Sonora."
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Adoptar tecnologías de captura de bajo impacto y trazabilidad del camarón."
+            "text": "Armadores: adoptar en toda la flota redes de menor contacto con el fondo y excluidores de peces (RS-INP-MEX)."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Armadores: aceptar observadores a bordo y la publicación de las posiciones de los barcos para documentar la huella real."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Compradores y certificadoras de camarón: exigir mapas de huella y planes para fondos sensibles."
+          },
+          {
+            "actor": "academia",
+            "text": "Medir el carbono orgánico y la tasa de enterramiento en la plataforma arrastrada para estimar cuánto CO₂ moviliza el arrastre en la región."
+          },
+          {
+            "actor": "academia",
+            "text": "Hacer estudios de largo plazo dentro y fuera de zonas cerradas al arrastre, y cartografiar rodolitos, ventilas y montes submarinos."
+          },
+          {
+            "actor": "sociedad",
+            "text": "Cooperativas ribereñas: proponer zonas de refugio pesquero que protejan el fondo frente a sus comunidades, como se hizo en Loreto."
+          },
+          {
+            "actor": "sociedad",
+            "text": "Organizaciones civiles: dar seguimiento público al litigio de Don Diego y a cualquier nueva solicitud en el Golfo de Ulloa."
           }
         ],
-        "dataGaps": "Esfuerzo de arrastre a escala del Golfo disponible por satélite (Global Fishing Watch), pero poco validado localmente."
+        "measurementGaps": [
+          "La huella actual del arrastre en el Golfo con datos de rastreo satelital: las cifras disponibles son de 2006 o por parámetros promedio.",
+          "El porcentaje actual del fondo del Golfo cerrado al arrastre, incluidos los refugios pesqueros (la última cifra es de 2012).",
+          "El carbono orgánico de la plataforma arrastrada y el CO₂ que libera el arrastre en la región.",
+          "Estudios de recuperación del fondo después del arrastre con series largas y zonas de control.",
+          "Un mapa completo de los mantos de rodolitos y de los hábitats profundos (ventilas de Pescadero y Alarcón, montes submarinos).",
+          "Un indicador continuo de hipoxia sobre la plataforma oriental, donde ocurre el arrastre."
+        ],
+        "dataGaps": "La evidencia del daño al fondo blando proviene sobre todo de estudios de CIBNOR de los años 2000; no hay series recientes."
       },
       "relatedBoundaryIds": [
         "biosphere-integrity",
-        "climate-change"
+        "biogeochemical-flows",
+        "climate-change",
+        "ocean-acidification"
+      ],
+      "references": [
+        {
+          "id": "phc",
+          "text": "Geersen, J., Matz-Lück, N. y Caesar, L. (2026). 4.2 Seafloor Integrity: Why the Bottom of the Ocean Matters. En Planetary Boundaries Science, Planetary Health Check 2026, pp. 45–49. Potsdam Institute for Climate Impact Research.",
+          "url": "https://www.planetaryhealthcheck.org/downloads/"
+        },
+        {
+          "id": "bt12",
+          "text": "Bourillón, L. y Torre, J. (2012). Áreas marinas protegidas del Golfo de California para mitigar los efectos de la pesca de arrastre en la biodiversidad: limitaciones y propuesta de nuevo enfoque. En López-Martínez, J. y Morales-Bojórquez, E. (eds.), Efectos de la pesca de arrastre en el Golfo de California, pp. 399–411. CIBNOR y Fundación Produce Sonora.",
+          "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2020.pdf"
+        },
+        {
+          "id": "lm12a",
+          "text": "López-Martínez, J., Herrera-Valdivia, E., Hernández-Saavedra, N. et al. (2012). Efectos de la pesca de arrastre del camarón en el Golfo de California. Síntesis de las investigaciones desarrolladas por el CIBNOR. En López-Martínez y Morales-Bojórquez (eds.), op. cit., pp. 15–25.",
+          "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2001.pdf"
+        },
+        {
+          "id": "lm12b",
+          "text": "López-Martínez, J., Hernández-Vázquez, S., Morales-Azpeitia, R. et al. (2012). Variación de la relación camarón:fauna de acompañamiento en la pesquería de camarón industrial del Golfo de California. En López-Martínez y Morales-Bojórquez (eds.), op. cit., pp. 27–48.",
+          "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2002.pdf"
+        },
+        {
+          "id": "pa12",
+          "text": "Pedrín-Avilés, S., López-Martínez, J. y García-Hinostro, P. (2012). Granulometría y materia orgánica de áreas pesqueras rastreables y no rastreables en la costa central de Sonora, México. En López-Martínez y Morales-Bojórquez (eds.), op. cit., pp. 261–280.",
+          "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2014.pdf"
+        },
+        {
+          "id": "san09",
+          "text": "Sánchez, A., Aguíñiga, S., Lluch Belda, D. et al. (2009). Geoquímica sedimentaria en áreas de pesca de arrastre y no arrastre de fondo en la costa de Sinaloa-Sonora, Golfo de California. Boletín de la Sociedad Geológica Mexicana 61(1):25–30.",
+          "url": "https://doi.org/10.18268/BSGM2009v61n1a3"
+        },
+        {
+          "id": "mel12",
+          "text": "Meltzer, L., Blinick, N. S. y Fleishman, A. B. (2012). Management implications of the biodiversity and socio-economic impacts of shrimp trawler by-catch in Bahía de Kino, Sonora, México. PLoS ONE 7(6):e35609.",
+          "url": "https://doi.org/10.1371/journal.pone.0035609"
+        },
+        {
+          "id": "inp16",
+          "text": "Instituto Nacional de Pesca (2016). Evaluación y manejo de la pesquería de camarón del Pacífico mexicano (captura, puntos de referencia, biomasa, edad, medio ambiente, fauna de acompañamiento). INAPESCA.",
+          "url": "https://fisheryprogress.org/sites/default/files/indicators-documents/INAPESCA%202016%20_0.pdf"
+        },
+        {
+          "id": "semc",
+          "text": "SEMARNAT-DGEIA (2017). Compendio de Estadísticas Ambientales, tabla D2_PESCA04_01: Pesca de camarón en altamar, impacto de las redes de arrastre.",
+          "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2017/archivos/02_pesca/D2_PESCA04_01.pdf"
+        },
+        {
+          "id": "nom02",
+          "text": "SAGARPA (2013). NOM-002-SAG/PESC-2013, para ordenar el aprovechamiento de las especies de camarón en aguas de jurisdicción federal. Diario Oficial de la Federación, 11 de julio de 2013.",
+          "url": "https://platiica.economia.gob.mx/normalizacion/wp-content/uploads/sites/2/PDF_Normas_Publicas/002sagpesc2013.pdf"
+        },
+        {
+          "id": "ste03",
+          "text": "Steller, D. L., Riosmena-Rodríguez, R., Foster, M. S. y Roberts, C. A. (2003). Rhodolith bed diversity in the Gulf of California: the importance of rhodolith structure and consequences of disturbance. Aquatic Conservation: Marine and Freshwater Ecosystems 13(S1):S5–S20.",
+          "url": "https://doi.org/10.1002/aqc.564"
+        },
+        {
+          "id": "mbari15",
+          "text": "MBARI (2015). MBARI researchers discover deepest known high-temperature hydrothermal vents in Pacific Ocean. Comunicado, 2 de junio de 2015.",
+          "url": "https://www.mbari.org/?p=86117"
+        },
+        {
+          "id": "pad18",
+          "text": "Paduan, J. B., Zierenberg, R. A., Clague, D. A. et al. (2018). Discovery of hydrothermal vent fields on Alarcón Rise and in southern Pescadero Basin, Gulf of California. Geochemistry, Geophysics, Geosystems 19(12):4788–4819.",
+          "url": "https://doi.org/10.1029/2018GC007771"
+        },
+        {
+          "id": "sal19",
+          "text": "Salcedo, D. L., Soto, L. A. y Paduan, J. B. (2019). Trophic structure of the macrofauna associated to deep-vents of the southern Gulf of California: Pescadero Basin and Pescadero Transform Fault. PLoS ONE 14(11):e0224698.",
+          "url": "https://doi.org/10.1371/journal.pone.0224698"
+        },
+        {
+          "id": "wdpa",
+          "text": "Protected Planet / WDPA. Ventilas Hidrotermales de la Cuenca de Guaymas y de la Dorsal del Pacífico Oriental (ID 107840).",
+          "url": "https://www.protectedplanet.net/107840"
+        },
+        {
+          "id": "awd24",
+          "text": "Odyssey Marine Exploration, Inc. v. United Mexican States, caso CIADI UNCT/20/1 (TLCAN/CNUDMI). Laudo, 17 de septiembre de 2024.",
+          "url": "https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=UNCT/20/1"
+        },
+        {
+          "id": "q26",
+          "text": "Odyssey Marine Exploration, Inc. (2026). Form 10-Q, trimestre al 30 de junio de 2026, presentado ante la SEC el 11 de agosto de 2026 (fuente de la propia empresa).",
+          "url": "https://www.sec.gov/Archives/edgar/data/798528/000119312526344788/omex-20260630.htm"
+        },
+        {
+          "id": "lmin",
+          "text": "Ley de Minería, artículo 20, último párrafo (adicionado en el DOF del 8 de mayo de 2023).",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LMin.pdf"
+        },
+        {
+          "id": "sre23",
+          "text": "SEMARNAT y SRE (2023). Mexico supports a moratorium on deep-sea mining in areas beyond national jurisdiction. Comunicado conjunto, 21 de noviembre de 2023.",
+          "url": "https://www.gob.mx/sre/prensa/mexico-supports-a-moratorium-on-deep-sea-mining-in-areas-beyond-national-jurisdiction"
+        },
+        {
+          "id": "untc",
+          "text": "United Nations Treaty Collection. Agreement under the UNCLOS on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction (estado de las partes, consulta del 17 de octubre de 2026).",
+          "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXI-10&chapter=21&clang=_en"
+        }
       ]
     },
     {
@@ -1102,27 +1805,363 @@
       "order": 3,
       "name": "Entidades nuevas: impactos conocidos y amenazas desconocidas",
       "nameEn": "Novel Entities: Known Impacts and Unknown Planetary Threats",
-      "summary": "Producimos sustancias sintéticas más rápido de lo que podemos evaluar sus efectos; microplásticos y PFAS ya contaminan todo el planeta.",
+      "short": "Entidades nuevas",
+      "question": "¿Qué sabemos —y qué no— de las sustancias que la minería, la agricultura y la acuacultura han dejado en el Golfo?",
+      "motif": "chemicals",
+      "chapter": "PHC 2026, cap. 4.3 · M. L. Diamond, A. Shalin y Z. Wang",
+      "summary": "Producimos sustancias más rápido de lo que podemos evaluarlas. En la región los daños conocidos son herencias —minería centenaria, DDT, un derrame sin remediar—, y lo desconocido es igual de grande: casi ninguna presa de jales tiene información pública.",
+      "message": "En el Mar de Cortés, los daños conocidos de las entidades nuevas son sobre todo herencias: un siglo de minería, organoclorados prohibidos hace décadas y un derrame minero que a once años sigue sin remediarse. Persisten en sedimentos, almejas, ballenas y personas. Lo desconocido es igual de grande: de las 139 presas de jales registradas en los cinco estados, 120 no tienen información pública sobre drenaje ácido ni plan de manejo, y los PFAS y los fármacos ya aparecen en las ballenas del Golfo sin que nadie los mida en el agua o en las personas. Como pide el PHC, hay que actuar sin esperar a saberlo todo.",
+      "phc": {
+        "points": [
+          "Las entidades nuevas son una paradoja: muchas son esenciales para la vida moderna y, al mismo tiempo, causan daños de corto a largo plazo, algunos irreversibles.",
+          "Hay unas 350,000 sustancias y mezclas registradas en el mundo. De un tercio no se conoce o no es pública su estructura, y cerca del 95 % nunca se ha medido en el ambiente.",
+          "La contaminación química es uno de los cinco grandes motores de pérdida de biodiversidad (IPBES); casi el 14 % de las 84,000 especies animales de la Lista Roja de la UICN están afectadas por contaminación.",
+          "Más de 45,000 sitios en el mundo están perturbados por la minería, que saca sustancias tóxicas a la superficie y contamina aire, suelo y agua.",
+          "Muchas persisten: los PCB y el DDT siguen altos décadas después de prohibirse, los PFAS durarán siglos, el mercurio atmosférico se triplicó desde 1850 y los antibióticos superan umbrales seguros en unos 6 millones de km de ríos.",
+          "Factores económicos y tecnológicos «encierran» la producción: la de petroquímicos básicos se duplicó entre 1990 y 2010. La salida es reducir producción y sobreconsumo, aplicar el criterio de uso esencial y actuar temprano aunque haya vacíos."
+        ],
+        "quote": "«Algunos de los mayores riesgos están en lo desconocido: impactos de la contaminación de los que aún no somos conscientes, pero que ya podrían estar causando daños graves.» (PHC 2026, figura 16; traducción propia)"
+      },
+      "mechanism": {
+        "title": "Del producto al daño",
+        "intro": "El PHC sigue a cada sustancia por una cadena de cinco eslabones. En cada uno se pierde información: sabemos mucho de unas pocas sustancias y casi nada de la mayoría.",
+        "steps": [
+          {
+            "title": "Producción",
+            "text": "Unas 350,000 sustancias registradas; la minería y la agroindustria movilizan metales y plaguicidas a gran escala.",
+            "tone": "neutral"
+          },
+          {
+            "title": "Liberación",
+            "text": "Jales, descargas, aplicación agrícola, plásticos y fármacos llegan a ríos, suelos y al mar.",
+            "tone": "loss"
+          },
+          {
+            "title": "Persistencia",
+            "text": "Metales, organoclorados y PFAS no se degradan o tardan siglos; se acumulan en sedimentos y en la cadena alimentaria.",
+            "tone": "loss"
+          },
+          {
+            "title": "Exposición y daño",
+            "text": "Alteran la reproducción, la salud y la resiliencia de los ecosistemas y de las personas.",
+            "tone": "loss"
+          },
+          {
+            "title": "Lo que no se mide",
+            "text": "Cerca del 95 % de las sustancias nunca se ha medido en el ambiente; sus efectos y mezclas son desconocidos.",
+            "tone": "neutral"
+          }
+        ]
+      },
+      "figures": [
+        {
+          "value": "139",
+          "label": "presas de jales mineros en los cinco estados, el 24.5 % del inventario nacional",
+          "refId": "jalessig"
+        },
+        {
+          "value": "86 %",
+          "label": "de esas presas no tiene dato público de drenaje ácido, plan de manejo ni tonelaje",
+          "refId": "jalessig"
+        },
+        {
+          "value": "288.8 km",
+          "label": "de río afectados por el derrame minero de 2014 en Sonora, aún sin remediar",
+          "refId": "sem25"
+        },
+        {
+          "value": "76.5 %",
+          "label": "del cobre de mina de México salió de Sonora en 2023",
+          "refId": "se23"
+        }
+      ],
+      "findings": [
+        {
+          "kind": "conocido",
+          "where": "Sonora y Baja California Sur",
+          "title": "La región concentra la minería del país",
+          "text": "En 2023 Sonora produjo 555,585 de las 726,528 toneladas de cobre de mina del país (76.5 %) y el 28.7 % del oro. Los cinco estados tienen el 27.4 % de las concesiones mineras y el 33.6 % de la superficie concesionada nacional: la forma regional del «encierro» que describe el PHC.",
+          "refIds": [
+            "se23"
+          ]
+        },
+        {
+          "kind": "conocido",
+          "where": "Río Sonora",
+          "title": "El derrame que no termina",
+          "text": "En agosto de 2014 se derramaron unos 40,000 m³ de solución de sulfato de cobre de la mina Buenavista del Cobre, que afectaron 288.8 km de la cuenca Bacanuchi–río Sonora y a unas 20,000 personas. En 2023, el dictamen de SEMARNAT encontró metales en el agua por arriba de lo recomendado y mercurio en el aire sobre la norma. El plan de diciembre de 2025 anuncia 1,500 millones de pesos para la remediación, sin plazos publicados.",
+          "refIds": [
+            "sem23",
+            "sem25"
+          ]
+        },
+        {
+          "kind": "conocido",
+          "where": "Santa Rosalía, Baja California Sur",
+          "title": "Un siglo de fundición que sigue dañando la reproducción",
+          "text": "Los sedimentos del puerto promedian 3,390 mg/kg de cobre y 1,916 de zinc, muy por encima del umbral de efecto. El 68 % de los machos de almeja chocolata presenta degeneración testicular (9.5 % en el sitio de comparación) y el 92 % de los ovarios de almeja blanca tiene alteraciones (32.7 % en el control).",
+          "refIds": [
+            "shumilin",
+            "yee24",
+            "eraso"
+          ]
+        },
+        {
+          "kind": "conocido",
+          "where": "Golfo de California",
+          "title": "El DDT sigue dominando en las ballenas",
+          "text": "En biopsias de nueve rorcuales comunes del Golfo (2018–2019), los plaguicidas organoclorados, sobre todo DDT, son más del 80 % de los contaminantes heredados, décadas después de su prohibición.",
+          "refIds": [
+            "fossi"
+          ]
+        },
+        {
+          "kind": "conocido",
+          "where": "Sureste del Golfo",
+          "title": "No todo es contaminación: el cadmio de los ostiones",
+          "text": "En ostiones de mangle de ocho lagunas, el cadmio promedió 6.05 µg/g y en temporada seca superó el límite en Santa María–La Reforma. Los autores lo atribuyen sobre todo a la surgencia, una fuente natural; separar lo natural de lo humano es parte de lo que falta por saber.",
+          "refIds": [
+            "paez"
+          ]
+        },
+        {
+          "kind": "desconocido",
+          "where": "Los cinco estados",
+          "title": "120 presas de jales sin información pública",
+          "text": "El inventario de SEMARNAT registra 139 presas de jales en la región: Sonora 68, Sinaloa 36, Baja California Sur 14, Nayarit 14 y Baja California 7. Solo 19 tienen algún dato de drenaje ácido o plan de manejo; cinco se declaran generadoras de drenaje ácido. De las otras 120 no se sabe qué contienen ni en qué estado están.",
+          "refIds": [
+            "jalessig",
+            "jales"
+          ]
+        },
+        {
+          "kind": "desconocido",
+          "where": "Golfo de California",
+          "title": "PFAS y fármacos: presentes, pero sin vigilancia",
+          "text": "En las mismas ballenas se detectaron PFAS (6.9 veces menos que en el Mediterráneo) y fármacos, sobre todo paracetamol (12 veces más). No se encontró ninguna medición de PFAS en agua, sedimentos ni personas de los cinco estados.",
+          "refIds": [
+            "fossi"
+          ]
+        },
+        {
+          "kind": "desconocido",
+          "where": "Sur de Sonora",
+          "title": "Resistencia a antibióticos en la camaronicultura",
+          "text": "De 16 cepas de Vibrio que causan necrosis hepatopancreática en camarón cultivado, el 75 % resistía a la oxitetraciclina y el 62.5 % a la sulfacloropiridazina-trimetoprim, antibióticos de uso regular en granjas. No hay estadística pública del uso de antibióticos en la acuacultura ni monitoreo de residuos en esteros.",
+          "refIds": [
+            "galaviz"
+          ]
+        },
+        {
+          "kind": "desconocido",
+          "where": "México",
+          "title": "Compromisos firmados y una prohibición aplazada",
+          "text": "México es parte de los convenios de Estocolmo (2003), Rotterdam (2005) y Minamata (2015). Pero en marzo de 2024 el gobierno aplazó la sustitución del glifosato porque no había alternativa: un ejemplo del encierro tecnológico que describe el PHC.",
+          "refIds": [
+            "untreaty",
+            "se24"
+          ]
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "stacked": true,
+        "title": "Presas de jales por estado: lo que se sabe y lo que no",
+        "subtitle": "Número de depósitos en el inventario de SEMARNAT, según si tienen o no algún dato público de drenaje ácido o plan de manejo",
+        "unit": "presas",
+        "categories": [
+          "Sonora",
+          "Sinaloa",
+          "Baja California Sur",
+          "Nayarit",
+          "Baja California"
+        ],
+        "series": [
+          {
+            "name": "Con información pública",
+            "values": [
+              15,
+              2,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "name": "Sin información",
+            "values": [
+              53,
+              34,
+              13,
+              14,
+              6
+            ]
+          }
+        ],
+        "note": "Consulta al servicio geográfico «Depósitos de jales» de SEMARNAT (17 de octubre de 2026), que alimenta el Inventario Homologado Preliminar de Presas de Jales. «Con información» significa que el registro tiene algún dato en drenaje ácido, plan de manejo o tonelaje. De las 139 presas, 70 están activas, 65 inactivas y 3 se clasifican como pasivo ambiental (dos en Nacozari, Sonora). El inventario se construyó sobre todo con imágenes satelitales y documentos administrativos.",
+        "refId": "jalessig"
+      },
       "regional": {
-        "summary": "En el Mar de Cortés, los microplásticos se acumulan en playas y aguas (con monitoreo en curso en Sonora), y los plaguicidas de la agricultura intensiva representan una fuente difusa de contaminantes. Se profundiza en el límite 9.",
+        "summary": "Este tema complementa el límite 9 con la mirada del PHC: lo heredado, lo persistente y lo desconocido. La región tiene daños biológicos documentados por herencias mineras y plaguicidas prohibidos, y vacíos enormes en lo que no se mide. Por eso su prioridad es media, a diferencia de la del límite 9: aquí pesan más los pasivos caros de remediar y las sustancias que hoy solo se pueden empezar a monitorear.",
         "impact": "Alto",
-        "leverage": "Alto",
-        "priority": "Alta",
-        "priorityScore": 3,
+        "leverage": "Medio",
+        "priority": "Media",
+        "priorityScore": 2,
+        "scores": {
+          "alcance": {
+            "value": 4,
+            "why": "Hay presas de jales en los cinco estados (139), DDT en ballenas y lobos marinos de todo el Golfo, y plaguicidas y metales documentados de Sonora a Nayarit."
+          },
+          "severidad": {
+            "value": 3,
+            "why": "Deterioro persistente y medible: daño reproductivo en almejas de Santa Rosalía, metales sobre la norma en el río Sonora nueve años después del derrame y exposición humana documentada. No hay muertes ni colapsos pesqueros atribuidos."
+          },
+          "irreversibilidad": {
+            "value": 4,
+            "why": "Jales, metales en sedimentos y organoclorados persisten más de un siglo: la huella de la fundición de El Boleo sigue en sedimentos y almejas, y el DDT domina en las ballenas décadas después de prohibirse."
+          },
+          "control": {
+            "value": 3,
+            "why": "Minería, agricultura y acuacultura son regionales, pero los PFAS, el mercurio atmosférico, los plásticos y parte de los contaminantes persistentes llegan de fuera o dependen de mercados globales."
+          },
+          "competencia": {
+            "value": 3,
+            "why": "Concesiones, jales, registro de plaguicidas y remediación son federales, pero se aplican y negocian en la región, como el plan del río Sonora con el gobierno estatal; las decisiones de empresas y productores son locales."
+          },
+          "factibilidad": {
+            "value": 2,
+            "why": "Remediar jales y ríos es caro e incierto (el río Sonora sigue sin remediarse a once años); para PFAS y fármacos hoy solo cabe empezar a monitorear, y el sustituto del glifosato no se ha encontrado."
+          }
+        },
         "actions": [
           {
+            "actor": "gobierno-local",
+            "text": "SEMARNAT: completar y publicar en datos abiertos el drenaje ácido, el plan de manejo, el tonelaje y la estabilidad de las 139 presas de jales de la región; PROFEPA: priorizar la inspección de las inactivas y de los pasivos ambientales."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "Publicar un calendario vinculante de remediación del río Sonora, con monitoreo público de agua, aire y salud."
+          },
+          {
+            "actor": "gobierno-local",
+            "text": "Crear un programa piloto de monitoreo de PFAS y fármacos en agua potable, descargas municipales y peces de consumo de las principales ciudades costeras."
+          },
+          {
             "actor": "iniciativa-privada",
-            "text": "Sustitución de agroquímicos y materiales de alto riesgo; diseño de productos para circularidad."
+            "text": "Mineras: adoptar el estándar global de gestión de relaves (GISTM), publicar datos por presa y cerrar las presas inactivas con control de drenaje ácido."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Acuicultores: registrar y reportar el uso de antibióticos por ciclo y reducirlo con bioseguridad."
+          },
+          {
+            "actor": "iniciativa-privada",
+            "text": "Agroexportadores: aplicar el criterio de uso esencial y sustituir los plaguicidas altamente peligrosos."
           },
           {
             "actor": "academia",
-            "text": "Ampliar el monitoreo de microplásticos y contaminantes emergentes en el Golfo."
+            "text": "Levantar la primera línea base regional de PFAS en agua, sedimentos y sangre; la capacidad analítica existe en los centros de investigación de la región."
+          },
+          {
+            "actor": "academia",
+            "text": "Separar las fuentes naturales y humanas del cadmio y el mercurio con isótopos, y mantener series de biomarcadores reproductivos en moluscos de puertos mineros."
+          },
+          {
+            "actor": "sociedad",
+            "text": "Solicitar por transparencia la información de las presas de jales del propio municipio."
+          },
+          {
+            "actor": "sociedad",
+            "text": "Acompañar el monitoreo comunitario del agua en el río Sonora y disponer bien los medicamentos (no tirarlos al drenaje)."
           }
         ],
-        "dataGaps": "Series de microplásticos y contaminantes emergentes aún no sistemáticas."
+        "measurementGaps": [
+          "Estado de las presas de jales: el 86 % de los registros regionales no tiene dato de drenaje ácido, plan de manejo ni tonelaje, y no hay una evaluación pública de su estabilidad.",
+          "PFAS: ninguna medición en agua, agua potable, sedimentos ni personas de los cinco estados; la única es en ballenas.",
+          "Antibióticos y fármacos: no hay estadística de uso en la acuacultura ni monitoreo de residuos o genes de resistencia en esteros y drenes.",
+          "Mercurio y cadmio: falta una evaluación regional que separe las fuentes naturales de las humanas.",
+          "Plaguicidas: no hay ventas por estado ni por ingrediente activo.",
+          "Mezclas: no existe ningún estudio regional de la toxicidad combinada, que es la principal advertencia del PHC."
+        ],
+        "dataGaps": "Los datos de jales vienen de un inventario preliminar construido con imágenes satelitales. Los resultados oficiales de biomonitoreo humano del río Sonora no están publicados."
       },
       "relatedBoundaryIds": [
-        "novel-entities"
+        "novel-entities",
+        "biosphere-integrity",
+        "freshwater-change",
+        "biogeochemical-flows"
+      ],
+      "references": [
+        {
+          "id": "phc",
+          "text": "Diamond, M. L., Shalin, A. y Wang, Z. (2026). 4.3 Novel Entities: Known Impacts and Unknown Planetary Threats. En Planetary Boundaries Science, Planetary Health Check 2026, pp. 50–53. Potsdam Institute for Climate Impact Research.",
+          "url": "https://www.planetaryhealthcheck.org/downloads/"
+        },
+        {
+          "id": "se23",
+          "text": "Secretaría de Economía (2024). Prontuario Estadístico de la Minería, enero–diciembre 2023 (producción por estado: INEGI, cifras preliminares; concesiones: DGM).",
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/902137/Prontuario_Ene-Dic_2023.pdf"
+        },
+        {
+          "id": "jalessig",
+          "text": "SEMARNAT. Servicio geográfico «Depósitos de jales» (Inventario Homologado Preliminar de Presas de Jales), consulta del 17 de octubre de 2026.",
+          "url": "https://gisviewer.semarnat.gob.mx/wmaplicacion/jales/"
+        },
+        {
+          "id": "jales",
+          "text": "SEMARNAT (2024). Inventario Homologado Preliminar de Presas de Jales, 23 de agosto de 2024.",
+          "url": "https://www.gob.mx/semarnat/es/articulos/inventario-homologado-preliminar-de-presas-de-jales"
+        },
+        {
+          "id": "sem23",
+          "text": "SEMARNAT (2023). Presenta Semarnat Dictamen Diagnóstico Ambiental del Río Sonora. Comunicado 80/2023, 29 de septiembre de 2023.",
+          "url": "https://www.gob.mx/semarnat/prensa/presenta-semarnat-dictamen-diagnostico-ambiental-del-rio-sonora"
+        },
+        {
+          "id": "sem25",
+          "text": "SEMARNAT (2025). Mensaje de la secretaria Alicia Bárcena en la Conferencia del Pueblo sobre el Plan de Justicia en el río Sonora, 29 de diciembre de 2025.",
+          "url": "https://www.gob.mx/semarnat/documentos/mensaje-de-la-secretaria-alicia-barcena-en-la-conferencia-del-pueblo-sobre-el-plan-de-justicia-en-el-rio-sonora"
+        },
+        {
+          "id": "shumilin",
+          "text": "Shumilin, E., Jiménez-Illescas, Á. R. y López-López, S. (2013). Anthropogenic contamination of metals in sediments of the Santa Rosalía harbor, Baja California Peninsula. Bulletin of Environmental Contamination and Toxicology 90(3):333–337.",
+          "url": "https://doi.org/10.1007/s00128-012-0923-1"
+        },
+        {
+          "id": "yee24",
+          "text": "Yee-Duarte, J. A., Arellano-Martínez, M., Roldán-Wong, N. T., Kidd, K. A. y Ceballos-Vázquez, B. P. (2024). Reduction in reproductive activity from degeneration of testicular follicles in Megapitaria squalida (Mollusca: Bivalvia) exposed to metal pollution in the Gulf of California. Marine Pollution Bulletin 205:116648.",
+          "url": "https://doi.org/10.1016/j.marpolbul.2024.116648"
+        },
+        {
+          "id": "eraso",
+          "text": "Eraso-Ordoñez, J. F., Yee-Duarte, J. A., Roldán-Wong, N. T. et al. (2023). Histopathological alterations in the gonads of wild white clams Dosinia ponderosa inhabiting a former copper mine locality in the Gulf of California. Journal of Aquatic Animal Health 35(2):101–116.",
+          "url": "https://doi.org/10.1002/aah.10184"
+        },
+        {
+          "id": "fossi",
+          "text": "Fossi, M. C., Limonta, G., Baini, M. et al. (2025). Fin whale as a sink of legacy and emerging contaminants: First integrated chemical exposomics and gene expression analysis in cetaceans. Environmental Science & Technology 59(23):11477–11492.",
+          "url": "https://doi.org/10.1021/acs.est.5c00844"
+        },
+        {
+          "id": "paez",
+          "text": "Páez-Osuna, F. y Osuna-Martínez, C. C. (2015). Bioavailability of cadmium, copper, mercury, lead, and zinc in subtropical coastal lagoons from the southeast Gulf of California using mangrove oysters (Crassostrea corteziensis and Crassostrea palmula). Archives of Environmental Contamination and Toxicology 68(2):305–316.",
+          "url": "https://doi.org/10.1007/s00244-014-0118-3"
+        },
+        {
+          "id": "galaviz",
+          "text": "Galaviz-Silva, L., Robles-Valdez, A., Sánchez-Díaz, R. et al. (2021). Cepas de Vibrio parahaemolyticus que causan necrosis hepatopancreática aguda en camarón cultivado de Sonora, México y su resistencia a antibióticos. Hidrobiológica 31(2):111–123.",
+          "url": "https://doi.org/10.24275/uam/izt/dcbs/hidro/2021v31n2/galaviz"
+        },
+        {
+          "id": "untreaty",
+          "text": "United Nations Treaty Collection, capítulo XXVII: convenios de Estocolmo (15), Rotterdam (14) y Minamata (17), estado de las partes.",
+          "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-15&chapter=27"
+        },
+        {
+          "id": "se24",
+          "text": "Secretaría de Economía, SEMARNAT, SADER y COFEPRIS (2024). Gobierno de México salvaguarda la seguridad agroalimentaria del país. Comunicado conjunto, 26 de marzo de 2024.",
+          "url": "https://www.gob.mx/se/prensa/gobierno-de-mexico-salvaguarda-la-seguridad-agroalimentaria-del-pais"
+        }
       ]
     }
   ],

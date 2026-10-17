@@ -122,3 +122,13 @@ geométrica de sus criterios, asigna el nivel (alto ≥ 3, medio ≥ 2, bajo < 2
 ambos ejes son altos; baja si alguno es bajo) y hace la prueba de sensibilidad. Los campos `impact`, `leverage` y
 `priority` del catálogo deben coincidir con ese cálculo; la metodología completa se explica en la página de
 priorización.
+
+## Temas emergentes
+
+Los tres capítulos «Spotlight» del PHC 2026 están en `catalog.json` (`spotlights`). Cada uno tiene, además del
+resumen: pregunta guía (`question`), mensaje central (`message`), puntos clave del informe (`phc`), los pasos del
+mecanismo (`mechanism`), cuatro cifras clave (`figures`), hallazgos regionales (`findings`, con `kind` conocido o
+desconocido en el de entidades nuevas), una gráfica (`chart`), la evaluación con los mismos seis criterios del
+método de priorización (`regional.scores`), acciones por actor, vacíos de medición, límites relacionados y
+referencias numeradas (`references`; los hallazgos y cifras las citan por `refIds`/`refId`). La ilustración de
+cada tema está en `src/components/SpotlightArt.tsx`.

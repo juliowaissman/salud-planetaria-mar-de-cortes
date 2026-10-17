@@ -26,3 +26,15 @@ publica `dist/`, que se genera a partir de `src/` y `public/`.
 criterios y escalas, fórmulas, regla de prioridad, prueba de sensibilidad,
 resultados de los nueve límites, justificación de cada calificación,
 comparación con el método anterior, limitaciones y cómo actualizarlo.
+
+## Temas emergentes
+
+Un reporte «Diagnóstico y propuesta» por cada capítulo «Spotlight» del PHC 2026, con el mismo contenido que la
+página del tema: qué dice el informe, hallazgos regionales con referencias, datos, evaluación para la priorización,
+acciones por actor y vacíos de información.
+
+| Tema | Documento |
+|---|---|
+| 1 | Tema emergente 1 - Resiliencia terrestre - Diagnóstico y propuesta.pdf |
+| 2 | Tema emergente 2 - Integridad del fondo marino - Diagnóstico y propuesta.pdf |
+| 3 | Tema emergente 3 - Entidades nuevas - Diagnóstico y propuesta.pdf |

@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
-import { boundaryById, controlVariablesOf, sourceById } from '../data'
+import { catalog, boundaryById, controlVariablesOf, sourceById } from '../data'
 import { getRegional } from '../data/regional'
 import type { Source } from '../types'
 import { StatusBadge, TrendBadge, PriorityBadge } from '../components/StatusBadge'
@@ -9,7 +9,8 @@ import { SourceList } from '../components/SourceList'
 import TimeSeriesChart from '../components/TimeSeriesChart'
 import StateBarChart from '../components/StateBarChart'
 import StateChoropleth from '../components/StateChoropleth'
-import { assess, boundaryPriority, CRITERIA } from '../lib/priority'
+import PriorityEvaluation from '../components/PriorityEvaluation'
+import { assess, boundaryPriority } from '../lib/priority'
 
 export default function BoundaryDetail() {
   const { id } = useParams()
@@ -25,6 +26,7 @@ export default function BoundaryDetail() {
   }
 
   const cvs = controlVariablesOf(b.id)
+  const spots = catalog.spotlights.filter((s) => s.relatedBoundaryIds.includes(b.id))
   const priority = boundaryPriority(b)
   const evaluation = assess(b)
   const sources: Source[] = ['phc-main', 'phc-supp']
@@ -109,35 +111,7 @@ export default function BoundaryDetail() {
           {evaluation && (
             <section className="card" id="evaluacion">
               <h2>Evaluación para la priorización</h2>
-              <p className="chart-subtitle">
-                Calificación de 1 a 4 de cada criterio. Cada eje es la media geométrica de sus tres criterios; la prioridad es
-                alta solo si ambos ejes llegan a 3. <Link to="/priorizacion">Ver la metodología completa →</Link>
-              </p>
-              <div className="table-scroll">
-                <table className="ptable">
-                  <thead>
-                    <tr><th>Eje</th><th>Criterio</th><th>Calificación</th><th>Justificación</th></tr>
-                  </thead>
-                  <tbody>
-                    {CRITERIA.map((c) => (
-                      <tr key={c.id}>
-                        <td className="small">{c.axis === 'impact' ? 'Impacto' : 'Apalancamiento'}</td>
-                        <td>{c.name}</td>
-                        <td className="num"><strong>{b.regional.scores![c.id].value}</strong></td>
-                        <td className="small">{b.regional.scores![c.id].why}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-              <p className="small" style={{ marginTop: 10 }}>
-                <strong>Impacto</strong> {evaluation.impact.toFixed(2)} ({evaluation.impactLevel}) ·{' '}
-                <strong>Apalancamiento</strong> {evaluation.leverage.toFixed(2)} ({evaluation.leverageLevel}) ·{' '}
-                <strong>Prioridad</strong> {evaluation.priority} ·{' '}
-                {evaluation.robust
-                  ? 'Clasificación robusta: ningún cambio de un punto en un solo criterio la modifica.'
-                  : `Clasificación sensible: ${evaluation.sensitiveTo.join('; ')}.`}
-              </p>
+              <PriorityEvaluation regional={b.regional} />
             </section>
           )}
 
@@ -258,6 +232,11 @@ export default function BoundaryDetail() {
             <span>
               Ver también: <Link to="/priorizacion">matriz de priorización</Link> ·{' '}
               <Link to="/fuentes">catálogo completo de fuentes</Link>
+              {spots.map((s) => (
+                <span key={s.id}>
+                  {' '}· Tema emergente: <Link to={`/spotlights/${s.id}`}>{s.short}</Link>
+                </span>
+              ))}
             </span>
             <button type="button" className="back-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               ↑ Volver arriba

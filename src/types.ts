@@ -64,14 +64,74 @@ export interface Boundary {
   hasMap: boolean
 }
 
+// ---------- Temas emergentes (capítulos «Spotlight» del PHC 2026) ----------
+
+export interface Reference {
+  id: string
+  /** Cita completa: autores (año). Título. Revista volumen:páginas. */
+  text: string
+  url?: string
+}
+
+export interface SpotlightFigure {
+  value: string
+  label: string
+  refId?: string
+}
+
+export interface SpotlightFinding {
+  title: string
+  text: string
+  /** Estados o lugares involucrados */
+  where?: string
+  /** Solo en entidades nuevas: impacto conocido o amenaza desconocida */
+  kind?: 'conocido' | 'desconocido'
+  refIds?: string[]
+}
+
+export interface SpotlightStep {
+  title: string
+  text: string
+  tone?: 'gain' | 'loss' | 'neutral'
+}
+
+export interface SpotlightChart {
+  type: 'bar' | 'line' | 'hbar'
+  /** Barras apiladas (solo con varias series) */
+  stacked?: boolean
+  title: string
+  subtitle?: string
+  unit: string
+  categories: string[]
+  series: { name: string; values: (number | null)[] }[]
+  note?: string
+  refId?: string
+}
+
 export interface Spotlight {
   id: string
   order: number
   name: string
   nameEn: string
+  /** Resumen de una o dos frases para la tarjeta del índice */
   summary: string
+  /** Título corto para navegación */
+  short: string
+  /** Pregunta guía del tema */
+  question: string
+  motif: 'land' | 'seafloor' | 'chemicals'
+  /** Capítulo y autores en el PHC 2026 */
+  chapter: string
+  /** Mensaje central, en lenguaje claro */
+  message: string
+  phc: { points: string[]; quote?: string }
+  mechanism: { title: string; intro?: string; steps: SpotlightStep[] }
+  figures: SpotlightFigure[]
+  findings: SpotlightFinding[]
+  chart?: SpotlightChart
   regional: RegionalAssessment
   relatedBoundaryIds: string[]
+  references: Reference[]
 }
 
 export interface Source {
