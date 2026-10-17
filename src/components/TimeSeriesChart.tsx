@@ -13,7 +13,8 @@ export default function TimeSeriesChart({ series, height = 300 }: { series: Seri
       legend: { bottom: 0, show: series.length > 1 },
       // Etiquetas en dos líneas (con \n) necesitan más espacio sobre la leyenda
       grid: { left: 52, right: 20, top: 30, bottom: (series.length > 1 ? 46 : 30) + (cats.some((c) => c.includes('\n')) ? 18 : 0) },
-      xAxis: { type: 'category', data: cats },
+      // Con pocas categorías se muestran todas las etiquetas
+      xAxis: { type: 'category', data: cats, axisLabel: cats.length <= 8 ? { interval: 0 } : undefined },
       yAxis: {
         type: 'value',
         name: series[0]?.unit ?? '',

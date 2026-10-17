@@ -1,140 +1,338 @@
 {
   "boundaryId": "ocean-acidification",
-  "updated": "2026-10-03",
-  "stateValues": [
+  "updated": "2026-10-16",
+  "charts": [
     {
-      "stateId": "bc",
-      "value": null,
-      "unit": "anomalía SST (°C)",
-      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
-    },
-    {
-      "stateId": "bcs",
-      "value": null,
-      "unit": "anomalía SST (°C)",
-      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
-    },
-    {
-      "stateId": "son",
-      "value": null,
-      "unit": "anomalía SST (°C)",
-      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
-    },
-    {
-      "stateId": "sin",
-      "value": null,
-      "unit": "anomalía SST (°C)",
-      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
-    },
-    {
-      "stateId": "nay",
-      "value": null,
-      "unit": "anomalía SST (°C)",
-      "note": "Dato es del Golfo de California en su conjunto; no existe desagregación estatal."
-    }
-  ],
-  "series": [
-    {
-      "id": "sst-anomalia",
-      "title": "Anomalía positiva de la SST mínima en Mazatlán, entrada oriental del Golfo de California",
-      "unit": "°C",
-      "points": [
+      "title": "Profundidad a la que el agua se vuelve corrosiva frente a Baja California",
+      "subtitle": "Horizonte de saturación de aragonita: profundidad (en metros) a partir de la cual el agua disuelve las conchas y esqueletos de aragonita (Ω < 1). Cuanto más somero, más cerca de la superficie y de la costa llega el agua corrosiva.",
+      "note": "La surgencia de primavera sube el agua corrosiva a unos 90 m junto a la costa, frente a unos 150 m mar adentro; en años de La Niña sube más (120 m) y en años de El Niño baja (180 m). En la Bahía de Todos Santos, durante La Niña de 2011, llegó a unos 30 m. Es un fenómeno natural de las surgencias, pero el CO₂ absorbido por el océano ha ampliado el área afectada en toda la costa del Pacífico de Norteamérica (Feely et al. 2008). Fuentes: Oliva-Méndez et al. 2025 (IMECOCAL Línea 100, 1998–2016) y 2018 (Bahía de Todos Santos).",
+      "series": [
         {
-          "label": "2013–2014 (ola de calor marina)",
-          "value": 4.0
-        },
-        {
-          "label": "2016",
-          "value": 7.0
+          "id": "ash",
+          "title": "Horizonte de saturación",
+          "unit": "metros de profundidad",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Costa, primavera\n(surgencia)",
+              "value": 90
+            },
+            {
+              "label": "Costa,\ninvierno",
+              "value": 133
+            },
+            {
+              "label": "Mar adentro\n(más de 50 km)",
+              "value": 152
+            },
+            {
+              "label": "Años de\nLa Niña",
+              "value": 120
+            },
+            {
+              "label": "Años de\nEl Niño",
+              "value": 180
+            },
+            {
+              "label": "Bahía Todos Santos,\nLa Niña 2011",
+              "value": 30
+            }
+          ]
         }
       ]
     },
     {
-      "id": "sst-tendencia",
-      "title": "Tasa de calentamiento de la SST del Golfo de California (1982–2022) por región",
-      "unit": "°C/década",
-      "points": [
+      "title": "Moluscos con concha por estado y especie (2024)",
+      "subtitle": "Producción de pesca y acuacultura en toneladas de peso vivo. Son las especies que construyen su concha con carbonato de calcio y resienten primero la acidificación.",
+      "note": "Los cinco estados producen 37,043 t de moluscos con concha, el 48 % del país, con un valor de 980 millones de pesos (53 % del nacional). Cada estado depende de especies distintas: Sonora del caracol, Sinaloa y Nayarit del ostión, Baja California Sur de la almeja y el callo de hacha, y Baja California del ostión cultivado y la almeja. Fuente: CONAPESCA, base de datos de producción del Anuario 2024.",
+      "series": [
         {
-          "label": "Entrada del Golfo",
-          "value": 0.18
+          "id": "ostion",
+          "title": "Ostión",
+          "unit": "toneladas",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California",
+              "value": 1856
+            },
+            {
+              "label": "Baja California Sur",
+              "value": 3160
+            },
+            {
+              "label": "Sonora",
+              "value": 147
+            },
+            {
+              "label": "Sinaloa",
+              "value": 4200
+            },
+            {
+              "label": "Nayarit",
+              "value": 1444
+            }
+          ]
         },
         {
-          "label": "Sur y Archipiélago",
-          "value": 0.19
+          "id": "almeja",
+          "title": "Almeja",
+          "unit": "toneladas",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California",
+              "value": 1852
+            },
+            {
+              "label": "Baja California Sur",
+              "value": 4199
+            },
+            {
+              "label": "Sonora",
+              "value": 3085
+            },
+            {
+              "label": "Sinaloa",
+              "value": 3724
+            },
+            {
+              "label": "Nayarit",
+              "value": 9
+            }
+          ]
         },
         {
-          "label": "Norte y Alto Golfo",
-          "value": 0.25
+          "id": "caracol",
+          "title": "Caracol",
+          "unit": "toneladas",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California",
+              "value": 199
+            },
+            {
+              "label": "Baja California Sur",
+              "value": 1375
+            },
+            {
+              "label": "Sonora",
+              "value": 7978
+            },
+            {
+              "label": "Sinaloa",
+              "value": 1613
+            },
+            {
+              "label": "Nayarit",
+              "value": 1
+            }
+          ]
         },
         {
-          "label": "Costa Oriental",
-          "value": 0.4
+          "id": "abulon-callo",
+          "title": "Abulón y callo de hacha",
+          "unit": "toneladas",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Baja California",
+              "value": 243
+            },
+            {
+              "label": "Baja California Sur",
+              "value": 1826
+            },
+            {
+              "label": "Sonora",
+              "value": 73
+            },
+            {
+              "label": "Sinaloa",
+              "value": 58
+            },
+            {
+              "label": "Nayarit",
+              "value": 0
+            }
+          ]
         }
       ]
     },
     {
-      "id": "arag-cabo-pulmo",
-      "title": "Rango estacional de saturación de aragonita (ΔΩarag) en el arrecife de Cabo Pulmo, Golfo de California",
-      "unit": "ΔΩarag (adimensional)",
-      "points": [
+      "title": "Participación de la región en la producción nacional de moluscos con concha (2024)",
+      "subtitle": "Porcentaje de la producción de México que viene de los cinco estados del Mar de Cortés.",
+      "note": "Todo el abulón del país y casi todo el callo de hacha y la almeja salen de esta región, así que cualquier daño por acidificación en sus aguas afecta directamente la oferta nacional. Fuente: CONAPESCA, Anuario 2024.",
+      "series": [
         {
-          "label": "Invierno–Verano (rango estacional)",
-          "value": 0.5
+          "id": "participacion",
+          "title": "Participación de la región",
+          "unit": "% de la producción nacional",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Abulón",
+              "value": 100
+            },
+            {
+              "label": "Callo de hacha",
+              "value": 97.8
+            },
+            {
+              "label": "Almeja",
+              "value": 88.5
+            },
+            {
+              "label": "Caracol",
+              "value": 70.5
+            },
+            {
+              "label": "Ostión",
+              "value": 24.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Isla Natividad (BCS): abulón perdido en la mortandad de 2009",
+      "subtitle": "Reducción estimada de la biomasa de abulón tras la mortandad masiva de la primavera de 2009, en zonas de pesca y dentro de reservas marinas.",
+      "note": "La causa probable fue la hipoxia: el agua de surgencia que sube es a la vez baja en oxígeno y rica en CO₂. En 2010 los sensores registraron oxígeno igual o menor a 2 mg/L hasta 21 horas seguidas. Las reservas perdieron menos y sus juveniles se mantuvieron estables, lo que muestra que la protección local da resiliencia ante impactos globales. Fuente: Micheli et al. 2012 (PLoS ONE).",
+      "series": [
+        {
+          "id": "natividad",
+          "title": "Biomasa perdida",
+          "unit": "% de la biomasa",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Zonas de pesca",
+              "value": 75
+            },
+            {
+              "label": "Reservas marinas",
+              "value": 50
+            }
+          ]
         }
       ]
     }
   ],
   "map": {
     "kind": "choropleth",
-    "title": "Acidificación y calentamiento oceánico del Golfo de California (sin desagregación estatal)",
-    "unit": "sin dato estatal",
-    "sourceId": "sanchez-cabeza-2022",
+    "title": "Valor de la producción de moluscos con concha por estado (2024)",
+    "unit": "millones de pesos",
+    "sourceId": "conapesca-anuario-2024",
     "valuesByState": {
-      "son": null,
-      "bc": null,
-      "bcs": null,
-      "sin": null,
-      "nay": null
-    }
+      "bc": 197.4,
+      "bcs": 348.6,
+      "son": 163.8,
+      "sin": 232.7,
+      "nay": 37.9
+    },
+    "note": "Ostión, almeja, caracol, abulón y callo de hacha de pesca y acuacultura. Baja California Sur concentra el mayor valor por la almeja, el callo de hacha y el abulón. No hay mediciones de pH ni de saturación de aragonita por estado: el mapa muestra la exposición económica, no la acidificación misma."
   },
   "sources": [
     {
-      "id": "sanchez-cabeza-2022",
-      "title": "Rapid surface water warming and impact of the recent (2013–2016) temperature anomaly in shallow coastal waters at the eastern entrance of the Gulf of California",
-      "organization": "Universidad Nacional Autónoma de México / Progress in Oceanography",
-      "url": "https://doi.org/10.1016/j.pocean.2022.102746",
-      "accessDate": "2026-10-03",
-      "license": "© Elsevier (Progress in Oceanography); resumen de acceso abierto",
-      "note": "Serie SST 1973–2016 en Mazatlán: tendencia media de calentamiento de 0.57 ± 0.01 °C/década; anomalías positivas de la SST mínima de +4 °C (ola de calor marina 2013–2014) hasta +7 °C (2016)."
+      "id": "oliva-mendez-2025",
+      "title": "Seasonal and Interannual Variability of the Aragonite Saturation Horizon in the California Current System of Baja California",
+      "organization": "Journal of Geophysical Research: Oceans 130(6) (Oliva-Méndez, Hernández-Ayón, Valencia-Gasti, Durazo, Santamaría-del-Ángel y Alin)",
+      "url": "https://doi.org/10.1029/2024JC021653",
+      "accessDate": "2026-10-16",
+      "license": "© AGU",
+      "note": "Climatología 1998–2016 de la Línea 100 de IMECOCAL: horizonte de saturación a 90 ± 29 m en primavera y 133 ± 32 m en invierno junto a la costa; ~152 m mar adentro; 120 m en La Niña y 180 m en El Niño.",
+      "group": "regional"
     },
     {
-      "id": "jamet-ardiles-2025",
-      "title": "Tendencias del calentamiento de las aguas superficiales del Golfo de California entre 1982 y 2022: un análisis basado en imágenes satelitales",
-      "organization": "Universidad de Guadalajara (tesis de maestría, CUCEI)",
-      "url": "https://hdl.handle.net/20.500.12104/110572",
-      "accessDate": "2026-10-03",
-      "license": "Todos los derechos reservados (RIUdeG); resumen de acceso abierto",
-      "note": "SST satelital AVHRR/NOAA 1982–2022 (4 km). Aumento total de SST entre 0.8 y 1.5 °C; tasas regionales de 0.18 a 0.40 °C/década, todas por encima de la media oceánica global (0.11 °C/década)."
+      "id": "oliva-mendez-2018",
+      "title": "The carbonate system in coastal waters off the northern region of the Baja California Peninsula under La Niña conditions",
+      "organization": "Ciencias Marinas 44(3):203–220 (Oliva-Méndez et al.)",
+      "url": "https://doi.org/10.7773/cm.v44i3.2833",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Bahía de Todos Santos, La Niña 2011: horizonte de saturación a ~30 m cerca de la costa y ~150 m en la zona oceánica.",
+      "group": "regional"
+    },
+    {
+      "id": "feely-2008",
+      "title": "Evidence for Upwelling of Corrosive \"Acidified\" Water onto the Continental Shelf",
+      "organization": "Science 320(5882):1490–1492 (Feely, Sabine, Hernández-Ayón, Ianson y Hales)",
+      "url": "https://doi.org/10.1126/science.1155676",
+      "accessDate": "2026-10-16",
+      "license": "© AAAS",
+      "note": "Agua subsaturada en aragonita sube a la plataforma continental de Canadá al norte de México a 40–120 m; el CO₂ antropogénico amplió el área afectada.",
+      "group": "regional"
     },
     {
       "id": "norzagaray-2017",
       "title": "Aragonite saturation and pH variation in a fringing reef are strongly influenced by oceanic conditions",
-      "organization": "Limnology & Oceanography (ASLO / Wiley)",
+      "organization": "Limnology and Oceanography 62(6):2375–2388 (Norzagaray-López, Hernández-Ayón, Calderón-Aguilera, Reyes-Bonilla, Chapa-Balcorta y Ayala-Bocos)",
       "url": "https://doi.org/10.1002/lno.10571",
-      "accessDate": "2026-10-03",
-      "license": "© ASLO/Wiley; resumen de acceso abierto",
-      "note": "Arrecife de Cabo Pulmo, Golfo de California: rango estacional ΔΩarag = 0.5 unidades entre invierno (agua del Golfo de California) y verano (agua superficial tropical), uno de los mayores reportados en arrecifes de coral."
+      "accessDate": "2026-10-16",
+      "license": "© ASLO",
+      "note": "Cabo Pulmo: la saturación de aragonita varía 0.5 unidades entre invierno (agua del Golfo) y verano (agua tropical), uno de los rangos más amplios reportados en arrecifes; el arrecife no puede modificar la química del agua que llega.",
+      "group": "regional"
     },
     {
-      "id": "oliva-mendez-2025",
-      "title": "Seasonal and interannual variability of the aragonite saturation horizon in the California Current System of Baja California",
-      "organization": "Journal of Geophysical Research: Oceans (AGU)",
-      "url": "https://doi.org/10.1029/2024JC021653",
-      "accessDate": "2026-10-03",
-      "license": "© AGU (JGR Oceans); resumen de acceso abierto",
-      "note": "Contexto regional adyacente (Corriente de California, vertiente Pacífico de Baja California; no es el interior del Golfo). Horizonte de saturación de aragonita entre ~90 m (primavera) y ~133 m (invierno) cerca de la costa; Ωarag < 1 por debajo de ~250 m."
+      "id": "micheli-2012",
+      "title": "Evidence That Marine Reserves Enhance Resilience to Climatic Impacts",
+      "organization": "PLoS ONE 7(7):e40832 (Micheli et al.)",
+      "url": "https://doi.org/10.1371/journal.pone.0040832",
+      "accessDate": "2026-10-16",
+      "license": "CC BY",
+      "note": "Mortandad de abulón en Isla Natividad (2009), probablemente por hipoxia: −75 % de biomasa en zonas de pesca y −50 % en reservas.",
+      "group": "regional"
+    },
+    {
+      "id": "ribas-ribas-2011",
+      "title": "Effects of upwelling, tides and biological processes on the inorganic carbon system of a coastal lagoon in Baja California",
+      "organization": "Estuarine, Coastal and Shelf Science 95(4):367–376 (Ribas-Ribas et al.)",
+      "url": "https://doi.org/10.1016/j.ecss.2011.09.017",
+      "accessDate": "2026-10-16",
+      "license": "© Elsevier",
+      "note": "Bahía San Quintín (2005): la surgencia hace de la boca de la laguna una fuente de CO₂, mientras que la zona interna con pastos marinos lo capta.",
+      "group": "regional"
+    },
+    {
+      "id": "hidalgo-gonzalez-1997",
+      "title": "Mixing in the region of the midrift islands of the Gulf of California: effect on surface pCO2",
+      "organization": "Ciencias Marinas 23(3):317–327 (Hidalgo-González, Álvarez-Borrego y Zirino)",
+      "url": "https://doi.org/10.7773/cm.v23i3.813",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "En la región de las grandes islas, la mezcla por mareas sube CO₂ desde ~500 m y hace de la superficie una fuente de CO₂ (hasta 23 mmol m⁻² d⁻¹ tras mareas vivas).",
+      "group": "regional"
+    },
+    {
+      "id": "morales-urbina-2022",
+      "title": "Factores que determinan la variabilidad del flujo de CO2 océano-atmósfera en 5 zonas costeras del golfo de California",
+      "organization": "Ciencias Marinas 48 (Morales-Urbina et al.)",
+      "url": "https://doi.org/10.7773/cm.y2022.3265",
+      "accessDate": "2026-10-16",
+      "license": "Acceso abierto",
+      "note": "Cruceros 2016–2017 en Sinaloa, Guaymas, Bahía Concepción, Mulegé y Mazatlán: Guaymas fue fuente y Mazatlán sumidero de CO₂.",
+      "group": "regional"
+    },
+    {
+      "id": "herrera-becerril-2025",
+      "title": "Seasonal and interannual variability of the oxygen minimum zone in the Gulf of California entrance: Insights from high-resolution coupled physical-biogeochemical modelling",
+      "organization": "Regional Studies in Marine Science 90:104399 (Herrera-Becerril, Colas, Sanchez-Cabeza, Hernández-Ayón, Echevin, Cardoso-Mohedano y Ruiz-Fernández)",
+      "url": "https://doi.org/10.1016/j.rsma.2025.104399",
+      "accessDate": "2026-10-16",
+      "license": "© Elsevier",
+      "note": "Modelo físico-biogeoquímico de la entrada del Golfo: el tope de la zona de mínimo oxígeno sube y baja con los remolinos y las ondas costeras; La Niña la vuelve más somera y extensa, y El Niño la profundiza.",
+      "group": "regional"
+    },
+    {
+      "id": "conapesca-anuario-2024",
+      "title": "Anuario Estadístico de Acuacultura y Pesca 2024 — base de datos de producción",
+      "organization": "CONAPESCA",
+      "url": "https://nube.conapesca.gob.mx/sites/cona/dgppe/anuarios/BASE_DE_DATOS_DE_PRODUCCION_ANUARIO_2024.xlsx",
+      "accessDate": "2026-10-16",
+      "license": "Datos públicos",
+      "note": "Peso vivo y valor de ostión, almeja, caracol, abulón y callo de hacha (pierna) por estado y origen (pesca y acuacultura), 2024.",
+      "group": "regional"
     }
-  ],
-  "seriesTitle": "Señales de acidificación y calentamiento en el Golfo de California",
-  "seriesNote": "El calentamiento es más rápido en la costa oriental (0.40 °C/década); la saturación de aragonita varía estacionalmente ~0.5 unidades en Cabo Pulmo."
+  ]
 }

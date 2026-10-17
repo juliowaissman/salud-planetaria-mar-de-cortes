@@ -376,12 +376,12 @@
       "short": "Reducción del pH y la saturación de aragonita por absorción de CO₂.",
       "status": "increasing-risk",
       "trend": "worsening",
-      "globalStatus": "Transgredido por primera vez en 2026 (saturación de aragonita ≈2.85).",
+      "globalStatus": "Transgredido desde la evaluación de 2025. La saturación de aragonita superficial media es 2.85, apenas debajo del límite seguro de 2.86 (80 % del valor preindustrial de 3.57).",
       "controlVariableIds": [
         "aragonite-saturation"
       ],
       "regional": {
-        "summary": "El Golfo absorbe CO₂ y se acidifica, afectando organismos calcificadores (corales, moluscos, abulón y ostión) con implicaciones para la acuicultura y las pesquerías. El calentamiento oceánico y las olas de calor marinas agravan el estrés. El apalancamiento sobre la variable global es medio (depende del CO₂ global), pero alto sobre la resiliencia local.",
+        "summary": "En el Mar de Cortés y el Pacífico de la península, la acidificación no llega como un descenso lento y parejo del pH: llega en pulsos. Las surgencias, la mezcla por mareas y una zona de mínimo oxígeno muy somera suben a la plataforma agua rica en CO₂, baja en oxígeno y corrosiva para las conchas. Frente a Baja California, el agua que disuelve la aragonita sube en primavera a unos 90 m de la costa y, en años de La Niña, llegó a unos 30 m en la Bahía de Todos Santos. En Cabo Pulmo, la saturación de aragonita cambia media unidad entre invierno y verano, uno de los rangos más amplios medidos en arrecifes. El CO₂ que absorbe el océano hace más frecuentes y extensos estos episodios. La exposición es alta: la región produce el 48 % de los moluscos con concha del país, incluido todo el abulón y casi toda la almeja y el callo de hacha. En 2009 una mortandad por agua de surgencia baja en oxígeno eliminó tres cuartas partes del abulón en las zonas de pesca de Isla Natividad. El apalancamiento es medio: la causa es el CO₂ global, pero la región puede monitorear, proteger pastos marinos y manglares, reducir los nutrientes que acidifican las lagunas y crear reservas que aumentan la resiliencia.",
         "impact": "Alto",
         "leverage": "Medio",
         "priority": "Alta",
@@ -389,14 +389,49 @@
         "actions": [
           {
             "actor": "academia",
-            "text": "Establecer monitoreo continuo de carbonatos en el Golfo (en alianza con UABCS/CICIMAR y otras)."
+            "text": "Red regional de monitoreo continuo de pH, CO₂ y oxígeno en zonas de cultivo y pesca de moluscos (UABC, CICESE, UABCS, CIBNOR y otras)."
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Acuicultura resiliente y selección de especies tolerantes; reducción de estresores locales."
+            "text": "Monitoreo de la química del agua en criaderos y granjas de ostión; selección de semillas y calendarios de siembra que eviten los pulsos de agua corrosiva."
           }
         ],
-        "dataGaps": "Pocas estaciones de monitoreo in situ; se usan productos globales recortados al Golfo y calentamiento oceánico como proxy."
+        "dataGaps": "No hay datos de acidificación por estado. Las mediciones son instantáneas de cruceros (1990–2017) concentradas en la costa del Pacífico de Baja California, Cabo Pulmo y algunas zonas del Golfo; la exposición se representa con la producción de moluscos con concha.",
+        "questions": [
+          {
+            "q": "¿Cómo anticipar los pulsos de agua corrosiva y baja en oxígeno en las zonas de cultivo y pesca de moluscos?",
+            "action": "Sensores continuos de pH, CO₂ y oxígeno en bahías ostrícolas y bancos de abulón, con alertas para productores y cooperativas.",
+            "ref": "Oliva-Méndez et al. 2025 (J. Geophys. Res. Oceans); Micheli et al. 2012 (PLoS ONE)."
+          },
+          {
+            "q": "¿Pueden los pastos marinos y manglares amortiguar la acidificación en las lagunas costeras?",
+            "action": "Proteger y restaurar los pastos marinos (Zostera) y manglares junto a los cultivos y medir su efecto sobre el pH y la saturación de aragonita.",
+            "ref": "Ribas-Ribas et al. 2011 (Estuar. Coast. Shelf Sci.)."
+          },
+          {
+            "q": "¿Cómo hacer más resistentes las pesquerías de abulón, almeja y callo de hacha?",
+            "action": "Reservas marinas cogestionadas con las cooperativas, que en Isla Natividad perdieron menos abulón y mantuvieron sus juveniles tras la mortandad de 2009.",
+            "ref": "Micheli et al. 2012 (PLoS ONE)."
+          },
+          {
+            "q": "¿Cómo reducir los factores locales que acidifican las lagunas costeras?",
+            "action": "Disminuir las descargas de nutrientes y materia orgánica de la agricultura, la acuacultura y las ciudades, que al descomponerse producen CO₂ y consumen oxígeno.",
+            "ref": "Feely et al. 2008 (Science); ver límite 5, Flujos biogeoquímicos."
+          },
+          {
+            "q": "¿Qué tan vulnerables son los arrecifes de Cabo Pulmo a una química del agua que ellos no pueden modificar?",
+            "action": "Monitoreo de largo plazo de la calcificación coralina y la química del agua, y reducción de estresores locales (sedimentos, sobrepesca, turismo).",
+            "ref": "Norzagaray-López et al. 2017 (Limnol. Oceanogr.)."
+          }
+        ],
+        "measurementGaps": [
+          "Una serie continua de pH, CO₂ y saturación de aragonita en el Golfo de California: solo hay cruceros y despliegues cortos, y ninguna tendencia medida.",
+          "Química de carbonatos en las costas de Sonora, Sinaloa y Nayarit, donde solo hay mediciones puntuales de flujo de CO₂.",
+          "Monitoreo de la química del agua en criaderos y zonas de cultivo de ostión, y registro de mortandades de semilla o adultos.",
+          "El efecto medido de la acidificación en la calcificación de corales, moluscos y pterópodos de la región.",
+          "Oxígeno disuelto continuo en bancos de abulón y lagunas, para separar los efectos de la hipoxia y la acidificación, que llegan juntas.",
+          "La parte del ascenso del agua corrosiva que se debe al CO₂ antropogénico y la que se debe a El Niño y La Niña."
+        ]
       },
       "hasMap": true
     },
@@ -603,13 +638,14 @@
     {
       "id": "aragonite-saturation",
       "boundaryId": "ocean-acidification",
-      "name": "Saturación de aragonita",
+      "name": "Saturación de aragonita en la superficie del océano (media global)",
       "nameEn": "Aragonite saturation state",
-      "globalValue": "≈2.85",
+      "globalValue": "Ω ≈ 2.85",
       "unit": "Ωarag",
-      "safeBoundary": "80% del nivel preindustrial",
+      "safeBoundary": "2.86 (80 % del valor preindustrial de 3.57)",
       "status": "increasing-risk",
-      "trend": "worsening"
+      "trend": "worsening",
+      "highRisk": "2.50"
     },
     {
       "id": "aerosol-aod",
