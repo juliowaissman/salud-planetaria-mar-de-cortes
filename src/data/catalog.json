@@ -697,12 +697,13 @@
       "boundaryId": "land-system-change",
       "name": "Cobertura forestal remanente",
       "nameEn": "Remaining forest cover",
-      "globalValue": "≈64%",
+      "globalValue": "≈64 %",
       "unit": "% del bosque potencial",
-      "safeBoundary": "78%",
+      "safeBoundary": "78 %",
       "status": "increasing-risk",
       "trend": "worsening",
-      "note": "Umbrales por bioma: templado 50/30%, tropical y boreal 85/60%."
+      "note": "Umbrales por bioma: templado 50/30%, tropical y boreal 85/60%.",
+      "highRisk": "54 %"
     },
     {
       "id": "blue-water",
