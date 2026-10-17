@@ -38,6 +38,53 @@
       ]
     },
     {
+      "title": "Estimación satelital frente a medición en tierra (2023)",
+      "subtitle": "PM2.5 media anual en µg/m³: valor de la celda satelital de cada ciudad frente al de la estación de monitoreo con el valor más alto.",
+      "note": "La estimación satelital da cerca de la mitad de lo que miden las estaciones, porque cada celda promedia unos 10 km × 10 km y diluye la contaminación urbana. Sirve para comparar estados y cubrir los que no miden, pero no sustituye al monitoreo en las ciudades. Fuentes: ACAG V6.GL.02.04 (cálculo del Observatorio) e INECC 2023.",
+      "series": [
+        {
+          "id": "sat",
+          "title": "Estimación satelital",
+          "unit": "µg/m³",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mexicali",
+              "value": 11.7
+            },
+            {
+              "label": "Tijuana",
+              "value": 9.8
+            },
+            {
+              "label": "Nogales",
+              "value": 5.4
+            }
+          ]
+        },
+        {
+          "id": "est",
+          "title": "Estación de monitoreo",
+          "unit": "µg/m³",
+          "kind": "bar",
+          "points": [
+            {
+              "label": "Mexicali",
+              "value": 25
+            },
+            {
+              "label": "Tijuana",
+              "value": 25
+            },
+            {
+              "label": "Nogales",
+              "value": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Días con partículas por encima del límite de 24 horas (2023)",
       "subtitle": "Número de días del año en que las partículas PM10 o PM2.5 superaron el límite diario de la NOM-025-SSA1-2021.",
       "note": "En Mexicali, 108 días del año (30 %) rebasaron al menos una norma de salud ambiental, sobre todo entre septiembre y febrero. Nogales superó el límite de PM10 en 85 días. En Tepic los datos no alcanzaron para evaluar la norma, pero la información disponible muestra 28 días con PM10 alto. Tijuana no tuvo equipo de PM10 en operación. Fuente: INECC, Informe Nacional de Calidad del Aire 2023.",
@@ -161,17 +208,17 @@
   ],
   "map": {
     "kind": "choropleth",
-    "title": "Estaciones de monitoreo de la calidad del aire con información en el Informe Nacional 2023",
-    "unit": "estaciones",
-    "sourceId": "inecc-informe-2023",
+    "title": "PM2.5 media anual estimada por satélite (2023)",
+    "unit": "µg/m³",
+    "sourceId": "acag-v6gl",
     "valuesByState": {
-      "bc": 7,
-      "bcs": 0,
-      "son": 3,
-      "sin": 0,
-      "nay": 2
+      "son": 5.6,
+      "bc": 6.7,
+      "nay": 9.3,
+      "bcs": 9.1,
+      "sin": 8.1
     },
-    "note": "Baja California tuvo 7 estaciones (4 en Mexicali, 2 en Tijuana y 1 en Tecate), Sonora 3 (Nogales, San Luis Río Colorado y Hermosillo; las de Cajeme y Agua Prieta estuvieron fuera de operación) y Nayarit 2 en Tepic, ninguna con datos suficientes. Sinaloa no envió información y Baja California Sur integró su primera estación oficial hasta febrero de 2025. Muestra cuánto se mide, no la contaminación."
+    "note": "Promedio de todo el territorio de cada estado, calculado por el Observatorio con la estimación satelital ACAG V6.GL.02.04 a 0.1° (celdas de unos 10 km), ponderado por área. Los cinco estados superan la guía de la OMS de 5 µg/m³; Nayarit y Baja California Sur tienen los promedios más altos y Sonora el más bajo. Al promediar desiertos poco poblados y celdas de 10 km, la estimación subestima la contaminación de las ciudades (ver la gráfica de comparación con las estaciones)."
   },
   "sources": [
     {
@@ -276,13 +323,48 @@
     },
     {
       "id": "acag-v6gl",
-      "title": "Surface PM2.5 V6.GL.02.04 (1998–2023)",
+      "title": "Surface PM2.5 V6.GL.02.04, media anual 2023 a 0.1°",
       "organization": "Atmospheric Composition Analysis Group, Washington University in St. Louis (Shen et al. 2024, ACS ES&T Air)",
       "url": "https://sites.wustl.edu/acag/?p=385",
-      "accessDate": "2026-10-16",
+      "accessDate": "2026-10-17",
       "license": "Datos abiertos",
-      "note": "Estimación satelital global de PM2.5 a 0.01°; no publica promedios por estado mexicano, que tendrían que calcularse.",
+      "note": "Archivo V6GL02.04.CNNPM25.0p10.GL.202301-202312.nc. Promedios estatales ponderados por área calculados por el Observatorio con los límites estatales del sitio: Nayarit 9.3, BCS 9.1, Sinaloa 8.1, BC 6.7 y Sonora 5.6 µg/m³. Cita: Shen et al. 2024, ACS ES&T Air, doi:10.1021/acsestair.3c00054.",
       "group": "regional"
+    }
+  ],
+  "stateGroups": [
+    {
+      "id": "estaciones",
+      "title": "Estaciones de monitoreo con información en el Informe Nacional 2023",
+      "unit": "estaciones",
+      "values": [
+        {
+          "stateId": "bc",
+          "value": 7,
+          "note": "4 en Mexicali, 2 en Tijuana y 1 en Tecate"
+        },
+        {
+          "stateId": "bcs",
+          "value": 0,
+          "note": "Primera estación oficial hasta febrero de 2025"
+        },
+        {
+          "stateId": "son",
+          "value": 3,
+          "note": "Nogales, San Luis Río Colorado y Hermosillo; Cajeme y Agua Prieta fuera de operación"
+        },
+        {
+          "stateId": "sin",
+          "value": 0,
+          "note": "No envió información al INECC"
+        },
+        {
+          "stateId": "nay",
+          "value": 2,
+          "note": "2 en Tepic, sin datos suficientes"
+        }
+      ],
+      "note": "Baja California tuvo 7 estaciones (4 en Mexicali, 2 en Tijuana y 1 en Tecate), Sonora 3 (Nogales, San Luis Río Colorado y Hermosillo; las de Cajeme y Agua Prieta estuvieron fuera de operación) y Nayarit 2 en Tepic, ninguna con datos suficientes. Sinaloa no envió información y Baja California Sur integró su primera estación oficial hasta febrero de 2025. Muestra cuánto se mide, no la contaminación. Fuente: INECC, Informe Nacional de Calidad del Aire 2023."
     }
   ]
 }

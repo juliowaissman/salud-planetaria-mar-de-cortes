@@ -463,7 +463,7 @@
             "text": "Reducir emisiones de partículas y óxidos de azufre en generación eléctrica, industria y transporte de carga; evitar la quema de residuos de cosecha."
           }
         ],
-        "dataGaps": "La medición en tierra es escasa e intermitente y no hay promedios estatales. Los inventarios de emisiones y los estudios de salud usan datos de 2005–2017 y normas anteriores (NOM-025-SSA1-2014, guía OMS 2005).",
+        "dataGaps": "La medición en tierra es escasa e intermitente. Los promedios estatales satelitales cubren los cinco estados pero diluyen la contaminación de las ciudades. Los inventarios de emisiones y los estudios de salud usan datos de 2005–2017 y normas anteriores.",
         "questions": [
           {
             "q": "¿Cómo reducir las partículas en Mexicali, la ciudad con peor calidad del aire de la región?",
@@ -493,7 +493,7 @@
         ],
         "measurementGaps": [
           "PM2.5 con datos suficientes en Hermosillo, Culiacán, Mazatlán, Los Mochis, Tepic, Ensenada, La Paz y Los Cabos: en 2023 solo Mexicali, Tijuana y Nogales los tuvieron.",
-          "Un promedio estatal de PM2.5 para los cinco estados: las estimaciones satelitales existen (ACAG/WashU, 1998–2023) pero nadie publica el cálculo por estado mexicano.",
+          "Un promedio estatal de PM2.5 ponderado por población: el Observatorio calculó el promedio por área con la estimación satelital ACAG, pero subestima la contaminación urbana a cerca de la mitad de lo medido en Mexicali, Tijuana y Nogales.",
           "La profundidad óptica de aerosoles (la variable del límite planetario) sobre el noroeste de México y el Golfo de California, y su variación por polvo, monzón e incendios.",
           "Inventarios de emisiones actualizados por estado y por fuente, incluido el carbono negro: los disponibles son de 2005 (Mexicali), 2013 (vehículos) y 2014 (Sonora).",
           "Mortalidad atribuible a PM2.5 por estado: los estudios nacionales mezclan todos los riesgos ambientales en la clasificación estatal.",
