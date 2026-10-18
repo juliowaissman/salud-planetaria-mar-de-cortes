@@ -10,7 +10,7 @@ import PriorityEvaluation from '../components/PriorityEvaluation'
 import BoundaryArt from '../components/BoundaryArt'
 import SpotlightArt from '../components/SpotlightArt'
 import { boundaryPriority } from '../lib/priority'
-import { ACTOR, SCOPE_LABEL, goTo, groupByActor } from '../lib/editorial'
+import { SCOPE_LABEL, goTo } from '../lib/editorial'
 import { Cites, ReferenceList } from '../lib/cite'
 
 const boundaries = [...catalog.boundaries].sort((a, b) => a.order - b.order)
@@ -48,7 +48,6 @@ export default function BoundaryDetail() {
   const hasData = hasCharts || hasSeries || hasGroups || hasStateValues || hasMapData || Boolean(regional?.map) || b.hasMap
   const gaps = b.regional.measurementGaps ?? []
   const questions = b.regional.questions ?? []
-  const byActor = groupByActor(b.regional.actions)
 
   const toc = [
     { id: 'idea', label: 'La idea en breve' },
@@ -254,21 +253,6 @@ export default function BoundaryDetail() {
                     </li>
                   ))}
                 </ol>
-              )}
-              {byActor.length > 0 && (
-                <>
-                  <h3 style={{ marginTop: questions.length > 0 ? 22 : 0 }}>Quién puede actuar</h3>
-                  <div className="actor-grid">
-                    {byActor.map((g) => (
-                      <div className={`actor-col ${ACTOR[g.actor].cls}`} key={g.actor}>
-                        <p className={`action-actor ${ACTOR[g.actor].cls}`}>{ACTOR[g.actor].label}</p>
-                        <ul>
-                          {g.items.map((a, i) => <li key={i}>{a.text}</li>)}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                </>
               )}
             </section>
 
