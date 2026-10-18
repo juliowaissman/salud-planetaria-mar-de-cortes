@@ -6,7 +6,7 @@ import SpotlightArt from '../components/SpotlightArt'
 import SpotlightChartView from '../components/SpotlightChartView'
 import PriorityEvaluation from '../components/PriorityEvaluation'
 import { assess, boundaryPriority } from '../lib/priority'
-import { ACTOR, goTo, groupByActor } from '../lib/editorial'
+import { ACTOR, goTo, groupByActor, reportUrl } from '../lib/editorial'
 import { Cites as CiteList, ReferenceList } from '../lib/cite'
 
 const spotlights = [...catalog.spotlights].sort((a, b) => a.order - b.order)
@@ -172,6 +172,11 @@ function SpotlightDetail({ s }: { s: Spotlight }) {
             <PriorityBadge priority={priority} />
             <span className="badge on-dark">{s.nameEn}</span>
           </div>
+          <p className="hero-actions">
+            <a className="btn btn-ghost btn-sm" href={reportUrl(s.id)} download>
+              Descargar en PDF
+            </a>
+          </p>
         </div>
       </section>
 

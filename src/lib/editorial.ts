@@ -21,4 +21,9 @@ export function goTo(sid: string) {
   el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
+/** PDF del reporte de un límite, tema emergente o del método (public/reportes/<id>.pdf) */
+export function reportUrl(id: string) {
+  return `${import.meta.env.BASE_URL}reportes/${id}.pdf`
+}
+
 export const SCOPE_LABEL = { global: 'Mundo', nacional: 'México', regional: 'Mar de Cortés' } as const

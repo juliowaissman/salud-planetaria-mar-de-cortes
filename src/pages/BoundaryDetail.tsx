@@ -10,7 +10,7 @@ import PriorityEvaluation from '../components/PriorityEvaluation'
 import BoundaryArt from '../components/BoundaryArt'
 import SpotlightArt from '../components/SpotlightArt'
 import { boundaryPriority } from '../lib/priority'
-import { SCOPE_LABEL, goTo } from '../lib/editorial'
+import { SCOPE_LABEL, goTo, reportUrl } from '../lib/editorial'
 import { Cites, ReferenceList } from '../lib/cite'
 
 const boundaries = [...catalog.boundaries].sort((a, b) => a.order - b.order)
@@ -78,6 +78,11 @@ export default function BoundaryDetail() {
             <TrendBadge trend={b.trend} />
             <PriorityBadge priority={priority} />
           </div>
+          <p className="hero-actions">
+            <a className="btn btn-ghost btn-sm" href={reportUrl(b.id)} download>
+              Descargar en PDF
+            </a>
+          </p>
         </div>
       </section>
 

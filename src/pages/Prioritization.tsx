@@ -8,7 +8,7 @@ import BoundaryArt from '../components/BoundaryArt'
 import SpotlightArt from '../components/SpotlightArt'
 import { PriorityBadge, StatusBadge } from '../components/StatusBadge'
 import { assess, compareByPriority, CRITERIA, IMPACT_CRITERIA, LEVERAGE_CRITERIA, type Assessment } from '../lib/priority'
-import { goTo } from '../lib/editorial'
+import { goTo, reportUrl } from '../lib/editorial'
 
 const fmt = (n: number) => n.toFixed(2)
 
@@ -216,7 +216,12 @@ export default function Prioritization() {
             </section>
 
             <section className="card" id="metodo">
-              <h2>Cómo se calcula</h2>
+              <div className="section-title">
+                <h2>Cómo se calcula</h2>
+                <a className="btn btn-outline btn-sm" href={reportUrl('metodo-priorizacion')} download>
+                  Descargar el método en PDF
+                </a>
+              </div>
               <p className="chart-subtitle">
                 El método adapta dos marcos establecidos. Para el <strong>impacto</strong> usa los tres criterios con que los
                 Estándares Abiertos para la Práctica de la Conservación califican una amenaza: alcance, severidad e

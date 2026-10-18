@@ -127,7 +127,7 @@ export function ApaReference({ r, year }: { r: Reference; year?: string }) {
       {desc}
     </>
   )
-  const titleEnd = /[?!]$/.test(r.title) && !desc ? ' ' : '. '
+  const titleEnd = /[.?!]$/.test(r.title) && !desc ? ' ' : '. '
 
   if (r.authors.length) {
     parts.push(authorPart, when, ' ', titleNode, titleEnd)
