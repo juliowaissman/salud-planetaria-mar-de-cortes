@@ -181,7 +181,7 @@
     {
       "title": "Sinaloa: muertes que se evitarían al año con aire más limpio",
       "subtitle": "Muertes evitables en la población de 14 a 65 años si la PM2.5 media anual bajara a 10 µg/m³, con datos de las estaciones estatales de 2017.",
-      "note": "En 2017 la PM2.5 media anual fue de 22.2 µg/m³ en Mazatlán, 20.1 en Los Mochis y 13.2 en Culiacán. Llevarla a 10 µg/m³ evitaría unas 354 muertes al año en las tres ciudades, con una pérdida de productividad de 24 a 34 millones de dólares. La meta usada es la guía de la OMS de 2005; con la guía actual de 5 µg/m³ el beneficio sería mayor. Fuente: Becerra-Pérez y Ramos-Álvarez 2020.",
+      "note": "En 2017 la PM2.5 media anual fue de 22.2 µg/m³ en Mazatlán, 20.1 en Los Mochis y 13.2 en Culiacán. Llevarla a 10 µg/m³ evitaría unas 354 muertes al año en las tres ciudades, con una pérdida de productividad de 24 a 34 millones de dólares. La meta usada es la guía de la OMS de 2005; con la guía actual de 5 µg/m³ el beneficio sería mayor. Fuente: Becerra-Pérez y Ramos-Álvarez (2020).",
       "series": [
         {
           "id": "sin-muertes",
@@ -223,112 +223,166 @@
   "sources": [
     {
       "id": "inecc-informe-2023",
-      "title": "Informe Nacional de Calidad del Aire 2023",
-      "organization": "INECC",
+      "kind": "informe",
+      "authors": [
+        "Instituto Nacional de Ecología y Cambio Climático [INECC]"
+      ],
+      "year": "2026",
+      "title": "Informe nacional de calidad del aire 2023",
       "url": "https://sinaica.inecc.gob.mx/archivo/informes/Informe2023.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Datos públicos",
       "note": "Tablas de cumplimiento por estado: PM2.5 media anual por estación (Mexicali 18–25, Tijuana 23–25, Nogales 11 µg/m³), días por encima del límite de 24 h y estaciones en operación.",
       "group": "regional"
     },
     {
       "id": "carb-imperial-sip",
-      "title": "Imperial County PM2.5 State Implementation Plan — Staff Report",
-      "organization": "California Air Resources Board (CARB)",
+      "kind": "informe",
+      "authors": [
+        "California Air Resources Board [CARB]"
+      ],
+      "year": "2014",
+      "title": "Staff report: Imperial County 2013 state implementation plan for the 2006 24-hour PM2.5 moderate nonattainment area",
       "url": "https://ww2.arb.ca.gov/sites/default/files/classic/planning/sip/planarea/imperial/staff-report-with-appendices.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Inventarios de Mexicali (2005) e Imperial (2008) y análisis de peso de la evidencia que atribuye a Mexicali las excedencias de PM2.5 en Calexico.",
       "group": "regional"
     },
     {
       "id": "becerra-perez-2020",
+      "kind": "articulo",
+      "authors": [
+        "Becerra-Pérez, L. A.",
+        "Ramos-Álvarez, R. A."
+      ],
+      "year": "2020",
       "title": "Evaluación del impacto en la salud por partículas PM2.5 en Sinaloa, México",
-      "organization": "Revista Internacional de Contaminación Ambiental 36(2):249–259 (Becerra-Pérez y Ramos-Álvarez)",
-      "url": "https://doi.org/10.20937/RICA.53463",
-      "accessDate": "2026-10-16",
-      "license": "Acceso abierto",
+      "container": "Revista Internacional de Contaminación Ambiental",
+      "volume": "36",
+      "issue": "2",
+      "pages": "249–259",
+      "doi": "10.20937/RICA.53463",
       "note": "354 muertes evitables al año en Culiacán, Mazatlán y Los Mochis (meta OMS 2005) y 261 con la NOM de entonces; costo de 24 a 34 millones de USD (2017).",
       "group": "regional"
     },
     {
       "id": "reyna-2017",
+      "kind": "articulo",
+      "authors": [
+        "Reyna Carranza, M. A.",
+        "Nieblas Ortíz, E. C.",
+        "Nava Martínez, M. L.",
+        "Torillo Portilla, E."
+      ],
+      "year": "2017",
       "title": "An estimation of costs and public-health benefits by the PM10 mitigation in Mexicali, Baja California, Mexico",
-      "organization": "Revista Internacional de Contaminación Ambiental 33(1):117–129 (Reyna et al.)",
-      "url": "https://doi.org/10.20937/RICA.2017.33.01.11",
-      "accessDate": "2026-10-16",
-      "license": "Acceso abierto",
+      "container": "Revista Internacional de Contaminación Ambiental",
+      "volume": "33",
+      "issue": "1",
+      "pages": "117–129",
+      "doi": "10.20937/RICA.2017.33.01.11",
       "note": "Sin control de PM10, el costo social en salud en Mexicali sería de ~1,659 millones de USD en 2013–2020 (5.6 % del PIB estatal de 2011).",
       "group": "regional"
     },
     {
       "id": "tellez-rojo-2023",
-      "title": "Análisis de la carga de enfermedad atribuible a los factores de riesgo ambientales en México en el período 1990-2021",
-      "organization": "Gaceta Médica de México 159(6) (Téllez-Rojo et al.)",
-      "url": "https://doi.org/10.24875/GMM.23000398",
-      "accessDate": "2026-10-16",
-      "license": "Acceso abierto",
+      "kind": "articulo",
+      "authors": [
+        "Téllez-Rojo, M. M.",
+        "Ríos-Blancas, M. J.",
+        "Lerma-Treviño, C.",
+        "Bautista-Arredondo, L. F.",
+        "Spearman, S.",
+        "Marsh, L.",
+        "Burkart, K.",
+        "Stanaway, J.",
+        "Ashbaugh, C.",
+        "Brauer, M.",
+        "Hurtado-Díaz, M."
+      ],
+      "year": "2023",
+      "title": "Análisis de la carga de enfermedad atribuible a los factores de riesgo ambientales en México en el período 1990–2021: identificación de avances, rezagos y emergencias",
+      "container": "Gaceta Médica de México",
+      "volume": "159",
+      "issue": "6",
+      "doi": "10.24875/GMM.23000398",
       "note": "La contaminación por partículas en exterior es el principal riesgo ambiental en México: 42.2 % de las muertes atribuibles a los riesgos ambientales analizados (2021).",
       "group": "regional"
     },
     {
       "id": "proaire-sonora",
-      "title": "ProAire Sonora 2017–2026",
-      "organization": "SEMARNAT y Gobierno de Sonora",
+      "kind": "informe",
+      "authors": [
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]",
+        "Gobierno del Estado de Sonora"
+      ],
+      "year": "2017",
+      "title": "Programa de gestión para mejorar la calidad del aire del estado de Sonora, ProAire 2017–2026",
       "url": "https://www.gob.mx/cms/uploads/attachment/file/310199/23_ProAire_Sonora.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Inventario 2014: las fuentes naturales (sobre todo erosión eólica) aportan 65 % del PM2.5 y 86 % del PM10; la generación eléctrica produce 91 % del SO2.",
       "group": "regional"
     },
     {
       "id": "semarnat-pm25-2016",
-      "title": "Concentración promedio anual de PM2.5 en ciudades, 2003–2016",
-      "organization": "SEMARNAT-DGEIA, Compendio 2017 (con datos del INECC)",
+      "kind": "datos",
+      "authors": [
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+      ],
+      "year": "2017",
+      "title": "Promedio anual de las concentraciones promedio de 24 h de partículas PM2.5 en ciudades, 2003–2016",
+      "container": "Compendio de estadísticas ambientales 2017",
+      "description": "Tabla D3_AIRE01_23",
       "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2017/archivos/01_atmosfera/D3_AIRE01_23.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Datos públicos",
       "note": "Serie histórica fragmentaria: Mexicali 23 µg/m³ (2014), Tepic 10 µg/m³ (2015).",
       "group": "regional"
     },
     {
       "id": "bcs-sinaica-2025",
-      "title": "Disponible para consulta la información para la medición de calidad del aire (SEPUIMM)",
-      "organization": "Gobierno de Baja California Sur (10 feb 2025)",
+      "kind": "web",
+      "authors": [
+        "Instituto Estatal de Radio y Televisión de Baja California Sur"
+      ],
+      "year": "2025",
+      "date": "10 de febrero",
+      "title": "Disponible para consulta la información para la medición de calidad del aire: SEPUIMM",
       "url": "https://iert.bcs.gob.mx/disponible-para-consulta-la-informacion-para-la-medicion-de-calidad-del-aire-sepuimm",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Primera estación de BCS integrada a SINAICA en febrero de 2025.",
       "group": "regional"
     },
     {
       "id": "epa-border2025",
-      "title": "Border 2025: California–Baja California Action Plan 2021–2023",
-      "organization": "US EPA",
-      "url": "https://origin-awswest-www.epa.gov/system/files/documents/2022-05/border%202025-ca-baja-ca-2021-2023-action-plan-2022-05.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
+      "kind": "informe",
+      "authors": [
+        "U.S. Environmental Protection Agency [EPA]"
+      ],
+      "year": "2022",
+      "title": "Border 2025: California–Baja California 2021–2023 action plan",
+      "url": "https://www.epa.gov/system/files/documents/2022-05/border%202025-ca-baja-ca-2021-2023-action-plan-2022-05.pdf",
       "note": "Red de sensores PurpleAir en Mexicali, factor de corrección de CARB y estudio de composición de PM2.5.",
       "group": "regional"
     },
     {
       "id": "cerca-lapaz-2023",
-      "title": "Reporte trimestral de calidad del aire en La Paz, B.C.S. (enero–marzo 2023)",
-      "organization": "CERCA (Departamento de Salud y Calidad Ambiental)",
+      "kind": "informe",
+      "authors": [
+        "Centro de Energía Renovable y Calidad Ambiental [CERCA]"
+      ],
+      "year": "2023",
+      "title": "Reporte trimestral de calidad del aire en La Paz, B.C.S.: enero–marzo de 2023",
       "url": "https://cerca.org.mx/wp-content/uploads/2023/06/Reporte-trimestral-de-calidad-del-aire-en-La-Paz-B.C.S.-Periodo-enero-marzo-2023.docx-2-1.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Publicación de organización civil (CERCA)",
       "note": "Red ciudadana de monitoreo (PurpleAir) en La Paz; documenta PM10/PM2.5 pero sin media anual oficial, por lo que BCS se deja en null.",
       "group": "regional"
     },
     {
       "id": "acag-v6gl",
-      "title": "Surface PM2.5 V6.GL.02.04, media anual 2023 a 0.1°",
-      "organization": "Atmospheric Composition Analysis Group, Washington University in St. Louis (Shen et al. 2024, ACS ES&T Air)",
-      "url": "https://sites.wustl.edu/acag/?p=385",
-      "accessDate": "2026-10-17",
-      "license": "Datos abiertos",
-      "note": "Archivo V6GL02.04.CNNPM25.0p10.GL.202301-202312.nc. Promedios estatales ponderados por área calculados por el Observatorio con los límites estatales del sitio: Nayarit 9.3, BCS 9.1, Sinaloa 8.1, BC 6.7 y Sonora 5.6 µg/m³. Cita: Shen et al. 2024, ACS ES&T Air, doi:10.1021/acsestair.3c00054.",
+      "kind": "datos",
+      "authors": [
+        "Atmospheric Composition Analysis Group [ACAG]"
+      ],
+      "year": "2024",
+      "title": "Surface PM2.5, versión V6.GL.02.04: media anual 2023 a 0.1°",
+      "description": "Conjunto de datos",
+      "publisher": "Washington University in St. Louis",
+      "url": "https://sites.wustl.edu/acag/surface-pm2-5/",
+      "accessed": "2026-10-17",
+      "note": "Archivo V6GL02.04.CNNPM25.0p10.GL.202301-202312.nc. Promedios estatales ponderados por área calculados por el Observatorio con los límites estatales del sitio: Nayarit 9.3, BCS 9.1, Sinaloa 8.1, BC 6.7 y Sonora 5.6 µg/m³. Artículo que describe el conjunto de datos: Shen et al. (2024), https://doi.org/10.1021/acsestair.3c00054.",
       "group": "regional"
     }
   ],

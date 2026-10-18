@@ -5,7 +5,7 @@
     {
       "title": "De vegetación natural a agricultura: Sinaloa y Nayarit",
       "subtitle": "Porcentaje del territorio estatal ocupado por cada clase al inicio y al final del periodo, según la cartografía de Uso de Suelo y Vegetación de INEGI (escala 1:250 000). Sinaloa: 1993→2011; Nayarit: 1993→2014.",
-      "note": "En Sinaloa, bosques y selvas perdieron unas 227,700 ha netas (≈0.41 % anual) mientras la agricultura de temporal ganó 3,327 km² y los asentamientos humanos pasaron de 192 a 623 km². En Nayarit, la selva baja fue la clase con mayor pérdida (≈196,000 ha) y la agricultura la de mayor ganancia. Fuentes: Monjardín-Armenta et al. 2017; Moreno-González et al. 2022.",
+      "note": "En Sinaloa, bosques y selvas perdieron unas 227,700 ha netas (≈0.41 % anual) mientras la agricultura de temporal ganó 3,327 km² y los asentamientos humanos pasaron de 192 a 623 km². En Nayarit, la selva baja fue la clase con mayor pérdida (≈196,000 ha) y la agricultura la de mayor ganancia. Fuentes: Monjardín-Armenta et al. (2017) y Moreno-González et al. (2022).",
       "series": [
         {
           "id": "inegi-inicio",
@@ -60,7 +60,7 @@
     {
       "title": "Expansión de estanques camaronícolas en la costa de Sonora y Sinaloa (1993–2022)",
       "subtitle": "Superficie de estanques activos detectada cada año con imágenes Landsat en una franja costera de 5 km (exactitud global media de 94 %).",
-      "note": "Los estanques pasaron de 6,742 ha a 102,906 ha (+1,426 %); en 2022 el 81 % estaba en Sinaloa y el 55 % de los de Sinaloa colinda con un sitio Ramsar. La caída de 2009–2013 refleja estanques inactivos por mancha blanca y síndrome de mortalidad temprana, no desmantelados; el valor de 2012 es modelado por nubosidad. También hay estanques dentro de reservas de la biosfera: 473 ha en Marismas Nacionales y 1,237 ha en Cajón del Diablo (2022). Fuente: González-Rivas et al. 2025.",
+      "note": "Los estanques pasaron de 6,742 ha a 102,906 ha (+1,426 %); en 2022 el 81 % estaba en Sinaloa y el 55 % de los de Sinaloa colinda con un sitio Ramsar. La caída de 2009–2013 refleja estanques inactivos por mancha blanca y síndrome de mortalidad temprana, no desmantelados; el valor de 2012 es modelado por nubosidad. También hay estanques dentro de reservas de la biosfera: 473 ha en Marismas Nacionales y 1,237 ha en Cajón del Diablo (2022). Fuente: González-Rivas et al. (2025).",
       "series": [
         {
           "id": "estanques",
@@ -195,7 +195,7 @@
     {
       "title": "Manglar en Marismas Nacionales: deforestación frente a degradación",
       "subtitle": "Tasa anual de pérdida de manglar por periodo. «Deforestación» es el cambio a otro uso de suelo; «degradación» es el manglar que permanece pero pierde densidad o salud.",
-      "note": "La degradación avanza unas diez veces más rápido que la deforestación; el manglar perdido pasó sobre todo a uso agropecuario y desarrollo antrópico (Quintero-Morales et al. 2021). La actualización 2025 de CONABIO confirma la tendencia: el manglar perturbado en Nayarit pasó de 2,736 ha (2020) a 16,834 ha (2025), el 32 % del total nacional, por dragados, rectificación de ríos y azolve de canales.",
+      "note": "La degradación avanza unas diez veces más rápido que la deforestación; el manglar perdido pasó sobre todo a uso agropecuario y desarrollo antrópico (Quintero-Morales et al., 2021). La actualización 2025 de CONABIO (Méndez, 2026) confirma la tendencia: el manglar perturbado en Nayarit pasó de 2,736 ha (2020) a 16,834 ha (2025), el 32 % del total nacional, por dragados, rectificación de ríos y azolve de canales.",
       "series": [
         {
           "id": "mn-deforestacion",
@@ -249,120 +249,218 @@
   "sources": [
     {
       "id": "monjardin-2017",
+      "kind": "articulo",
+      "authors": [
+        "Monjardín-Armenta, S. A.",
+        "Pacheco-Angulo, C. E.",
+        "Plata-Rocha, W.",
+        "Corrales-Barraza, G."
+      ],
+      "year": "2017",
       "title": "La deforestación y sus factores causales en el estado de Sinaloa, México",
-      "organization": "Madera y Bosques 23(1):7–22 (Monjardín-Armenta, Pacheco-Angulo, Plata-Rocha y Corrales-Barraza)",
-      "url": "https://doi.org/10.21829/myb.2017.2311482",
-      "accessDate": "2026-10-16",
-      "license": "Acceso abierto",
+      "container": "Madera y Bosques",
+      "volume": "23",
+      "issue": "1",
+      "pages": "7–22",
+      "doi": "10.21829/myb.2017.2311482",
       "note": "Matriz de cambios INEGI 1993–2011 para Sinaloa: pérdida neta de 2,277 km² de bosques y selvas; causas según consulta a expertos.",
       "group": "regional"
     },
     {
       "id": "moreno-gonzalez-2022",
+      "kind": "articulo",
+      "authors": [
+        "Moreno-González, I.",
+        "Pineda-Jaimes, N. B.",
+        "Manzano-Solís, L. R.",
+        "Némiga, X. A."
+      ],
+      "year": "2022",
       "title": "Análisis espacial de los cambios de uso de suelo, vegetación y cuerpos de agua en el estado de Nayarit, México, 1993–2014",
-      "organization": "Revista Geográfica de América Central 69(2):199–223 (Moreno-González, Pineda-Jaimes, Manzano-Solís y Némiga)",
-      "url": "https://doi.org/10.15359/rgac.69-2.7",
-      "accessDate": "2026-10-16",
-      "license": "CC BY-NC-ND",
+      "container": "Revista Geográfica de América Central",
+      "volume": "69",
+      "issue": "2",
+      "pages": "199–223",
+      "doi": "10.15359/rgac.69-2.7",
       "note": "INEGI Series II y IV validadas en campo: selva baja de 20.82 % a 13.76 % del estado; agricultura de 18.17 % a 22.14 %.",
       "group": "regional"
     },
     {
       "id": "gonzalez-rivas-2025",
-      "title": "Remote Sensing-Based Assessment of the Long-Term Expansion of Shrimp Ponds Along the Coastal and Protected Areas of the Gulf of California",
-      "organization": "Diversity 17(2):99 (González-Rivas, Ortega-Rubio y Tapia-Silva)",
-      "url": "https://doi.org/10.3390/d17020099",
-      "accessDate": "2026-10-16",
-      "license": "CC BY 4.0",
+      "kind": "articulo",
+      "authors": [
+        "González-Rivas, D. A.",
+        "Ortega-Rubio, A.",
+        "Tapia-Silva, F. O."
+      ],
+      "year": "2025",
+      "title": "Remote sensing-based assessment of the long-term expansion of shrimp ponds along the coastal and protected areas of the Gulf of California",
+      "container": "Diversity",
+      "volume": "17",
+      "issue": "2",
+      "article": "99",
+      "doi": "10.3390/d17020099",
       "note": "Serie anual 1993–2022 de estanques camaronícolas activos (Tabla A1) y estanques dentro de reservas y sitios Ramsar (Tabla A2).",
       "group": "regional"
     },
     {
       "id": "quintero-morales-2021",
+      "kind": "articulo",
+      "authors": [
+        "Quintero-Morales, A.",
+        "Plata-Rocha, W.",
+        "Olimón-Andalon, V.",
+        "Monjardín-Armenta, S.",
+        "Nemiga-Antonio, X."
+      ],
+      "year": "2021",
       "title": "Dinámica de cambios de uso de suelo y estimación de CO₂ en manglares de la zona Marismas Nacionales, México",
-      "organization": "Ciencias Marinas 47(2):105–125 (Quintero-Morales, Plata-Rocha, Olimón-Andalon, Monjardín-Armenta y Nemiga-Antonio)",
-      "url": "https://doi.org/10.7773/cm.v47i2.3162",
-      "accessDate": "2026-10-16",
-      "license": "CC BY",
+      "container": "Ciencias Marinas",
+      "volume": "47",
+      "issue": "2",
+      "pages": "105–125",
+      "doi": "10.7773/cm.v47i2.3162",
       "note": "Tasas anuales de deforestación (0.77 % y 0.44 %) y degradación (7.64 % y 4.94 %) de manglar, 1981–2005 y 2005–2015.",
       "group": "regional"
     },
     {
       "id": "conabio-manglares-2025",
-      "title": "Manglares de México: actualización y dinámica espacial 2025",
-      "organization": "CONABIO (reportado en Excélsior, 31 jul 2026)",
+      "kind": "articulo",
+      "authors": [
+        "Méndez, E."
+      ],
+      "year": "2026",
+      "date": "31 de julio",
+      "title": "Manglares de México retrocedieron 27 mil 622 hectáreas entre 2020 y 2025: Conabio",
+      "container": "Excélsior",
       "url": "https://www.excelsior.com.mx/nacional/manglares-mexico-retrocedieron",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Pérdida neta nacional de 27,622 ha de manglar 2020–2025; manglar perturbado de 9,680 a 52,130 ha (Nayarit 16,834 ha). Cifras tomadas de la cobertura de prensa; pendiente consultar el informe primario.",
       "group": "regional"
     },
     {
       "id": "franklin-2006",
+      "kind": "articulo",
+      "authors": [
+        "Franklin, K. A.",
+        "Lyons, K.",
+        "Nagler, P. L.",
+        "Lampkin, D.",
+        "Glenn, E. P.",
+        "Molina-Freaner, F.",
+        "Markow, T.",
+        "Huete, A. R."
+      ],
+      "year": "2006",
       "title": "Buffelgrass (Pennisetum ciliare) land conversion and productivity in the plains of Sonora, Mexico",
-      "organization": "Biological Conservation 127(1):62–71 (Franklin et al.)",
-      "url": "https://doi.org/10.1016/j.biocon.2005.07.018",
-      "accessDate": "2026-10-16",
-      "license": "© Elsevier",
+      "container": "Biological Conservation",
+      "volume": "127",
+      "issue": "1",
+      "pages": "62–71",
+      "doi": "10.1016/j.biocon.2005.07.018",
       "note": "Praderas de buffel alrededor de Hermosillo: de ~7,700 ha (1973) a más de 140,000 ha (2000).",
       "group": "regional"
     },
     {
       "id": "areu-rangel-2024",
-      "title": "Land-Use-Change-Driven Erosion and Sediment Transport in the Yaqui River Sub-Basin (Mexico): Insights from Satellite Imagery and Hydraulic Simulations",
-      "organization": "Land 13(11):1846 (Areu-Rangel, Hernández-Hernández y Bonasia)",
-      "url": "https://doi.org/10.3390/land13111846",
-      "accessDate": "2026-10-16",
-      "license": "CC BY 4.0",
+      "kind": "articulo",
+      "authors": [
+        "Areu-Rangel, O. S.",
+        "Hernández-Hernández, M. Á.",
+        "Bonasia, R."
+      ],
+      "year": "2024",
+      "title": "Land-use-change-driven erosion and sediment transport in the Yaqui River sub-basin (Mexico): Insights from satellite imagery and hydraulic simulations",
+      "container": "Land",
+      "volume": "13",
+      "issue": "11",
+      "article": "1846",
+      "doi": "10.3390/land13111846",
       "note": "Reducción de 35.3 % de la cobertura forestal en la subcuenca del Yaqui (2000–2020), con más erosión y azolve.",
       "group": "regional"
     },
     {
       "id": "ruiz-luna-2003",
+      "kind": "articulo",
+      "authors": [
+        "Ruiz-Luna, A.",
+        "Berlanga-Robles, C. A."
+      ],
+      "year": "2003",
       "title": "Land use, land cover changes and coastal lagoon surface reduction associated with urban growth in northwest Mexico",
-      "organization": "Landscape Ecology 18(2):159–171 (Ruiz-Luna y Berlanga-Robles)",
-      "url": "https://doi.org/10.1023/A:1024461215456",
-      "accessDate": "2026-10-16",
-      "license": "© Springer",
+      "container": "Landscape Ecology",
+      "volume": "18",
+      "issue": "2",
+      "pages": "159–171",
+      "doi": "10.1023/A:1024461215456",
       "note": "Mazatlán: la mancha urbana se duplicó entre 1973 y 1997; las lagunas La Escopama y El Sábalo se redujeron a menos de la mitad.",
       "group": "regional"
     },
     {
       "id": "leyva-camacho-2010",
-      "title": "Urban expansion and change of land uses: city of Mexicali 1990–2005",
-      "organization": "WIT Transactions on Ecology and the Environment 129:547–558 (Leyva-Camacho et al.)",
-      "url": "https://doi.org/10.2495/SC100461",
-      "accessDate": "2026-10-16",
-      "license": "© WIT Press",
+      "kind": "articulo",
+      "authors": [
+        "Leyva-Camacho, O.",
+        "Venegas-Cardoso, R.",
+        "Rojas-Caldelas, R.",
+        "Ranfla-González, A.",
+        "Pena-Salmon, C."
+      ],
+      "year": "2010",
+      "title": "Urban expansion and change of land uses: City of Mexicali 1990–2005",
+      "container": "WIT Transactions on Ecology and the Environment",
+      "volume": "129",
+      "pages": "547–558",
+      "doi": "10.2495/SC100461",
       "note": "Crecimiento urbano de ~32 km² (+34 %) en Mexicali entre 1990 y 2005.",
       "group": "regional"
     },
     {
       "id": "aburto-2008-pnas",
+      "kind": "articulo",
+      "authors": [
+        "Aburto-Oropeza, O.",
+        "Ezcurra, E.",
+        "Danemann, G.",
+        "Valdez, V.",
+        "Murray, J.",
+        "Sala, E."
+      ],
+      "year": "2008",
       "title": "Mangroves in the Gulf of California increase fishery yields",
-      "organization": "PNAS 105(30):10456–10459 (Aburto-Oropeza et al.)",
-      "url": "https://doi.org/10.1073/pnas.0804601105",
-      "accessDate": "2026-10-16",
-      "license": "© PNAS",
+      "container": "Proceedings of the National Academy of Sciences",
+      "volume": "105",
+      "issue": "30",
+      "pages": "10456–10459",
+      "doi": "10.1073/pnas.0804601105",
       "note": "Mediana de US $37,500 anuales por hectárea de franja de manglar en pesquerías ribereñas.",
       "group": "regional"
     },
     {
       "id": "gfw-tcl-summary",
-      "title": "Tree cover loss por área administrativa (UMD/GLAD, Hansen et al. 2013) — resumen por entidad",
-      "organization": "Global Forest Watch / University of Maryland GLAD",
+      "kind": "datos",
+      "authors": [
+        "Global Forest Watch [GFW]"
+      ],
+      "year": "2026",
+      "title": "Tree cover loss by subnational administrative area (adm1): resumen 2001–2025",
+      "description": "Conjunto de datos con base en Hansen et al. (2013), Global Land Analysis and Discovery, University of Maryland",
+      "publisher": "World Resources Institute",
       "url": "https://data-api.globalforestwatch.org/dataset/gadm__tcl__adm1_summary",
-      "accessDate": "2026-10-03",
-      "license": "CC BY 4.0",
+      "accessed": "2026-10-03",
       "note": "Pérdida de cobertura arbórea acumulada 2001–2025 (umbral de 30% de cobertura de copa), agregada por entidad federativa (GADM 4.1 adm1). Versión v20260424. Valores redondeados a hectáreas enteras."
     },
     {
       "id": "gadm",
-      "title": "GADM Administrative Boundaries (v4.1)",
-      "organization": "GADM / Global Forest Watch",
+      "kind": "datos",
+      "authors": [
+        "GADM"
+      ],
+      "year": "2022",
+      "title": "GADM database of global administrative areas, versión 4.1",
+      "description": "Conjunto de datos",
+      "publisher": "Global Forest Watch",
       "url": "https://data-api.globalforestwatch.org/dataset/gadm_administrative_boundaries",
-      "accessDate": "2026-10-03",
-      "license": "GADM (uso no comercial)",
+      "accessed": "2026-10-03",
       "note": "Correspondencia adm1→entidad: MEX.3_1=Baja California, MEX.2_1=Baja California Sur, MEX.26_1=Sonora, MEX.25_1=Sinaloa, MEX.18_1=Nayarit."
     }
   ]

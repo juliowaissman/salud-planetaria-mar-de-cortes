@@ -2,7 +2,7 @@
   "title": "Salud Planetaria · Mar de Cortés",
   "subtitle": "Diagnóstico regional de los límites planetarios",
   "updated": "2026-10-15",
-  "basedOn": "Planetary Health Check 2026 (Potsdam Institute for Climate Impact Research / PBScience) y Planetary Boundaries (Rockström et al. 2009; Steffen et al. 2015; Richardson et al. 2023).",
+  "basedOn": "Planetary Health Check 2026 (Potsdam Institute for Climate Impact Research / PBScience) y Planetary Boundaries (Rockström et al., 2009; Steffen et al., 2015; Richardson et al., 2023).",
   "states": [
     {
       "id": "bc",
@@ -69,27 +69,41 @@
           {
             "q": "¿Cómo reducir las muertes por calor en Hermosillo, Mexicali, Cajeme y otras ciudades del noroeste?",
             "action": "Alertas de calor con umbrales locales, refugios climáticos, protección de trabajadores al aire libre y vigilancia de los casos en tiempo real, con atención especial a personas mayores y en situación de calle.",
-            "ref": "Secretaría de Salud, informes de temperaturas extremas 2023–2024; Navarro-Estupiñan et al. 2018."
+            "refIds": [
+              "dge-tne-2023",
+              "dge-tne-2024",
+              "navarro-2018"
+            ]
           },
           {
             "q": "¿Cómo enfriar las ciudades del desierto?",
             "action": "Arbolado y sombra en calles, techos y pavimentos claros, y planeación urbana que reduzca las islas de calor.",
-            "ref": "Navarro-Estupiñan et al. 2018 (Int. J. Climatol.)."
+            "refIds": [
+              "navarro-2018"
+            ]
           },
           {
             "q": "¿Cómo adaptar la agricultura de riego a un monzón que llega más tarde?",
             "action": "Pronóstico estacional del monzón ligado a los calendarios de siembra y a cultivos de menor demanda de agua al inicio del verano.",
-            "ref": "Hernandez y Chen 2022 (J. Geophys. Res. Atmos.)."
+            "refIds": [
+              "hernandez-chen-2022"
+            ]
           },
           {
             "q": "¿Cómo proteger las pesquerías y la acuacultura del calentamiento del Golfo?",
             "action": "Monitoreo oceanográfico continuo (temperatura, oxígeno, pH), alertas de olas de calor marinas y manejo pesquero que se ajuste a los cambios de talla y distribución de las especies.",
-            "ref": "López Martínez et al. 2023; Gilly et al. 2022; Frawley et al. 2019."
+            "refIds": [
+              "lopez-martinez-2023",
+              "gilly-2022",
+              "frawley-2019"
+            ]
           },
           {
             "q": "¿Qué puede reducir la región de sus propias emisiones?",
             "action": "Energía solar en un territorio con alta radiación, eficiencia en el bombeo de agua para riego y transporte de carga más limpio.",
-            "ref": "INECC, INEGYCEI 1990–2022."
+            "refIds": [
+              "inecc-inegycei-2022"
+            ]
           }
         ],
         "measurementGaps": [
@@ -227,27 +241,44 @@
           {
             "q": "¿Cómo detener la conversión de manglar por acuacultura de camarón y restaurar la conectividad hidrológica de los humedales costeros?",
             "action": "Ordenamiento de la acuacultura (cero conversión de manglar), restauración de flujos hídricos y pago por servicios ecosistémicos (mediana de US $37,500 anuales por hectárea de franja de manglar en pesquerías).",
-            "ref": "Aburto-Oropeza et al. 2008 (PNAS); Quintero-Morales et al. 2021 (Ciencias Marinas); CONABIO 2025."
+            "refIds": [
+              "aburto-2008-pnas",
+              "quintero-morales-2021",
+              "conabio-manglares-2025"
+            ]
           },
           {
             "q": "¿Cómo evitar la extinción de la vaquita marina?",
             "action": "Eliminar las redes de enmalle en su zona de distribución, con vigilancia permanente, artes de pesca alternativas y apoyo económico a las comunidades pesqueras del Alto Golfo.",
-            "ref": "Semarnat et al. 2025; reporte del crucero de la vaquita 2024."
+            "refIds": [
+              "vaquita-2025",
+              "vaquita-2024"
+            ]
           },
           {
             "q": "¿Cómo frenar la degradación trófica del Mar de Cortés ('fishing down the food web') y reconstruir las poblaciones de depredadores tope?",
             "action": "Cuotas y reservas de no-extracción cogestionadas con comunidades, como el modelo de Cabo Pulmo.",
-            "ref": "Sala et al. 2004 (Fisheries); Aburto-Oropeza et al. 2011 (PLoS ONE)."
+            "refIds": [
+              "sala-2004-fishingdown",
+              "aburto-2011-plosone"
+            ]
           },
           {
             "q": "¿Cómo proteger la diversidad genética insular y dulceacuícola (endemismos y extinciones locales) frente a especies invasoras y sobreexplotación de agua?",
             "action": "Erradicación de mamíferos invasores en islas y restauración de caudales ecológicos en ríos.",
-            "ref": "Aguirre-Muñoz et al. 2008 (Ambio) y GECI 2017; Burkhead 2012 (BioScience); UICN 2020."
+            "refIds": [
+              "aguirre-2008-ambio",
+              "geci-2017",
+              "burkhead-2012",
+              "iucn-peces-2020"
+            ]
           },
           {
             "q": "¿Cómo sostener el monitoreo ecológico de largo plazo del Golfo para distinguir tendencias y orientar el manejo adaptativo?",
             "action": "Red regional de monitoreo (academia–sector pesquero–gobierno) con series continuas de biodiversidad.",
-            "ref": "Wilder et al. 2025 (Evaluación de la Salud Ecológica del Golfo de California)."
+            "refIds": [
+              "ohi-salud-2025"
+            ]
           }
         ],
         "measurementGaps": [
@@ -261,7 +292,7 @@
         "scores": {
           "alcance": {
             "value": 4,
-            "why": "Todo el Golfo: 13 de 23 grupos con tendencia determinada están en deterioro (Evaluación de Salud 2025)."
+            "why": "Todo el Golfo: 13 de 23 grupos con tendencia determinada están en deterioro (Wilder et al., 2025)."
           },
           "severidad": {
             "value": 4,
@@ -379,27 +410,40 @@
           {
             "q": "¿Cómo frenar la expansión de estanques camaronícolas sobre manglar y humedales, incluso dentro de áreas protegidas?",
             "action": "Ordenamiento acuícola costero, cumplimiento de la NOM-022-SEMARNAT-2003 y del artículo 60 TER de la Ley General de Vida Silvestre, e intensificación de la producción en superficie ya transformada.",
-            "ref": "González-Rivas et al. 2025 (Diversity); CONABIO 2025."
+            "refIds": [
+              "gonzalez-rivas-2025",
+              "conabio-manglares-2025"
+            ]
           },
           {
             "q": "¿Cómo revertir la degradación hidrológica del manglar en Marismas Nacionales?",
             "action": "Restaurar los flujos de agua (desazolve de canales, reapertura de bocas) y dar seguimiento al manglar perturbado, que se multiplicó por seis entre 2020 y 2025.",
-            "ref": "Quintero-Morales et al. 2021 (Ciencias Marinas); CONABIO 2025."
+            "refIds": [
+              "quintero-morales-2021",
+              "conabio-manglares-2025"
+            ]
           },
           {
             "q": "¿Qué incentivos frenarían la conversión de selva baja a agricultura en Sinaloa y Nayarit?",
             "action": "Ordenamientos ecológicos con zonas de no conversión, pago por servicios ambientales y cadenas agrícolas libres de deforestación.",
-            "ref": "Monjardín-Armenta et al. 2017 (Madera y Bosques); Moreno-González et al. 2022 (Rev. Geográfica de América Central)."
+            "refIds": [
+              "monjardin-2017",
+              "moreno-gonzalez-2022"
+            ]
           },
           {
             "q": "¿Cómo regular el desmonte de matorral para praderas de zacate buffel en Sonora?",
             "action": "Evaluar el balance entre productividad ganadera y costo ecológico (pérdida de biodiversidad, riesgo de incendio en el desierto) y exigir autorización de cambio de uso de suelo.",
-            "ref": "Franklin et al. 2006 (Biological Conservation)."
+            "refIds": [
+              "franklin-2006"
+            ]
           },
           {
             "q": "¿Cómo incorporar el valor del manglar en las decisiones económicas y de permisos?",
             "action": "Usar valoraciones locales en las evaluaciones de impacto: cada hectárea de franja de manglar sostiene una mediana de US $37,500 anuales en pesquerías ribereñas.",
-            "ref": "Aburto-Oropeza et al. 2008 (PNAS)."
+            "refIds": [
+              "aburto-2008-pnas"
+            ]
           }
         ],
         "measurementGaps": [
@@ -522,32 +566,49 @@
             "text": "Tecnificación del riego, cultivos de menor demanda hídrica y reúso de agua tratada en la agroindustria y el turismo."
           }
         ],
-        "dataGaps": "Los volúmenes oficiales son concesionados, no extraídos. El grado de presión por estado es de 2017 y la serie de acuíferos sobreexplotados por estado llega a 2019. El indicador global (WaterGAP, Virkki et al. 2026) no tiene equivalente estatal.",
+        "dataGaps": "Los volúmenes oficiales son concesionados, no extraídos. El grado de presión por estado es de 2017 y la serie de acuíferos sobreexplotados por estado llega a 2019. El indicador global (WaterGAP; Virkki et al., 2026) no tiene equivalente estatal.",
         "questions": [
           {
             "q": "¿Cómo reducir la demanda agrícola, que usa entre 78 % y 94 % del agua concesionada de cada estado?",
             "action": "Medir la extracción real en distritos y unidades de riego, ajustar concesiones a la disponibilidad, tecnificar el riego sin ampliar la superficie regada y revisar los cultivos de mayor demanda.",
-            "ref": "CONAGUA 2023 (Estadísticas del Agua en México); SEMARNAT, ficha del grado de presión."
+            "refIds": [
+              "conagua-eam-2023",
+              "semarnat-ficha-gp"
+            ]
           },
           {
             "q": "¿Cómo frenar la intrusión marina en los acuíferos costeros de la Costa de Hermosillo y La Paz?",
             "action": "Reducir el bombeo cerca de la costa, cumplir los reglamentos de acuíferos, recarga gestionada con agua tratada y monitoreo continuo de salinidad.",
-            "ref": "Castillo-Gurrola et al. 2004 (Geofísica Internacional); Tamez-Meléndez et al. 2016 (Environ. Earth Sci.); Cruz-Falcón et al. 2023 (Terra Latinoamericana)."
+            "refIds": [
+              "castillo-gurrola-2004",
+              "tamez-melendez-2016",
+              "cruz-falcon-2023"
+            ]
           },
           {
             "q": "¿Cómo se adaptan el valle de Mexicali y San Luis Río Colorado a recortes de 308 hm³ anuales del río Colorado?",
             "action": "Plan regional de reducción de demanda, modernización del Distrito de Riego 014, reúso agrícola y uso de la Reserva de Agua de México previstos en el Acta 334.",
-            "ref": "CILA/IBWC: Actas 323, 330 y 334."
+            "refIds": [
+              "ibwc-minute323-2018",
+              "ibwc-2025-allocation",
+              "acta-334"
+            ]
           },
           {
             "q": "¿Qué papel deben tener la desalación y el reúso frente a la sobreexplotación de acuíferos?",
             "action": "Evaluar su costo energético y el manejo de salmuera; asegurar la operación de las plantas existentes (Ensenada produjo menos de la mitad de su capacidad de 250 l/s en 2021–2022) y priorizar el reúso de aguas tratadas.",
-            "ref": "CILA/IBWC, Acta 334 (estudios de desalación); Proyectos México, planta desaladora de Ensenada."
+            "refIds": [
+              "acta-334",
+              "desaladora-ensenada"
+            ]
           },
           {
             "q": "¿Cómo garantizar agua para los ecosistemas y para los pueblos originarios?",
             "action": "Flujos ambientales permanentes, no episódicos, para el delta del Colorado; reservas de agua para el ambiente en las cuencas, y acuerdos que respeten los derechos de la tribu yaqui sobre el río Yaqui.",
-            "ref": "CILA/IBWC, informe de monitoreo del Acta 323 (2018); Revista Noroeste de México (INAH)."
+            "refIds": [
+              "ibwc-minute323-2018",
+              "inah-acueducto-independencia"
+            ]
           }
         ],
         "measurementGaps": [
@@ -680,27 +741,42 @@
           {
             "q": "¿Cómo llevar la fertilización del Valle del Yaqui y los valles de Sinaloa a la dosis óptima?",
             "action": "Recomendaciones de dosis por parcela con sensores y análisis de suelo, aplicar el nitrógeno más tarde y dividido, y créditos de carbono por reducir el óxido nitroso.",
-            "ref": "Matson et al. 1998 (Science); Millar et al. 2018 (Agric. Ecosyst. Environ.)."
+            "refIds": [
+              "matson-1998",
+              "millar-2018"
+            ]
           },
           {
             "q": "¿Cómo reducir los pulsos de nutrientes que llegan al Golfo después de cada riego?",
             "action": "Coordinar calendarios de riego y fertilización, humedales de tratamiento en los drenes y monitoreo de nitrógeno en las descargas de los distritos de riego.",
-            "ref": "Beman et al. 2005 (Nature); Ahrens et al. 2008 (Water Resour. Res.)."
+            "refIds": [
+              "beman-2005",
+              "ahrens-2008"
+            ]
           },
           {
             "q": "¿Cómo controlar las descargas de las granjas camaroneras en las lagunas costeras?",
             "action": "Estanques de sedimentación, menor recambio de agua, sistemas de recirculación y límites de carga por laguna según su capacidad.",
-            "ref": "Miranda et al. 2009 (Hidrobiológica); Páez-Osuna et al. 2013 (Mar. Pollut. Bull.)."
+            "refIds": [
+              "miranda-2009",
+              "paez-osuna-2013"
+            ]
           },
           {
             "q": "¿Cómo proteger a los productores de moluscos y a los consumidores de las mareas rojas?",
             "action": "Monitoreo permanente de fitoplancton y toxinas en zonas de cosecha, alerta temprana y estudios que vinculen los florecimientos con las cargas de nutrientes.",
-            "ref": "COFEPRIS 2021; Beman et al. 2005 (Nature)."
+            "refIds": [
+              "cofepris-marea-roja-2021",
+              "beman-2005"
+            ]
           },
           {
             "q": "¿Cómo reducir el nitrógeno de las aguas residuales urbanas y porcícolas?",
             "action": "Ampliar el tratamiento con remoción de nutrientes, no solo de materia orgánica, y reúso agrícola del agua tratada en lugar de descargarla a drenes y esteros.",
-            "ref": "Harrison y Matson 2003 (Global Biogeochem. Cycles); CONAGUA 2023."
+            "refIds": [
+              "harrison-matson-2003",
+              "conagua-eam-2023"
+            ]
           }
         ],
         "measurementGaps": [
@@ -832,27 +908,38 @@
           {
             "q": "¿Cómo anticipar los pulsos de agua corrosiva y baja en oxígeno en las zonas de cultivo y pesca de moluscos?",
             "action": "Sensores continuos de pH, CO₂ y oxígeno en bahías ostrícolas y bancos de abulón, con alertas para productores y cooperativas.",
-            "ref": "Oliva-Méndez et al. 2025 (J. Geophys. Res. Oceans); Micheli et al. 2012 (PLoS ONE)."
+            "refIds": [
+              "oliva-mendez-2025",
+              "micheli-2012"
+            ]
           },
           {
             "q": "¿Pueden los pastos marinos y manglares amortiguar la acidificación en las lagunas costeras?",
             "action": "Proteger y restaurar los pastos marinos (Zostera) y manglares junto a los cultivos y medir su efecto sobre el pH y la saturación de aragonita.",
-            "ref": "Ribas-Ribas et al. 2011 (Estuar. Coast. Shelf Sci.)."
+            "refIds": [
+              "ribas-ribas-2011"
+            ]
           },
           {
             "q": "¿Cómo hacer más resistentes las pesquerías de abulón, almeja y callo de hacha?",
             "action": "Reservas marinas cogestionadas con las cooperativas, que en Isla Natividad perdieron menos abulón y mantuvieron sus juveniles tras la mortandad de 2009.",
-            "ref": "Micheli et al. 2012 (PLoS ONE)."
+            "refIds": [
+              "micheli-2012"
+            ]
           },
           {
             "q": "¿Cómo reducir los factores locales que acidifican las lagunas costeras?",
             "action": "Disminuir las descargas de nutrientes y materia orgánica de la agricultura, la acuacultura y las ciudades, que al descomponerse producen CO₂ y consumen oxígeno.",
-            "ref": "Feely et al. 2008 (Science); ver límite 5, Flujos biogeoquímicos."
+            "refIds": [
+              "feely-2008"
+            ]
           },
           {
             "q": "¿Qué tan vulnerables son los arrecifes de Cabo Pulmo a una química del agua que ellos no pueden modificar?",
             "action": "Monitoreo de largo plazo de la calcificación coralina y la química del agua, y reducción de estresores locales (sedimentos, sobrepesca, turismo).",
-            "ref": "Norzagaray-López et al. 2017 (Limnol. Oceanogr.)."
+            "refIds": [
+              "norzagaray-2017"
+            ]
           }
         ],
         "measurementGaps": [
@@ -984,27 +1071,41 @@
           {
             "q": "¿Cómo reducir las partículas en Mexicali, la ciudad con peor calidad del aire de la región?",
             "action": "Eliminar las quemas agrícolas y de residuos, pavimentar caminos y controlar el polvo, con un plan de cuenca compartido con el Valle Imperial.",
-            "ref": "CARB, Imperial County PM2.5 SIP; Reyna et al. 2017 (Rev. Int. Contam. Ambient.)."
+            "refIds": [
+              "carb-imperial-sip",
+              "reyna-2017"
+            ]
           },
           {
             "q": "¿Cómo lograr que todas las ciudades de la región midan su calidad del aire?",
             "action": "Mantener las estaciones existentes (Cajeme, Agua Prieta, Tepic y Sinaloa estuvieron fuera de operación o sin datos suficientes) y validar redes de sensores de bajo costo con factores de corrección.",
-            "ref": "INECC 2023; US EPA, Border 2025 (2022)."
+            "refIds": [
+              "inecc-informe-2023",
+              "epa-border2025"
+            ]
           },
           {
             "q": "¿Qué beneficios de salud tendría cumplir la guía de la OMS en las ciudades medianas?",
             "action": "Estudios de impacto en salud con datos locales para Culiacán, Mazatlán, Los Mochis, Hermosillo, Tepic y La Paz, que orienten los ProAire estatales.",
-            "ref": "Becerra-Pérez y Ramos-Álvarez 2020 (Rev. Int. Contam. Ambient.); Téllez-Rojo et al. 2023 (Gac. Méd. Méx.)."
+            "refIds": [
+              "becerra-perez-2020",
+              "tellez-rojo-2023"
+            ]
           },
           {
             "q": "¿Cómo reducir las quemas agrícolas e incendios, que aportan buena parte de las partículas de origen humano?",
             "action": "Alternativas para incorporar los residuos de cosecha al suelo, calendarios y permisos de quema, y prevención de incendios forestales.",
-            "ref": "ProAire Sonora 2017–2026."
+            "refIds": [
+              "proaire-sonora"
+            ]
           },
           {
             "q": "¿Cómo separar el polvo natural del desierto de la contaminación que sí se puede controlar?",
             "action": "Estudios de composición química de las partículas (como el de PM2.5 en Mexicali) para atribuir fuentes y priorizar acciones.",
-            "ref": "US EPA, Border 2025; ProAire Sonora 2017–2026."
+            "refIds": [
+              "epa-border2025",
+              "proaire-sonora"
+            ]
           }
         ],
         "measurementGaps": [
@@ -1135,22 +1236,33 @@
           {
             "q": "¿Cómo reducir las emisiones de óxido nitroso de la agricultura de riego?",
             "action": "Llevar la fertilización del trigo y otros cultivos a la dosis óptima, aplicar el nitrógeno más tarde y en partes, y reconocer la reducción de N₂O con créditos de carbono.",
-            "ref": "Millar et al. 2018 (Agric. Ecosyst. Environ.); Matson et al. 1998 (Science); ver límite 5."
+            "refIds": [
+              "millar-2018",
+              "matson-1998"
+            ]
           },
           {
             "q": "¿Cómo manejar los refrigerantes de la cadena de frío agrícola y pesquera mientras se eliminan los HCFC?",
             "action": "Recuperación y regeneración de refrigerantes, sustitución por refrigerantes naturales en empacadoras y frigoríficos, y técnicos certificados.",
-            "ref": "SEMARNAT, Inventario de Sustancias Agotadoras (2013)."
+            "refIds": [
+              "snieg-sao-2013"
+            ]
           },
           {
             "q": "¿Se sigue usando bromuro de metilo para fumigar productos de exportación de la región?",
             "action": "Cuantificar la fumigación de cuarentena y preembarque en Sinaloa y Baja California y promover alternativas (tratamientos térmicos, atmósferas controladas).",
-            "ref": "SEMARNAT, Compendio 2012; SNIEG 2013."
+            "refIds": [
+              "semarnat-sao-2012",
+              "snieg-sao-2013"
+            ]
           },
           {
             "q": "¿Cómo proteger de la radiación ultravioleta a quienes trabajan al aire libre?",
             "action": "Información diaria del índice UV y medidas de protección solar para jornaleros agrícolas, pescadores y trabajadores de la construcción.",
-            "ref": "Lemus-Deschamps et al. 2002 (Atmósfera); Castanedo-Cázares et al. 2016 (Rev. Med. IMSS)."
+            "refIds": [
+              "lemus-deschamps-2002",
+              "castanedo-2016"
+            ]
           }
         ],
         "measurementGaps": [
@@ -1280,27 +1392,41 @@
           {
             "q": "¿Cómo reducir la exposición de niños y jornaleros a plaguicidas en los valles agrícolas?",
             "action": "Sustituir los plaguicidas más tóxicos, respetar zonas de amortiguamiento junto a escuelas y viviendas, y vigilar periódicamente la exposición en niños y trabajadores.",
-            "ref": "Meza-Montenegro et al. 2013 (Arch. Environ. Contam. Toxicol.); Guillette et al. 1998 (Environ. Health Perspect.)."
+            "refIds": [
+              "meza-montenegro-2013",
+              "guillette-1998"
+            ]
           },
           {
             "q": "¿Cómo evitar que los plaguicidas lleguen a las lagunas costeras por los drenes agrícolas?",
             "action": "Monitoreo de plaguicidas en drenes y lagunas, humedales de tratamiento y control de la aplicación cerca de los canales.",
-            "ref": "Arellano-Aguilar et al. 2017 (Environ. Monit. Assess.)."
+            "refIds": [
+              "arellano-aguilar-2017"
+            ]
           },
           {
             "q": "¿Cómo prevenir y reparar la contaminación minera en los ríos y costas?",
             "action": "Seguimiento público de la calidad del agua y la salud en el río Sonora, manejo seguro de presas de jales y remediación de pasivos como los de Santa Rosalía.",
-            "ref": "Romo-Morales et al. 2020 (Nat. Resour. Res.); Shumilin et al. 2013 (J. Iber. Geol.)."
+            "refIds": [
+              "rio-sonora-2020",
+              "shumilin-2013"
+            ]
           },
           {
             "q": "¿Cómo lograr que los residuos de la región lleguen a rellenos sanitarios que cumplan la norma?",
             "action": "Rellenos regionales compartidos entre municipios, cierre de tiraderos y separación y reciclaje de plásticos para que no lleguen al mar.",
-            "ref": "SEMARNAT, DBGIR 2026."
+            "refIds": [
+              "semarnat-dbgir-2026"
+            ]
           },
           {
             "q": "¿Cómo reducir los plásticos que llegan al Golfo?",
             "action": "Reducción de plásticos de un solo uso en zonas turísticas, captura de basura en drenes pluviales antes de la temporada de lluvias y recuperación de redes de pesca abandonadas.",
-            "ref": "Rios-Mendoza et al. 2021 y Salazar-Pérez et al. 2021 (Mar. Pollut. Bull.); Sánchez-Paz et al. 2025."
+            "refIds": [
+              "rios-mendoza-2021",
+              "salazar-perez-2021",
+              "sanchezpaz-2025-microplastics"
+            ]
           }
         ],
         "measurementGaps": [
@@ -1570,7 +1696,7 @@
       "short": "Resiliencia terrestre",
       "question": "¿Seguirán los manglares, las selvas y los desiertos de la región guardando el carbono que ya acumularon?",
       "motif": "land",
-      "chapter": "PHC 2026, cap. 4.1 · B. Sakschewski y J. F. Donges (PIK)",
+      "chapter": "Planetary Health Check 2026, cap. 4.1 · B. Sakschewski y J. F. Donges (PIK)",
       "summary": "La tierra ha absorbido casi una cuarta parte del CO₂ que emitimos, pero ese amortiguador se estanca. En la región, el carbono se concentra en pocos ecosistemas —manglares, selva baja— que la sequía, el fuego y los huracanes ya ponen a prueba.",
       "message": "En el noroeste de México, el carbono que la tierra ha guardado se concentra en pocos ecosistemas: los manglares, con turba acumulada durante cerca de dos mil años, y la selva baja de Sonora, Sinaloa y Nayarit. Ese «crédito ecológico» ya está bajo presión: la sequía y el calor de 2020–2021 triplicaron la mortalidad de las cactáceas gigantes, la superficie quemada en 2023–2025 fue 2.4 veces la de los tres años anteriores y un solo huracán dañó el dosel del 83 % del manglar de Marismas Nacionales. Proteger y restaurar estos ecosistemas es la forma más directa en que la región puede ayudar a que la tierra siga amortiguando el cambio climático.",
       "phc": {
@@ -1582,7 +1708,7 @@
           "El carbono acumulado es un «crédito ecológico»: más biomasa también significa más carbono que puede perderse. Lo que amortiguamos hoy aumenta lo que está en riesgo mañana.",
           "Los modelos del sistema Tierra probablemente son demasiado optimistas: representan la vegetación como masas genéricas que se recuperan con facilidad. Si sobreestiman la resiliencia, el presupuesto de carbono restante es menor de lo que se cree."
         ],
-        "quote": "«La existencia del sumidero terrestre neto no debe confundirse con una biosfera sana y resiliente.» (PHC 2026, p. 41; traducción propia)"
+        "quote": "«La existencia del sumidero terrestre neto no debe confundirse con una biosfera sana y resiliente.» (Planetary Health Check 2026, p. 41; traducción propia)"
       },
       "mechanism": {
         "title": "Cómo funciona el amortiguador",
@@ -1706,7 +1832,7 @@
         {
           "where": "Sinaloa y Nayarit",
           "title": "Los bosques todavía son sumidero, según un modelo optimista",
-          "text": "El modelo de flujos forestales que usa el PHC estima que los bosques de los cinco estados absorbieron en neto unos 19.6 Mt CO₂e al año entre 2001 y 2025, el 83 % en Sinaloa y Nayarit. Pero el modelo no incluye el matorral, la degradación ni el efecto de la sequía: justo el tipo de supuesto que, según el PHC, hace optimistas las proyecciones.",
+          "text": "El modelo de flujos forestales que usa el Planetary Health Check estima que los bosques de los cinco estados absorbieron en neto unos 19.6 Mt CO₂e al año entre 2001 y 2025, el 83 % en Sinaloa y Nayarit. Pero el modelo no incluye el matorral, la degradación ni el efecto de la sequía: justo el tipo de supuesto que, según el Planetary Health Check, hace optimistas las proyecciones.",
           "refIds": [
             "gfw",
             "harris",
@@ -1760,7 +1886,7 @@
         "refId": "conafor"
       },
       "regional": {
-        "summary": "La región no controla el sumidero global, pero sí guarda carbono de alto valor en ecosistemas pequeños y frágiles. La evidencia muestra las tres presiones que describe el PHC: extremos climáticos que matan vegetación, fuego provocado por personas y conversión de manglar y matorral. También muestra que la restauración hidrológica funciona en la región.",
+        "summary": "La región no controla el sumidero global, pero sí guarda carbono de alto valor en ecosistemas pequeños y frágiles. La evidencia muestra las tres presiones que describe el Planetary Health Check: extremos climáticos que matan vegetación, fuego provocado por personas y conversión de manglar y matorral. También muestra que la restauración hidrológica funciona en la región.",
         "impact": "Alto",
         "leverage": "Alto",
         "priority": "Alta",
@@ -1841,7 +1967,7 @@
           "Degradación de suelos por estado: el dato oficial es de 2001–2002.",
           "Seguimiento público de los proyectos de restauración de manglar (supervivencia, hectáreas, carbono)."
         ],
-        "dataGaps": "Las cifras de incendios son superficie afectada, no pérdida de bosque. Las de flujos forestales vienen de un modelo global que el propio PHC considera optimista."
+        "dataGaps": "Las cifras de incendios son superficie afectada, no pérdida de bosque. Las de flujos forestales vienen de un modelo global que el propio Planetary Health Check considera optimista."
       },
       "relatedBoundaryIds": [
         "climate-change",
@@ -1852,73 +1978,275 @@
       "references": [
         {
           "id": "phc",
-          "text": "Sakschewski, B. y Donges, J. F. (2026). 4.1 Earth Resilience: When Land Stops Buffering Climate Change. En Planetary Boundaries Science, Planetary Health Check 2026, pp. 41–44. Potsdam Institute for Climate Impact Research.",
-          "url": "https://www.planetaryhealthcheck.org/downloads/"
+          "kind": "capitulo",
+          "authors": [
+            "Sakschewski, B.",
+            "Donges, J. F."
+          ],
+          "year": "2026",
+          "title": "Earth resilience: When land stops buffering climate change",
+          "container": "Planetary Health Check 2026: A scientific assessment of the state of our planet",
+          "editors": [
+            "Kitzmann, N.",
+            "Sakschewski, B.",
+            "Caesar, L.",
+            "Rockström, J."
+          ],
+          "pages": "41–44",
+          "publisher": "Potsdam Institute for Climate Impact Research",
+          "doi": "10.48485/pik.2026.25"
         },
         {
           "id": "ezcurra",
-          "text": "Ezcurra, P., Ezcurra, E., Garcillán, P. P., Costa, M. T. y Aburto-Oropeza, O. (2016). Coastal landforms and accumulation of mangrove peat increase carbon sequestration and storage. Proceedings of the National Academy of Sciences 113(16):4404–4409.",
-          "url": "https://doi.org/10.1073/pnas.1519774113"
+          "kind": "articulo",
+          "authors": [
+            "Ezcurra, P.",
+            "Ezcurra, E.",
+            "Garcillán, P. P.",
+            "Costa, M. T.",
+            "Aburto-Oropeza, O."
+          ],
+          "year": "2016",
+          "title": "Coastal landforms and accumulation of mangrove peat increase carbon sequestration and storage",
+          "container": "Proceedings of the National Academy of Sciences",
+          "volume": "113",
+          "issue": "16",
+          "pages": "4404–4409",
+          "doi": "10.1073/pnas.1519774113"
         },
         {
           "id": "troche",
-          "text": "Troche-Souza, C., Villeda-Chávez, E., Vázquez-Balderas, B. et al. (2025). Spatial Distribution of Mangrove Forest Carbon Stocks in Marismas Nacionales, Mexico: Contributions to Climate Change Adaptation and Mitigation. Forests 16(8):1224.",
-          "url": "https://doi.org/10.3390/f16081224"
+          "kind": "articulo",
+          "authors": [
+            "Troche-Souza, C.",
+            "Villeda-Chávez, E.",
+            "Vázquez-Balderas, B.",
+            "Velázquez-Salazar, S.",
+            "Vázquez-Morán, V. H.",
+            "Rosas-Aceves, O. G.",
+            "Flores-de-Santiago, F."
+          ],
+          "year": "2025",
+          "title": "Spatial distribution of mangrove forest carbon stocks in Marismas Nacionales, Mexico: Contributions to climate change adaptation and mitigation",
+          "container": "Forests",
+          "volume": "16",
+          "issue": "8",
+          "article": "1224",
+          "doi": "10.3390/f16081224"
         },
         {
           "id": "herrera",
-          "text": "Herrera-Silveira, J. A., Pech-Cardenas, M. A., Morales-Ojeda, S. M. et al. (2020). Blue carbon of Mexico, carbon stocks and fluxes: a systematic review. PeerJ 8:e8790.",
-          "url": "https://doi.org/10.7717/peerj.8790"
+          "kind": "articulo",
+          "authors": [
+            "Herrera-Silveira, J. A.",
+            "Pech-Cardenas, M. A.",
+            "Morales-Ojeda, S. M.",
+            "Cinco-Castro, S.",
+            "Camacho-Rico, A.",
+            "Caamal Sosa, J. P.",
+            "Mendoza-Martinez, J. E.",
+            "Pech-Poot, E. Y.",
+            "Montero, J.",
+            "Teutli-Hernandez, C."
+          ],
+          "year": "2020",
+          "title": "Blue carbon of Mexico, carbon stocks and fluxes: A systematic review",
+          "container": "PeerJ",
+          "volume": "8",
+          "article": "e8790",
+          "doi": "10.7717/peerj.8790"
         },
         {
           "id": "valderrama",
-          "text": "Valderrama-Landeros, L., Troche-Souza, C., Alcántara-Maya, J. A. et al. (2024). An assessment of mangrove forest in northwestern Mexico using the Google Earth Engine cloud computing platform. PLOS ONE 19(12):e0315181.",
-          "url": "https://doi.org/10.1371/journal.pone.0315181"
+          "kind": "articulo",
+          "authors": [
+            "Valderrama-Landeros, L.",
+            "Troche-Souza, C.",
+            "Alcántara-Maya, J. A.",
+            "Velázquez-Salazar, S.",
+            "Vázquez-Balderas, B.",
+            "Villeda-Chávez, E.",
+            "Cruz-López, M. I.",
+            "Ressl, R.",
+            "Flores-Verdugo, F.",
+            "Flores-de-Santiago, F."
+          ],
+          "year": "2024",
+          "title": "An assessment of mangrove forest in northwestern Mexico using the Google Earth Engine cloud computing platform",
+          "container": "PLOS ONE",
+          "volume": "19",
+          "issue": "12",
+          "article": "e0315181",
+          "doi": "10.1371/journal.pone.0315181"
         },
         {
           "id": "velazquez",
-          "text": "Velázquez-Salazar, S., Valderrama-Landeros, L., Villeda-Chávez, E. et al. (2025). Mangrove Damage and Early-Stage Canopy Recovery Following Hurricane Roslyn in Marismas Nacionales, Mexico. Forests 16(8):1207.",
-          "url": "https://doi.org/10.3390/f16081207"
+          "kind": "articulo",
+          "authors": [
+            "Velázquez-Salazar, S.",
+            "Valderrama-Landeros, L.",
+            "Villeda-Chávez, E.",
+            "Cervantes-Rodríguez, C. G.",
+            "Troche-Souza, C.",
+            "Alcántara-Maya, J. A.",
+            "Vázquez-Balderas, B.",
+            "Rodríguez-Zúñiga, M. T.",
+            "Cruz-López, M. I.",
+            "Flores-de-Santiago, F."
+          ],
+          "year": "2025",
+          "title": "Mangrove damage and early-stage canopy recovery following Hurricane Roslyn in Marismas Nacionales, Mexico",
+          "container": "Forests",
+          "volume": "16",
+          "issue": "8",
+          "article": "1207",
+          "doi": "10.3390/f16081207"
         },
         {
           "id": "wilder",
-          "text": "Wilder, B. T., Hultine, K. R., Dorshow, W. B. et al. (2025). Plant Responses to Anomalous Heat and Drought Events in the Sonoran Desert. Global Change Biology 31(5):e70217.",
-          "url": "https://doi.org/10.1111/gcb.70217"
+          "kind": "articulo",
+          "authors": [
+            "Wilder, B. T.",
+            "Hultine, K. R.",
+            "Dorshow, W. B.",
+            "Vanderplank, S. E.",
+            "López, B. R.",
+            "Medel-Narváez, A.",
+            "Marvan, M.",
+            "Kindl, K.",
+            "Musgrave, A.",
+            "Macfarlan, S.",
+            "Ezcurra, E."
+          ],
+          "year": "2025",
+          "title": "Plant responses to anomalous heat and drought events in the Sonoran Desert",
+          "container": "Global Change Biology",
+          "volume": "31",
+          "issue": "5",
+          "article": "e70217",
+          "doi": "10.1111/gcb.70217"
         },
         {
           "id": "verdugo",
-          "text": "Verdugo, L., Bojórquez, A., Galaz, O. et al. (2024). Assessing two decades of landscape greenness in relation to temperature and precipitation in a tropical dry forest of Northwestern Mexico. Ecological Indicators 166:112369.",
-          "url": "https://doi.org/10.1016/j.ecolind.2024.112369"
+          "kind": "articulo",
+          "authors": [
+            "Verdugo, L.",
+            "Bojórquez, A.",
+            "Galaz, O.",
+            "Romo-León, J. R.",
+            "Sánchez-Mejía, Z. M.",
+            "Yépez, E. A.",
+            "Álvarez-Yépiz, J. C."
+          ],
+          "year": "2024",
+          "title": "Assessing two decades of landscape greenness in relation to temperature and precipitation in a tropical dry forest of northwestern Mexico",
+          "container": "Ecological Indicators",
+          "volume": "166",
+          "article": "112369",
+          "doi": "10.1016/j.ecolind.2024.112369"
         },
         {
           "id": "conafor",
-          "text": "CONAFOR (2020–2026). Cierre de la Temporada de incendios forestales 2020, 2021, 2022, 2023, 2024 y 2025. Comisión Nacional Forestal.",
+          "kind": "informe",
+          "authors": [
+            "Comisión Nacional Forestal [CONAFOR]"
+          ],
+          "year": "2020–2026",
+          "title": "Cierre de la temporada de incendios forestales 2020, 2021, 2022, 2023, 2024 y 2025",
           "url": "https://www.gob.mx/conafor/documentos/reporte-semanal-de-incendios"
         },
         {
           "id": "gfw",
-          "text": "Global Forest Watch / World Resources Institute (2026). GFW Data API: pérdida de cobertura arbórea 2001–2025 y flujos de carbono forestal por entidad (umbral de dosel 30 %), consulta del 17 de octubre de 2026.",
-          "url": "https://data-api.globalforestwatch.org"
+          "kind": "datos",
+          "authors": [
+            "Global Forest Watch [GFW]"
+          ],
+          "year": "2026",
+          "title": "GFW Data API: pérdida de cobertura arbórea 2001–2025 y flujos de carbono forestal por entidad (umbral de dosel de 30 %)",
+          "description": "Conjunto de datos",
+          "publisher": "World Resources Institute",
+          "url": "https://data-api.globalforestwatch.org",
+          "accessed": "2026-10-17"
         },
         {
           "id": "harris",
-          "text": "Harris, N. L., Gibbs, D. A., Baccini, A. et al. (2021). Global maps of twenty-first century forest carbon fluxes. Nature Climate Change 11(3):234–240.",
-          "url": "https://doi.org/10.1038/s41558-020-00976-6"
+          "kind": "articulo",
+          "authors": [
+            "Harris, N. L.",
+            "Gibbs, D. A.",
+            "Baccini, A.",
+            "Birdsey, R. A.",
+            "de Bruin, S.",
+            "Farina, M.",
+            "Fatoyinbo, L.",
+            "Hansen, M. C.",
+            "Herold, M.",
+            "Houghton, R. A.",
+            "Potapov, P. V.",
+            "Suarez, D. R.",
+            "Roman-Cuesta, R. M.",
+            "Saatchi, S. S.",
+            "Slay, C. M.",
+            "Turubanova, S. A.",
+            "Tyukavina, A."
+          ],
+          "year": "2021",
+          "title": "Global maps of twenty-first century forest carbon fluxes",
+          "container": "Nature Climate Change",
+          "volume": "11",
+          "issue": "3",
+          "pages": "234–240",
+          "doi": "10.1038/s41558-020-00976-6"
         },
         {
           "id": "gibbs",
-          "text": "Gibbs, D. A., Rose, M., Grassi, G. et al. (2025). Revised and updated geospatial monitoring of 21st century forest carbon fluxes. Earth System Science Data 17(3):1217–1243.",
-          "url": "https://doi.org/10.5194/essd-17-1217-2025"
+          "kind": "articulo",
+          "authors": [
+            "Gibbs, D. A.",
+            "Rose, M.",
+            "Grassi, G.",
+            "Melo, J.",
+            "Rossi, S.",
+            "Heinrich, V.",
+            "Harris, N. L."
+          ],
+          "year": "2025",
+          "title": "Revised and updated geospatial monitoring of 21st century forest carbon fluxes",
+          "container": "Earth System Science Data",
+          "volume": "17",
+          "issue": "3",
+          "pages": "1217–1243",
+          "doi": "10.5194/essd-17-1217-2025"
         },
         {
           "id": "franklin",
-          "text": "Franklin, K. y Molina-Freaner, F. (2010). Consequences of Buffelgrass Pasture Development for Primary Productivity, Perennial Plant Richness, and Vegetation Structure in the Drylands of Sonora, Mexico. Conservation Biology 24(6):1664–1673.",
-          "url": "https://doi.org/10.1111/j.1523-1739.2010.01540.x"
+          "kind": "articulo",
+          "authors": [
+            "Franklin, K.",
+            "Molina-Freaner, F."
+          ],
+          "year": "2010",
+          "title": "Consequences of buffelgrass pasture development for primary productivity, perennial plant richness, and vegetation structure in the drylands of Sonora, Mexico",
+          "container": "Conservation Biology",
+          "volume": "24",
+          "issue": "6",
+          "pages": "1664–1673",
+          "doi": "10.1111/j.1523-1739.2010.01540.x"
         },
         {
           "id": "wilson",
-          "text": "Wilson, N. R. y Norman, L. M. (2018). Analysis of vegetation recovery surrounding a restored wetland using the normalized difference infrared index (NDII) and normalized difference vegetation index (NDVI). International Journal of Remote Sensing 39(10):3243–3274.",
-          "url": "https://doi.org/10.1080/01431161.2018.1437297"
+          "kind": "articulo",
+          "authors": [
+            "Wilson, N. R.",
+            "Norman, L. M."
+          ],
+          "year": "2018",
+          "title": "Analysis of vegetation recovery surrounding a restored wetland using the normalized difference infrared index (NDII) and normalized difference vegetation index (NDVI)",
+          "container": "International Journal of Remote Sensing",
+          "volume": "39",
+          "issue": "10",
+          "pages": "3243–3274",
+          "doi": "10.1080/01431161.2018.1437297"
         }
       ]
     },
@@ -1930,9 +2258,9 @@
       "short": "Fondo marino",
       "question": "¿Qué pasa con el fondo del Golfo, que nadie ve, cuando lo arrastramos o lo minamos?",
       "motif": "seafloor",
-      "chapter": "PHC 2026, cap. 4.2 · J. Geersen, N. Matz-Lück y L. Caesar",
+      "chapter": "Planetary Health Check 2026, cap. 4.2 · J. Geersen, N. Matz-Lück y L. Caesar",
       "summary": "El fondo marino es hábitat, almacén de carbono y procesador de nutrientes. En el Golfo lo raspa la pesca de arrastre de camarón y lo amenaza la minería de fosfatos; casi nada de la zona de arrastre está protegido.",
-      "message": "En el Mar de Cortés el fondo marino tiene dos frentes. El primero está activo: el arrastre camaronero industrial opera sobre la plataforma de Sonora, Sinaloa, Nayarit y el Alto Golfo, saca cerca de diez kilos de otras especies por cada kilo de camarón y, en 2012, menos del 1 % de su zona de pesca estaba cerrada al arrastre. El segundo es una amenaza: la minería del fondo, con el proyecto de fosfatos Don Diego en el Golfo de Ulloa, que sigue en litigio. La región tiene además hábitats únicos y lentos de recuperar —ventilas hidrotermales, mantos de rodolitos— que el PHC pide proteger con precaución.",
+      "message": "En el Mar de Cortés el fondo marino tiene dos frentes. El primero está activo: el arrastre camaronero industrial opera sobre la plataforma de Sonora, Sinaloa, Nayarit y el Alto Golfo, saca cerca de diez kilos de otras especies por cada kilo de camarón y, en 2012, menos del 1 % de su zona de pesca estaba cerrada al arrastre. El segundo es una amenaza: la minería del fondo, con el proyecto de fosfatos Don Diego en el Golfo de Ulloa, que sigue en litigio. La región tiene además hábitats únicos y lentos de recuperar —ventilas hidrotermales, mantos de rodolitos— que el Planetary Health Check pide proteger con precaución.",
       "phc": {
         "points": [
           "Integridad del fondo marino significa que el lecho conserva la estructura física, las comunidades y el funcionamiento químico que sostienen la estabilidad del sistema Tierra.",
@@ -1942,7 +2270,7 @@
           "En el mar profundo, incluso perturbaciones limitadas pueden suprimir el ecosistema por décadas o para siempre; cada operación de minería de nódulos afectaría más de 200 km².",
           "Propone un enfoque precautorio: reducir la perturbación en plataformas y sedimentos ricos en carbono, vedar las actividades destructivas en hábitats lentos de recuperar y una planeación espacial marina que considere el carbono y los nutrientes, no solo la biodiversidad."
         ],
-        "quote": "«Cuando perturbamos el fondo marino no solo raspamos lodo: dañamos hábitats, alteramos el ciclo de nutrientes y, en algunos lugares, podemos debilitar uno de los almacenes de carbono de largo plazo del océano.» (PHC 2026, p. 45; traducción propia)"
+        "quote": "«Cuando perturbamos el fondo marino no solo raspamos lodo: dañamos hábitats, alteramos el ciclo de nutrientes y, en algunos lugares, podemos debilitar uno de los almacenes de carbono de largo plazo del océano.» (Planetary Health Check 2026, p. 45; traducción propia)"
       },
       "mechanism": {
         "title": "Qué hace el fondo y cómo se daña",
@@ -2027,7 +2355,7 @@
         {
           "where": "Costa de Sonora y Sinaloa",
           "title": "El sedimento cambia; las comunidades, al parecer, no",
-          "text": "El arrastre resuspende materia orgánica y vuelve el sedimento más arenoso. Pero los experimentos de CIBNOR no encontraron diferencias significativas en las comunidades entre zonas arrastradas y no arrastradas, y en Sinaloa–Sonora el carbono y el nitrógeno del sedimento tampoco difirieron. El «desierto marino» del PHC no está documentado en los fondos blandos del Golfo; lo documentado es la captura incidental y el cambio de textura.",
+          "text": "El arrastre resuspende materia orgánica y vuelve el sedimento más arenoso. Pero los experimentos de CIBNOR no encontraron diferencias significativas en las comunidades entre zonas arrastradas y no arrastradas, y en Sinaloa–Sonora el carbono y el nitrógeno del sedimento tampoco difirieron. El «desierto marino» del Planetary Health Check no está documentado en los fondos blandos del Golfo; lo documentado es la captura incidental y el cambio de textura.",
           "refIds": [
             "lm12a",
             "pa12",
@@ -2224,103 +2552,330 @@
       "references": [
         {
           "id": "phc",
-          "text": "Geersen, J., Matz-Lück, N. y Caesar, L. (2026). 4.2 Seafloor Integrity: Why the Bottom of the Ocean Matters. En Planetary Boundaries Science, Planetary Health Check 2026, pp. 45–49. Potsdam Institute for Climate Impact Research.",
-          "url": "https://www.planetaryhealthcheck.org/downloads/"
+          "kind": "capitulo",
+          "authors": [
+            "Geersen, J.",
+            "Matz-Lück, N.",
+            "Caesar, L."
+          ],
+          "year": "2026",
+          "title": "Seafloor integrity: Why the bottom of the ocean matters",
+          "container": "Planetary Health Check 2026: A scientific assessment of the state of our planet",
+          "editors": [
+            "Kitzmann, N.",
+            "Sakschewski, B.",
+            "Caesar, L.",
+            "Rockström, J."
+          ],
+          "pages": "45–49",
+          "publisher": "Potsdam Institute for Climate Impact Research",
+          "doi": "10.48485/pik.2026.25"
         },
         {
           "id": "bt12",
-          "text": "Bourillón, L. y Torre, J. (2012). Áreas marinas protegidas del Golfo de California para mitigar los efectos de la pesca de arrastre en la biodiversidad: limitaciones y propuesta de nuevo enfoque. En López-Martínez, J. y Morales-Bojórquez, E. (eds.), Efectos de la pesca de arrastre en el Golfo de California, pp. 399–411. CIBNOR y Fundación Produce Sonora.",
+          "kind": "capitulo",
+          "authors": [
+            "Bourillón, L.",
+            "Torre, J."
+          ],
+          "year": "2012",
+          "title": "Áreas marinas protegidas del Golfo de California para mitigar los efectos de la pesca de arrastre en la biodiversidad: limitaciones y propuesta de nuevo enfoque",
+          "container": "Efectos de la pesca de arrastre en el Golfo de California",
+          "editors": [
+            "López-Martínez, J.",
+            "Morales-Bojórquez, E."
+          ],
+          "pages": "399–411",
+          "publisher": "Centro de Investigaciones Biológicas del Noroeste y Fundación Produce Sonora",
           "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2020.pdf"
         },
         {
           "id": "lm12a",
-          "text": "López-Martínez, J., Herrera-Valdivia, E., Hernández-Saavedra, N. et al. (2012). Efectos de la pesca de arrastre del camarón en el Golfo de California. Síntesis de las investigaciones desarrolladas por el CIBNOR. En López-Martínez y Morales-Bojórquez (eds.), op. cit., pp. 15–25.",
+          "kind": "capitulo",
+          "authors": [
+            "López-Martínez, J.",
+            "Herrera-Valdivia, E.",
+            "Hernández-Saavedra, N.",
+            "Serviere-Zaragoza, E.",
+            "Rodríguez-Romero, J.",
+            "Rábago-Quiroz, C. H.",
+            "Padilla-Arredondo, G.",
+            "Burrola-Sánchez, S.",
+            "Morales-Azpeitia, R.",
+            "Pedrín-Avilés, S.",
+            "Enríquez-Ocaña, L. F.",
+            "Nevárez-Martínez, M. O.",
+            "Acevedo-Cervantes, A.",
+            "Morales-Bojórquez, E.",
+            "López-Tapia, M. R.",
+            "Padilla-Serrato, J."
+          ],
+          "year": "2012",
+          "title": "Efectos de la pesca de arrastre del camarón en el Golfo de California: síntesis de las investigaciones desarrolladas por el Centro de Investigaciones Biológicas del Noroeste, S. C.",
+          "container": "Efectos de la pesca de arrastre en el Golfo de California",
+          "editors": [
+            "López-Martínez, J.",
+            "Morales-Bojórquez, E."
+          ],
+          "pages": "15–25",
+          "publisher": "Centro de Investigaciones Biológicas del Noroeste y Fundación Produce Sonora",
           "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2001.pdf"
         },
         {
           "id": "lm12b",
-          "text": "López-Martínez, J., Hernández-Vázquez, S., Morales-Azpeitia, R. et al. (2012). Variación de la relación camarón:fauna de acompañamiento en la pesquería de camarón industrial del Golfo de California. En López-Martínez y Morales-Bojórquez (eds.), op. cit., pp. 27–48.",
+          "kind": "capitulo",
+          "authors": [
+            "López-Martínez, J.",
+            "Hernández-Vázquez, S.",
+            "Morales-Azpeitia, R.",
+            "Nevárez-Martínez, M. O.",
+            "Cervantes-Valle, C.",
+            "Padilla-Serrato, J."
+          ],
+          "year": "2012",
+          "title": "Variación de la relación camarón:fauna de acompañamiento en la pesquería de camarón industrial del Golfo de California",
+          "container": "Efectos de la pesca de arrastre en el Golfo de California",
+          "editors": [
+            "López-Martínez, J.",
+            "Morales-Bojórquez, E."
+          ],
+          "pages": "27–48",
+          "publisher": "Centro de Investigaciones Biológicas del Noroeste y Fundación Produce Sonora",
           "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2002.pdf"
         },
         {
           "id": "pa12",
-          "text": "Pedrín-Avilés, S., López-Martínez, J. y García-Hinostro, P. (2012). Granulometría y materia orgánica de áreas pesqueras rastreables y no rastreables en la costa central de Sonora, México. En López-Martínez y Morales-Bojórquez (eds.), op. cit., pp. 261–280.",
+          "kind": "capitulo",
+          "authors": [
+            "Pedrín-Avilés, S.",
+            "López-Martínez, J.",
+            "García-Hinostro, P."
+          ],
+          "year": "2012",
+          "title": "Granulometría y materia orgánica de áreas pesqueras rastreables y no rastreables en la costa central de Sonora, México",
+          "container": "Efectos de la pesca de arrastre en el Golfo de California",
+          "editors": [
+            "López-Martínez, J.",
+            "Morales-Bojórquez, E."
+          ],
+          "pages": "261–280",
+          "publisher": "Centro de Investigaciones Biológicas del Noroeste y Fundación Produce Sonora",
           "url": "https://www.cibnor.gob.mx/images/stories/posgrado/otros/capitulo%2014.pdf"
         },
         {
           "id": "san09",
-          "text": "Sánchez, A., Aguíñiga, S., Lluch Belda, D. et al. (2009). Geoquímica sedimentaria en áreas de pesca de arrastre y no arrastre de fondo en la costa de Sinaloa-Sonora, Golfo de California. Boletín de la Sociedad Geológica Mexicana 61(1):25–30.",
-          "url": "https://doi.org/10.18268/BSGM2009v61n1a3"
+          "kind": "articulo",
+          "authors": [
+            "Sánchez, A.",
+            "Aguíñiga, S.",
+            "Lluch Belda, D.",
+            "Camalich Carpizo, J.",
+            "Del Monte Luna, P.",
+            "Ponce Díaz, G.",
+            "Arreguín Sánchez, F."
+          ],
+          "year": "2009",
+          "title": "Geoquímica sedimentaria en áreas de pesca de arrastre y no arrastre de fondo en la costa de Sinaloa-Sonora, Golfo de California",
+          "container": "Boletín de la Sociedad Geológica Mexicana",
+          "volume": "61",
+          "issue": "1",
+          "pages": "25–30",
+          "doi": "10.18268/BSGM2009v61n1a3"
         },
         {
           "id": "mel12",
-          "text": "Meltzer, L., Blinick, N. S. y Fleishman, A. B. (2012). Management implications of the biodiversity and socio-economic impacts of shrimp trawler by-catch in Bahía de Kino, Sonora, México. PLoS ONE 7(6):e35609.",
-          "url": "https://doi.org/10.1371/journal.pone.0035609"
+          "kind": "articulo",
+          "authors": [
+            "Meltzer, L.",
+            "Blinick, N. S.",
+            "Fleishman, A. B."
+          ],
+          "year": "2012",
+          "title": "Management implications of the biodiversity and socio-economic impacts of shrimp trawler by-catch in Bahía de Kino, Sonora, México",
+          "container": "PLOS ONE",
+          "volume": "7",
+          "issue": "6",
+          "article": "e35609",
+          "doi": "10.1371/journal.pone.0035609"
         },
         {
           "id": "inp16",
-          "text": "Instituto Nacional de Pesca (2016). Evaluación y manejo de la pesquería de camarón del Pacífico mexicano (captura, puntos de referencia, biomasa, edad, medio ambiente, fauna de acompañamiento). INAPESCA.",
+          "kind": "informe",
+          "authors": [
+            "Instituto Nacional de Pesca [INAPESCA]"
+          ],
+          "year": "2016",
+          "title": "Evaluación y manejo de la pesquería de camarón del Pacífico mexicano (captura, puntos de referencia, biomasa, edad, medio ambiente, fauna de acompañamiento)",
           "url": "https://fisheryprogress.org/sites/default/files/indicators-documents/INAPESCA%202016%20_0.pdf"
         },
         {
           "id": "semc",
-          "text": "SEMARNAT-DGEIA (2017). Compendio de Estadísticas Ambientales, tabla D2_PESCA04_01: Pesca de camarón en altamar, impacto de las redes de arrastre.",
+          "kind": "datos",
+          "authors": [
+            "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+          ],
+          "year": "2017",
+          "title": "Pesca de camarón en altamar: impacto de las redes de arrastre",
+          "container": "Compendio de estadísticas ambientales 2017",
+          "description": "Tabla D2_PESCA04_01",
           "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2017/archivos/02_pesca/D2_PESCA04_01.pdf"
         },
         {
           "id": "nom02",
-          "text": "SAGARPA (2013). NOM-002-SAG/PESC-2013, para ordenar el aprovechamiento de las especies de camarón en aguas de jurisdicción federal. Diario Oficial de la Federación, 11 de julio de 2013.",
+          "kind": "norma",
+          "authors": [
+            "Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación [SAGARPA]"
+          ],
+          "year": "2013",
+          "date": "11 de julio",
+          "title": "Norma Oficial Mexicana NOM-002-SAG/PESC-2013, para ordenar el aprovechamiento de las especies de camarón en aguas de jurisdicción federal de los Estados Unidos Mexicanos",
+          "container": "Diario Oficial de la Federación",
           "url": "https://platiica.economia.gob.mx/normalizacion/wp-content/uploads/sites/2/PDF_Normas_Publicas/002sagpesc2013.pdf"
         },
         {
           "id": "ste03",
-          "text": "Steller, D. L., Riosmena-Rodríguez, R., Foster, M. S. y Roberts, C. A. (2003). Rhodolith bed diversity in the Gulf of California: the importance of rhodolith structure and consequences of disturbance. Aquatic Conservation: Marine and Freshwater Ecosystems 13(S1):S5–S20.",
-          "url": "https://doi.org/10.1002/aqc.564"
+          "kind": "articulo",
+          "authors": [
+            "Steller, D. L.",
+            "Riosmena-Rodríguez, R.",
+            "Foster, M. S.",
+            "Roberts, C. A."
+          ],
+          "year": "2003",
+          "title": "Rhodolith bed diversity in the Gulf of California: The importance of rhodolith structure and consequences of disturbance",
+          "container": "Aquatic Conservation: Marine and Freshwater Ecosystems",
+          "volume": "13",
+          "issue": "S1",
+          "pages": "S5–S20",
+          "doi": "10.1002/aqc.564"
         },
         {
           "id": "mbari15",
-          "text": "MBARI (2015). MBARI researchers discover deepest known high-temperature hydrothermal vents in Pacific Ocean. Comunicado, 2 de junio de 2015.",
-          "url": "https://www.mbari.org/?p=86117"
+          "kind": "comunicado",
+          "authors": [
+            "Monterey Bay Aquarium Research Institute [MBARI]"
+          ],
+          "year": "2015",
+          "date": "2 de junio",
+          "title": "MBARI researchers discover deepest known high-temperature hydrothermal vents in Pacific Ocean",
+          "description": "Comunicado de prensa",
+          "url": "https://www.mbari.org/news/mbari-researchers-discover-deepest-known-high-temperature-hydrothermal-vents-in-pacific-ocean/"
         },
         {
           "id": "pad18",
-          "text": "Paduan, J. B., Zierenberg, R. A., Clague, D. A. et al. (2018). Discovery of hydrothermal vent fields on Alarcón Rise and in southern Pescadero Basin, Gulf of California. Geochemistry, Geophysics, Geosystems 19(12):4788–4819.",
-          "url": "https://doi.org/10.1029/2018GC007771"
+          "kind": "articulo",
+          "authors": [
+            "Paduan, J. B.",
+            "Zierenberg, R. A.",
+            "Clague, D. A.",
+            "Spelz, R. M.",
+            "Caress, D. W.",
+            "Troni, G.",
+            "Thomas, H.",
+            "Glessner, J.",
+            "Lilley, M. D.",
+            "Lorenson, T.",
+            "Lupton, J.",
+            "Neumann, F.",
+            "Santa Rosa-del Rio, M. A.",
+            "Wheat, C. G."
+          ],
+          "year": "2018",
+          "title": "Discovery of hydrothermal vent fields on Alarcón Rise and in southern Pescadero Basin, Gulf of California",
+          "container": "Geochemistry, Geophysics, Geosystems",
+          "volume": "19",
+          "issue": "12",
+          "pages": "4788–4819",
+          "doi": "10.1029/2018GC007771"
         },
         {
           "id": "sal19",
-          "text": "Salcedo, D. L., Soto, L. A. y Paduan, J. B. (2019). Trophic structure of the macrofauna associated to deep-vents of the southern Gulf of California: Pescadero Basin and Pescadero Transform Fault. PLoS ONE 14(11):e0224698.",
-          "url": "https://doi.org/10.1371/journal.pone.0224698"
+          "kind": "articulo",
+          "authors": [
+            "Salcedo, D. L.",
+            "Soto, L. A.",
+            "Paduan, J. B."
+          ],
+          "year": "2019",
+          "title": "Trophic structure of the macrofauna associated to deep-vents of the southern Gulf of California: Pescadero Basin and Pescadero Transform Fault",
+          "container": "PLOS ONE",
+          "volume": "14",
+          "issue": "11",
+          "article": "e0224698",
+          "doi": "10.1371/journal.pone.0224698"
         },
         {
           "id": "wdpa",
-          "text": "Protected Planet / WDPA. Ventilas Hidrotermales de la Cuenca de Guaymas y de la Dorsal del Pacífico Oriental (ID 107840).",
-          "url": "https://www.protectedplanet.net/107840"
+          "kind": "datos",
+          "authors": [
+            "UNEP-WCMC",
+            "IUCN"
+          ],
+          "year": "2026",
+          "title": "Ventilas Hidrotermales de la Cuenca de Guaymas y de la Dorsal del Pacífico Oriental (WDPA ID 107840)",
+          "container": "Protected Planet: The World Database on Protected Areas",
+          "description": "Ficha de área protegida",
+          "url": "https://www.protectedplanet.net/107840",
+          "accessed": "2026-10-17"
         },
         {
           "id": "awd24",
-          "text": "Odyssey Marine Exploration, Inc. v. United Mexican States, caso CIADI UNCT/20/1 (TLCAN/CNUDMI). Laudo, 17 de septiembre de 2024.",
+          "kind": "norma",
+          "authors": [],
+          "citeAs": "Odyssey Marine Exploration, Inc. c. Estados Unidos Mexicanos",
+          "year": "2024",
+          "date": "17 de septiembre",
+          "title": "Odyssey Marine Exploration, Inc. c. Estados Unidos Mexicanos, caso CIADI n.º UNCT/20/1",
+          "description": "Laudo arbitral conforme al TLCAN y al Reglamento de la CNUDMI",
+          "publisher": "Centro Internacional de Arreglo de Diferencias Relativas a Inversiones",
           "url": "https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=UNCT/20/1"
         },
         {
           "id": "q26",
-          "text": "Odyssey Marine Exploration, Inc. (2026). Form 10-Q, trimestre al 30 de junio de 2026, presentado ante la SEC el 11 de agosto de 2026 (fuente de la propia empresa).",
+          "kind": "informe",
+          "authors": [
+            "Odyssey Marine Exploration, Inc."
+          ],
+          "year": "2026",
+          "date": "11 de agosto",
+          "title": "Form 10-Q: Quarterly report for the period ended June 30, 2026",
+          "description": "Informe presentado ante la Securities and Exchange Commission",
           "url": "https://www.sec.gov/Archives/edgar/data/798528/000119312526344788/omex-20260630.htm"
         },
         {
           "id": "lmin",
-          "text": "Ley de Minería, artículo 20, último párrafo (adicionado en el DOF del 8 de mayo de 2023).",
+          "kind": "norma",
+          "authors": [],
+          "citeAs": "Ley de Minería",
+          "year": "1992",
+          "title": "Ley de Minería",
+          "container": "Diario Oficial de la Federación",
+          "description": "Última reforma publicada en el Diario Oficial de la Federación el 8 de mayo de 2023; artículo 20, último párrafo",
           "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LMin.pdf"
         },
         {
           "id": "sre23",
-          "text": "SEMARNAT y SRE (2023). Mexico supports a moratorium on deep-sea mining in areas beyond national jurisdiction. Comunicado conjunto, 21 de noviembre de 2023.",
+          "kind": "comunicado",
+          "authors": [
+            "Secretaría de Relaciones Exteriores [SRE]",
+            "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+          ],
+          "year": "2023",
+          "date": "21 de noviembre",
+          "title": "Mexico supports a moratorium on deep-sea mining in areas beyond national jurisdiction",
+          "description": "Comunicado conjunto",
           "url": "https://www.gob.mx/sre/prensa/mexico-supports-a-moratorium-on-deep-sea-mining-in-areas-beyond-national-jurisdiction"
         },
         {
           "id": "untc",
-          "text": "United Nations Treaty Collection. Agreement under the UNCLOS on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction (estado de las partes, consulta del 17 de octubre de 2026).",
-          "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXI-10&chapter=21&clang=_en"
+          "kind": "web",
+          "authors": [
+            "United Nations Treaty Collection"
+          ],
+          "year": "2026",
+          "title": "Agreement under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction: Status",
+          "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXI-10&chapter=21&clang=_en",
+          "accessed": "2026-10-17"
         }
       ]
     },
@@ -2332,9 +2887,9 @@
       "short": "Entidades nuevas",
       "question": "¿Qué sabemos —y qué no— de las sustancias que la minería, la agricultura y la acuacultura han dejado en el Golfo?",
       "motif": "chemicals",
-      "chapter": "PHC 2026, cap. 4.3 · M. L. Diamond, A. Shalin y Z. Wang",
+      "chapter": "Planetary Health Check 2026, cap. 4.3 · M. L. Diamond, A. Shalin y Z. Wang",
       "summary": "Producimos sustancias más rápido de lo que podemos evaluarlas. En la región los daños conocidos son herencias —minería centenaria, DDT, un derrame sin remediar—, y lo desconocido es igual de grande: casi ninguna presa de jales tiene información pública.",
-      "message": "En el Mar de Cortés, los daños conocidos de las entidades nuevas son sobre todo herencias: un siglo de minería, organoclorados prohibidos hace décadas y un derrame minero que a once años sigue sin remediarse. Persisten en sedimentos, almejas, ballenas y personas. Lo desconocido es igual de grande: de las 139 presas de jales registradas en los cinco estados, 120 no tienen información pública sobre drenaje ácido ni plan de manejo, y los PFAS y los fármacos ya aparecen en las ballenas del Golfo sin que nadie los mida en el agua o en las personas. Como pide el PHC, hay que actuar sin esperar a saberlo todo.",
+      "message": "En el Mar de Cortés, los daños conocidos de las entidades nuevas son sobre todo herencias: un siglo de minería, organoclorados prohibidos hace décadas y un derrame minero que a once años sigue sin remediarse. Persisten en sedimentos, almejas, ballenas y personas. Lo desconocido es igual de grande: de las 139 presas de jales registradas en los cinco estados, 120 no tienen información pública sobre drenaje ácido ni plan de manejo, y los PFAS y los fármacos ya aparecen en las ballenas del Golfo sin que nadie los mida en el agua o en las personas. Como pide el Planetary Health Check, hay que actuar sin esperar a saberlo todo.",
       "phc": {
         "points": [
           "Las entidades nuevas son una paradoja: muchas son esenciales para la vida moderna y, al mismo tiempo, causan daños de corto a largo plazo, algunos irreversibles.",
@@ -2344,11 +2899,11 @@
           "Muchas persisten: los PCB y el DDT siguen altos décadas después de prohibirse, los PFAS durarán siglos, el mercurio atmosférico se triplicó desde 1850 y los antibióticos superan umbrales seguros en unos 6 millones de km de ríos.",
           "Factores económicos y tecnológicos «encierran» la producción: la de petroquímicos básicos se duplicó entre 1990 y 2010. La salida es reducir producción y sobreconsumo, aplicar el criterio de uso esencial y actuar temprano aunque haya vacíos."
         ],
-        "quote": "«Algunos de los mayores riesgos están en lo desconocido: impactos de la contaminación de los que aún no somos conscientes, pero que ya podrían estar causando daños graves.» (PHC 2026, figura 16; traducción propia)"
+        "quote": "«Algunos de los mayores riesgos están en lo desconocido: impactos de la contaminación de los que aún no somos conscientes, pero que ya podrían estar causando daños graves.» (Planetary Health Check 2026, figura 16; traducción propia)"
       },
       "mechanism": {
         "title": "Del producto al daño",
-        "intro": "El PHC sigue a cada sustancia por una cadena de cinco eslabones. En cada uno se pierde información: sabemos mucho de unas pocas sustancias y casi nada de la mayoría.",
+        "intro": "El Planetary Health Check sigue a cada sustancia por una cadena de cinco eslabones. En cada uno se pierde información: sabemos mucho de unas pocas sustancias y casi nada de la mayoría.",
         "steps": [
           {
             "title": "Producción",
@@ -2404,7 +2959,7 @@
           "kind": "conocido",
           "where": "Sonora y Baja California Sur",
           "title": "La región concentra la minería del país",
-          "text": "En 2023 Sonora produjo 555,585 de las 726,528 toneladas de cobre de mina del país (76.5 %) y el 28.7 % del oro. Los cinco estados tienen el 27.4 % de las concesiones mineras y el 33.6 % de la superficie concesionada nacional: la forma regional del «encierro» que describe el PHC.",
+          "text": "En 2023 Sonora produjo 555,585 de las 726,528 toneladas de cobre de mina del país (76.5 %) y el 28.7 % del oro. Los cinco estados tienen el 27.4 % de las concesiones mineras y el 33.6 % de la superficie concesionada nacional: la forma regional del «encierro» que describe el Planetary Health Check.",
           "refIds": [
             "se23"
           ]
@@ -2480,7 +3035,7 @@
           "kind": "desconocido",
           "where": "México",
           "title": "Compromisos firmados y una prohibición aplazada",
-          "text": "México es parte de los convenios de Estocolmo (2003), Rotterdam (2005) y Minamata (2015). Pero en marzo de 2024 el gobierno aplazó la sustitución del glifosato porque no había alternativa: un ejemplo del encierro tecnológico que describe el PHC.",
+          "text": "México es parte de los convenios de Estocolmo (2003), Rotterdam (2005) y Minamata (2015). Pero en marzo de 2024 el gobierno aplazó la sustitución del glifosato porque no había alternativa: un ejemplo del encierro tecnológico que describe el Planetary Health Check.",
           "refIds": [
             "untreaty",
             "se24"
@@ -2526,7 +3081,7 @@
         "refId": "jalessig"
       },
       "regional": {
-        "summary": "Este tema complementa el límite 9 con la mirada del PHC: lo heredado, lo persistente y lo desconocido. La región tiene daños biológicos documentados por herencias mineras y plaguicidas prohibidos, y vacíos enormes en lo que no se mide. Por eso su prioridad es media, a diferencia de la del límite 9: aquí pesan más los pasivos caros de remediar y las sustancias que hoy solo se pueden empezar a monitorear.",
+        "summary": "Este tema complementa el límite 9 con la mirada del Planetary Health Check: lo heredado, lo persistente y lo desconocido. La región tiene daños biológicos documentados por herencias mineras y plaguicidas prohibidos, y vacíos enormes en lo que no se mide. Por eso su prioridad es media, a diferencia de la del límite 9: aquí pesan más los pasivos caros de remediar y las sustancias que hoy solo se pueden empezar a monitorear.",
         "impact": "Alto",
         "leverage": "Medio",
         "priority": "Media",
@@ -2605,7 +3160,7 @@
           "Antibióticos y fármacos: no hay estadística de uso en la acuacultura ni monitoreo de residuos o genes de resistencia en esteros y drenes.",
           "Mercurio y cadmio: falta una evaluación regional que separe las fuentes naturales de las humanas.",
           "Plaguicidas: no hay ventas por estado ni por ingrediente activo.",
-          "Mezclas: no existe ningún estudio regional de la toxicidad combinada, que es la principal advertencia del PHC."
+          "Mezclas: no existe ningún estudio regional de la toxicidad combinada, que es la principal advertencia del Planetary Health Check."
         ],
         "dataGaps": "Los datos de jales vienen de un inventario preliminar construido con imágenes satelitales. Los resultados oficiales de biomonitoreo humano del río Sonora no están publicados."
       },
@@ -2618,72 +3173,213 @@
       "references": [
         {
           "id": "phc",
-          "text": "Diamond, M. L., Shalin, A. y Wang, Z. (2026). 4.3 Novel Entities: Known Impacts and Unknown Planetary Threats. En Planetary Boundaries Science, Planetary Health Check 2026, pp. 50–53. Potsdam Institute for Climate Impact Research.",
-          "url": "https://www.planetaryhealthcheck.org/downloads/"
+          "kind": "capitulo",
+          "authors": [
+            "Diamond, M. L.",
+            "Shalin, A.",
+            "Wang, Z."
+          ],
+          "year": "2026",
+          "title": "Novel entities: Known impacts and unknown planetary threats",
+          "container": "Planetary Health Check 2026: A scientific assessment of the state of our planet",
+          "editors": [
+            "Kitzmann, N.",
+            "Sakschewski, B.",
+            "Caesar, L.",
+            "Rockström, J."
+          ],
+          "pages": "50–53",
+          "publisher": "Potsdam Institute for Climate Impact Research",
+          "doi": "10.48485/pik.2026.25"
         },
         {
           "id": "se23",
-          "text": "Secretaría de Economía (2024). Prontuario Estadístico de la Minería, enero–diciembre 2023 (producción por estado: INEGI, cifras preliminares; concesiones: DGM).",
+          "kind": "informe",
+          "authors": [
+            "Secretaría de Economía [SE]"
+          ],
+          "year": "2024",
+          "title": "Prontuario estadístico de la minería, enero–diciembre 2023",
           "url": "https://www.gob.mx/cms/uploads/attachment/file/902137/Prontuario_Ene-Dic_2023.pdf"
         },
         {
           "id": "jalessig",
-          "text": "SEMARNAT. Servicio geográfico «Depósitos de jales» (Inventario Homologado Preliminar de Presas de Jales), consulta del 17 de octubre de 2026.",
-          "url": "https://gisviewer.semarnat.gob.mx/wmaplicacion/jales/"
+          "kind": "datos",
+          "authors": [
+            "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+          ],
+          "year": "2026",
+          "title": "Depósitos de jales: Inventario homologado preliminar de presas de jales",
+          "description": "Servicio geográfico",
+          "url": "https://gisviewer.semarnat.gob.mx/wmaplicacion/jales/",
+          "accessed": "2026-10-17"
         },
         {
           "id": "jales",
-          "text": "SEMARNAT (2024). Inventario Homologado Preliminar de Presas de Jales, 23 de agosto de 2024.",
+          "kind": "web",
+          "authors": [
+            "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+          ],
+          "year": "2024",
+          "date": "23 de agosto",
+          "title": "Inventario homologado preliminar de presas de jales",
           "url": "https://www.gob.mx/semarnat/es/articulos/inventario-homologado-preliminar-de-presas-de-jales"
         },
         {
           "id": "sem23",
-          "text": "SEMARNAT (2023). Presenta Semarnat Dictamen Diagnóstico Ambiental del Río Sonora. Comunicado 80/2023, 29 de septiembre de 2023.",
+          "kind": "comunicado",
+          "authors": [
+            "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+          ],
+          "year": "2023",
+          "date": "29 de septiembre",
+          "title": "Presenta Semarnat dictamen diagnóstico ambiental del río Sonora",
+          "description": "Comunicado de prensa núm. 80/2023",
           "url": "https://www.gob.mx/semarnat/prensa/presenta-semarnat-dictamen-diagnostico-ambiental-del-rio-sonora"
         },
         {
           "id": "sem25",
-          "text": "SEMARNAT (2025). Mensaje de la secretaria Alicia Bárcena en la Conferencia del Pueblo sobre el Plan de Justicia en el río Sonora, 29 de diciembre de 2025.",
+          "kind": "web",
+          "authors": [
+            "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+          ],
+          "year": "2025",
+          "date": "29 de diciembre",
+          "title": "Mensaje de la secretaria Alicia Bárcena en la Conferencia del Pueblo sobre el Plan de Justicia en el río Sonora",
           "url": "https://www.gob.mx/semarnat/documentos/mensaje-de-la-secretaria-alicia-barcena-en-la-conferencia-del-pueblo-sobre-el-plan-de-justicia-en-el-rio-sonora"
         },
         {
           "id": "shumilin",
-          "text": "Shumilin, E., Jiménez-Illescas, Á. R. y López-López, S. (2013). Anthropogenic contamination of metals in sediments of the Santa Rosalía harbor, Baja California Peninsula. Bulletin of Environmental Contamination and Toxicology 90(3):333–337.",
-          "url": "https://doi.org/10.1007/s00128-012-0923-1"
+          "kind": "articulo",
+          "authors": [
+            "Shumilin, E.",
+            "Jiménez-Illescas, Á. R.",
+            "López-López, S."
+          ],
+          "year": "2013",
+          "title": "Anthropogenic contamination of metals in sediments of the Santa Rosalía harbor, Baja California peninsula",
+          "container": "Bulletin of Environmental Contamination and Toxicology",
+          "volume": "90",
+          "issue": "3",
+          "pages": "333–337",
+          "doi": "10.1007/s00128-012-0923-1"
         },
         {
           "id": "yee24",
-          "text": "Yee-Duarte, J. A., Arellano-Martínez, M., Roldán-Wong, N. T., Kidd, K. A. y Ceballos-Vázquez, B. P. (2024). Reduction in reproductive activity from degeneration of testicular follicles in Megapitaria squalida (Mollusca: Bivalvia) exposed to metal pollution in the Gulf of California. Marine Pollution Bulletin 205:116648.",
-          "url": "https://doi.org/10.1016/j.marpolbul.2024.116648"
+          "kind": "articulo",
+          "authors": [
+            "Yee-Duarte, J. A.",
+            "Arellano-Martínez, M.",
+            "Roldán-Wong, N. T.",
+            "Kidd, K. A.",
+            "Ceballos-Vázquez, B. P."
+          ],
+          "year": "2024",
+          "title": "Reduction in reproductive activity from degeneration of testicular follicles in Megapitaria squalida (Mollusca: Bivalvia) exposed to metal pollution in the Gulf of California",
+          "container": "Marine Pollution Bulletin",
+          "volume": "205",
+          "article": "116648",
+          "doi": "10.1016/j.marpolbul.2024.116648"
         },
         {
           "id": "eraso",
-          "text": "Eraso-Ordoñez, J. F., Yee-Duarte, J. A., Roldán-Wong, N. T. et al. (2023). Histopathological alterations in the gonads of wild white clams Dosinia ponderosa inhabiting a former copper mine locality in the Gulf of California. Journal of Aquatic Animal Health 35(2):101–116.",
-          "url": "https://doi.org/10.1002/aah.10184"
+          "kind": "articulo",
+          "authors": [
+            "Eraso-Ordoñez, J. F.",
+            "Yee-Duarte, J. A.",
+            "Roldán-Wong, N. T.",
+            "García-Ulloa, M.",
+            "Góngora-Gómez, A. M.",
+            "Arellano-Martínez, M."
+          ],
+          "year": "2023",
+          "title": "Histopathological alterations in the gonads of wild white clams Dosinia ponderosa inhabiting a former copper mine locality in the Gulf of California",
+          "container": "Journal of Aquatic Animal Health",
+          "volume": "35",
+          "issue": "2",
+          "pages": "101–116",
+          "doi": "10.1002/aah.10184"
         },
         {
           "id": "fossi",
-          "text": "Fossi, M. C., Limonta, G., Baini, M. et al. (2025). Fin whale as a sink of legacy and emerging contaminants: First integrated chemical exposomics and gene expression analysis in cetaceans. Environmental Science & Technology 59(23):11477–11492.",
-          "url": "https://doi.org/10.1021/acs.est.5c00844"
+          "kind": "articulo",
+          "authors": [
+            "Fossi, M. C.",
+            "Limonta, G.",
+            "Baini, M.",
+            "Urban R., J.",
+            "Athanassiadis, I.",
+            "Martin, J. W.",
+            "Papazian, S.",
+            "Rosso, M.",
+            "Panti, C."
+          ],
+          "year": "2025",
+          "title": "Fin whale as a sink of legacy and emerging contaminants: First integrated chemical exposomics and gene expression analysis in cetaceans",
+          "container": "Environmental Science & Technology",
+          "volume": "59",
+          "issue": "23",
+          "pages": "11477–11492",
+          "doi": "10.1021/acs.est.5c00844"
         },
         {
           "id": "paez",
-          "text": "Páez-Osuna, F. y Osuna-Martínez, C. C. (2015). Bioavailability of cadmium, copper, mercury, lead, and zinc in subtropical coastal lagoons from the southeast Gulf of California using mangrove oysters (Crassostrea corteziensis and Crassostrea palmula). Archives of Environmental Contamination and Toxicology 68(2):305–316.",
-          "url": "https://doi.org/10.1007/s00244-014-0118-3"
+          "kind": "articulo",
+          "authors": [
+            "Páez-Osuna, F.",
+            "Osuna-Martínez, C. C."
+          ],
+          "year": "2015",
+          "title": "Bioavailability of cadmium, copper, mercury, lead, and zinc in subtropical coastal lagoons from the southeast Gulf of California using mangrove oysters (Crassostrea corteziensis and Crassostrea palmula)",
+          "container": "Archives of Environmental Contamination and Toxicology",
+          "volume": "68",
+          "issue": "2",
+          "pages": "305–316",
+          "doi": "10.1007/s00244-014-0118-3"
         },
         {
           "id": "galaviz",
-          "text": "Galaviz-Silva, L., Robles-Valdez, A., Sánchez-Díaz, R. et al. (2021). Cepas de Vibrio parahaemolyticus que causan necrosis hepatopancreática aguda en camarón cultivado de Sonora, México y su resistencia a antibióticos. Hidrobiológica 31(2):111–123.",
-          "url": "https://doi.org/10.24275/uam/izt/dcbs/hidro/2021v31n2/galaviz"
+          "kind": "articulo",
+          "authors": [
+            "Galaviz-Silva, L.",
+            "Robles-Valdez, A.",
+            "Sánchez-Díaz, R.",
+            "Ibarra-Gámez, J. C.",
+            "Gómez-Gil, B.",
+            "Molina-Garza, Z. J."
+          ],
+          "year": "2021",
+          "title": "Cepas de Vibrio parahaemolyticus que causan necrosis hepatopancreática aguda en camarón cultivado de Sonora, México y su resistencia a antibióticos",
+          "container": "Hidrobiológica",
+          "volume": "31",
+          "issue": "2",
+          "pages": "111–123",
+          "doi": "10.24275/uam/izt/dcbs/hidro/2021v31n2/galaviz"
         },
         {
           "id": "untreaty",
-          "text": "United Nations Treaty Collection, capítulo XXVII: convenios de Estocolmo (15), Rotterdam (14) y Minamata (17), estado de las partes.",
-          "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-15&chapter=27"
+          "kind": "web",
+          "authors": [
+            "United Nations Treaty Collection"
+          ],
+          "year": "2026",
+          "title": "Chapter XXVII, Environment: Stockholm (15), Rotterdam (14) and Minamata (17) conventions. Status",
+          "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-15&chapter=27",
+          "accessed": "2026-10-17"
         },
         {
           "id": "se24",
-          "text": "Secretaría de Economía, SEMARNAT, SADER y COFEPRIS (2024). Gobierno de México salvaguarda la seguridad agroalimentaria del país. Comunicado conjunto, 26 de marzo de 2024.",
+          "kind": "comunicado",
+          "authors": [
+            "Secretaría de Economía [SE]",
+            "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]",
+            "Secretaría de Agricultura y Desarrollo Rural [SADER]",
+            "Comisión Federal para la Protección contra Riesgos Sanitarios [COFEPRIS]"
+          ],
+          "year": "2024",
+          "date": "26 de marzo",
+          "title": "Gobierno de México salvaguarda la seguridad agroalimentaria del país",
+          "description": "Comunicado conjunto",
           "url": "https://www.gob.mx/se/prensa/gobierno-de-mexico-salvaguarda-la-seguridad-agroalimentaria-del-pais"
         }
       ]
@@ -2714,362 +3410,300 @@
   "sources": [
     {
       "id": "phc-main",
-      "title": "Planetary Health Check 2026: A Scientific Assessment of the State of the Planet",
-      "organization": "Potsdam Institute for Climate Impact Research (PIK) / PBScience",
-      "url": "https://www.planetaryhealthcheck.org/downloads/",
-      "accessDate": "2026-10-03",
-      "license": "Informe de acceso público",
+      "kind": "informe",
+      "authors": [
+        "Caesar, L.",
+        "Sakschewski, B.",
+        "Andersen, L. S.",
+        "Bai, Y.",
+        "Bala, G.",
+        "Bednarsek, N.",
+        "Beringer, T.",
+        "Beusen, A.",
+        "Billing, M.",
+        "Bodirsky, B. L.",
+        "Botsyun, S.",
+        "Braun, J.",
+        "Breitburg, D.",
+        "Dahlmann, H.",
+        "DeClerck, F.",
+        "Dennis, D. P.",
+        "Diamond, M. L.",
+        "Donges, J. F.",
+        "Dou, X.",
+        "Dupont, S.",
+        "Ehrenfeucht, S.",
+        "Eriksson, A. E.",
+        "Fahrländer, S.",
+        "Fetzer, I.",
+        "Findlay, H. S.",
+        "Ford, D. J.",
+        "Frölicher, T.",
+        "Garçon, V.",
+        "Geersen, J.",
+        "Gerten, D.",
+        "Gruber, N.",
+        "Heckmann, T.",
+        "Huiskamp, W.",
+        "Jahnke, A.",
+        "Joye, S.",
+        "Kaiser, J.",
+        "Kitzmann, N. H.",
+        "Kühnel, D.",
+        "Laureanti, N. C.",
+        "Li, C.",
+        "Liu, Z.",
+        "Loriani, S.",
+        "Ludescher, J.",
+        "Mathesius, S.",
+        "Matz-Lück, N.",
+        "Müller, J. D.",
+        "Murray, N. J.",
+        "Nicolai, C.",
+        "Otto, F.",
+        "Pielaet, A.",
+        "Pokhotelov, D.",
+        "Rafiezadeh Shahi, K.",
+        "Raju, E.",
+        "Ramin, K.",
+        "Röhrich, L.",
+        "Rostami, M.",
+        "Schmidt, C.",
+        "Shalin, A.",
+        "Shutler, J. D.",
+        "Steinert, N. J.",
+        "Stenzel, F.",
+        "Stuckas, H.",
+        "Teixeira, L.",
+        "Tharammal, T.",
+        "Ben Uri, L.",
+        "Virkki, V.",
+        "Wang, Z.",
+        "Wendt-Potthoff, K.",
+        "Rockström, J."
+      ],
+      "year": "2026",
+      "title": "Planetary Health Check 2026: A scientific assessment of the state of our planet",
+      "publisher": "Potsdam Institute for Climate Impact Research",
+      "doi": "10.48485/pik.2026.25",
       "note": "Reporte principal (124 págs.). Base del estado global de los 9 límites y 13 variables de control.",
       "group": "global"
     },
     {
       "id": "phc-supp",
-      "title": "Planetary Health Check 2026 — Supplementary Materials",
-      "organization": "Potsdam Institute for Climate Impact Research (PIK) / PBScience",
+      "kind": "informe",
+      "authors": [
+        "Planetary Boundaries Science [PBScience]"
+      ],
+      "year": "2026",
+      "title": "Planetary Health Check 2026: Supplementary materials",
+      "publisher": "Potsdam Institute for Climate Impact Research",
       "url": "https://www.planetaryhealthcheck.org/downloads/",
-      "accessDate": "2026-10-03",
-      "license": "Informe de acceso público",
       "note": "Fuentes de datos de la Gran Aceleración y metodologías de agua dulce, N/P, uso de suelo y acidificación oceánica.",
       "group": "global"
     },
     {
-      "id": "smn-repclima-2024",
-      "title": "Reporte del Clima en México — Anual 2024 (Anexo 3: Temperatura media por entidad federativa)",
-      "organization": "SMN / CONAGUA",
-      "url": "https://smn.conagua.gob.mx/tools/DATA/Climatolog%C3%ADa/Diagn%C3%B3stico%20Atmosf%C3%A9rico/Reporte%20del%20Clima%20en%20M%C3%A9xico/Anual2024.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Dominio público (gob.mx)",
-      "note": "Temperatura media anual 2024 por entidad: BC 19.4, BCS 23.6, Sonora 23.3, Sinaloa 26.2, Nayarit 25.4 °C. Nacional 22.9 °C, año más cálido del registro desde 1953.",
-      "group": "regional"
-    },
-    {
-      "id": "smn-msm-20260915",
-      "title": "Monitor de Sequía de México (MSM), 15 de septiembre de 2026",
-      "organization": "SMN / CONAGUA",
-      "url": "https://smn.conagua.gob.mx/tools/DATA/Climatolog%C3%ADa/Sequ%C3%ADa/Monitor%20de%20sequ%C3%ADa%20en%20M%C3%A9xico/Seguimiento%20de%20Sequ%C3%ADa/MSM20260915.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Dominio público (gob.mx)",
-      "note": "% de territorio estatal en sequía D1–D4 al 15-sep-2026: BC 1.0, BCS 0.0, Sonora 8.9, Sinaloa 0.0, Nayarit 16.8 (nacional 10.3%). Usado en clima y agua dulce.",
-      "group": "regional"
-    },
-    {
-      "id": "inecc-inegycei-2022",
-      "title": "INEGyCEI 1990–2022 (Primer Informe Bienal de Transparencia)",
-      "organization": "INECC / SEMARNAT",
-      "url": "https://www.gob.mx/cms/uploads/attachment/file/1018303/INEGYCEI__Dif_250725.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Dominio público (gob.mx)",
-      "note": "Contexto de emisiones: total nacional 2022 = 757.3 Mt CO2e (bruto, sin UTCUTS); 568.5 Mt neto. Inventario nacional por sector, sin desglose estatal.",
-      "group": "regional"
-    },
-    {
-      "id": "dgeia-acuiferos-sobreexplotados",
-      "title": "Volúmenes de extracción y recarga de acuíferos sobreexplotados",
-      "organization": "SEMARNAT — SNIARN (con datos de CONAGUA)",
-      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_mares/d3_agua02_02_mar.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Datos públicos (SEMARNAT/CONAGUA)",
-      "note": "Conteo de acuíferos sobreexplotados por entidad (2019): BC 11, BCS 6, Sonora 11, Sinaloa 0, Nayarit 0.",
-      "group": "regional"
-    },
-    {
-      "id": "conanp-numeralia-2024",
-      "title": "Numeralia sobre las Áreas Naturales Protegidas de México (septiembre 2024)",
-      "organization": "CONANP",
-      "url": "https://simec.conanp.gob.mx/numeralia/Tablas_Numeralia.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (Gobierno de México)",
-      "note": "Superficie terrestre de ANP federales por estado (ha): BC 3 023 400; BCS 2 591 224; Sonora 1 403 066; Sinaloa 93 264; Nayarit 990 124.",
-      "group": "regional"
-    },
-    {
-      "id": "semarnat-compendio-manglares",
-      "title": "Compendio de Estadísticas Ambientales — Superficie estimada de manglares por entidad federativa",
-      "organization": "SEMARNAT",
-      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_biodiversidad/d3_biodiv01_16.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (Gobierno de México)",
-      "note": "Manglar 2020 (ha): BC 42; BCS 25 511; Sonora 12 334; Sinaloa 76 300; Nayarit 66 849. Serie 2005–2020.",
-      "group": "regional"
-    },
-    {
-      "id": "conabio-manglares",
-      "title": "Extensión y distribución de manglares (Sistema de Monitoreo de los Manglares de México)",
-      "organization": "CONABIO",
-      "url": "https://www.biodiversidad.gob.mx/monitoreo/smmm/extensionDist",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (CONABIO)",
-      "note": "Fuente original de la cartografía de manglar citada por el compendio de SEMARNAT.",
-      "group": "regional"
-    },
-    {
-      "id": "conapesca-anuario-2024",
-      "title": "Anuario Estadístico de Acuacultura y Pesca 2024 — Base de Datos de Producción",
-      "organization": "CONAPESCA",
-      "url": "https://nube.conapesca.gob.mx/sites/cona/dgppe/anuarios/BASE_DE_DATOS_DE_PRODUCCION_ANUARIO_2024.xlsx",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (Gobierno de México)",
-      "note": "Captura en peso vivo 2024 (t): BC 343 051; BCS 199 653; Sonora 679 294; Sinaloa 350 180; Nayarit 15 255.",
-      "group": "regional"
-    },
-    {
-      "id": "inegi-ca2022",
-      "title": "Censo Agropecuario 2022 — Resultados definitivos",
-      "organization": "INEGI",
-      "url": "https://www.inegi.org.mx/programas/cagf/2022/",
-      "accessDate": "2026-10-03",
-      "license": "Libre (INEGI); citar la fuente",
-      "note": "Superficie sembrada (ha): BC 188 878; BCS 37 816; Sonora 648 396; Sinaloa 1 272 407; Nayarit 456 031. Documentos estatales: https://www.inegi.org.mx/contenidos/programas/ca/2022/doc/ca2022_rdBCN.pdf · ca2022_rdBCS.pdf · ca2022_rdSON.pdf · ca2022_rdSIN.pdf · ca2022_rdNAY.pdf",
-      "group": "regional"
-    },
-    {
-      "id": "gfw-tcl-summary",
-      "title": "Pérdida de cobertura arbórea por entidad — resumen acumulado (Hansen et al. 2013)",
-      "organization": "Global Forest Watch / University of Maryland GLAD",
-      "url": "https://data-api.globalforestwatch.org/dataset/gadm__tcl__adm1_summary",
-      "accessDate": "2026-10-03",
-      "license": "CC BY 4.0",
-      "note": "Pérdida acumulada 2001–2025 (umbral 30 % de copa), agregada por entidad federativa (GADM 4.1).",
-      "group": "regional"
-    },
-    {
-      "id": "gfw-tcl-change",
-      "title": "Pérdida de cobertura arbórea por entidad — serie anual",
-      "organization": "Global Forest Watch / University of Maryland GLAD",
-      "url": "https://data-api.globalforestwatch.org/dataset/gadm__tcl__adm1_change",
-      "accessDate": "2026-10-03",
-      "license": "CC BY 4.0",
-      "note": "Serie anual 2001–2025 (umbral 30 %) usada para la serie temporal y validación cruzada.",
-      "group": "regional"
-    },
-    {
-      "id": "gadm",
-      "title": "GADM Administrative Boundaries (v4.1)",
-      "organization": "GADM / Global Forest Watch",
-      "url": "https://data-api.globalforestwatch.org/dataset/gadm_administrative_boundaries",
-      "accessDate": "2026-10-03",
-      "license": "GADM (uso no comercial)",
-      "note": "Correspondencia adm1→entidad: MEX.3_1=BC, MEX.2_1=BCS, MEX.26_1=Sonora, MEX.25_1=Sinaloa, MEX.18_1=Nayarit.",
-      "group": "regional"
-    },
-    {
-      "id": "sanchez-cabeza-2022",
-      "title": "Rapid surface water warming in shallow coastal waters at the eastern entrance of the Gulf of California",
-      "organization": "UNAM / Progress in Oceanography",
-      "url": "https://doi.org/10.1016/j.pocean.2022.102746",
-      "accessDate": "2026-10-03",
-      "license": "© Elsevier; resumen de acceso abierto",
-      "note": "SST 1973–2016 en Mazatlán: +0.57 ± 0.01 °C/década; anomalías de la SST mínima +4 °C (2013–2014) y +7 °C (2016).",
-      "group": "regional"
-    },
-    {
-      "id": "jamet-ardiles-2025",
-      "title": "Tendencias del calentamiento de las aguas superficiales del Golfo de California (1982–2022)",
-      "organization": "Universidad de Guadalajara (tesis de maestría)",
-      "url": "https://hdl.handle.net/20.500.12104/110572",
-      "accessDate": "2026-10-03",
-      "license": "Resumen de acceso abierto",
-      "note": "SST satelital AVHRR/NOAA 1982–2022: tasas regionales de 0.18 a 0.40 °C/década, por encima de la media oceánica global.",
-      "group": "regional"
-    },
-    {
-      "id": "norzagaray-2017",
-      "title": "Aragonite saturation and pH variation in a fringing reef are strongly influenced by oceanic conditions",
-      "organization": "Limnology & Oceanography (ASLO / Wiley)",
-      "url": "https://doi.org/10.1002/lno.10571",
-      "accessDate": "2026-10-03",
-      "license": "© ASLO/Wiley; resumen de acceso abierto",
-      "note": "Arrecife de Cabo Pulmo: rango estacional ΔΩarag = 0.5 unidades, uno de los mayores reportados en arrecifes de coral.",
-      "group": "regional"
-    },
-    {
-      "id": "oliva-mendez-2025",
-      "title": "Seasonal and interannual variability of the aragonite saturation horizon in the California Current System of Baja California",
-      "organization": "Journal of Geophysical Research: Oceans (AGU)",
-      "url": "https://doi.org/10.1029/2024JC021653",
-      "accessDate": "2026-10-03",
-      "license": "© AGU; resumen de acceso abierto",
-      "note": "Contexto de la vertiente Pacífico de Baja California (no el interior del Golfo); horizonte de aragonita entre ~90 y ~133 m.",
-      "group": "regional"
-    },
-    {
-      "id": "semarnat-dbgir-2026",
-      "title": "Diagnóstico Básico para la Gestión Integral de los Residuos (DBGIR) 2026",
-      "organization": "SEMARNAT / INECC",
-      "url": "https://www.gob.mx/semarnat/documentos/diagnostico-basico-para-la-gestion-integral-de-los-residuos-dbgir-2026",
-      "accessDate": "2026-10-03",
-      "license": "Datos públicos del Gobierno de México",
-      "note": "Generación de RSU per cápita por entidad (Tabla 10): BC 1.142; BCS 1.099; Sonora 1.073; Sinaloa 1.079; Nayarit 1.049 kg/hab/día.",
-      "group": "regional"
-    },
-    {
-      "id": "sanchezpaz-2025-microplastics",
-      "title": "Microplastics in surface waters surrounding a touristic beach at the Gulf of California, Mexico",
-      "organization": "International Journal of Environmental Health Research (Taylor & Francis)",
-      "url": "https://doi.org/10.1080/09603123.2025.2483356",
-      "accessDate": "2026-10-03",
-      "license": "Artículo por suscripción; resumen vía PubMed (PMID 40131303)",
-      "note": "CIBNOR y Universidad de Sonora. Microfibras 50.8 % vs partículas 49.2 %; concentración hasta 2.02× tras vacaciones de primavera.",
-      "group": "regional"
-    },
-    {
-      "id": "sinaica-2023",
-      "title": "Informe Nacional de Calidad del Aire 2023",
-      "organization": "INECC / SINAICA (Gobierno de México)",
-      "url": "https://sinaica.inecc.gob.mx/archivo/informes/Informe2023.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Datos públicos del Gobierno de México",
-      "note": "PM2.5 media anual 2023: Mexicali 25 y Tijuana 25 µg/m³ (BC); Nogales 11 µg/m³ (Sonora). BCS, Sinaloa y Nayarit sin media anual oficial.",
-      "group": "regional"
-    },
-    {
-      "id": "cerca-lapaz-2023",
-      "title": "Reporte trimestral de calidad del aire en La Paz, B.C.S. (enero–marzo 2023)",
-      "organization": "CERCA (Departamento de Salud y Calidad Ambiental)",
-      "url": "https://cerca.org.mx/wp-content/uploads/2023/06/Reporte-trimestral-de-calidad-del-aire-en-La-Paz-B.C.S.-Periodo-enero-marzo-2023.docx-2-1.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Publicación de organización civil (CERCA)",
-      "note": "Red ciudadana (PurpleAir) en La Paz; documenta PM10/PM2.5 pero sin media anual oficial.",
-      "group": "regional"
-    },
-    {
-      "id": "noaa-globaltemp",
-      "title": "Global Land and Ocean Temperature Anomalies (Climate at a Glance)",
-      "organization": "NOAA / NCEI",
-      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series",
-      "accessDate": "2026-10-14",
-      "license": "Dominio público (NOAA)",
-      "note": "Anomalía global anual 1850–2025 respecto a 1901–2000.",
+      "id": "richardson-2023",
+      "kind": "articulo",
+      "authors": [
+        "Richardson, K.",
+        "Steffen, W.",
+        "Lucht, W.",
+        "Bendtsen, J.",
+        "Cornell, S. E.",
+        "Donges, J. F.",
+        "Drüke, M.",
+        "Fetzer, I.",
+        "Bala, G.",
+        "von Bloh, W.",
+        "Feulner, G.",
+        "Fiedler, S.",
+        "Gerten, D.",
+        "Gleeson, T.",
+        "Hofmann, M.",
+        "Huiskamp, W.",
+        "Kummu, M.",
+        "Mohan, C.",
+        "Nogués-Bravo, D.",
+        "Petri, S.",
+        "Porkka, M.",
+        "Rahmstorf, S.",
+        "Schaphoff, S.",
+        "Thonicke, K.",
+        "Tobian, A.",
+        "Virkki, V.",
+        "Wang-Erlandsson, L.",
+        "Weber, L.",
+        "Rockström, J."
+      ],
+      "year": "2023",
+      "title": "Earth beyond six of nine planetary boundaries",
+      "container": "Science Advances",
+      "volume": "9",
+      "issue": "37",
+      "article": "eadh2458",
+      "doi": "10.1126/sciadv.adh2458",
+      "note": "Marco de límites planetarios.",
       "group": "global"
     },
     {
-      "id": "semarnat-compendio-2018-suelos",
-      "title": "Compendio de Estadísticas Ambientales 2018 — Degradación de suelos por entidad federativa (2002)",
-      "organization": "SEMARNAT (SNIARN)",
-      "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2018/archivos/01_suelos/D3_SUELO03_03.pdf",
-      "accessDate": "2026-10-14",
-      "license": "Información pública (Gobierno de México)",
-      "note": "Degradación física, química, eólica e hídrica por estado (SEMARNAT–Colegio de Postgraduados 2001–2002).",
-      "group": "regional"
+      "id": "rockstrom-2009",
+      "kind": "articulo",
+      "authors": [
+        "Rockström, J.",
+        "Steffen, W.",
+        "Noone, K.",
+        "Persson, Å.",
+        "Chapin, F. S.",
+        "Lambin, E. F.",
+        "Lenton, T. M.",
+        "Scheffer, M.",
+        "Folke, C.",
+        "Schellnhuber, H. J.",
+        "Nykvist, B.",
+        "de Wit, C. A.",
+        "Hughes, T.",
+        "van der Leeuw, S.",
+        "Rodhe, H.",
+        "Sörlin, S.",
+        "Snyder, P. K.",
+        "Costanza, R.",
+        "Svedin, U.",
+        "Falkenmark, M.",
+        "Karlberg, L.",
+        "Corell, R. W.",
+        "Fabry, V. J.",
+        "Hansen, J.",
+        "Walker, B.",
+        "Liverman, D.",
+        "Richardson, K.",
+        "Crutzen, P.",
+        "Foley, J. A."
+      ],
+      "year": "2009",
+      "title": "A safe operating space for humanity",
+      "container": "Nature",
+      "volume": "461",
+      "issue": "7263",
+      "pages": "472–475",
+      "doi": "10.1038/461472a",
+      "group": "global"
     },
     {
-      "id": "navarro-2018",
-      "title": "Observed trends and future projections of extreme heat events in Sonora, Mexico",
-      "organization": "International Journal of Climatology",
-      "url": "https://doi.org/10.1002/joc.5719",
-      "accessDate": "2026-10-14",
-      "license": "© Wiley",
-      "note": "Olas de calor y días de calor extremo 1966–2015.",
-      "group": "regional"
+      "id": "steffen-2015",
+      "kind": "articulo",
+      "authors": [
+        "Steffen, W.",
+        "Richardson, K.",
+        "Rockström, J.",
+        "Cornell, S. E.",
+        "Fetzer, I.",
+        "Bennett, E. M.",
+        "Biggs, R.",
+        "Carpenter, S. R.",
+        "de Vries, W.",
+        "de Wit, C. A.",
+        "Folke, C.",
+        "Gerten, D.",
+        "Heinke, J.",
+        "Mace, G. M.",
+        "Persson, L. M.",
+        "Ramanathan, V.",
+        "Reyers, B.",
+        "Sörlin, S."
+      ],
+      "year": "2015",
+      "title": "Planetary boundaries: Guiding human development on a changing planet",
+      "container": "Science",
+      "volume": "347",
+      "issue": "6223",
+      "article": "1259855",
+      "doi": "10.1126/science.1259855",
+      "group": "global"
     },
     {
-      "id": "luong-2022",
-      "title": "Future Land Precipitation Changes Over the North American Monsoon Region Using CMIP5 and CMIP6 Simulations",
-      "organization": "Journal of Geophysical Research: Atmospheres",
-      "url": "https://doi.org/10.1029/2021JD035911",
-      "accessDate": "2026-10-14",
-      "license": "© AGU",
-      "note": "Retraso y déficit de precipitación del monzón de Norteamérica.",
-      "group": "regional"
+      "id": "salafsky-2008",
+      "kind": "articulo",
+      "authors": [
+        "Salafsky, N.",
+        "Salzer, D.",
+        "Stattersfield, A. J.",
+        "Hilton-Taylor, C.",
+        "Neugarten, R.",
+        "Butchart, S. H. M.",
+        "Collen, B.",
+        "Cox, N.",
+        "Master, L. L.",
+        "O'Connor, S.",
+        "Wilkie, D."
+      ],
+      "year": "2008",
+      "title": "A standard lexicon for biodiversity conservation: Unified classifications of threats and actions",
+      "container": "Conservation Biology",
+      "volume": "22",
+      "issue": "4",
+      "pages": "897–911",
+      "doi": "10.1111/j.1523-1739.2008.00937.x",
+      "group": "global"
     },
     {
-      "id": "gilly-2022",
-      "title": "Long-term hydrographic changes in the Gulf of California and ecological impacts: A crack in the World's Aquarium?",
-      "organization": "Progress in Oceanography",
-      "url": "https://doi.org/10.1016/j.pocean.2022.102857",
-      "accessDate": "2026-10-14",
-      "license": "© Elsevier",
-      "note": "Calentamiento, estratificación y efectos ecológicos en el Golfo.",
-      "group": "regional"
+      "id": "hayha-2016",
+      "kind": "articulo",
+      "authors": [
+        "Häyhä, T.",
+        "Lucas, P. L.",
+        "van Vuuren, D. P.",
+        "Cornell, S. E.",
+        "Hoff, H."
+      ],
+      "year": "2016",
+      "title": "From planetary boundaries to national fair shares of the global safe operating space — how can the scales be bridged?",
+      "container": "Global Environmental Change",
+      "volume": "40",
+      "pages": "60–72",
+      "doi": "10.1016/j.gloenvcha.2016.06.008",
+      "group": "global"
     },
     {
-      "id": "frawley-2019",
-      "title": "Impacts of a shift to a warm-water regime in the Gulf of California on jumbo squid (Dosidicus gigas)",
-      "organization": "ICES Journal of Marine Science",
-      "url": "https://doi.org/10.1093/icesjms/fsz133",
-      "accessDate": "2026-10-14",
-      "license": "© OUP",
-      "note": "Colapso del calamar gigante.",
-      "group": "regional"
+      "id": "huang-2011",
+      "kind": "articulo",
+      "authors": [
+        "Huang, I. B.",
+        "Keisler, J.",
+        "Linkov, I."
+      ],
+      "year": "2011",
+      "title": "Multi-criteria decision analysis in environmental sciences: Ten years of applications and trends",
+      "container": "Science of the Total Environment",
+      "volume": "409",
+      "issue": "19",
+      "pages": "3578–3594",
+      "doi": "10.1016/j.scitotenv.2011.06.022",
+      "group": "global"
     },
     {
-      "id": "edf-cambioclimatico",
-      "title": "Cambio climático en México: Recomendaciones de política pública para la adaptación y resiliencia del sector pesquero y acuícola",
-      "organization": "Environmental Defense Fund (EDF)",
-      "url": "https://mexico.edf.org/sites/default/files/EstudioCambioClimatico_0.pdf",
-      "accessDate": "2026-10-14",
-      "license": "Informe público",
-      "note": "Proyecciones de productividad primaria y costos para pesquerías.",
-      "group": "regional"
+      "id": "cmp-2020",
+      "kind": "informe",
+      "authors": [
+        "Conservation Measures Partnership [CMP]"
+      ],
+      "year": "2020",
+      "title": "Estándares abiertos para la práctica de la conservación",
+      "description": "Versión 4.0",
+      "url": "https://www.conservationstandards.org/about/",
+      "group": "global"
     },
     {
-      "id": "smn-msm-historico",
-      "title": "Monitor de Sequía de México (MSM) — porcentaje de área con sequía D1–D4 a nivel nacional",
-      "organization": "Servicio Meteorológico Nacional (SMN) / CONAGUA",
-      "url": "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
-      "accessDate": "2026-10-14",
-      "license": "Dominio público (gob.mx)",
-      "note": "Serie 2011–2026 del % de territorio nacional en sequía D1–D4 (cierre de año).",
-      "group": "regional"
-    },
-    {
-      "id": "ohi-salud-2025",
-      "title": "Evaluación de la Salud Ecológica del Golfo de California (2025)",
-      "organization": "Nueva Generación de Investigadores del Desierto Sonorense / Prescott College",
-      "url": "https://nextgensd.com/wp-content/uploads/2025/01/Health-of-the-Gulf-of-California_final-assesment_Espanol.pdf",
-      "accessDate": "2026-10-14",
-      "license": "Informe público",
-      "note": "Tendencias ecológicas del Golfo: 3 grupos mejorando, 7 estables, 11 en deterioro, 2 en deterioro acelerado.",
-      "group": "regional"
-    },
-    {
-      "id": "aburto-2008-pnas",
-      "title": "Mangroves in the Gulf of California increase fishery yields",
-      "organization": "Proceedings of the National Academy of Sciences (PNAS)",
-      "url": "https://www.pnas.org/doi/10.1073/pnas.0804601105",
-      "accessDate": "2026-10-14",
-      "license": "© PNAS",
-      "note": "Valor de los manglares para las pesquerías del Golfo.",
-      "group": "regional"
-    },
-    {
-      "id": "aburto-2011-plosone",
-      "title": "Large Recovery of Fish Biomass in a No-Take Marine Reserve (Cabo Pulmo)",
-      "organization": "PLoS ONE",
-      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0023601",
-      "accessDate": "2026-10-14",
-      "license": "CC BY",
-      "note": "Recuperación de +463 % de biomasa en Cabo Pulmo.",
-      "group": "regional"
-    },
-    {
-      "id": "aguirre-2008-ambio",
-      "title": "High-impact Conservation: Invasive Mammal Eradications from the Islands of Western México",
-      "organization": "Ambio / GECI",
-      "url": "https://www.islas.org.mx/articulos_files/2008.%20Aguirre%20et%20al_High%20Impact%20Conservation%20Islands-Ambio.pdf",
-      "accessDate": "2026-10-14",
-      "license": "© Ambio",
-      "note": "Erradicación de mamíferos invasores en islas del Pacífico y Golfo.",
-      "group": "regional"
-    },
-    {
-      "id": "sala-2004-fishingdown",
-      "title": "Fishing Down Coastal Food Webs in the Gulf of California",
-      "organization": "Fisheries (American Fisheries Society)",
-      "url": "https://academic.oup.com/fisheries/article-pdf/29/3/19/61180852/fsh0019.pdf",
-      "accessDate": "2026-10-14",
-      "license": "© AFS",
-      "note": "Degradación trófica por pesca en el Golfo.",
-      "group": "regional"
-    },
-    {
-      "id": "richardson-2023",
-      "title": "Earth beyond six of nine planetary boundaries",
-      "organization": "Science Advances",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499318/",
-      "accessDate": "2026-10-14",
-      "license": "CC BY",
-      "note": "Marco de límites planetarios.",
+      "id": "oecd-jrc-2008",
+      "kind": "libro",
+      "authors": [
+        "Organización para la Cooperación y el Desarrollo Económicos [OCDE]",
+        "Joint Research Centre [JRC]"
+      ],
+      "year": "2008",
+      "title": "Handbook on constructing composite indicators: Methodology and user guide",
+      "publisher": "OECD Publishing",
+      "doi": "10.1787/9789264043466-en",
       "group": "global"
     }
   ],

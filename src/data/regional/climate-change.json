@@ -324,7 +324,7 @@
     {
       "title": "El Golfo de California se calienta más rápido que el océano global",
       "subtitle": "Tendencia de la temperatura superficial del mar en °C por década, medida con satélites.",
-      "note": "Con 513 subáreas analizadas entre 1998 y 2022, el Golfo se calienta unos 0.36 °C por década, de dos a tres veces más rápido que el océano global, cuya tendencia va de 0.11 a 0.18 °C por década según la base de datos (1982–2024, entre 60°S y 60°N). Durante olas de calor marinas, como las de 2014–2016 y 2023, la temperatura sube de 1 a 3 °C por encima de lo normal. La clorofila, indicador del alimento disponible en la base de la red alimentaria, bajó en el mismo periodo. Fuentes: López Martínez et al. 2023; Menemenlis et al. 2025.",
+      "note": "Con 513 subáreas analizadas entre 1998 y 2022, el Golfo se calienta unos 0.36 °C por década, de dos a tres veces más rápido que el océano global, cuya tendencia va de 0.11 a 0.18 °C por década según la base de datos (1982–2024, entre 60°S y 60°N). Durante olas de calor marinas, como las de 2014–2016 y 2023, la temperatura sube de 1 a 3 °C por encima de lo normal. La clorofila, indicador del alimento disponible en la base de la red alimentaria, bajó en el mismo periodo. Fuentes: López Martínez et al. (2023) y Menemenlis et al. (2025).",
       "series": [
         {
           "id": "sst",
@@ -493,125 +493,209 @@
   "sources": [
     {
       "id": "noaa-globaltemp",
-      "title": "Global Land and Ocean Temperature Anomalies (Climate at a Glance)",
-      "organization": "NOAA / NCEI",
+      "kind": "datos",
+      "authors": [
+        "NOAA National Centers for Environmental Information [NCEI]"
+      ],
+      "year": "2026",
+      "title": "Climate at a glance: Global time series, land and ocean, 1950–2025",
+      "description": "Conjunto de datos",
       "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe/land_ocean/12/12/1950-2025",
-      "accessDate": "2026-10-17",
-      "license": "Dominio público (NOAA)",
+      "accessed": "2026-10-17",
       "note": "Anomalía anual (enero–diciembre) de temperatura global de tierra y océano respecto a 1901–2000."
     },
     {
       "id": "lopez-martinez-2023",
-      "title": "Long-Term Variability in Sea Surface Temperature and Chlorophyll a Concentration in the Gulf of California",
-      "organization": "Remote Sensing 15(16):4088 (López Martínez, Farach Espinoza, Herrera Cervantes y García Morales)",
-      "url": "https://doi.org/10.3390/rs15164088",
-      "accessDate": "2026-10-17",
-      "license": "CC BY 4.0",
+      "kind": "articulo",
+      "authors": [
+        "López Martínez, J.",
+        "Farach Espinoza, E. B.",
+        "Herrera Cervantes, H.",
+        "García Morales, R."
+      ],
+      "year": "2023",
+      "title": "Long-term variability in sea surface temperature and chlorophyll a concentration in the Gulf of California",
+      "container": "Remote Sensing",
+      "volume": "15",
+      "issue": "16",
+      "article": "4088",
+      "doi": "10.3390/rs15164088",
       "note": "513 subáreas, 1998–2022: calentamiento de ~0.036 °C al año y descenso de la clorofila.",
       "group": "regional"
     },
     {
       "id": "menemenlis-2025",
+      "kind": "articulo",
+      "authors": [
+        "Menemenlis, S.",
+        "Vecchi, G. A.",
+        "Yang, W.",
+        "Fueglistaler, S.",
+        "Raghuraman, S. P."
+      ],
+      "year": "2025",
       "title": "Consequential differences in satellite-era sea surface temperature trends across datasets",
-      "organization": "Nature Climate Change 15(8):897–903 (Menemenlis, Vecchi, Yang, Fueglistaler y Raghuraman)",
-      "url": "https://doi.org/10.1038/s41558-025-02362-6",
-      "accessDate": "2026-10-17",
-      "license": "© Springer Nature",
+      "container": "Nature Climate Change",
+      "volume": "15",
+      "issue": "8",
+      "pages": "897–903",
+      "doi": "10.1038/s41558-025-02362-6",
       "note": "Tendencia del océano global (60°S–60°N, 1982–2024) de 0.108 a 0.184 °C por década según la base de datos.",
       "group": "regional"
     },
     {
       "id": "dge-tne-2023",
-      "title": "Informe semanal de vigilancia epidemiológica: temperaturas naturales extremas, temporada de calor 2023 (semana 40)",
-      "organization": "Secretaría de Salud, Dirección General de Epidemiología",
+      "kind": "informe",
+      "authors": [
+        "Dirección General de Epidemiología [DGE]"
+      ],
+      "year": "2023",
+      "title": "Informe semanal de vigilancia epidemiológica: temperaturas naturales extremas, temporada de calor 2023 (semana epidemiológica 40)",
+      "publisher": "Secretaría de Salud",
       "url": "https://www.gob.mx/cms/uploads/attachment/file/862593/TNE_SE_40.pdf",
-      "accessDate": "2026-10-17",
-      "license": "Información pública",
       "note": "421 defunciones en el país: Sonora 117, Baja California 54, Baja California Sur 14, Sinaloa 11, Nayarit 3.",
       "group": "regional"
     },
     {
       "id": "dge-tne-2024",
-      "title": "Temperaturas naturales extremas, temporada de calor 2024 (semana 40)",
-      "organization": "Secretaría de Salud, Dirección General de Epidemiología",
+      "kind": "informe",
+      "authors": [
+        "Dirección General de Epidemiología [DGE]"
+      ],
+      "year": "2024",
+      "title": "Temperaturas naturales extremas, temporada de calor 2024 (semana epidemiológica 40)",
+      "publisher": "Secretaría de Salud",
       "url": "https://www.gob.mx/cms/uploads/attachment/file/952997/TNE_2024_SE_40.pdf",
-      "accessDate": "2026-10-17",
-      "license": "Información pública",
       "note": "331 defunciones en el país: Sonora 48, Baja California 47, Baja California Sur 5, Sinaloa 3, Nayarit 2.",
       "group": "regional"
     },
     {
       "id": "inegi-censo-2020",
+      "kind": "datos",
+      "authors": [
+        "Instituto Nacional de Estadística y Geografía [INEGI]"
+      ],
+      "year": "2021",
       "title": "Censo de Población y Vivienda 2020",
-      "organization": "INEGI",
+      "description": "Conjunto de datos",
       "url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-      "accessDate": "2026-10-17",
-      "license": "Libre (INEGI)",
       "note": "Población por estado usada para la tasa de mortalidad por calor.",
       "group": "regional"
     },
     {
       "id": "navarro-2018",
+      "kind": "articulo",
+      "authors": [
+        "Navarro-Estupiñan, J.",
+        "Robles-Morua, A.",
+        "Vivoni, E. R.",
+        "Zepeda, J. E.",
+        "Montoya, J. A.",
+        "Verduzco, V. S."
+      ],
+      "year": "2018",
       "title": "Observed trends and future projections of extreme heat events in Sonora, Mexico",
-      "organization": "International Journal of Climatology 38(14):5168–5181 (Navarro-Estupiñan, Robles-Morua, Vivoni et al.)",
-      "url": "https://doi.org/10.1002/joc.5719",
-      "accessDate": "2026-10-17",
-      "license": "© Wiley",
+      "container": "International Journal of Climatology",
+      "volume": "38",
+      "issue": "14",
+      "pages": "5168–5181",
+      "doi": "10.1002/joc.5719",
       "note": "Las estaciones de Sonora registran más días de calor y más olas de calor entre 1966 y 2015, y los modelos proyectan más hacia 2060."
     },
     {
       "id": "hernandez-chen-2022",
-      "title": "Future Land Precipitation Changes Over the North American Monsoon Region Using CMIP5 and CMIP6 Simulations",
-      "organization": "Journal of Geophysical Research: Atmospheres 127(9):e2021JD035911 (Hernandez y Chen)",
-      "url": "https://doi.org/10.1029/2021JD035911",
-      "accessDate": "2026-10-17",
-      "license": "© AGU",
+      "kind": "articulo",
+      "authors": [
+        "Hernandez, M.",
+        "Chen, L."
+      ],
+      "year": "2022",
+      "title": "Future land precipitation changes over the North American monsoon region using CMIP5 and CMIP6 simulations",
+      "container": "Journal of Geophysical Research: Atmospheres",
+      "volume": "127",
+      "issue": "9",
+      "article": "e2021JD035911",
+      "doi": "10.1029/2021JD035911",
       "note": "En un escenario de altas emisiones, menos lluvia en junio–agosto y más en septiembre–octubre, con un total parecido.",
       "group": "regional"
     },
     {
       "id": "gilly-2022",
-      "title": "Long-term hydrographic changes in the Gulf of California and ecological impacts: A crack in the World's Aquarium?",
-      "organization": "Progress in Oceanography",
-      "url": "https://doi.org/10.1016/j.pocean.2022.102857",
-      "accessDate": "2026-10-17",
-      "license": "© Elsevier",
+      "kind": "articulo",
+      "authors": [
+        "Gilly, W.",
+        "Markaida, U.",
+        "Daniel, P.",
+        "Frawley, T.",
+        "Robinson, C.",
+        "Gómez-Gutiérrez, J.",
+        "Hyun, D.",
+        "Soliman, J.",
+        "Pandey, P.",
+        "Rosenzweig, L."
+      ],
+      "year": "2022",
+      "title": "Long-term hydrographic changes in the Gulf of California and ecological impacts: A crack in the World’s Aquarium?",
+      "container": "Progress in Oceanography",
+      "volume": "206",
+      "article": "102857",
+      "doi": "10.1016/j.pocean.2022.102857",
       "note": "Calentamiento y estratificación del Golfo."
     },
     {
       "id": "frawley-2019",
+      "kind": "articulo",
+      "authors": [
+        "Frawley, T. H.",
+        "Briscoe, D. K.",
+        "Daniel, P. C.",
+        "Britten, G. L.",
+        "Crowder, L. B.",
+        "Robinson, C. J.",
+        "Gilly, W. F."
+      ],
+      "year": "2019",
       "title": "Impacts of a shift to a warm-water regime in the Gulf of California on jumbo squid (Dosidicus gigas)",
-      "organization": "ICES Journal of Marine Science",
-      "url": "https://doi.org/10.1093/icesjms/fsz133",
-      "accessDate": "2026-10-17",
-      "license": "© OUP",
+      "container": "ICES Journal of Marine Science",
+      "doi": "10.1093/icesjms/fsz133",
       "note": "Colapso del calamar gigante."
     },
     {
       "id": "smn-msm-historico",
-      "title": "Monitor de Sequía de México (MSM) — porcentaje de área con sequía D1–D4 a nivel nacional",
-      "organization": "Servicio Meteorológico Nacional (SMN) / CONAGUA",
+      "kind": "datos",
+      "authors": [
+        "Servicio Meteorológico Nacional [SMN]"
+      ],
+      "year": "2026",
+      "title": "Monitor de Sequía de México: porcentaje del territorio nacional con sequía (D1–D4), 2011–2026",
+      "description": "Conjunto de datos",
+      "publisher": "Comisión Nacional del Agua [CONAGUA]",
       "url": "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
-      "accessDate": "2026-10-14",
-      "license": "Dominio público (gob.mx)",
+      "accessed": "2026-10-14",
       "note": "Valor de diciembre de cada año extraído de los reportes MSM de fin de año (Seguimiento de Sequía, MSM<AAAAMMDD>.pdf, 2014–2024) y del reporte del 15-abr-2026. 2011 y 2013 citados del reporte de diciembre 2014. 2025 y 2026 del reporte MS 15-abr-2026. 2012 y 2018 no disponibles en los reportes accesibles (se dejan vacíos)."
     },
     {
       "id": "edf-cambioclimatico",
-      "title": "Cambio climático en México: Recomendaciones de política pública para la adaptación y resiliencia del sector pesquero y acuícola",
-      "organization": "Environmental Defense Fund (EDF)",
+      "kind": "informe",
+      "authors": [
+        "Environmental Defense Fund de México [EDF]"
+      ],
+      "year": "s. f.",
+      "title": "Cambio climático en México: recomendaciones de política pública para la adaptación y resiliencia del sector pesquero y acuícola",
       "url": "https://mexico.edf.org/sites/default/files/EstudioCambioClimatico_0.pdf",
-      "accessDate": "2026-10-14",
-      "license": "Informe público",
       "note": "Proyecciones de productividad primaria y costos para pesquerías."
     },
     {
       "id": "inecc-inegycei-2022",
-      "title": "INEGyCEI 1990–2022 (Primer Informe Bienal de Transparencia)",
-      "organization": "INECC / SEMARNAT",
+      "kind": "informe",
+      "authors": [
+        "Instituto Nacional de Ecología y Cambio Climático [INECC]",
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+      ],
+      "year": "2025",
+      "title": "Inventario nacional de emisiones de gases y compuestos de efecto invernadero 1990–2022 (INEGyCEI)",
+      "description": "Primer informe bienal de transparencia",
       "url": "https://www.gob.mx/cms/uploads/attachment/file/1018303/INEGYCEI__Dif_250725.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Dominio público (gob.mx)",
       "note": "Contexto de emisiones nacionales."
     }
   ],

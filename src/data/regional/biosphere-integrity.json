@@ -87,7 +87,7 @@
     {
       "title": "Cabo Pulmo: la recuperación que logra la protección",
       "subtitle": "Biomasa de peces en el Parque Nacional Cabo Pulmo (BCS), creado en 1995 como zona de no pesca, en toneladas por hectárea.",
-      "note": "Entre 1999 y 2009 la biomasa total de peces aumentó 463 % y la de depredadores tope 1,070 %, unas once veces. Muestra que una zona de no pesca bien cuidada recupera el ecosistema en una década. Fuente: Aburto-Oropeza et al. 2011.",
+      "note": "Entre 1999 y 2009 la biomasa total de peces aumentó 463 % y la de depredadores tope 1,070 %, unas once veces. Muestra que una zona de no pesca bien cuidada recupera el ecosistema en una década. Fuente: Aburto-Oropeza et al. (2011).",
       "series": [
         {
           "id": "cp-biomasa",
@@ -173,7 +173,7 @@
           "note": "CONAPESCA Anuario 2024"
         }
       ],
-      "note": "Los cinco estados aportan el 86 % de la captura pesquera del país (1.59 de 1.85 millones de toneladas). Casi dos tercios son sardina y anchoveta; en Sinaloa destaca el atún. La pesca, incluida la incidental y la ilegal, es la principal presión documentada sobre la biodiversidad marina del Golfo (Sala et al. 2004; Wilder et al. 2025). Fuente: CONAPESCA, base de datos del Anuario 2024."
+      "note": "Los cinco estados aportan el 86 % de la captura pesquera del país (1.59 de 1.85 millones de toneladas). Casi dos tercios son sardina y anchoveta; en Sinaloa destaca el atún. La pesca, incluida la incidental y la ilegal, es la principal presión documentada sobre la biodiversidad marina del Golfo (Sala et al., 2004; Wilder et al., 2025). Fuente: CONAPESCA (2025), base de datos del Anuario 2024."
     }
   ],
   "map": {
@@ -268,171 +268,333 @@
   "sources": [
     {
       "id": "conanp-numeralia-2024",
-      "title": "Numeralia sobre las Áreas Naturales Protegidas de México (septiembre 2024)",
-      "organization": "CONANP",
+      "kind": "datos",
+      "authors": [
+        "Comisión Nacional de Áreas Naturales Protegidas [CONANP]"
+      ],
+      "year": "2024",
+      "title": "Numeralia sobre las áreas naturales protegidas de México (actualización: septiembre de 2024)",
       "url": "https://simec.conanp.gob.mx/numeralia/Tablas_Numeralia.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (Gobierno de México)",
       "note": "Superficie terrestre de ANP federales por estado."
     },
     {
       "id": "semarnat-compendio-manglares",
-      "title": "Compendio de Estadísticas Ambientales — Superficie estimada de manglares por entidad federativa",
-      "organization": "SEMARNAT",
+      "kind": "datos",
+      "authors": [
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+      ],
+      "year": "2021",
+      "title": "Superficie estimada de manglares por región y entidad federativa",
+      "container": "Compendio de estadísticas ambientales 2021",
+      "description": "Tabla D3_BIODIV01_16",
       "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_biodiversidad/d3_biodiv01_16.pdf",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (Gobierno de México)",
       "note": "Superficie de manglar 2005–2020 por estado; base del mapa y del tooltip de cambio."
     },
     {
       "id": "conabio-manglares",
-      "title": "Extensión y distribución de manglares (Sistema de Monitoreo de los Manglares de México)",
-      "organization": "CONABIO",
+      "kind": "web",
+      "authors": [
+        "Comisión Nacional para el Conocimiento y Uso de la Biodiversidad [CONABIO]"
+      ],
+      "year": "s. f.",
+      "title": "Extensión y distribución de manglares",
+      "container": "Sistema de Monitoreo de los Manglares de México",
       "url": "https://www.biodiversidad.gob.mx/monitoreo/smmm/extensionDist",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (CONABIO)",
+      "accessed": "2026-10-03",
       "note": "Cartografía de manglar."
     },
     {
       "id": "conapesca-anuario-2024",
-      "title": "Anuario Estadístico de Acuacultura y Pesca 2024 — Base de Datos de Producción",
-      "organization": "CONAPESCA",
+      "kind": "datos",
+      "authors": [
+        "Comisión Nacional de Acuacultura y Pesca [CONAPESCA]"
+      ],
+      "year": "2025",
+      "title": "Anuario estadístico de acuacultura y pesca 2024: base de datos de producción",
+      "description": "Conjunto de datos",
       "url": "https://nube.conapesca.gob.mx/sites/cona/dgppe/anuarios/BASE_DE_DATOS_DE_PRODUCCION_ANUARIO_2024.xlsx",
-      "accessDate": "2026-10-03",
-      "license": "Información pública (Gobierno de México)",
       "note": "Captura en peso vivo 2024 por estado."
     },
     {
       "id": "ohi-salud-2025",
-      "title": "Evaluación de la Salud Ecológica del Golfo de California (2025)",
-      "organization": "Wilder, B. T., Meltzer, L. y Torre, J. (comps.). NextGen Sonoran Desert Researchers / Kino Bay Center",
+      "kind": "informe",
+      "authors": [
+        "Wilder, B. T.",
+        "Meltzer, L.",
+        "Torre, J."
+      ],
+      "authorsRole": "Comps.",
+      "year": "2025",
+      "title": "Evaluación de la salud ecológica del Golfo de California 2025",
+      "publisher": "Nueva Generación de Investigadores del Desierto Sonorense y Prescott College Kino Bay Center",
       "url": "https://nextgensd.com/wp-content/uploads/2025/01/Health-of-the-Gulf-of-California_final-assesment_Espanol.pdf",
-      "accessDate": "2026-10-14",
-      "license": "Informe público",
       "note": "41 proyectos de monitoreo de largo plazo; tendencias por grupo taxonómico: 3 mejorando, 7 estables, 11 en deterioro, 2 en deterioro acelerado, 18 no determinados."
     },
     {
       "id": "aburto-2008-pnas",
+      "kind": "articulo",
+      "authors": [
+        "Aburto-Oropeza, O.",
+        "Ezcurra, E.",
+        "Danemann, G.",
+        "Valdez, V.",
+        "Murray, J.",
+        "Sala, E."
+      ],
+      "year": "2008",
       "title": "Mangroves in the Gulf of California increase fishery yields",
-      "organization": "Proceedings of the National Academy of Sciences (PNAS)",
-      "url": "https://www.pnas.org/doi/10.1073/pnas.0804601105",
-      "accessDate": "2026-10-14",
-      "license": "© PNAS",
+      "container": "Proceedings of the National Academy of Sciences",
+      "volume": "105",
+      "issue": "30",
+      "pages": "10456–10459",
+      "doi": "10.1073/pnas.0804601105",
       "note": "Mediana de US $37,500 anuales por hectárea de franja de manglar en pesquerías ribereñas (32 % de los desembarques de pesca ribereña del Golfo dependen del manglar)."
     },
     {
       "id": "aburto-2011-plosone",
-      "title": "Large Recovery of Fish Biomass in a No-Take Marine Reserve (Cabo Pulmo)",
-      "organization": "PLoS ONE",
-      "url": "https://doi.org/10.1371/journal.pone.0023601",
-      "accessDate": "2026-10-14",
-      "license": "CC BY",
+      "kind": "articulo",
+      "authors": [
+        "Aburto-Oropeza, O.",
+        "Erisman, B.",
+        "Galland, G. R.",
+        "Mascareñas-Osorio, I.",
+        "Sala, E.",
+        "Ezcurra, E."
+      ],
+      "year": "2011",
+      "title": "Large recovery of fish biomass in a no-take marine reserve",
+      "container": "PLOS ONE",
+      "volume": "6",
+      "issue": "8",
+      "article": "e23601",
+      "doi": "10.1371/journal.pone.0023601",
       "note": "Cabo Pulmo, 1999–2009: biomasa total de peces de 0.75 a 4.24 t/ha (+463 %) y depredadores tope +1,070 %."
     },
     {
       "id": "aguirre-2008-ambio",
-      "title": "High-impact Conservation: Invasive Mammal Eradications from the Islands of Western México",
-      "organization": "Ambio / Grupo de Ecología y Conservación de Islas (GECI)",
-      "url": "https://www.islas.org.mx/articulos_files/2008.%20Aguirre%20et%20al_High%20Impact%20Conservation%20Islands-Ambio.pdf",
-      "accessDate": "2026-10-14",
-      "license": "© Ambio",
+      "kind": "articulo",
+      "authors": [
+        "Aguirre-Muñoz, A.",
+        "Croll, D. A.",
+        "Donlan, C. J.",
+        "Henry, R. W.",
+        "Hermosillo, M. A.",
+        "Howald, G. R.",
+        "Keitt, B. S.",
+        "Luna-Mendoza, L.",
+        "Rodríguez-Malagón, M.",
+        "Salas-Flores, L. M.",
+        "Samaniego-Herrera, A.",
+        "Sanchez-Pacheco, J. A.",
+        "Sheppard, J.",
+        "Tershy, B. R.",
+        "Toro-Benito, J.",
+        "Wolf, S.",
+        "Wood, B."
+      ],
+      "year": "2008",
+      "title": "High-impact conservation: Invasive mammal eradications from the islands of western México",
+      "container": "Ambio",
+      "volume": "37",
+      "issue": "2",
+      "pages": "101–107",
+      "doi": "10.1579/0044-7447(2008)37[101:HCIMEF]2.0.CO;2",
       "note": "Erradicación de mamíferos invasores en islas del occidente de México (cifras de 2008). Para 2017, GECI reporta 58 poblaciones erradicadas en 37 islas del país y al menos 147 taxones endémicos protegidos."
     },
     {
       "id": "sala-2004-fishingdown",
-      "title": "Fishing Down Coastal Food Webs in the Gulf of California",
-      "organization": "Fisheries 29(3):19–25 (Sala, Aburto-Oropeza, Reza, Paredes y López-Lemus)",
-      "url": "https://doi.org/10.1577/1548-8446(2004)29[19:FDCFWI]2.0.CO;2",
-      "accessDate": "2026-10-14",
-      "license": "© AFS",
+      "kind": "articulo",
+      "authors": [
+        "Sala, E.",
+        "Aburto-Oropeza, O.",
+        "Reza, M.",
+        "Paredes, G.",
+        "López-Lemus, L. G."
+      ],
+      "year": "2004",
+      "title": "Fishing down coastal food webs in the Gulf of California",
+      "container": "Fisheries",
+      "volume": "29",
+      "issue": "3",
+      "pages": "19–25",
+      "doi": "10.1577/1548-8446(2004)29[19:FDCFWI]2.0.CO;2",
       "note": "En 30 años la pesca costera pasó de especies grandes y longevas de nivel trófico alto a especies pequeñas; la talla máxima de los desembarques bajó ~45 cm en 20 años."
     },
     {
       "id": "richardson-2023",
+      "kind": "articulo",
+      "authors": [
+        "Richardson, K.",
+        "Steffen, W.",
+        "Lucht, W.",
+        "Bendtsen, J.",
+        "Cornell, S. E.",
+        "Donges, J. F.",
+        "Drüke, M.",
+        "Fetzer, I.",
+        "Bala, G.",
+        "von Bloh, W.",
+        "Feulner, G.",
+        "Fiedler, S.",
+        "Gerten, D.",
+        "Gleeson, T.",
+        "Hofmann, M.",
+        "Huiskamp, W.",
+        "Kummu, M.",
+        "Mohan, C.",
+        "Nogués-Bravo, D.",
+        "Petri, S.",
+        "Porkka, M.",
+        "Rahmstorf, S.",
+        "Schaphoff, S.",
+        "Thonicke, K.",
+        "Tobian, A.",
+        "Virkki, V.",
+        "Wang-Erlandsson, L.",
+        "Weber, L.",
+        "Rockström, J."
+      ],
+      "year": "2023",
       "title": "Earth beyond six of nine planetary boundaries",
-      "organization": "Science Advances",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499318/",
-      "accessDate": "2026-10-14",
-      "license": "CC BY",
+      "container": "Science Advances",
+      "volume": "9",
+      "issue": "37",
+      "article": "eadh2458",
+      "doi": "10.1126/sciadv.adh2458",
       "note": "Marco de límites planetarios; variables de integridad de la biosfera (E/MSY y HANPP)."
     },
     {
       "id": "quintero-morales-2021",
+      "kind": "articulo",
+      "authors": [
+        "Quintero-Morales, A.",
+        "Plata-Rocha, W.",
+        "Olimón-Andalon, V.",
+        "Monjardín-Armenta, S.",
+        "Nemiga-Antonio, X."
+      ],
+      "year": "2021",
       "title": "Dinámica de cambios de uso de suelo y estimación de CO₂ en manglares de la zona Marismas Nacionales, México",
-      "organization": "Ciencias Marinas 47(2):105–125 (Quintero-Morales, Plata-Rocha, Olimón-Andalon, Monjardín-Armenta y Nemiga-Antonio)",
-      "url": "https://doi.org/10.7773/cm.v47i2.3162",
-      "accessDate": "2026-10-16",
-      "license": "CC BY",
+      "container": "Ciencias Marinas",
+      "volume": "47",
+      "issue": "2",
+      "pages": "105–125",
+      "doi": "10.7773/cm.v47i2.3162",
       "note": "Tasas anuales de deforestación (0.77 % y 0.44 %) y degradación (7.64 % y 4.94 %) de manglar, 1981–2005 y 2005–2015.",
       "group": "regional"
     },
     {
       "id": "conabio-manglares-2025",
-      "title": "Manglares de México: actualización y dinámica espacial 2025",
-      "organization": "CONABIO (reportado en Excélsior, 31 jul 2026)",
+      "kind": "articulo",
+      "authors": [
+        "Méndez, E."
+      ],
+      "year": "2026",
+      "date": "31 de julio",
+      "title": "Manglares de México retrocedieron 27 mil 622 hectáreas entre 2020 y 2025: Conabio",
+      "container": "Excélsior",
       "url": "https://www.excelsior.com.mx/nacional/manglares-mexico-retrocedieron",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Pérdida neta nacional de 27,622 ha de manglar 2020–2025; manglar perturbado de 9,680 a 52,130 ha (Nayarit 16,834 ha). Cifras tomadas de la cobertura de prensa; pendiente consultar el informe primario.",
       "group": "regional"
     },
     {
       "id": "vaquita-2025",
-      "title": "Gobierno de México y Sea Shepherd refuerzan acciones de conservación de la vaquita marina (resultados del Crucero 2025)",
-      "organization": "Semarnat, Semar, Conanp y Sea Shepherd Conservation Society (comunicado conjunto, 28 oct 2025)",
+      "kind": "comunicado",
+      "authors": [
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]",
+        "Secretaría de Marina [SEMAR]",
+        "Comisión Nacional de Áreas Naturales Protegidas [CONANP]",
+        "Sea Shepherd Conservation Society"
+      ],
+      "year": "2025",
+      "date": "28 de octubre",
+      "title": "Gobierno de México y Sea Shepherd Conservation Society refuerzan acciones de conservación de la vaquita marina",
+      "description": "Comunicado conjunto",
       "url": "https://seashepherd.org/wp-content/uploads/2025/10/281025-Comunicado-conjunto-conservacion-vaquita-marina-7pm.pdf",
-      "accessDate": "2026-10-17",
-      "license": "Información pública",
       "note": "Entre 7 y 10 vaquitas observadas en 2025 y nacimiento de nuevas crías; tres años sin disminución sustancial.",
       "group": "regional"
     },
     {
       "id": "vaquita-2024",
-      "title": "Vaquita acoustic and visual survey 2024 — report",
-      "organization": "Comité para la Recuperación de la Vaquita (CIRVA) / IUCN SSC Cetacean Specialist Group",
+      "kind": "informe",
+      "authors": [
+        "Cárdenas-Hinojosa, G.",
+        "Jaramillo-Legorreta, A.",
+        "Bonilla-Garzon, A.",
+        "Nieto-García, E.",
+        "Taylor, B. L.",
+        "Mesnick, S. L.",
+        "Henry, A.",
+        "Patiño Sevillano, N.",
+        "Rojas-Bracho, L.",
+        "Booth, C.",
+        "Thomas, L."
+      ],
+      "year": "2024",
+      "title": "Survey report for vaquita research 2024",
+      "publisher": "IUCN SSC Cetacean Specialist Group",
       "url": "https://iucn-csg.org/wp-content/uploads/2024/12/Reporte-Crucero-Vaquita-2024-Ingles-Final.pdf",
-      "accessDate": "2026-10-17",
-      "license": "Información pública",
       "note": "6 a 8 vaquitas observadas en 2024 (8 a 12 en 2023).",
       "group": "regional"
     },
     {
       "id": "geci-2017",
+      "kind": "capitulo",
+      "authors": [],
+      "citeAs": "Conservación y restauración de las islas mexicanas",
+      "year": "2017",
       "title": "Conservación y restauración de las islas mexicanas",
-      "organization": "Aguirre-Muñoz et al., en compilación de CONABIO (2017)",
+      "container": "Análisis y propuestas para la conservación de la biodiversidad en México 1995–2017",
+      "editors": [
+        "Llano, M.",
+        "Fernández, H."
+      ],
+      "editorsRole": "Comps.",
+      "pages": "77–82",
       "url": "https://islas.org.mx/articulos_files/2017.%20Aguirre%20Mu%C3%B1oz%20et%20al.%20Conservaci%C3%B3n%20y%20restauraci%C3%B3n%20de%20las%20islas%20mexicanas.pdf",
-      "accessDate": "2026-10-17",
-      "license": "Información pública",
       "note": "58 poblaciones de mamíferos invasores erradicadas en 37 islas mexicanas; al menos 147 taxones endémicos protegidos (cifras nacionales).",
       "group": "regional"
     },
     {
       "id": "burkhead-2012",
-      "title": "Extinction Rates in North American Freshwater Fishes, 1900–2010",
-      "organization": "BioScience 62(9):798–808 (Burkhead)",
-      "url": "https://doi.org/10.1525/bio.2012.62.9.5",
-      "accessDate": "2026-10-17",
-      "license": "© Oxford University Press",
+      "kind": "articulo",
+      "authors": [
+        "Burkhead, N. M."
+      ],
+      "year": "2012",
+      "title": "Extinction rates in North American freshwater fishes, 1900–2010",
+      "container": "BioScience",
+      "volume": "62",
+      "issue": "9",
+      "pages": "798–808",
+      "doi": "10.1525/bio.2012.62.9.5",
       "note": "57 taxones de peces de agua dulce extintos en Norteamérica entre 1898 y 2006; la tasa moderna es al menos 877 veces la natural.",
       "group": "regional"
     },
     {
       "id": "iucn-peces-2020",
-      "title": "La biodiversidad dulceacuícola de México se encuentra en declinación (evaluación regional de peces de agua dulce)",
-      "organization": "UICN (2020)",
+      "kind": "web",
+      "authors": [
+        "Unión Internacional para la Conservación de la Naturaleza [UICN]"
+      ],
+      "year": "2020",
+      "date": "mayo",
+      "title": "La biodiversidad dulceacuícola de México se encuentra en declinación, ya que más de un tercio de sus especies de peces están amenazadas de extinción: reporte de la UICN",
       "url": "https://iucn.org/es/news/species/202005/la-biodiversidad-dulceacuicola-de-mexico-se-encuentra-en-declinacion-ya-que-mas-de-un-tercio-de-sus-especies-de-peces-estan-amenazadas-de-extincion-reporte-de-la-uicn",
-      "accessDate": "2026-10-17",
-      "license": "Información pública",
       "note": "De 536 especies de peces de agua dulce de México, 39 % están amenazadas; 12 extintas y 8 extintas en estado silvestre.",
       "group": "regional"
     },
     {
       "id": "nhm-bii",
-      "title": "Biodiversity Intactness Index (BII) — serie por país",
-      "organization": "Natural History Museum, Londres (conjunto PREDICTS, 2021; descontinuado y sustituido por BII v2.1.1)",
-      "url": "https://data.nhm.ac.uk/dataset/bii-bte",
-      "accessDate": "2026-10-17",
-      "license": "CC BY-NC-SA",
+      "kind": "datos",
+      "authors": [
+        "Natural History Museum [NHM]"
+      ],
+      "year": "2021",
+      "title": "The Biodiversity Intactness Index: Country, region and global-level summaries for the year 1970 to 2050 under various scenarios",
+      "description": "Conjunto de datos",
+      "publisher": "Natural History Museum",
+      "doi": "10.5519/he1eqmg1",
       "note": "BII de México ≈ 0.74 en 2000 y 2014 (≈ 0.78 en 1970), frente a un umbral seguro de 0.90 y un valor global de ~0.84.",
       "group": "regional"
     }

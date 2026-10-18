@@ -204,160 +204,235 @@
   "sources": [
     {
       "id": "conagua-eam-2023",
-      "title": "Estadísticas del Agua en México 2023",
-      "organization": "CONAGUA",
+      "kind": "informe",
+      "authors": [
+        "Comisión Nacional del Agua [CONAGUA]"
+      ],
+      "year": "2024",
+      "title": "Estadísticas del agua en México 2023",
       "url": "https://agua.org.mx/wp-content/uploads/2024/10/EAM2023_f.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública (Gobierno de México)",
       "note": "Tabla 3.2 (usos consuntivos por estado, 2022), Tabla 3.4 (grado de presión por RHA, 2022) y Tabla 2.12 (acuíferos por RHA con la disponibilidad publicada en el DOF el 17 sep 2020).",
       "group": "regional"
     },
     {
       "id": "semarnat-gp-estados-2017",
-      "title": "Grado de presión sobre el recurso hídrico por entidad federativa (2017)",
-      "organization": "SEMARNAT-DGEIA, Compendio de Estadísticas Ambientales 2020 (con datos de CONAGUA)",
+      "kind": "datos",
+      "authors": [
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+      ],
+      "year": "2020",
+      "title": "Grado de presión sobre los recursos hídricos por entidad federativa, 2017",
+      "container": "Compendio de estadísticas ambientales 2020",
+      "description": "Tabla D3_AGUA03_10, con datos de CONAGUA",
       "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2020/archivos/01_agua/d3_agua03_10.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Datos públicos",
       "note": "Última serie estatal publicada: Sonora 101.9 %, BC 99.9 %, Sinaloa 96.5 %, BCS 34.4 %, Nayarit 20.5 %.",
       "group": "regional"
     },
     {
       "id": "semarnat-ficha-gp",
-      "title": "Ficha metodológica del indicador Grado de presión sobre el recurso hídrico",
-      "organization": "SEMARNAT-DGEIA",
+      "kind": "informe",
+      "authors": [
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+      ],
+      "year": "s. f.",
+      "title": "Grado de presión sobre los recursos hídricos",
+      "description": "Ficha metodológica del indicador",
       "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compartidos/pdf/COM_MET_GRADOPRES.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Datos públicos",
       "note": "El indicador usa el volumen concesionado (REPDA) como aproximación de la extracción; estimar la extracción real es su principal limitante.",
       "group": "regional"
     },
     {
       "id": "conagua-atlas-2016",
-      "title": "Atlas del Agua en México 2016",
-      "organization": "CONAGUA",
+      "kind": "informe",
+      "authors": [
+        "Comisión Nacional del Agua [CONAGUA]"
+      ],
+      "year": "2016",
+      "title": "Atlas del agua en México 2016",
       "url": "https://agua.org.mx/wp-content/uploads/2019/10/AAM_2016-1.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Grado de presión por RHA en 2015 (Tabla 3.9).",
       "group": "regional"
     },
     {
       "id": "dgeia-acuiferos-sobreexplotados",
-      "title": "Volúmenes de extracción y recarga de acuíferos sobreexplotados (hectómetros cúbicos por año)",
-      "organization": "SEMARNAT — SNIARN (con datos de CONAGUA, Gerencia de Aguas Subterráneas)",
+      "kind": "datos",
+      "authors": [
+        "Secretaría de Medio Ambiente y Recursos Naturales [SEMARNAT]"
+      ],
+      "year": "2021",
+      "title": "Volúmenes de extracción y recarga de acuíferos sobreexplotados",
+      "container": "Compendio de estadísticas ambientales 2021",
+      "description": "Tabla D3_AGUA02_02, con datos de CONAGUA",
       "url": "https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/01_mares/d3_agua02_02_mar.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Datos públicos (SEMARNAT/CONAGUA)",
       "note": "Serie 2001–2019 de acuíferos sobreexplotados con recarga media y extracción por acuífero. En 2019: BC 11 acuíferos (recarga 681 hm³, extracción 811 hm³), BCS 6 (190 frente a 232) y Sonora 11 (1,126 frente a 1,571); Sinaloa y Nayarit sin acuíferos sobreexplotados en la serie."
     },
     {
       "id": "ibwc-2026-allocation",
+      "kind": "comunicado",
+      "authors": [
+        "International Boundary and Water Commission, United States and Mexico [IBWC]"
+      ],
+      "year": "2025",
+      "date": "15 de agosto",
       "title": "2026 Colorado River water allocations announced for the United States and Mexico",
-      "organization": "CILA / IBWC (comunicado del 15 ago 2025)",
+      "description": "Comunicado de prensa",
       "url": "https://www.ibwc.gov/wp-content/uploads/2025/08/2026-COLORADO-RIVER-WATER-ALLOCATIONS-ANNOUNCED-FOR-THE-UNITED-STATES-AND-MEXICO.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Asignación a México en 2026: 1,668.4 hm³ (reducción de 62 hm³ y ahorro recuperable de 37 hm³ por el Acta 323; al menos 82.6 hm³ de conservación por el Acta 330).",
       "group": "regional"
     },
     {
       "id": "ibwc-2024-reductions",
+      "kind": "comunicado",
+      "authors": [
+        "International Boundary and Water Commission, United States and Mexico [IBWC]"
+      ],
+      "year": "2023",
+      "date": "15 de agosto",
       "title": "2024 Colorado River water delivery reductions announced for the United States and Mexico",
-      "organization": "CILA / IBWC (comunicado del 15 ago 2023)",
+      "description": "Comunicado de prensa",
       "url": "https://www.ibwc.gov/wp-content/uploads/2023/08/2024-COLORADO-RIVER-WATER-DELIVERY-REDUCTIONS.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "Recorte total de 99 hm³ a México en 2024; en 2023 fue de 128 hm³.",
       "group": "regional"
     },
     {
       "id": "ibwc-2025-allocation",
-      "title": "2025 Colorado River water allocations",
-      "organization": "CILA / IBWC (comunicado del 15 ago 2024)",
-      "url": "https://ibwc.gov/wp-content/uploads/2024/08/2025-COLORADO-RIVER-WATER-ALLOCATIONS-final-8-15-2024.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
+      "kind": "comunicado",
+      "authors": [
+        "International Boundary and Water Commission, United States and Mexico [IBWC]"
+      ],
+      "year": "2024",
+      "date": "15 de agosto",
+      "title": "2025 Colorado River water allocations announced for the United States and Mexico",
+      "description": "Comunicado de prensa",
+      "url": "https://www.ibwc.gov/wp-content/uploads/2024/08/2025-COLORADO-RIVER-WATER-ALLOCATIONS-final-8-15-2024.pdf",
       "note": "Recorte de 62 hm³ más 37 hm³ de ahorro recuperable a México en 2025.",
       "group": "regional"
     },
     {
       "id": "acta-334",
-      "title": "Estados Unidos y México anuncian acuerdo de cooperación sobre el río Colorado (Acta 334)",
-      "organization": "CILA / IBWC, vía Water Online (10 sep 2026)",
-      "url": "https://www.wateronline.com/doc/united-states-and-mexico-announce-colorado-river-cooperative-agreement-0001",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
+      "kind": "comunicado",
+      "authors": [
+        "International Boundary and Water Commission, United States and Mexico [IBWC]"
+      ],
+      "year": "2026",
+      "date": "9 de septiembre",
+      "title": "United States and Mexico announce Colorado River cooperative agreement",
+      "description": "Comunicado de prensa sobre el Acta 334",
+      "url": "https://www.ibwc.gov/wp-content/uploads/2026/09/US-and-Mexico-announce-Colorado-River-cooperative-agreement.pdf",
       "note": "Acta 334 (2 sep 2026): recorte de 250,000 acres-pie (308 hm³) anuales a México en 2027 y 2028; sustituye las Actas 323 y 330.",
       "group": "regional"
     },
     {
       "id": "ibwc-minute323-2018",
-      "title": "Minute 323 environmental flows monitoring report 2018",
-      "organization": "CILA / IBWC (2022)",
+      "kind": "informe",
+      "authors": [
+        "International Boundary and Water Commission, United States and Mexico [IBWC]"
+      ],
+      "year": "2022",
+      "title": "Minute 323 Colorado River limitrophe and delta environmental flows monitoring: Interim report for 2018",
       "url": "https://www.ibwc.gov/wp-content/uploads/2024/06/FINAL_2018Min323MonitoringReport-2022-02-15-Clean.pdf",
-      "accessDate": "2026-10-16",
-      "license": "Información pública",
       "note": "El pulso de 2014 elevó el verdor ribereño (NDVI) 17 %, pero en 2018 había regresado al nivel de 2013; en 2018 se entregaron 11.9 hm³ de flujos ambientales y los niveles freáticos siguieron bajando en los tramos 1 a 3.",
       "group": "regional"
     },
     {
       "id": "tamez-melendez-2016",
+      "kind": "articulo",
+      "authors": [
+        "Tamez-Meléndez, C.",
+        "Hernández-Antonio, A.",
+        "Gaona-Zanella, P. C.",
+        "Ornelas-Soto, N.",
+        "Mahlknecht, J."
+      ],
+      "year": "2016",
       "title": "Isotope signatures and hydrochemistry as tools in assessing groundwater occurrence and dynamics in a coastal arid aquifer",
-      "organization": "Environmental Earth Sciences 75:830 (Tamez-Meléndez et al.)",
-      "url": "https://doi.org/10.1007/s12665-016-5617-2",
-      "accessDate": "2026-10-16",
-      "license": "CC BY",
+      "container": "Environmental Earth Sciences",
+      "volume": "75",
+      "issue": "9",
+      "article": "830",
+      "doi": "10.1007/s12665-016-5617-2",
       "note": "Acuífero de La Paz: abatimiento de hasta 10 m, salinidad de hasta ~5,800 mg/L e intrusión marina que avanzó rápido y llega a 13 km tierra adentro.",
       "group": "regional"
     },
     {
       "id": "cruz-falcon-2023",
+      "kind": "articulo",
+      "authors": [
+        "Cruz-Falcón, A.",
+        "Murillo-Jiménez, J. M.",
+        "Fraga-Palomino, H. C."
+      ],
+      "year": "2023",
       "title": "Evolución de la intrusión marina y relaciones iónicas en el acuífero de La Paz BCS, México",
-      "organization": "Terra Latinoamericana 41:e1636 (Cruz-Falcón, Murillo-Jiménez y Fraga-Palomino)",
-      "url": "https://doi.org/10.28940/terra.v41i0.1636",
-      "accessDate": "2026-10-16",
-      "license": "CC BY-NC",
+      "container": "Terra Latinoamericana",
+      "volume": "41",
+      "article": "e1636",
+      "doi": "10.28940/terra.v41i0.1636",
       "note": "En 2019 el frente de agua salobre (isolínea de 1,000 mg/L de sólidos disueltos) estaba a 8.8 km de la costa en la zona norte y a 8 km en la noreste; entre 2013 y 2019 avanzó 0.5 km netos en la zona norte.",
       "group": "regional"
     },
     {
       "id": "castillo-gurrola-2004",
+      "kind": "articulo",
+      "authors": [
+        "Rangel-Medina, M.",
+        "Monreal S., R.",
+        "Morales M., M.",
+        "Castillo Gurrola, J."
+      ],
+      "year": "2004",
       "title": "Estimation of the vulnerability to saline intrusion of the coast of Hermosillo aquifer, Sonora, Mexico",
-      "organization": "Geofísica Internacional 43(4):611–621 (Castillo Gurrola, Morales, Monreal y Rangel-Medina)",
-      "url": "https://doaj.org/article/8396350eaec94ed7b83347ec27f4306e",
-      "accessDate": "2026-10-16",
-      "license": "Acceso abierto",
+      "container": "Geofísica Internacional",
+      "volume": "43",
+      "issue": "4",
+      "pages": "611–621",
+      "doi": "10.22201/igeof.00167169p.2004.43.4.836",
       "note": "Por el bombeo intensivo, la intrusión marina ha penetrado hasta 32 km tierra adentro, con conductividad eléctrica de hasta 40,000 µS/cm.",
       "group": "regional"
     },
     {
       "id": "bohn-vivoni-2016",
+      "kind": "articulo",
+      "authors": [
+        "Bohn, T. J.",
+        "Vivoni, E. R."
+      ],
+      "year": "2016",
       "title": "Process-based characterization of evapotranspiration sources over the North American monsoon region",
-      "organization": "Water Resources Research 52(1):358–384 (Bohn y Vivoni)",
-      "url": "https://doi.org/10.1002/2015WR017934",
-      "accessDate": "2026-10-16",
-      "license": "© AGU",
+      "container": "Water Resources Research",
+      "volume": "52",
+      "issue": "1",
+      "pages": "358–384",
+      "doi": "10.1002/2015WR017934",
       "note": "Agua verde: los bosques de montaña aportan 22 % y los cultivos de riego 9 % de la evapotranspiración anual de la región del monzón; la evaporación del suelo es 60 % del total (2000–2012).",
       "group": "regional"
     },
     {
       "id": "desaladora-ensenada",
-      "title": "Planta desaladora de Ensenada",
-      "organization": "Proyectos México (Gobierno de México); Zeta Tijuana, «Toleran incumplimiento de desalinizadora» (feb 2022)",
+      "kind": "web",
+      "authors": [
+        "Proyectos México"
+      ],
+      "year": "s. f.",
+      "title": "0839 Planta desaladora de Ensenada",
+      "publisher": "Gobierno de México",
       "url": "https://www.proyectosmexico.gob.mx/proyecto_inversion/0839-planta-desaladora-de-ensenada/",
-      "accessDate": "2026-10-16",
-      "license": "Información pública / prensa",
+      "accessed": "2026-10-16",
       "note": "Capacidad contratada de 250 l/s (en operación desde 2018). Según la prensa, desde junio de 2021 entregaba solo 110–120 l/s por una falla en la toma de agua.",
       "group": "regional"
     },
     {
       "id": "inah-acueducto-independencia",
-      "title": "El conflicto por el agua del río Yaqui y el Acueducto Independencia",
-      "organization": "Revista Noroeste de México (INAH)",
+      "kind": "articulo",
+      "authors": [
+        "Padilla Ramos, R."
+      ],
+      "year": "2020",
+      "title": "Cicatrizando el territorio: los ductos y la criminalización de las luchas yaquis",
+      "container": "Noroeste de México, nueva época",
+      "issue": "2",
+      "pages": "53–63",
       "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/download/17176/18382/36708",
-      "accessDate": "2026-10-16",
-      "license": "Acceso abierto",
       "note": "Trasvase de la presa El Novillo a Hermosillo anunciado en 2010; amparos de la tribu yaqui desde 2011 y fallo favorable de la SCJN en 2013, aunque el acueducto siguió operando.",
       "group": "regional"
     }
