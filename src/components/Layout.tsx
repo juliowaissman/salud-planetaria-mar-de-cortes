@@ -108,7 +108,7 @@ export default function Layout() {
               <h4>Basado en</h4>
               <p>
                 Planetary Health Check 2026 (Potsdam Institute for Climate Impact Research / PBScience) y el marco de
-                límites planetarios (Rockström et al. 2009; Steffen et al. 2015).
+                límites planetarios (Rockström et al., 2009; Steffen et al., 2015).
               </p>
             </div>
             <div>

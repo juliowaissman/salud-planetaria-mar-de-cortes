@@ -595,6 +595,8 @@ input, textarea, select { caret-color: var(--teal); }
 .framework .refs ul { list-style: none; margin: 0 0 14px; padding: 0; display: flex; flex-direction: column; gap: 12px; }
 .framework .refs li a { display: block; font-weight: 600; line-height: 1.35; }
 .framework .refs li span { font-size: 0.85rem; color: var(--muted); }
+.framework .refs .ref-list { font-size: 0.86rem; gap: 10px; }
+.framework .refs .ref-list a { display: inline; font-weight: 400; }
 @media (max-width: 860px) {
   .framework { grid-template-columns: 1fr; gap: 20px; }
   .framework .refs { border-left: 0; padding-left: 0; border-top: 1px solid var(--border); padding-top: 18px; }
@@ -723,9 +725,10 @@ input, textarea, select { caret-color: var(--teal); }
 }
 
 /* Citas numeradas */
-sup.cite { font-size: 0.72em; margin-left: 2px; color: var(--muted); white-space: nowrap; }
-sup.cite button { font: inherit; color: var(--teal); background: none; border: 0; padding: 0; cursor: pointer; }
-sup.cite button:hover { text-decoration: underline; }
+/* Citas autor-año (APA) */
+.cite { font-size: 0.86em; color: var(--muted); }
+.cite a { color: var(--teal); text-decoration: none; }
+.cite a:hover { text-decoration: underline; }
 
 /* Cómo funciona: pasos */
 .mech { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(148px, 1fr)); gap: 10px; }
@@ -779,6 +782,10 @@ sup.cite button:hover { text-decoration: underline; }
 .ref-list li { scroll-margin-top: calc(var(--header-h) + 24px); }
 .ref-list li:target, .ref-list li:focus-within { background: var(--teal-soft); }
 .ref-list a { word-break: break-word; }
+/* Lista APA: sangría francesa, sin numeración */
+.ref-list.apa { list-style: none; padding-left: 0; }
+.ref-list.apa li { padding-left: 2em; text-indent: -2em; }
+.ref-list .ref-note { display: block; text-indent: 0; margin-top: 2px; font-size: 0.86em; color: var(--muted); }
 
 /* Navegación entre temas */
 .spot-pager { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
@@ -855,7 +862,8 @@ sup.cite button:hover { text-decoration: underline; }
 .q-card .mech-n { width: 24px; height: 24px; font-size: 0.8rem; margin-bottom: 6px; }
 .q-card h3 { font-size: 1.02rem; margin: 0 0 6px; }
 .q-card p { margin: 0; font-size: 0.95rem; }
-.q-card .q-ref { margin-top: 8px; font-size: 0.82rem; color: var(--muted); }
+.q-card .q-ref { margin-top: 8px; font-size: 0.85rem; color: var(--muted); }
+.q-card .q-ref .cite { font-size: 1em; }
 @media (max-width: 760px) { .q-grid { grid-template-columns: 1fr; } }
 
 .related-spot { padding-top: 0; overflow: hidden; }

@@ -21,14 +21,4 @@ export function goTo(sid: string) {
   el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
-export function shortUrl(u: string) {
-  const doi = u.match(/doi\.org\/(.+)$/)
-  if (doi) return `doi:${doi[1]}`
-  try {
-    return new URL(u).hostname.replace(/^www\./, '')
-  } catch {
-    return u
-  }
-}
-
 export const SCOPE_LABEL = { global: 'Mundo', nacional: 'México', regional: 'Mar de Cortés' } as const

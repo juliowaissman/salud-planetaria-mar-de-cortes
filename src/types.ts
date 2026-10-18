@@ -26,7 +26,8 @@ export interface OpenQuestion {
   q: string
   action: string
   actor?: 'iniciativa-privada' | 'gobierno-local' | 'academia' | 'sociedad'
-  ref?: string
+  /** Obras que respaldan la pregunta; ids de las fuentes del límite */
+  refIds?: string[]
 }
 
 export type CriterionId = 'alcance' | 'severidad' | 'irreversibilidad' | 'control' | 'competencia' | 'factibilidad'
@@ -74,11 +75,46 @@ export interface Boundary {
 
 // ---------- Temas emergentes (capítulos «Spotlight» del PHC 2026) ----------
 
+/**
+ * Referencia bibliográfica en campos separados; src/lib/cite.tsx la arma en formato APA 7 (en español).
+ * Autores personales: "Apellido, A. B.". Autores institucionales: nombre completo con la sigla entre
+ * corchetes, "Comisión Nacional del Agua [CONAGUA]"; la cita en el texto usa la sigla.
+ */
 export interface Reference {
   id: string
-  /** Cita completa: autores (año). Título. Revista volumen:páginas. */
-  text: string
+  kind: 'articulo' | 'libro' | 'capitulo' | 'informe' | 'datos' | 'web' | 'tesis' | 'comunicado' | 'norma'
+  authors: string[]
+  /** Cuando los autores son compiladores o editores: "Comps.", "Eds." */
+  authorsRole?: string
+  /** Etiqueta para la cita en el texto cuando no hay autor (leyes, laudos, capítulos anónimos) */
+  citeAs?: string
+  /** "2019", "s. f." o un intervalo "2020–2026" */
+  year: string
+  /** Día y mes de comunicados y notas: "29 de septiembre" */
+  date?: string
+  title: string
+  /** Revista, libro (en capítulos) o sitio web; va en cursiva */
+  container?: string
+  editors?: string[]
+  /** "Comps." si son compiladores; por omisión "Eds." o "Ed." */
+  editorsRole?: string
+  volume?: string
+  issue?: string
+  pages?: string
+  /** Número de artículo (e8790, 102746…) cuando no hay páginas */
+  article?: string
+  /** Descripción entre corchetes: [Conjunto de datos], [Tesis de maestría, Universidad X]… */
+  description?: string
+  publisher?: string
+  /** DOI sin prefijo; se muestra como https://doi.org/… */
+  doi?: string
+  /** Sólo cuando no hay DOI */
   url?: string
+  /** Fecha de consulta (AAAA-MM-DD), sólo para contenido que cambia: bases de datos y páginas web */
+  accessed?: string
+  /** Anotación del sitio (qué dato se tomó de la fuente); se muestra aparte de la cita */
+  note?: string
+  group?: 'global' | 'regional'
 }
 
 export interface SpotlightFigure {
@@ -143,16 +179,8 @@ export interface Spotlight {
   references: Reference[]
 }
 
-export interface Source {
-  id: string
-  title: string
-  organization: string
-  url: string
-  accessDate: string
-  license?: string
-  note?: string
-  group?: 'global' | 'regional'
-}
+/** Las fuentes de los límites usan el mismo tipo que las referencias de los temas emergentes */
+export type Source = Reference
 
 export interface RegionState {
   id: string

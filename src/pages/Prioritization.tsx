@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
-import { catalog } from '../data'
+import { catalog, sourceById } from '../data'
+import type { Reference } from '../types'
+import { ReferenceList } from '../lib/cite'
 import type { Priority } from '../types'
 import PriorityMatrix from '../components/PriorityMatrix'
 import BoundaryArt from '../components/BoundaryArt'
@@ -9,6 +11,10 @@ import { assess, compareByPriority, CRITERIA, IMPACT_CRITERIA, LEVERAGE_CRITERIA
 import { goTo } from '../lib/editorial'
 
 const fmt = (n: number) => n.toFixed(2)
+
+const methodRefs = ['cmp-2020', 'salafsky-2008', 'hayha-2016', 'huang-2011', 'oecd-jrc-2008']
+  .map((id) => sourceById.get(id))
+  .filter((r): r is Reference => Boolean(r))
 
 const rows = [...catalog.boundaries]
   .sort((a, b) => compareByPriority(a, b) || a.order - b.order)
@@ -327,13 +333,7 @@ export default function Prioritization() {
 
             <section className="card" id="referencias">
               <h2>Referencias</h2>
-              <ol className="ref-list">
-                <li>Conservation Measures Partnership (2020). <em>Estándares Abiertos para la Práctica de la Conservación</em>, versión 4.0. <a href="https://conservationstandards.org/about/" target="_blank" rel="noopener noreferrer">conservationstandards.org</a></li>
-                <li>Salafsky, N. et al. (2008). A standard lexicon for biodiversity conservation: unified classifications of threats and actions. <em>Conservation Biology</em> 22(4):897–911. <a href="https://doi.org/10.1111/j.1523-1739.2008.00937.x" target="_blank" rel="noopener noreferrer">doi:10.1111/j.1523-1739.2008.00937.x</a></li>
-                <li>Häyhä, T., Lucas, P. L., van Vuuren, D. P., Cornell, S. E. y Hoff, H. (2016). From Planetary Boundaries to national fair shares of the global safe operating space — How can the scales be bridged? <em>Global Environmental Change</em> 40:60–72. <a href="https://doi.org/10.1016/j.gloenvcha.2016.06.008" target="_blank" rel="noopener noreferrer">doi:10.1016/j.gloenvcha.2016.06.008</a></li>
-                <li>Huang, I. B., Keisler, J. y Linkov, I. (2011). Multi-criteria decision analysis in environmental sciences: ten years of applications and trends. <em>Science of the Total Environment</em> 409(19):3578–3594. <a href="https://doi.org/10.1016/j.scitotenv.2011.06.022" target="_blank" rel="noopener noreferrer">doi:10.1016/j.scitotenv.2011.06.022</a></li>
-                <li>OCDE y JRC (2008). <em>Handbook on Constructing Composite Indicators: Methodology and User Guide</em>. <a href="https://doi.org/10.1787/9789264043466-en" target="_blank" rel="noopener noreferrer">doi:10.1787/9789264043466-en</a></li>
-              </ol>
+              <ReferenceList refs={methodRefs} prefix="ref" />
             </section>
 
             <nav className="spot-pager" aria-label="Continuar la lectura">

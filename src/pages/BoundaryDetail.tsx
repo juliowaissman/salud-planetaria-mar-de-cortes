@@ -10,7 +10,8 @@ import PriorityEvaluation from '../components/PriorityEvaluation'
 import BoundaryArt from '../components/BoundaryArt'
 import SpotlightArt from '../components/SpotlightArt'
 import { boundaryPriority } from '../lib/priority'
-import { ACTOR, SCOPE_LABEL, goTo, groupByActor, shortUrl } from '../lib/editorial'
+import { ACTOR, SCOPE_LABEL, goTo, groupByActor } from '../lib/editorial'
+import { Cites, ReferenceList } from '../lib/cite'
 
 const boundaries = [...catalog.boundaries].sort((a, b) => a.order - b.order)
 
@@ -244,7 +245,12 @@ export default function BoundaryDetail() {
                       <span className="mech-n">{i + 1}</span>
                       <h3>{q.q}</h3>
                       <p>{q.action}</p>
-                      {q.ref && <p className="q-ref">{q.ref}</p>}
+                      {q.refIds && q.refIds.length > 0 && (
+                        <p className="q-ref">
+                          Fuentes:
+                          <Cites ids={q.refIds} refs={sources} prefix="fuente" bare />
+                        </p>
+                      )}
                     </li>
                   ))}
                 </ol>
@@ -326,16 +332,7 @@ export default function BoundaryDetail() {
 
             <section className="card" id="fuentes">
               <h2>Fuentes ({sources.length})</h2>
-              <ol className="ref-list">
-                {sources.map((s) => (
-                  <li key={s.id}>
-                    <strong>{s.title}</strong>. {s.organization}. Consultado: {s.accessDate}.
-                    {s.license ? ` ${s.license}.` : ''}{' '}
-                    <a href={s.url} target="_blank" rel="noopener noreferrer">{shortUrl(s.url)}</a>
-                    {s.note && <span className="muted"> {s.note}</span>}
-                  </li>
-                ))}
-              </ol>
+              <ReferenceList refs={sources} prefix="fuente" showNotes />
               <p className="small muted" style={{ margin: '12px 0 0' }}>
                 Ver también la <Link to="/priorizacion">matriz de priorización</Link>, que compara este límite con los
                 otros ocho.

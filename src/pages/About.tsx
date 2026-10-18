@@ -1,4 +1,6 @@
 import { catalog, sourceById } from '../data'
+import type { Reference } from '../types'
+import { ReferenceList } from '../lib/cite'
 import type { DirectoryOrg, DirectoryPerson } from '../types'
 
 const base = import.meta.env.BASE_URL
@@ -15,8 +17,9 @@ const NODE_STATE: Record<string, string> = {
 const orgById = new Map(catalog.directory.map((o) => [o.id, o]))
 const corredor = orgById.get('corredor')
 const foro = orgById.get('fmc')
-const report = sourceById.get('phc-main')
-const richardson = sourceById.get('richardson-2023')
+const mainRefs = ['phc-main', 'richardson-2023', 'steffen-2015', 'rockstrom-2009']
+  .map((id) => sourceById.get(id))
+  .filter((r): r is Reference => Boolean(r))
 
 // Los nodos se muestran en el orden geográfico de los estados (norte → sur)
 const nodes = catalog.states
@@ -199,34 +202,7 @@ export default function About() {
             </div>
             <div className="refs">
               <h3>Referencias principales</h3>
-              <ul>
-                {report && (
-                  <li>
-                    <a href={report.url} target="_blank" rel="noopener noreferrer">{report.title}</a>
-                    <span>{report.organization}</span>
-                  </li>
-                )}
-                {richardson && (
-                  <li>
-                    <a href={richardson.url} target="_blank" rel="noopener noreferrer">
-                      Richardson et al. (2023). {richardson.title}
-                    </a>
-                    <span>{richardson.organization}</span>
-                  </li>
-                )}
-                <li>
-                  <a href="https://doi.org/10.1126/science.1259855" target="_blank" rel="noopener noreferrer">
-                    Steffen et al. (2015). Planetary boundaries: Guiding human development on a changing planet
-                  </a>
-                  <span>Science</span>
-                </li>
-                <li>
-                  <a href="https://doi.org/10.1038/461472a" target="_blank" rel="noopener noreferrer">
-                    Rockström et al. (2009). A safe operating space for humanity
-                  </a>
-                  <span>Nature</span>
-                </li>
-              </ul>
+              <ReferenceList refs={mainRefs} prefix="ref" />
             </div>
           </div>
         </section>

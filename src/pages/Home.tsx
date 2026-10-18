@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import { catalog, sourceById } from '../data'
 import PlanetaryBar from '../components/PlanetaryBar'
+import { ShortReference } from '../lib/cite'
 
 const report = sourceById.get('phc-main')
+const reportDownloads = 'https://www.planetaryhealthcheck.org/downloads/'
 const heroImage = `${import.meta.env.BASE_URL}img/hero-mar-cortes.jpg`
 
 const entries = [
@@ -160,7 +162,7 @@ export default function Home() {
           <div className="section-title">
             <h2>5 mensajes clave del reporte 2026</h2>
             {report && (
-              <a href={report.url} target="_blank" rel="noopener noreferrer" className="small">
+              <a href={reportDownloads} target="_blank" rel="noopener noreferrer" className="small">
                 Consultar el reporte original (en inglés) ↗
               </a>
             )}
@@ -191,9 +193,9 @@ export default function Home() {
           {report && (
             <p className="report-ref">
               <span>
-                <strong>Fuente:</strong> {report.title}. {report.organization}.
+                <strong>Fuente:</strong> <ShortReference r={report} />
               </span>
-              <a href={report.url} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+              <a href={reportDownloads} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                 Descargar el reporte ↗
               </a>
             </p>

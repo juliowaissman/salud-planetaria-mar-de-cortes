@@ -96,8 +96,8 @@ export default function Boundaries() {
         })}
 
         <p className="small muted" style={{ marginTop: 28 }}>
-          Fuente global: Planetary Boundaries Science (2026). <em>Planetary Health Check 2026</em>. Potsdam Institute for
-          Climate Impact Research. Las lecturas regionales y las calificaciones son del Observatorio Tecnológico del Mar de
+          Fuente global: Caesar et al. (2026), <em>Planetary Health Check 2026</em>, Potsdam Institute for Climate
+          Impact Research. Las lecturas regionales y las calificaciones son del Observatorio Tecnológico del Mar de
           Cortés. Ver también los <Link to="/spotlights">temas emergentes</Link>.
         </p>
       </div>

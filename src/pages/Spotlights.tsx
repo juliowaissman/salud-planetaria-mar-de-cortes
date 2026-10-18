@@ -1,32 +1,19 @@
 import { Link, useParams } from 'react-router-dom'
 import { catalog, boundaryById, spotlightById } from '../data'
-import type { Reference, Spotlight } from '../types'
+import type { Spotlight } from '../types'
 import { PriorityBadge, StatusBadge } from '../components/StatusBadge'
 import SpotlightArt from '../components/SpotlightArt'
 import SpotlightChartView from '../components/SpotlightChartView'
 import PriorityEvaluation from '../components/PriorityEvaluation'
 import { assess, boundaryPriority } from '../lib/priority'
-import { ACTOR, goTo, groupByActor, shortUrl } from '../lib/editorial'
+import { ACTOR, goTo, groupByActor } from '../lib/editorial'
+import { Cites as CiteList, ReferenceList } from '../lib/cite'
 
 const spotlights = [...catalog.spotlights].sort((a, b) => a.order - b.order)
 
-/** Llamadas a referencias numeradas, p. ej. [3, 5] */
-function Cites({ ids, refs }: { ids?: string[]; refs: Reference[] }) {
-  if (!ids || ids.length === 0) return null
-  const nums = ids.map((id) => refs.findIndex((r) => r.id === id) + 1).filter((n) => n > 0)
-  if (nums.length === 0) return null
-  return (
-    <sup className="cite">
-      [
-      {nums.map((n, i) => (
-        <span key={n}>
-          {i > 0 && ', '}
-          <button type="button" onClick={() => goTo(`ref-${n}`)} aria-label={`Referencia ${n}`}>{n}</button>
-        </span>
-      ))}
-      ]
-    </sup>
-  )
+/** Citas autor-año que llevan a la lista de referencias del tema */
+function Cites({ ids, refs }: { ids?: string[]; refs: Spotlight['references'] }) {
+  return <CiteList ids={ids} refs={refs} prefix="ref" />
 }
 
 /* =========================================================
@@ -124,8 +111,8 @@ function SpotlightIndex() {
         </div>
 
         <p className="small muted" style={{ marginTop: 28 }}>
-          Fuente global: Planetary Boundaries Science (2026). <em>Planetary Health Check 2026</em>, capítulo 4
-          «Spotlights». Potsdam Institute for Climate Impact Research. Las lecturas regionales y las calificaciones son del
+          Fuente global: Caesar et al. (2026), <em>Planetary Health Check 2026</em>, capítulo 4 «Spotlights»,
+          Potsdam Institute for Climate Impact Research. Las lecturas regionales y las calificaciones son del
           Observatorio Tecnológico del Mar de Cortés.
         </p>
       </div>
@@ -320,18 +307,7 @@ function SpotlightDetail({ s }: { s: Spotlight }) {
 
             <section className="card" id="referencias">
               <h2>Referencias</h2>
-              <ol className="ref-list">
-                {s.references.map((r, i) => (
-                  <li key={r.id} id={`ref-${i + 1}`}>
-                    {r.text}{' '}
-                    {r.url && (
-                      <a href={r.url} target="_blank" rel="noopener noreferrer">
-                        {shortUrl(r.url)}
-                      </a>
-                    )}
-                  </li>
-                ))}
-              </ol>
+              <ReferenceList refs={s.references} prefix="ref" />
             </section>
 
             <nav className="spot-pager" aria-label="Otros temas emergentes">
