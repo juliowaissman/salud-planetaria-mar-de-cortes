@@ -83,8 +83,8 @@
             ]
           },
           {
-            "q": "¿Cómo adaptar la agricultura de riego a un monzón que llega más tarde?",
-            "action": "Pronóstico estacional del monzón ligado a los calendarios de siembra y a cultivos de menor demanda de agua al inicio del verano.",
+            "q": "¿Cómo adaptar la agricultura de riego a una temporada de monzón cada vez más cambiante?",
+            "action": "Pronóstico estacional del monzón ligado a los calendarios de siembra, y calendarios y cultivos flexibles ante la variación en el inicio y la distribución de las lluvias.",
             "refIds": [
               "hernandez-chen-2022"
             ]
@@ -417,7 +417,7 @@
           },
           {
             "q": "¿Cómo revertir la degradación hidrológica del manglar en Marismas Nacionales?",
-            "action": "Restaurar los flujos de agua (desazolve de canales, reapertura de bocas) y dar seguimiento al manglar perturbado, que se multiplicó por seis entre 2020 y 2025.",
+            "action": "Restaurar los flujos de agua (desazolve de canales, reapertura de bocas) y dar seguimiento al manglar perturbado, que en el país pasó de 9,680 a 52,130 ha entre 2020 y 2025 (Nayarit, 16,834 ha).",
             "refIds": [
               "quintero-morales-2021",
               "conabio-manglares-2025"
@@ -425,7 +425,7 @@
           },
           {
             "q": "¿Qué incentivos frenarían la conversión de selva baja a agricultura en Sinaloa y Nayarit?",
-            "action": "Ordenamientos ecológicos con zonas de no conversión, pago por servicios ambientales y cadenas agrícolas libres de deforestación.",
+            "action": "Ordenamientos ecológicos con zonas de no conversión, pago por servicios ambientales y cadenas agrícolas libres de deforestación, con datos actualizados de cambio de uso de suelo (los estudios disponibles llegan a 2011 en Sinaloa y a 2014 en Nayarit).",
             "refIds": [
               "monjardin-2017",
               "moreno-gonzalez-2022"
@@ -440,7 +440,7 @@
           },
           {
             "q": "¿Cómo incorporar el valor del manglar en las decisiones económicas y de permisos?",
-            "action": "Usar valoraciones locales en las evaluaciones de impacto: cada hectárea de franja de manglar sostiene una mediana de US $37,500 anuales en pesquerías ribereñas.",
+            "action": "Usar valoraciones locales en las evaluaciones de impacto: en el Golfo de California, la mediana fue de US $37,500 anuales por hectárea de franja de manglar en pesquerías ribereñas.",
             "refIds": [
               "aburto-2008-pnas"
             ]
@@ -747,7 +747,7 @@
             ]
           },
           {
-            "q": "¿Cómo reducir los pulsos de nutrientes que llegan al Golfo después de cada riego?",
+            "q": "¿Cómo reducir los pulsos de nutrientes que llegan al Golfo tras los riegos con fertilizante?",
             "action": "Coordinar calendarios de riego y fertilización, humedales de tratamiento en los drenes y monitoreo de nitrógeno en las descargas de los distritos de riego.",
             "refIds": [
               "beman-2005",
@@ -922,14 +922,14 @@
           },
           {
             "q": "¿Cómo hacer más resistentes las pesquerías de abulón, almeja y callo de hacha?",
-            "action": "Reservas marinas cogestionadas con las cooperativas, que en Isla Natividad perdieron menos abulón y mantuvieron sus juveniles tras la mortandad de 2009.",
+            "action": "Reservas marinas cogestionadas con las cooperativas, que en Isla Natividad perdieron menos abulón y mantuvieron sus juveniles tras la mortandad de 2009, atribuida a hipoxia.",
             "refIds": [
               "micheli-2012"
             ]
           },
           {
-            "q": "¿Cómo reducir los factores locales que acidifican las lagunas costeras?",
-            "action": "Disminuir las descargas de nutrientes y materia orgánica de la agricultura, la acuacultura y las ciudades, que al descomponerse producen CO₂ y consumen oxígeno.",
+            "q": "¿Cuánto contribuyen las descargas locales a acidificar las lagunas costeras, y cómo reducirlas?",
+            "action": "Medir su efecto sobre el pH y disminuir las descargas de nutrientes y materia orgánica de la agricultura, la acuacultura y las ciudades, que al descomponerse producen CO₂ y consumen oxígeno.",
             "refIds": [
               "feely-2008"
             ]
@@ -1069,7 +1069,7 @@
         "dataGaps": "La medición en tierra es escasa e intermitente. Los promedios estatales satelitales cubren los cinco estados pero diluyen la contaminación de las ciudades. Los inventarios de emisiones y los estudios de salud usan datos de 2005–2017 y normas anteriores.",
         "questions": [
           {
-            "q": "¿Cómo reducir las partículas en Mexicali, la ciudad con peor calidad del aire de la región?",
+            "q": "¿Cómo reducir las partículas en Mexicali, la ciudad que más días rebasó las normas de calidad del aire entre las que tienen datos?",
             "action": "Eliminar las quemas agrícolas y de residuos, pavimentar caminos y controlar el polvo, con un plan de cuenca compartido con el Valle Imperial.",
             "refIds": [
               "carb-imperial-sip",
@@ -1093,7 +1093,7 @@
             ]
           },
           {
-            "q": "¿Cómo reducir las quemas agrícolas e incendios, que aportan buena parte de las partículas de origen humano?",
+            "q": "¿Cómo reducir las quemas agrícolas y los incendios como fuente de partículas?",
             "action": "Alternativas para incorporar los residuos de cosecha al suelo, calendarios y permisos de quema, y prevención de incendios forestales.",
             "refIds": [
               "proaire-sonora"
