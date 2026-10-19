@@ -1936,7 +1936,7 @@
           },
           {
             "actor": "iniciativa-privada",
-            "text": "Ganaderos y agricultores: dejar la quema y adoptar obras de retención de suelo y agua probadas en el norte de Sonora."
+            "text": "Ganaderos y agricultores: dejar la quema y adoptar obras de retención de suelo y agua como las de la Ciénega de San Bernardino, que mantuvieron más verdor y humedad aun en sequía."
           },
           {
             "actor": "iniciativa-privada",
@@ -1944,7 +1944,7 @@
           },
           {
             "actor": "academia",
-            "text": "Producir series anuales de productividad vegetal (NDVI, GPP) y mortalidad por estado para 2020–2025 y probar si el sumidero regional se debilitó tras la megasequía."
+            "text": "Producir series anuales de productividad vegetal (NDVI, GPP) y mortalidad por estado para 2020–2025 y probar si el sumidero regional se debilitó tras la sequía de 2020–2021."
           },
           {
             "actor": "academia",
@@ -1960,7 +1960,7 @@
           }
         ],
         "measurementGaps": [
-          "Productividad vegetal por estado después de la megasequía (2022–2025): no hay un estudio revisado por pares.",
+          "Productividad vegetal por estado después de la sequía de 2020–2021 (2022–2025): no hay un estudio revisado por pares.",
           "Un balance de carbono terrestre que incluya matorral, pastizal y suelos: el modelo forestal solo cubre bosque con más de 30 % de dosel.",
           "Superficie y carbono de pastos marinos por laguna y por estado: solo existe el total del Pacífico Norte.",
           "Severidad de los incendios y emisiones por fuego en la selva baja.",
@@ -2494,7 +2494,7 @@
         "actions": [
           {
             "actor": "gobierno-local",
-            "text": "CONAPESCA e INAPESCA: actualizar el mapa de la huella del arrastre con el monitoreo satelital de barcos y cerrar al arrastre los hábitats sensibles (rodolitos, fondos rocosos, sedimentos finos ricos en carbono)."
+            "text": "CONAPESCA e INAPESCA: actualizar el mapa de la huella del arrastre con el monitoreo satelital de barcos y cerrar al arrastre los hábitats sensibles (rodolitos y fondos rocosos), y considerar los sedimentos finos cuando se mida cuánto carbono guardan."
           },
           {
             "actor": "gobierno-local",
@@ -2518,7 +2518,7 @@
           },
           {
             "actor": "academia",
-            "text": "Medir el carbono orgánico y la tasa de enterramiento en la plataforma arrastrada para estimar cuánto CO₂ moviliza el arrastre en la región."
+            "text": "Medir el carbono orgánico y la tasa de enterramiento en la plataforma arrastrada para saber si el arrastre libera CO₂ en la región y cuánto."
           },
           {
             "actor": "academia",
@@ -2526,7 +2526,7 @@
           },
           {
             "actor": "sociedad",
-            "text": "Cooperativas ribereñas: proponer zonas de refugio pesquero que protejan el fondo frente a sus comunidades, como se hizo en Loreto."
+            "text": "Cooperativas ribereñas: proponer zonas de refugio pesquero que protejan el fondo frente a sus comunidades; en Loreto, el arrastre frente a las comunidades impulsó la creación del Parque Nacional Bahía de Loreto."
           },
           {
             "actor": "sociedad",
@@ -3139,7 +3139,7 @@
           },
           {
             "actor": "academia",
-            "text": "Levantar la primera línea base regional de PFAS en agua, sedimentos y sangre; la capacidad analítica existe en los centros de investigación de la región."
+            "text": "Levantar la primera línea base regional de PFAS en agua, sedimentos y sangre, y evaluar qué laboratorios de la región pueden hacer esos análisis."
           },
           {
             "actor": "academia",
