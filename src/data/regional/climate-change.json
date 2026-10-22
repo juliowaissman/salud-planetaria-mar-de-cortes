@@ -414,7 +414,7 @@
     {
       "title": "Evolución de la sequía en México (2011–2026)",
       "subtitle": "Porcentaje del territorio nacional en sequía (D1–D4) al cierre de cada año. Muestra los ciclos de sequía y su recuperación; el dato de 2026 corresponde al 15 de abril.",
-      "note": "La megasequía de 2023–2024 llegó a ~55 % del territorio; hacia abril de 2026 la sequía se redujo a 4.3 %. Los años 2012 y 2018 no aparecen en los reportes accesibles.",
+      "note": "La megasequía de 2023–2024 cubría ~55 % del territorio al cierre de 2023 y llegó a 76 % en mayo de 2024; en abril de 2026 había bajado a 4.3 % (último dato incluido). Los años 2012 y 2018 no aparecen en los reportes accesibles.",
       "series": [
         {
           "id": "sequia-hist",

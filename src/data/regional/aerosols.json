@@ -400,7 +400,7 @@
         {
           "stateId": "bcs",
           "value": 0,
-          "note": "Primera estación oficial hasta febrero de 2025"
+          "note": "Primera estación en el SINAICA hasta febrero de 2025"
         },
         {
           "stateId": "son",
@@ -418,7 +418,7 @@
           "note": "2 en Tepic, sin datos suficientes"
         }
       ],
-      "note": "Baja California tuvo 7 estaciones (4 en Mexicali, 2 en Tijuana y 1 en Tecate), Sonora 3 (Nogales, San Luis Río Colorado y Hermosillo; las de Cajeme y Agua Prieta estuvieron fuera de operación) y Nayarit 2 en Tepic, ninguna con datos suficientes. Sinaloa no envió información y Baja California Sur integró su primera estación oficial hasta febrero de 2025. Muestra cuánto se mide, no la contaminación. Fuente: INECC, Informe Nacional de Calidad del Aire 2023."
+      "note": "Baja California tuvo 7 estaciones (4 en Mexicali, 2 en Tijuana y 1 en Tecate), Sonora 3 (Nogales, San Luis Río Colorado y Hermosillo; las de Cajeme y Agua Prieta estuvieron fuera de operación) y Nayarit 2 en Tepic, ninguna con datos suficientes. Sinaloa no envió información y Baja California Sur integró su primera estación al SINAICA hasta febrero de 2025. Muestra cuánto se mide, no la contaminación. Fuente: INECC, Informe Nacional de Calidad del Aire 2023."
     }
   ]
 }

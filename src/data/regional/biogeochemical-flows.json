@@ -71,7 +71,7 @@
     {
       "title": "Cada vez menos monitoreo de la calidad del agua",
       "subtitle": "Sitios de la Red Nacional de Medición de Calidad del Agua (RENAMECA) monitoreados cada año en todo el país.",
-      "note": "Hasta 2019 la red medía unos 5,000 sitios al año e incluía nitrógeno (amoniacal, nitritos, nitratos, total) y fósforo en ríos, presas y costas. Desde 2020 bajó a menos de la mitad, el monitoreo pasó a ser anual y el conjunto de parámetros de ríos, presas y costas ya no incluye nitrógeno ni fósforo; solo se miden nitratos en acuíferos. Fuente: CONAGUA, presentación de la RENAMECA.",
+      "note": "Hasta 2019 la red medía unos 5,000 sitios al año e incluía nitrógeno (amoniacal, nitritos, nitratos, total) y fósforo en ríos, presas y costas. Desde 2021 bajó a la mitad o menos, el monitoreo pasó a ser anual y el conjunto de parámetros de ríos, presas y costas ya no incluye nitrógeno ni fósforo; solo se miden nitratos en acuíferos. Fuente: CONAGUA, presentación de la RENAMECA.",
       "series": [
         {
           "id": "renameca",

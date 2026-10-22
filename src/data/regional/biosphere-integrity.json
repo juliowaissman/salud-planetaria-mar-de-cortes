@@ -301,7 +301,7 @@
       "container": "Sistema de Monitoreo de los Manglares de México",
       "url": "https://www.biodiversidad.gob.mx/monitoreo/smmm/extensionDist",
       "accessed": "2026-10-03",
-      "note": "Cartografía de manglar."
+      "note": "Cartografía de manglar y tabla de superficie por estado (año inicial, 2005–2025; Nayarit 66,849 ha en 2020 y 49,111 ha en 2025)."
     },
     {
       "id": "conapesca-anuario-2024",
@@ -595,7 +595,7 @@
       "description": "Conjunto de datos",
       "publisher": "Natural History Museum",
       "doi": "10.5519/he1eqmg1",
-      "note": "BII de México ≈ 0.74 en 2000 y 2014 (≈ 0.78 en 1970), frente a un umbral seguro de 0.90 y un valor global de ~0.84.",
+      "note": "BII de México ≈ 0.74 en 2000 y 2014 (≈ 0.78 en 1970), frente a un umbral seguro de 0.90.",
       "group": "regional"
     }
   ]
