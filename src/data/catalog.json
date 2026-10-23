@@ -3743,9 +3743,8 @@
       "logo": "logo-uas.png",
       "members": [
         {
-          "name": "Dr. José de Jesús Uriarte Adrián",
-          "role": "Coordinador del nodo tecnológico de Sinaloa",
-          "photo": "persona-uriarte.jpg"
+          "name": "Dra. Marcela de Jesús Vergara Jiménez",
+          "role": "Coordinadora del nodo tecnológico de Sinaloa"
         }
       ]
     },
@@ -3755,9 +3754,8 @@
       "logo": "logo-uabc.png",
       "members": [
         {
-          "name": "Dr. Juan Pablo García Vázquez",
-          "role": "Coordinador del nodo tecnológico de Baja California",
-          "photo": "persona-garcia.jpg"
+          "name": "Dra. Dora Luz Flores Gutiérrez",
+          "role": "Coordinadora del nodo tecnológico de Baja California"
         }
       ]
     },
@@ -3767,9 +3765,8 @@
       "logo": "logo-uabcs.png",
       "members": [
         {
-          "name": "Dr. Javier Aguilar Parra",
-          "role": "Coordinador del nodo tecnológico de Baja California Sur",
-          "photo": "persona-aguilar.png"
+          "name": "Dr. Enrique Alejandro Gómez Gallardo Unzueta",
+          "role": "Coordinador del nodo tecnológico de Baja California Sur"
         }
       ]
     },
@@ -3777,8 +3774,12 @@
       "id": "uan",
       "name": "Universidad Autónoma de Nayarit (UAN)",
       "logo": "logo-uan.png",
-      "members": [],
-      "note": "Sin coordinador listado en el directorio fuente."
+      "members": [
+        {
+          "name": "Dra. Beatriz Quintero Hernández",
+          "role": "Coordinadora del nodo tecnológico de Nayarit"
+        }
+      ]
     },
     {
       "id": "fmc",

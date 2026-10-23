@@ -71,14 +71,14 @@ const steps = [
   },
 ]
 
+// Nombre + primer apellido (penúltima palabra, por los dos apellidos).
 function initials(name: string) {
-  return name
+  const w = name
     .replace(/^(Dr\.|Dra\.|Mtro\.|Mtra\.)\s*/i, '')
     .split(' ')
     .filter(Boolean)
-    .slice(0, 2)
-    .map((w) => w[0]?.toUpperCase() ?? '')
-    .join('')
+  const picked = w.length >= 3 ? [w[0], w[w.length - 2]] : w.slice(0, 2)
+  return picked.map((x) => x[0]?.toUpperCase() ?? '').join('')
 }
 
 function Person({ p }: { p: DirectoryPerson }) {
