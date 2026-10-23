@@ -3744,7 +3744,8 @@
       "members": [
         {
           "name": "Dra. Marcela de Jesús Vergara Jiménez",
-          "role": "Coordinadora del nodo tecnológico de Sinaloa"
+          "role": "Coordinadora del nodo tecnológico de Sinaloa",
+          "photo": "persona-vergara.jpg"
         }
       ]
     },
@@ -3755,7 +3756,8 @@
       "members": [
         {
           "name": "Dra. Dora Luz Flores Gutiérrez",
-          "role": "Coordinadora del nodo tecnológico de Baja California"
+          "role": "Coordinadora del nodo tecnológico de Baja California",
+          "photo": "persona-flores.jpg"
         }
       ]
     },
@@ -3766,7 +3768,8 @@
       "members": [
         {
           "name": "Dr. Enrique Alejandro Gómez Gallardo Unzueta",
-          "role": "Coordinador del nodo tecnológico de Baja California Sur"
+          "role": "Coordinador del nodo tecnológico de Baja California Sur",
+          "photo": "persona-gomez.jpg"
         }
       ]
     },
@@ -3777,7 +3780,8 @@
       "members": [
         {
           "name": "Dra. Beatriz Quintero Hernández",
-          "role": "Coordinadora del nodo tecnológico de Nayarit"
+          "role": "Coordinadora del nodo tecnológico de Nayarit",
+          "photo": "persona-quintero.jpg"
         }
       ]
     },
